@@ -1,0 +1,21 @@
+# === Secrets ===
+.env
+*.env
+config/.env
+new/Consciousness_analysis/config/.env
+
+# === Python cache ===
+__pycache__/
+*.pyc
+
+# === IDE / Editor configs ===
+.idea/
+.vscode/
+
+# === Logs ===
+*.log
+**/*.log
+
+# === Generated outputs ===
+output/
+**/output/
