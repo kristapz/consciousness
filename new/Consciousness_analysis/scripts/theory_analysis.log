@@ -516,3 +516,17 @@
 2025-08-24 15:50:11,768 - INFO - Theory synthesis: {'description': 'Conscious state depends on neuromodulatory control (notably serotonergic 5-HT2A signaling) of large-scale oscillatory regimes, which shifts alpha/theta–gamma coupling and network synchrony, thereby regulating the brain’s entropy and accessible repertoire of states. Under 5-HT2A-driven perturbations, alpha power in DMN hubs collapses and cross-frequency interactions reorganize, pushing the system toward higher-entropy, more metastable dynamics that alter self-related content and access.', 'type': 'string'}
 2025-08-24 15:50:11,768 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [12, 16, 13]}
 2025-08-24 15:50:11,768 - INFO - Number of evidence details: 3
+2025-08-24 16:14:40,113 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-24 16:14:40,156 - INFO - Starting paper analysis...
+2025-08-24 16:14:40,157 - INFO - Successfully read theory_analysis.txt
+2025-08-24 16:14:40,157 - INFO - Successfully read article.txt
+2025-08-24 16:14:40,157 - INFO - Successfully read link.txt
+2025-08-24 16:14:40,158 - INFO - Prompt size: ~15194 words
+2025-08-24 16:14:40,158 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 16:17:11,365 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 16:17:11,385 - INFO - Received response from GPT-5 (tokens used: 29191)
+2025-08-24 16:17:11,388 - INFO - Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/analysis_20250824_161711_full.json
+2025-08-24 16:17:11,388 - INFO - Analysis complete!
+2025-08-24 16:17:11,388 - INFO - Theory synthesis: Conscious state quality depends on neuromodulator-gated oscillatory dynamics that shape cross-frequency-coupled electromagnetic activity across large-scale networks, with the DMN’s alpha-dominant organization supporting a constrained, ego-bound mode and serotonergic 5-HT2A perturbation shifting the brain toward higher-entropy, more metastable regimes. Conscious access and self-related phenomenology thus track changes in nested field rhythms (e.g., PCC theta–gamma coupling and alpha power) and network entropy rather than spiking alone.
+2025-08-24 16:17:11,388 - INFO - Supported claims: [12, 13, 16]
+2025-08-24 16:17:11,388 - INFO - Number of evidence details: 3
