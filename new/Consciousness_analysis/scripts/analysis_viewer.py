@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Flask Analysis Viewer - Consciousness Theory Analysis
-Styled to match Fourth Offset aesthetic
+Flask Analysis Viewer - Enhanced JSON Display for Consciousness Theory Analysis
+Complete version with all data shown, advanced filtering, and compact design
 """
 
 import os
@@ -88,486 +88,319 @@ CONSCIOUSNESS_CLAIMS = {
     "50": "Cross-species replication (mouse laminar → macaque ECoG → human MEG) tests generalizability of EM pocket formation and their role in conscious access."
 }
 
-# HTML Template with Fourth Offset aesthetic
+# Enhanced HTML Template with compact design and advanced filtering
 HTML_TEMPLATE = '''
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consciousness Theory Analysis</title>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+    <title>Consciousness Theory Analysis Viewer</title>
     <style>
-        /* Reset */
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            height: 100%;
         }
 
         body {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 1.7;
-            color: #000;
-            background: #fff;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background-color: #f5f7fa;
+            font-size: 13px;
         }
 
-        /* Title Page */
-        .title-page {
-            position: relative;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 15px;
         }
 
-        .title-content {
-            text-align: center;
-            max-width: 800px;
-            padding: 80px 60px;
-            z-index: 2;
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1.25rem;
+            border-radius: 8px;
+            margin-bottom: 1.25rem;
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
         }
 
-        .title-main {
-            font-family: Georgia, serif;
-            font-size: 60px;
-            font-weight: 900;
-            letter-spacing: -0.02em;
-            line-height: 1.1;
-            color: #fdfde7;
-            margin-bottom: 30px;
-            text-transform: uppercase;
+        h1 {
+            font-size: 1.75rem;
+            margin-bottom: 0.25rem;
         }
 
-        .title-subtitle {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 22px;
-            font-weight: 400;
-            color: #fdfde7;
+        .subtitle {
+            font-size: 0.9rem;
             opacity: 0.9;
         }
 
-        .scroll-indicator {
-            position: absolute;
-            bottom: 40px;
-            left: 50%;
-            transform: translateX(-50%);
-            cursor: pointer;
-            z-index: 2;
-        }
-
-        .scroll-arrow {
-            width: 20px;
-            height: 20px;
-            border-right: 2px solid #fdfde7;
-            border-bottom: 2px solid #fdfde7;
-            transform: rotate(45deg);
-            animation: scrollBounce 2s infinite;
-        }
-
-        @keyframes scrollBounce {
-            0%, 100% { transform: rotate(45deg) translateY(0); }
-            50% { transform: rotate(45deg) translateY(-10px); }
-        }
-
-        /* Layout Container */
-        .content-container {
-            display: flex;
-            width: 100%;
-            min-height: 100vh;
-            position: relative;
-        }
-
-        /* Left Sidebar */
-        .sidebar {
-            position: fixed;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 40px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 100;
-            background: transparent;
-        }
-
-        .sidebar-track {
-            position: absolute;
-            width: 1px;
-            height: 90%;
-            background: #e0e0e0;
-        }
-
-        .sidebar-progress {
-            position: absolute;
-            top: 5%;
-            width: 1px;
-            background: #000;
-            height: 0%;
-            transition: none;
-        }
-
-        .nav-dots {
-            position: relative;
-            height: 90%;
-            width: 80%;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            padding: 20px 0;
-        }
-
-        .nav-dot {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        .nav-dot::before {
-            content: '';
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: #ccc;
-            transition: all 0.2s ease;
-        }
-
-        .nav-dot:hover::before,
-        .nav-dot.active::before {
-            width: 8px;
-            height: 8px;
-            background: #000;
-        }
-
-        .tooltip {
-            position: absolute;
-            left: 100%;
-            margin-left: 15px;
-            font-size: 13px;
-            font-weight: 400;
-            color: #666;
-            padding: 2px 8px;
-            white-space: nowrap;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.2s ease;
-            font-family: 'EB Garamond', Georgia, serif;
-            max-width: 100px;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-
-        .sidebar:hover .tooltip {
-            opacity: 1;
-        }
-
-        /* Main Content */
-        .main-content {
-            margin-left: 15%;
-            width: 44%;
-            max-width: 900px;
-            padding: 60px 0;
-        }
-
-        /* Right Citations Column */
-        .citations-container {
-            position: absolute;
-            left: 64%;
-            width: 29%;
-            top: 60px;
-            padding-right: 40px;
-        }
-
-        /* Typography */
-        h1 {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 48px;
-            font-weight: 400;
-            line-height: 1.1;
-            margin-bottom: 40px;
-            letter-spacing: -0.02em;
-            color: #000;
-            opacity: 0.85;
-        }
-
-        h2 {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 32px;
-            font-weight: 400;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            letter-spacing: -0.01em;
-            color: #000;
-            opacity: 0.85;
-        }
-
-        h3 {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 26px;
-            font-weight: 400;
-            margin-top: 30px;
-            margin-bottom: 16px;
-            color: #000;
-            opacity: 0.85;
-        }
-
-        /* Stats Grid */
         .stats {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 0;
-            margin-bottom: 60px;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
         }
 
         .stat-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
             text-align: center;
-            padding: 30px 20px;
-            border-right: 1px solid #e0e0e0;
-        }
-
-        .stat-card:last-child {
-            border-right: none;
         }
 
         .stat-number {
-            font-size: 48px;
-            font-weight: 400;
-            color: #000;
-            line-height: 1;
-            margin-bottom: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #667eea;
         }
 
         .stat-label {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
             color: #666;
-            font-weight: 400;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
         }
 
-        /* Claims Index */
         .claims-index {
-            margin-bottom: 60px;
-            border-top: 1px solid #e0e0e0;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 30px 0;
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1.25rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
         }
 
-        .claims-category {
-            margin-bottom: 30px;
-        }
-
-        .category-title {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #666;
-            margin-bottom: 15px;
-        }
-
-        .claim-list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .claim-option {
-            display: flex;
-            align-items: baseline;
-            padding: 8px 12px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            border-radius: 4px;
-        }
-
-        .claim-option:hover {
-            background: #f8f8f8;
-            transform: translateX(4px);
-        }
-
-        .claim-option.active {
-            background: #f0f0f0;
-            font-weight: 500;
-        }
-
-        .claim-number-badge {
-            font-size: 14px;
-            font-weight: 500;
-            color: #000;
-            min-width: 30px;
-            margin-right: 10px;
-        }
-
-        .claim-text-preview {
-            flex: 1;
-            font-size: 16px;
-            line-height: 1.4;
-            color: #333;
-        }
-
-        .claim-count {
-            font-size: 14px;
-            padding: 2px 8px;
-            background: #000;
-            color: #fff;
-            border-radius: 12px;
-            margin-left: 10px;
-        }
-
-        .claim-count.zero {
-            background: #e0e0e0;
-            color: #999;
-        }
-
-        /* Filters */
         .filters {
-            padding: 30px 0;
-            border-bottom: 1px solid #e0e0e0;
-            margin-bottom: 40px;
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            margin-bottom: 1.25rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
         }
 
         .filter-row {
             display: flex;
-            gap: 20px;
+            gap: 0.75rem;
             align-items: center;
-            margin-bottom: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 0.75rem;
+        }
+
+        .filter-row:last-child {
+            margin-bottom: 0;
         }
 
         .filter-label {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #666;
-            min-width: 80px;
+            font-weight: 600;
+            color: #555;
+            min-width: 60px;
+            font-size: 0.85rem;
         }
 
-        input[type="text"] {
-            flex: 1;
-            padding: 10px;
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 18px;
-            border: 1px solid #e0e0e0;
-            background: white;
+        input[type="text"], select {
+            padding: 0.4rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.85rem;
         }
 
-        /* Papers */
+        input[type="number"] {
+            width: 80px;
+            padding: 0.4rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.85rem;
+        }
+
+        .checkbox-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            font-size: 0.85rem;
+        }
+
+        .checkbox-item input[type="checkbox"] {
+            cursor: pointer;
+        }
+
         .paper {
-            margin-bottom: 80px;
-            position: relative;
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+            margin-bottom: 1rem;
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .paper:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+        }
+
+        .paper-header {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-bottom: 1px solid #e9ecef;
         }
 
         .paper-title {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 32px;
-            font-weight: 400;
-            margin-bottom: 10px;
-            letter-spacing: -0.01em;
-            color: #000;
-            opacity: 0.85;
-        }
-
-        .paper-meta {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 30px;
-            font-family: 'EB Garamond', Georgia, serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 0.25rem;
         }
 
         .paper-link {
-            color: #333;
-            text-decoration: underline;
-            text-underline-offset: 3px;
-            text-decoration-thickness: 1px;
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.75rem;
+            word-break: break-all;
         }
 
         .paper-link:hover {
+            text-decoration: underline;
+        }
+
+        .paper-meta {
+            display: flex;
+            gap: 1rem;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
             color: #666;
         }
 
-        /* Sections */
+        .paper-body {
+            padding: 1rem;
+        }
+
         .section {
-            margin-bottom: 40px;
+            margin-bottom: 1rem;
         }
 
         .section-title {
-            font-family: 'EB Garamond', Georgia, serif;
-            font-size: 16px;
-            font-weight: 400;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: #333;
-            margin-bottom: 20px;
-            opacity: 0.8;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.95rem;
         }
 
-        /* Theory Synthesis */
+        .section-icon {
+            width: 18px;
+            height: 18px;
+            background: #667eea;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.7rem;
+            flex-shrink: 0;
+        }
+
         .theory-synthesis {
-            padding: 20px 24px;
-            margin: 30px 0;
-            background: white;
-            border-left: 2px solid #000;
+            background: #f1f3f5;
+            padding: 0.75rem;
+            border-radius: 5px;
             font-style: italic;
-            color: #333;
-            font-size: 19px;
-            line-height: 1.7;
+            color: #495057;
+            font-size: 0.85rem;
         }
 
-        /* Claims */
-        .claim-item {
-            padding: 20px 0;
-            border-bottom: 1px solid #e0e0e0;
-            font-size: 18px;
-            line-height: 1.6;
+        .theory-type {
+            font-size: 0.75rem;
+            color: #888;
+            margin-top: 0.25rem;
+            font-style: normal;
         }
 
-        .claim-item:last-child {
-            border-bottom: none;
+        .claims-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-top: 0.4rem;
+        }
+
+        .claim-tag-full {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            margin: 0.3rem 0;
+            display: block;
+            border: 1px solid #bbdefb;
         }
 
         .claim-number {
+            font-weight: 700;
+            margin-right: 0.4rem;
+        }
+
+        .claim-text {
+            color: #1565c0;
+        }
+
+        .claim-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 0.2rem 0.6rem;
+            border-radius: 15px;
+            font-size: 0.75rem;
             font-weight: 500;
-            color: #000;
-            margin-right: 8px;
         }
 
-        /* Evidence */
         .evidence-item {
-            padding: 20px 0;
-            border-top: 1px solid #626F61;
-            font-size: 16px;
-            line-height: 1.5;
-            color: #333;
+            background: #f8f9fa;
+            border-left: 3px solid #667eea;
+            padding: 0.75rem;
+            margin: 0.5rem 0;
+            border-radius: 0 4px 4px 0;
         }
 
-        .evidence-item:first-child {
-            border-top: none;
+        .evidence-claim {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 0.4rem;
+            font-size: 0.85rem;
         }
 
-        .evidence-strength {
+        .quote {
+            background: white;
+            padding: 0.5rem;
+            margin: 0.4rem 0;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: #555;
+            border: 1px solid #e9ecef;
+        }
+
+        .quote-text {
+            font-style: italic;
+        }
+
+        .quote-source {
+            font-size: 0.7rem;
+            color: #888;
+            margin-top: 0.2rem;
+        }
+
+        .strength-badge {
             display: inline-block;
-            font-size: 12px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            padding: 2px 8px;
-            margin-left: 10px;
-            border-radius: 2px;
+            padding: 0.15rem 0.4rem;
+            border-radius: 3px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            margin-left: 0.5rem;
         }
 
         .strength-strong {
@@ -585,407 +418,628 @@ HTML_TEMPLATE = '''
             color: #721c24;
         }
 
-        /* Quotes */
-        .quote {
-            margin: 16px 0;
-            padding-left: 20px;
-            border-left: 2px solid #e0e0e0;
-            font-style: italic;
-            color: #555;
+        .insights {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 5px;
         }
 
-        .quote-source {
-            font-size: 14px;
-            color: #888;
-            margin-top: 8px;
-            font-style: normal;
-        }
-
-        /* Insights */
         .insight-item {
-            padding: 20px 24px;
-            margin: 20px 0;
-            background: #fafafa;
-            border-left: 2px solid #626F61;
-            font-size: 18px;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid #dee2e6;
         }
 
-        /* Mobile */
-        @media (max-width: 768px) {
-            .title-main {
-                font-size: 36px;
-            }
+        .insight-item:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
 
-            .sidebar {
-                display: none;
-            }
+        .insight-item strong {
+            font-size: 0.85rem;
+        }
 
-            .main-content {
-                margin-left: 0;
-                width: 100%;
-                padding: 40px 20px;
-            }
+        .insight-item p {
+            font-size: 0.8rem;
+        }
 
-            .citations-container {
-                display: none;
-            }
+        details {
+            margin-top: 0.5rem;
+        }
 
-            .stats {
-                grid-template-columns: repeat(2, 1fr);
-            }
+        details.json-details {
+            margin-top: 1rem;
+            border-top: 1px solid #e9ecef;
+            padding-top: 0.75rem;
+        }
 
-            h1 {
-                font-size: 32px;
-            }
+        summary {
+            cursor: pointer;
+            color: #667eea;
+            font-weight: 500;
+            outline: none;
+            user-select: none;
+            font-size: 0.85rem;
+        }
 
-            h2 {
-                font-size: 26px;
-            }
+        summary:hover {
+            text-decoration: underline;
+        }
 
-            body {
-                font-size: 18px;
-            }
+        summary::-webkit-details-marker {
+            color: #667eea;
+        }
+
+        details[open] summary {
+            margin-bottom: 0.5rem;
+        }
+
+        pre {
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 4px;
+            overflow-x: auto;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 0.75rem;
+            border-radius: 4px;
+            margin-bottom: 0.75rem;
+            font-size: 0.85rem;
+        }
+
+        .empty-state {
+            color: #999;
+            font-style: italic;
+            font-size: 0.8rem;
+        }
+
+        .filter-stats {
+            text-align: right;
+            color: #666;
+            font-size: 0.75rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Style options with different counts */
+        #claimSelect option[data-count="0"] {
+            color: #999;
+        }
+
+        #claimSelect option[data-count]:not([data-count="0"]) {
+            font-weight: 500;
+        }
+
+        .hidden {
+            display: none !important;
         }
     </style>
 </head>
 <body>
-    <!-- Title Page -->
-    <div class="title-page">
-        <div class="title-content">
-            <h1 class="title-main">Consciousness Theory Analysis</h1>
-            <p class="title-subtitle">Scientific Evidence Across 50 Claims</p>
-        </div>
-        <div class="scroll-indicator" onclick="document.getElementById('overview').scrollIntoView({behavior: 'smooth'})">
-            <div class="scroll-arrow"></div>
-        </div>
-    </div>
+    <div class="container">
+        <header>
+            <h1>Consciousness Theory Analysis Viewer</h1>
+            <p class="subtitle">Exploring scientific papers through the lens of consciousness-related claims</p>
+        </header>
 
-    <!-- Content Container -->
-    <div class="content-container">
-        <!-- Left Sidebar Navigation -->
-        <nav class="sidebar">
-            <div class="sidebar-track"></div>
-            <div class="sidebar-progress"></div>
-            <div class="nav-dots">
-                <a href="#overview" class="nav-dot active" style="top: 0px;">
-                    <span class="tooltip">Overview</span>
-                </a>
-                {% for paper in papers %}
-                <a href="#paper-{{ loop.index0 }}" class="nav-dot" data-index="{{ loop.index0 }}">
-                    <span class="tooltip">{{ get_paper_title(paper)[:50] }}...</span>
-                </a>
-                {% endfor %}
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number">{{ papers|length }}</div>
+                <div class="stat-label">Papers Analyzed</div>
             </div>
-        </nav>
+            <div class="stat-card">
+                <div class="stat-number">{{ total_claims }}</div>
+                <div class="stat-label">Total Claims Supported</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ unique_claims }}</div>
+                <div class="stat-label">Unique Claims</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">{{ total_insights }}</div>
+                <div class="stat-label">Additional Insights</div>
+            </div>
+        </div>
 
-        <!-- Main Content -->
-        <article class="main-content">
-            <section id="overview">
-                <h1>Consciousness Theory Analysis</h1>
+        <div class="claims-index">
+            <h3 style="font-size: 1rem; margin-bottom: 0.75rem; color: #495057;">
+                <span class="section-icon" style="vertical-align: middle;">C</span>
+                Claims Index
+            </h3>
+            <select id="claimSelect" style="width: 100%; padding: 0.5rem; font-size: 0.85rem;">
+                <option value="">Select a claim to filter papers...</option>
+                <optgroup label="Ion Channels (1-5)">
+                    {% for num in range(1, 6) %}
+                    <option value="{{ num }}" data-count="{{ claim_counts.get(num|string, 0) }}">
+                        #{{ num }} ({{ claim_counts.get(num|string, 0) }} papers): {{ get_claim_text(num)[:80] }}...
+                    </option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="Cytoskeleton (6-12)">
+                    {% for num in range(6, 13) %}
+                    <option value="{{ num }}" data-count="{{ claim_counts.get(num|string, 0) }}">
+                        #{{ num }} ({{ claim_counts.get(num|string, 0) }} papers): {{ get_claim_text(num)[:80] }}...
+                    </option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="EM Fields (13-22)">
+                    {% for num in range(13, 23) %}
+                    <option value="{{ num }}" data-count="{{ claim_counts.get(num|string, 0) }}">
+                        #{{ num }} ({{ claim_counts.get(num|string, 0) }} papers): {{ get_claim_text(num)[:80] }}...
+                    </option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="Microtubules (23-32)">
+                    {% for num in range(23, 33) %}
+                    <option value="{{ num }}" data-count="{{ claim_counts.get(num|string, 0) }}">
+                        #{{ num }} ({{ claim_counts.get(num|string, 0) }} papers): {{ get_claim_text(num)[:80] }}...
+                    </option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="Signaling Pathways (33-38)">
+                    {% for num in range(33, 39) %}
+                    <option value="{{ num }}" data-count="{{ claim_counts.get(num|string, 0) }}">
+                        #{{ num }} ({{ claim_counts.get(num|string, 0) }} papers): {{ get_claim_text(num)[:80] }}...
+                    </option>
+                    {% endfor %}
+                </optgroup>
+                <optgroup label="Perturbation Experiments (39-50)">
+                    {% for num in range(39, 51) %}
+                    <option value="{{ num }}" data-count="{{ claim_counts.get(num|string, 0) }}">
+                        #{{ num }} ({{ claim_counts.get(num|string, 0) }} papers): {{ get_claim_text(num)[:80] }}...
+                    </option>
+                    {% endfor %}
+                </optgroup>
+            </select>
+            <div style="margin-top: 0.5rem; font-size: 0.75rem; color: #666;">
+                <span id="claimDescription"></span>
+            </div>
+        </div>
 
-                <div class="stats">
-                    <div class="stat-card">
-                        <div class="stat-number">{{ papers|length }}</div>
-                        <div class="stat-label">Papers</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">{{ total_claims }}</div>
-                        <div class="stat-label">Claims</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">{{ unique_claims }}</div>
-                        <div class="stat-label">Unique</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-number">{{ total_insights }}</div>
-                        <div class="stat-label">Insights</div>
-                    </div>
+        <div class="filters">
+            <div class="filter-row">
+                <span class="filter-label">Search:</span>
+                <input type="text" id="searchInput" placeholder="Search papers, claims, quotes, or claim number (e.g., 12)..." style="flex: 1;">
+                <span class="filter-label">Sort:</span>
+                <select id="sortSelect">
+                    <option value="date">Date (Newest)</option>
+                    <option value="date-asc">Date (Oldest)</option>
+                    <option value="claims">Claim Count</option>
+                    <option value="title">Title A-Z</option>
+                    <option value="insights">Insights Count</option>
+                </select>
+            </div>
+
+            <div class="filter-row">
+                <span class="filter-label">Strength:</span>
+                <div class="checkbox-group">
+                    <label class="checkbox-item">
+                        <input type="checkbox" class="strength-filter" value="strong" checked>
+                        Strong
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" class="strength-filter" value="moderate" checked>
+                        Moderate
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" class="strength-filter" value="weak" checked>
+                        Weak
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" class="strength-filter" value="none" checked>
+                        No Evidence
+                    </label>
                 </div>
+            </div>
 
-                <div class="claims-index">
-                    <div class="claims-category">
-                        <div class="category-title">Ion Channels (1-5)</div>
-                        <div class="claim-list">
-                            {% for num in range(1, 6) %}
-                            <div class="claim-option" data-claim="{{ num }}" onclick="filterByClaim('{{ num }}')">
-                                <span class="claim-number-badge">#{{ num }}</span>
-                                <span class="claim-text-preview">{{ get_claim_text(num)[:100] }}...</span>
-                                <span class="claim-count {% if claim_counts.get(num|string, 0) == 0 %}zero{% endif %}">
-                                    {{ claim_counts.get(num|string, 0) }}
-                                </span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+            <div class="filter-row">
+                <span class="filter-label">Claims:</span>
+                <input type="number" id="minClaims" placeholder="Min" min="0">
+                <span style="margin: 0 0.5rem;">to</span>
+                <input type="number" id="maxClaims" placeholder="Max" min="0">
 
-                    <div class="claims-category">
-                        <div class="category-title">Cytoskeleton (6-12)</div>
-                        <div class="claim-list">
-                            {% for num in range(6, 13) %}
-                            <div class="claim-option" data-claim="{{ num }}" onclick="filterByClaim('{{ num }}')">
-                                <span class="claim-number-badge">#{{ num }}</span>
-                                <span class="claim-text-preview">{{ get_claim_text(num)[:100] }}...</span>
-                                <span class="claim-count {% if claim_counts.get(num|string, 0) == 0 %}zero{% endif %}">
-                                    {{ claim_counts.get(num|string, 0) }}
-                                </span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+                <span class="filter-label" style="margin-left: 1rem;">Model:</span>
+                <select id="modelFilter">
+                    <option value="all">All Models</option>
+                    <option value="gpt-5">GPT-5</option>
+                    <option value="gpt-5-mini">GPT-5 Mini</option>
+                    <option value="gpt-5-nano">GPT-5 Nano</option>
+                </select>
 
-                    <div class="claims-category">
-                        <div class="category-title">EM Fields (13-22)</div>
-                        <div class="claim-list">
-                            {% for num in range(13, 23) %}
-                            <div class="claim-option" data-claim="{{ num }}" onclick="filterByClaim('{{ num }}')">
-                                <span class="claim-number-badge">#{{ num }}</span>
-                                <span class="claim-text-preview">{{ get_claim_text(num)[:100] }}...</span>
-                                <span class="claim-count {% if claim_counts.get(num|string, 0) == 0 %}zero{% endif %}">
-                                    {{ claim_counts.get(num|string, 0) }}
-                                </span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+                <span class="filter-label" style="margin-left: 1rem;">Has Insights:</span>
+                <select id="insightsFilter">
+                    <option value="all">All</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </div>
 
-                    <div class="claims-category">
-                        <div class="category-title">Microtubules (23-32)</div>
-                        <div class="claim-list">
-                            {% for num in range(23, 33) %}
-                            <div class="claim-option" data-claim="{{ num }}" onclick="filterByClaim('{{ num }}')">
-                                <span class="claim-number-badge">#{{ num }}</span>
-                                <span class="claim-text-preview">{{ get_claim_text(num)[:100] }}...</span>
-                                <span class="claim-count {% if claim_counts.get(num|string, 0) == 0 %}zero{% endif %}">
-                                    {{ claim_counts.get(num|string, 0) }}
-                                </span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+            <div class="filter-stats" id="filterStats">
+                Showing <span id="visibleCount">{{ papers|length }}</span> of {{ papers|length }} papers
+            </div>
+        </div>
 
-                    <div class="claims-category">
-                        <div class="category-title">Signaling Pathways (33-38)</div>
-                        <div class="claim-list">
-                            {% for num in range(33, 39) %}
-                            <div class="claim-option" data-claim="{{ num }}" onclick="filterByClaim('{{ num }}')">
-                                <span class="claim-number-badge">#{{ num }}</span>
-                                <span class="claim-text-preview">{{ get_claim_text(num)[:100] }}...</span>
-                                <span class="claim-count {% if claim_counts.get(num|string, 0) == 0 %}zero{% endif %}">
-                                    {{ claim_counts.get(num|string, 0) }}
-                                </span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
+        <div id="papersContainer">
+            {% if error %}
+            <div class="error">{{ error }}</div>
+            {% endif %}
 
-                    <div class="claims-category">
-                        <div class="category-title">Perturbation Experiments (39-50)</div>
-                        <div class="claim-list">
-                            {% for num in range(39, 51) %}
-                            <div class="claim-option" data-claim="{{ num }}" onclick="filterByClaim('{{ num }}')">
-                                <span class="claim-number-badge">#{{ num }}</span>
-                                <span class="claim-text-preview">{{ get_claim_text(num)[:100] }}...</span>
-                                <span class="claim-count {% if claim_counts.get(num|string, 0) == 0 %}zero{% endif %}">
-                                    {{ claim_counts.get(num|string, 0) }}
-                                </span>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-
-                <div class="filters">
-                    <div class="filter-row">
-                        <span class="filter-label">Search</span>
-                        <input type="text" id="searchInput" placeholder="Search papers...">
-                    </div>
-                </div>
-            </section>
-
-            <!-- Papers -->
-            <div id="papersContainer">
+            {% if papers %}
                 {% for paper in papers %}
-                <div class="paper" id="paper-{{ loop.index0 }}" data-paper-index="{{ loop.index0 }}">
-                    <h2 class="paper-title">{{ get_paper_title(paper) }}</h2>
-                    {% if paper.paper_metadata and paper.paper_metadata.link %}
-                    <div class="paper-meta">
-                        <a href="{{ paper.paper_metadata.link }}" target="_blank" class="paper-link">
-                            View paper →
-                        </a>
-                    </div>
-                    {% endif %}
+                <div class="paper" data-paper-index="{{ loop.index0 }}" 
+                     data-claims-count="{{ extract_claims_list(paper.supported_claims)|length }}"
+                     data-insights-count="{{ (paper.additional_or_contradictory_insights or [])|length }}"
+                     data-model="{{ paper._metadata.model_used if paper._metadata else 'unknown' }}"
+                     data-strengths="{{ get_paper_strengths(paper) }}">
+                    <div class="paper-header">
+                        {% if paper.paper_metadata %}
+                            <h2 class="paper-title">
+                                {{ paper.paper_metadata.title or 'Untitled Paper' }}
+                            </h2>
+                            {% if paper.paper_metadata.link %}
+                            <a href="{{ paper.paper_metadata.link }}" target="_blank" class="paper-link">
+                                {{ paper.paper_metadata.link }}
+                            </a>
+                            {% endif %}
+                        {% else %}
+                            <h2 class="paper-title">Analysis Result {{ loop.index }}</h2>
+                        {% endif %}
 
-                    {% if paper.theory_synthesis %}
-                    <div class="section">
-                        <h3 class="section-title">Theory Synthesis</h3>
-                        <div class="theory-synthesis">
-                            {{ extract_theory_synthesis(paper.theory_synthesis) }}
+                        <div class="paper-meta">
+                            {% if paper._metadata %}
+                                <span>Model: {{ paper._metadata.model_used }}</span>
+                                <span>Analyzed: {{ format_timestamp(paper._metadata.analysis_timestamp) }}</span>
+                            {% endif %}
+                            {% if paper._filename %}
+                                <span>File: {{ paper._filename }}</span>
+                            {% endif %}
                         </div>
                     </div>
-                    {% endif %}
 
-                    {% set claims_list = extract_claims_list(paper.supported_claims) %}
-                    {% if claims_list %}
-                    <div class="section">
-                        <h3 class="section-title">Supported Claims</h3>
-                        {% for claim in claims_list %}
-                        <div class="claim-item">
-                            <span class="claim-number">#{{ claim }}</span>
-                            {{ get_claim_text(claim) }}
+                    <div class="paper-body">
+                        {% if paper.theory_synthesis %}
+                        <div class="section">
+                            <h3 class="section-title">
+                                <span class="section-icon">T</span>
+                                Theory Synthesis
+                            </h3>
+                            <div class="theory-synthesis">
+                                {% if paper.theory_synthesis is mapping %}
+                                    {{ paper.theory_synthesis.description or paper.theory_synthesis }}
+                                    {% if paper.theory_synthesis.type %}
+                                    <div class="theory-type">Type: {{ paper.theory_synthesis.type }}</div>
+                                    {% endif %}
+                                {% else %}
+                                    {{ paper.theory_synthesis }}
+                                {% endif %}
+                            </div>
                         </div>
-                        {% endfor %}
-                    </div>
-                    {% endif %}
+                        {% endif %}
 
-                    {% if paper.evidence_details %}
-                    <div class="section">
-                        <h3 class="section-title">Evidence</h3>
-                        {% for claim_num, evidence in paper.evidence_details.items() %}
-                        {% if evidence is mapping %}
-                        <div class="evidence-item">
-                            <strong>Claim {{ claim_num }}</strong>
-                            {% if evidence.strength %}
-                            <span class="evidence-strength strength-{{ evidence.strength|lower }}">
-                                {{ evidence.strength }}
-                            </span>
-                            {% endif %}
+                        {% set claims_list = extract_claims_list(paper.supported_claims) %}
+                        {% if claims_list %}
+                        <div class="section">
+                            <h3 class="section-title">
+                                <span class="section-icon">{{ claims_list|length }}</span>
+                                Supported Claims
+                            </h3>
+                            <div class="claims-container">
+                                {% for claim in claims_list %}
+                                <div class="claim-tag-full" data-claim-number="{{ claim }}">
+                                    <span class="claim-number">#{{ claim }}:</span>
+                                    <span class="claim-text">{{ get_claim_text(claim) }}</span>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="section">
+                            <h3 class="section-title">
+                                <span class="section-icon">0</span>
+                                Supported Claims
+                            </h3>
+                            <p class="empty-state">No claims were supported by evidence in this paper</p>
+                        </div>
+                        {% endif %}
 
-                            {% if evidence.interpretation %}
-                            <p>{{ evidence.interpretation }}</p>
-                            {% endif %}
+                        {% if paper.evidence_details and paper.evidence_details|length > 0 %}
+                        <div class="section evidence-section">
+                            <h3 class="section-title">
+                                <span class="section-icon">E</span>
+                                Evidence Details
+                                <span class="evidence-count" style="font-size: 0.75rem; color: #666; margin-left: 0.5rem;">
+                                    (<span class="visible-evidence-count">{{ paper.evidence_details|length }}</span> of {{ paper.evidence_details|length }})
+                                </span>
+                            </h3>
+                            <details open>
+                                <summary>View evidence</summary>
+                                {% for claim_num, evidence in paper.evidence_details.items() %}
+                                <div class="evidence-item" data-strength="{{ evidence.strength|lower if evidence.strength else 'none' }}">
+                                    <div class="evidence-claim">
+                                        Claim #{{ claim_num }}: {{ evidence.claim_text }}
+                                        {% if evidence.strength %}
+                                        <span class="strength-badge strength-{{ evidence.strength }}">
+                                            {{ evidence.strength|upper }}
+                                        </span>
+                                        {% endif %}
+                                    </div>
 
-                            {% if evidence.direct_quotes %}
-                                {% for quote_obj in evidence.direct_quotes %}
-                                <div class="quote">
-                                    "{{ quote_obj.quote }}"
-                                    {% if quote_obj.page_or_section %}
-                                    <div class="quote-source">— {{ quote_obj.page_or_section }}</div>
+                                    {% if evidence.interpretation %}
+                                    <p style="margin: 0.4rem 0; font-size: 0.8rem;">{{ evidence.interpretation }}</p>
+                                    {% endif %}
+
+                                    {% if evidence.direct_quotes %}
+                                    <details open>
+                                        <summary style="margin: 0.4rem 0;">
+                                            Quotes ({{ evidence.direct_quotes|length }})
+                                        </summary>
+                                        {% for quote_obj in evidence.direct_quotes %}
+                                        <div class="quote">
+                                            <div class="quote-text">"{{ quote_obj.quote }}"</div>
+                                            {% if quote_obj.page_or_section %}
+                                            <div class="quote-source">— {{ quote_obj.page_or_section }}</div>
+                                            {% endif %}
+                                        </div>
+                                        {% endfor %}
+                                    </details>
+                                    {% endif %}
+
+                                    {% if evidence.limitations %}
+                                    <p style="font-size: 0.75rem; color: #666; margin-top: 0.4rem;">
+                                        <strong>Limitations:</strong> {{ evidence.limitations }}
+                                    </p>
                                     {% endif %}
                                 </div>
                                 {% endfor %}
-                            {% endif %}
+                                <div class="no-evidence-message hidden" style="padding: 1rem; text-align: center; color: #999; font-style: italic;">
+                                    No evidence matches the selected strength filters
+                                </div>
+                            </details>
                         </div>
                         {% endif %}
-                        {% endfor %}
-                    </div>
-                    {% endif %}
 
-                    {% if paper.additional_or_contradictory_insights %}
-                    <div class="section">
-                        <h3 class="section-title">Additional Insights</h3>
-                        {% for insight in paper.additional_or_contradictory_insights %}
-                        <div class="insight-item">
-                            {{ insight.finding }}
+                        {% if paper.additional_or_contradictory_insights and paper.additional_or_contradictory_insights|length > 0 %}
+                        <div class="section">
+                            <h3 class="section-title">
+                                <span class="section-icon">!</span>
+                                Additional Insights ({{ paper.additional_or_contradictory_insights|length }})
+                            </h3>
+                            <details open>
+                                <summary>View all {{ paper.additional_or_contradictory_insights|length }} insights</summary>
+                                <div class="insights">
+                                    {% for insight in paper.additional_or_contradictory_insights %}
+                                    <div class="insight-item">
+                                        <strong>{{ insight.finding }}</strong>
+                                        {% if insight.relevance %}
+                                        <p style="margin-top: 0.4rem;">
+                                            {{ insight.relevance }}
+                                        </p>
+                                        {% endif %}
+                                        {% if insight.quotes %}
+                                        <details style="margin-top: 0.4rem;">
+                                            <summary style="font-size: 0.8rem;">
+                                                Quotes ({{ insight.quotes|length }})
+                                            </summary>
+                                            {% for quote in insight.quotes %}
+                                            <div class="quote" style="margin-top: 0.4rem;">
+                                                <div class="quote-text">"{{ quote }}"</div>
+                                            </div>
+                                            {% endfor %}
+                                        </details>
+                                        {% endif %}
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            </details>
                         </div>
-                        {% endfor %}
+                        {% endif %}
+
+                        <details class="json-details">
+                            <summary>View Complete JSON Data</summary>
+                            <pre>{{ paper|tojson(indent=2) }}</pre>
+                        </details>
                     </div>
-                    {% endif %}
                 </div>
                 {% endfor %}
-            </div>
-        </article>
-
-        <!-- Right Citations Column -->
-        <div class="citations-container" id="citationsContainer">
-            <!-- Dynamic citations will appear here -->
+            {% else %}
+                <div class="no-results">
+                    <h2>No analysis results found</h2>
+                    <p>Make sure JSON files are present in: {{ output_dir }}</p>
+                </div>
+            {% endif %}
         </div>
     </div>
 
     <script>
-        // Calculate and position nav dots
-        function positionNavDots() {
-            const dots = document.querySelectorAll('.nav-dot[data-index]');
-            const totalDots = dots.length;
-            const availableHeight = window.innerHeight * 0.9 - 100; // 90% minus padding
-            const spacing = Math.min(availableHeight / (totalDots + 1), 50);
+        // DOM elements
+        const searchInput = document.getElementById('searchInput');
+        const sortSelect = document.getElementById('sortSelect');
+        const claimSelect = document.getElementById('claimSelect');
+        const claimDescription = document.getElementById('claimDescription');
+        const strengthFilters = document.querySelectorAll('.strength-filter');
+        const minClaimsInput = document.getElementById('minClaims');
+        const maxClaimsInput = document.getElementById('maxClaims');
+        const modelFilter = document.getElementById('modelFilter');
+        const insightsFilter = document.getElementById('insightsFilter');
+        const visibleCountSpan = document.getElementById('visibleCount');
+        const papers = document.querySelectorAll('.paper');
 
-            dots.forEach((dot, index) => {
-                dot.style.top = (50 + (index + 1) * spacing) + 'px';
-            });
-        }
+        // Event listeners
+        searchInput.addEventListener('input', applyFilters);
+        sortSelect.addEventListener('change', sortPapers);
+        claimSelect.addEventListener('change', handleClaimSelect);
+        strengthFilters.forEach(filter => filter.addEventListener('change', applyFilters));
+        minClaimsInput.addEventListener('input', applyFilters);
+        maxClaimsInput.addEventListener('input', applyFilters);
+        modelFilter.addEventListener('change', applyFilters);
+        insightsFilter.addEventListener('change', applyFilters);
 
-        // Filter by claim
-        function filterByClaim(claimNum) {
-            // Update active state
-            document.querySelectorAll('.claim-option').forEach(opt => {
-                opt.classList.remove('active');
-            });
+        // Claim descriptions
+        const claimDescriptions = {{ CONSCIOUSNESS_CLAIMS|tojson }};
 
-            if (claimNum) {
-                document.querySelector(`.claim-option[data-claim="${claimNum}"]`).classList.add('active');
+        function handleClaimSelect() {
+            const selectedClaim = claimSelect.value;
+            if (selectedClaim) {
+                // Update search input with claim number
+                searchInput.value = selectedClaim;
+
+                // Show full claim description
+                claimDescription.textContent = `Full claim: ${claimDescriptions[selectedClaim]}`;
+
+                // Apply filters
+                applyFilters();
+            } else {
+                claimDescription.textContent = '';
+                searchInput.value = '';
+                applyFilters();
             }
-
-            // Filter papers
-            document.querySelectorAll('.paper').forEach(paper => {
-                if (!claimNum) {
-                    paper.style.display = 'block';
-                } else {
-                    const hasClaim = paper.textContent.includes(`#${claimNum}`) || 
-                                   paper.textContent.includes(`Claim ${claimNum}`);
-                    paper.style.display = hasClaim ? 'block' : 'none';
-                }
-            });
         }
 
-        // Search functionality
-        document.getElementById('searchInput').addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase();
-            document.querySelectorAll('.paper').forEach(paper => {
-                const text = paper.textContent.toLowerCase();
-                paper.style.display = text.includes(searchTerm) ? 'block' : 'none';
-            });
-        });
+        function applyFilters() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedStrengths = Array.from(strengthFilters)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+            const minClaims = parseInt(minClaimsInput.value) || 0;
+            const maxClaims = parseInt(maxClaimsInput.value) || Infinity;
+            const selectedModel = modelFilter.value;
+            const insightsRequired = insightsFilter.value;
 
-        // Progress bar
-        window.addEventListener('scroll', function() {
-            const scrollTop = window.scrollY;
-            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-            const scrollPercent = (scrollTop / docHeight) * 90;
-            document.querySelector('.sidebar-progress').style.height = scrollPercent + '%';
-        });
-
-        // Active nav dot based on scroll
-        const papers = document.querySelectorAll('.paper[id], #overview');
-        const navDots = document.querySelectorAll('.nav-dot');
-
-        function updateActiveNav() {
-            let current = 'overview';
+            let visibleCount = 0;
 
             papers.forEach(paper => {
-                const rect = paper.getBoundingClientRect();
-                if (rect.top <= 100 && rect.bottom > 100) {
-                    current = paper.id;
+                // Search filter - enhanced to search claim numbers
+                const text = paper.textContent.toLowerCase();
+                const searchTermLower = searchTerm.toLowerCase();
+
+                // Check if search term is a claim number
+                let matchesSearch = !searchTerm || text.includes(searchTermLower);
+
+                // Special handling for numeric searches (claim numbers)
+                if (searchTerm && /^\d+$/.test(searchTerm)) {
+                    const claimNumber = searchTerm;
+                    const hasClaimNumber = paper.querySelector(`[data-claim-number="${claimNumber}"]`) !== null ||
+                                         paper.querySelector(`.evidence-item .evidence-claim`)?.textContent.includes(`Claim #${claimNumber}:`);
+                    matchesSearch = hasClaimNumber;
+                }
+
+                // Claims filter
+                const claimsCount = parseInt(paper.dataset.claimsCount);
+                const matchesClaims = claimsCount >= minClaims && claimsCount <= maxClaims;
+
+                // Model filter
+                const matchesModel = selectedModel === 'all' || 
+                    paper.dataset.model === selectedModel;
+
+                // Insights filter
+                const insightsCount = parseInt(paper.dataset.insightsCount);
+                const matchesInsights = insightsRequired === 'all' ||
+                    (insightsRequired === 'yes' && insightsCount > 0) ||
+                    (insightsRequired === 'no' && insightsCount === 0);
+
+                // Apply strength filter to individual evidence items
+                const evidenceItems = paper.querySelectorAll('.evidence-item');
+                let hasVisibleEvidence = false;
+                let visibleEvidenceCount = 0;
+
+                evidenceItems.forEach(item => {
+                    const itemStrength = item.dataset.strength || 'none';
+                    if (selectedStrengths.includes(itemStrength)) {
+                        item.classList.remove('hidden');
+                        hasVisibleEvidence = true;
+                        visibleEvidenceCount++;
+                    } else {
+                        item.classList.add('hidden');
+                    }
+                });
+
+                // Update evidence count display
+                const evidenceSection = paper.querySelector('.evidence-section');
+                if (evidenceSection) {
+                    const countSpan = evidenceSection.querySelector('.visible-evidence-count');
+                    const noEvidenceMsg = evidenceSection.querySelector('.no-evidence-message');
+
+                    if (countSpan) {
+                        countSpan.textContent = visibleEvidenceCount;
+                    }
+
+                    if (noEvidenceMsg) {
+                        if (visibleEvidenceCount === 0 && evidenceItems.length > 0) {
+                            noEvidenceMsg.classList.remove('hidden');
+                        } else {
+                            noEvidenceMsg.classList.add('hidden');
+                        }
+                    }
+                }
+
+                // For papers with no evidence, check if "none" is selected
+                if (evidenceItems.length === 0) {
+                    hasVisibleEvidence = selectedStrengths.includes('none');
+                }
+
+                // Show/hide paper based on all filters
+                if (matchesSearch && hasVisibleEvidence && matchesClaims && 
+                    matchesModel && matchesInsights) {
+                    paper.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    paper.classList.add('hidden');
                 }
             });
 
-            navDots.forEach(dot => {
-                dot.classList.remove('active');
-                const href = dot.getAttribute('href');
-                if (href === '#' + current) {
-                    dot.classList.add('active');
+            // Update count
+            visibleCountSpan.textContent = visibleCount;
+        }
+
+        function sortPapers() {
+            const sortBy = sortSelect.value;
+            const container = document.getElementById('papersContainer');
+            const papersArray = Array.from(papers);
+
+            papersArray.sort((a, b) => {
+                switch(sortBy) {
+                    case 'date':
+                        const dateA = a.querySelector('.paper-meta')?.textContent || '';
+                        const dateB = b.querySelector('.paper-meta')?.textContent || '';
+                        return dateB.localeCompare(dateA);
+                    case 'date-asc':
+                        const dateAscA = a.querySelector('.paper-meta')?.textContent || '';
+                        const dateAscB = b.querySelector('.paper-meta')?.textContent || '';
+                        return dateAscA.localeCompare(dateAscB);
+                    case 'claims':
+                        const claimsA = parseInt(a.dataset.claimsCount);
+                        const claimsB = parseInt(b.dataset.claimsCount);
+                        return claimsB - claimsA;
+                    case 'title':
+                        const titleA = a.querySelector('.paper-title')?.textContent || '';
+                        const titleB = b.querySelector('.paper-title')?.textContent || '';
+                        return titleA.localeCompare(titleB);
+                    case 'insights':
+                        const insightsA = parseInt(a.dataset.insightsCount);
+                        const insightsB = parseInt(b.dataset.insightsCount);
+                        return insightsB - insightsA;
+                    default:
+                        return 0;
                 }
             });
+
+            // Re-append papers in sorted order
+            papersArray.forEach(paper => container.appendChild(paper));
         }
 
         // Initialize
-        window.addEventListener('load', () => {
-            positionNavDots();
-            updateActiveNav();
-        });
-
-        window.addEventListener('resize', positionNavDots);
-        window.addEventListener('scroll', updateActiveNav);
-
-        // Smooth scroll for nav dots
-        navDots.forEach(dot => {
-            dot.addEventListener('click', (e) => {
-                e.preventDefault();
-                const target = document.querySelector(dot.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth' });
-                }
-            });
-        });
+        applyFilters();
     </script>
 </body>
 </html>
@@ -994,21 +1048,18 @@ HTML_TEMPLATE = '''
 
 def get_claim_text(claim_number):
     """Get the full text of a claim by its number"""
-    return CONSCIOUSNESS_CLAIMS.get(str(claim_number), f"Claim {claim_number}")
+    return CONSCIOUSNESS_CLAIMS.get(str(claim_number), f"Claim {claim_number} (text not found)")
 
 
-def get_paper_title(paper):
-    """Extract paper title handling various formats"""
-    if paper.get('paper_metadata'):
-        return paper['paper_metadata'].get('title', 'Untitled Paper')
-    return 'Analysis Result'
-
-
-def extract_theory_synthesis(synthesis):
-    """Extract theory synthesis handling nested structures"""
-    if isinstance(synthesis, dict):
-        return synthesis.get('description', str(synthesis))
-    return str(synthesis)
+def format_timestamp(timestamp):
+    """Format ISO timestamp to readable date"""
+    if not timestamp:
+        return 'Unknown date'
+    try:
+        dt = datetime.fromisoformat(timestamp.replace('Z', '+00:00'))
+        return dt.strftime('%Y-%m-%d %H:%M')
+    except:
+        return timestamp
 
 
 def extract_claims_list(claims):
@@ -1017,25 +1068,41 @@ def extract_claims_list(claims):
         return []
 
     if isinstance(claims, dict):
-        # Handle nested structure with 'items' key
         if 'items' in claims:
             items = claims['items']
             if isinstance(items, list):
                 return items
             elif isinstance(items, (int, str)):
                 return [items]
-        # Handle other dict formats
-        elif 'type' in claims and claims.get('type') == 'array':
-            return claims.get('items', [])
         return []
     elif isinstance(claims, list):
         return claims
     return []
 
 
+def get_paper_strengths(paper):
+    """Extract all strength values from a paper for filtering"""
+    strengths = set()
+
+    # Check evidence details for strength values
+    evidence_details = paper.get('evidence_details', {})
+    if evidence_details:
+        for evidence in evidence_details.values():
+            strength = evidence.get('strength', '').lower()
+            if strength:
+                strengths.add(strength)
+
+    # If no evidence, mark as 'none'
+    if not strengths:
+        strengths.add('none')
+
+    return ','.join(strengths)
+
+
 def load_analysis_results():
     """Load all JSON files from the output directory"""
     papers = []
+    errors = []
 
     if not OUTPUT_DIR.exists():
         logger.error(f"Output directory does not exist: {OUTPUT_DIR}")
@@ -1043,18 +1110,31 @@ def load_analysis_results():
 
     json_files = list(OUTPUT_DIR.glob("*.json"))
 
+    if not json_files:
+        logger.warning(f"No JSON files found in: {OUTPUT_DIR}")
+        return papers, None
+
     for json_file in json_files:
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
+                data['_filename'] = json_file.name
                 papers.append(data)
+                logger.info(f"Loaded: {json_file.name}")
+        except json.JSONDecodeError as e:
+            error_msg = f"Invalid JSON in {json_file.name}: {str(e)}"
+            logger.error(error_msg)
+            errors.append(error_msg)
         except Exception as e:
-            logger.error(f"Error loading {json_file.name}: {str(e)}")
+            error_msg = f"Error loading {json_file.name}: {str(e)}"
+            logger.error(error_msg)
+            errors.append(error_msg)
 
     # Sort by timestamp if available
     papers.sort(key=lambda p: p.get('_metadata', {}).get('analysis_timestamp', ''), reverse=True)
 
-    return papers, None
+    error_summary = " | ".join(errors) if errors else None
+    return papers, error_summary
 
 
 def calculate_statistics(papers):
@@ -1069,6 +1149,7 @@ def calculate_statistics(papers):
         total_claims += len(claims)
         unique_claims.update(claims)
 
+        # Count papers per claim
         for claim in claims:
             claim_str = str(claim)
             claim_counts[claim_str] = claim_counts.get(claim_str, 0) + 1
@@ -1090,21 +1171,85 @@ def index():
     papers, error = load_analysis_results()
     stats = calculate_statistics(papers)
 
+    # Add helper functions to template context
     return render_template_string(
         HTML_TEMPLATE,
         papers=papers,
         error=error,
-        get_paper_title=get_paper_title,
-        extract_theory_synthesis=extract_theory_synthesis,
+        output_dir=OUTPUT_DIR,
+        format_timestamp=format_timestamp,
         extract_claims_list=extract_claims_list,
+        get_paper_strengths=get_paper_strengths,
         get_claim_text=get_claim_text,
+        CONSCIOUSNESS_CLAIMS=CONSCIOUSNESS_CLAIMS,
         **stats
     )
 
 
+@app.route('/api/papers')
+def api_papers():
+    """API endpoint returning papers as JSON"""
+    papers, error = load_analysis_results()
+    return jsonify({
+        'papers': papers,
+        'error': error,
+        'count': len(papers)
+    })
+
+
+@app.route('/api/statistics')
+def api_statistics():
+    """API endpoint returning statistics"""
+    papers, _ = load_analysis_results()
+    stats = calculate_statistics(papers)
+    stats['paper_count'] = len(papers)
+    return jsonify(stats)
+
+
+@app.route('/api/claims')
+def api_claims():
+    """API endpoint returning claim distribution"""
+    papers, _ = load_analysis_results()
+    claim_counts = {}
+
+    for paper in papers:
+        claims = extract_claims_list(paper.get('supported_claims', []))
+        for claim in claims:
+            claim_counts[str(claim)] = claim_counts.get(str(claim), 0) + 1
+
+    return jsonify({
+        'claim_distribution': claim_counts,
+        'total_unique_claims': len(claim_counts)
+    })
+
+
+@app.errorhandler(404)
+def not_found(error):
+    return "Page not found", 404
+
+
+@app.errorhandler(500)
+def internal_error(error):
+    return f"Internal server error: {str(error)}", 500
+
+
 if __name__ == '__main__':
-    print(f"\nConsciousness Theory Analysis Viewer")
+    print(f"\n{'=' * 60}")
+    print("Consciousness Theory Analysis Viewer")
+    print(f"{'=' * 60}")
+    print(f"Project Root: {PROJECT_ROOT}")
     print(f"Output Directory: {OUTPUT_DIR}")
-    print(f"Starting server on http://localhost:5009")
+    print(f"Output Dir Exists: {OUTPUT_DIR.exists()}")
+
+    if OUTPUT_DIR.exists():
+        json_files = list(OUTPUT_DIR.glob("*.json"))
+        print(f"JSON Files Found: {len(json_files)}")
+        for f in json_files[:5]:
+            print(f"  - {f.name}")
+        if len(json_files) > 5:
+            print(f"  ... and {len(json_files) - 5} more")
+
+    print(f"\nStarting Flask server on http://localhost:5009")
+    print(f"{'=' * 60}\n")
 
     app.run(debug=True, port=5009, host='0.0.0.0')
