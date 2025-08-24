@@ -501,3 +501,18 @@
 2025-08-24 15:08:48,099 - INFO - Theory synthesis: {'description': 'Targeted, frequency-specific external electric field patterns can modulate timing-sensitive operations in deep hubs like the hippocampus, altering network interactions and improving conscious memory access. This supports a view in which structured EM field interactions at behaviorally relevant frequencies shape access by augmenting endogenous synchrony without necessarily increasing mean firing or BOLD power.', 'type': 'string'}
 2025-08-24 15:08:48,099 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [18, 41, 42, 22, 44]}
 2025-08-24 15:08:48,099 - INFO - Number of evidence details: 5
+2025-08-24 15:42:19,778 - ERROR - .env file not found at: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-24 15:47:35,623 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-24 15:47:35,649 - INFO - Starting paper analysis...
+2025-08-24 15:47:35,650 - INFO - Successfully read theory_analysis.txt
+2025-08-24 15:47:35,650 - INFO - Successfully read article.txt
+2025-08-24 15:47:35,650 - INFO - Successfully read link.txt
+2025-08-24 15:47:35,651 - INFO - Prompt size: ~15194 words
+2025-08-24 15:47:35,651 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 15:50:11,756 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 15:50:11,766 - INFO - Received response from GPT-5 (tokens used: 29913)
+2025-08-24 15:50:11,768 - INFO - Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/analysis_20250824_155011_full.json
+2025-08-24 15:50:11,768 - INFO - Analysis complete!
+2025-08-24 15:50:11,768 - INFO - Theory synthesis: {'description': 'Conscious state depends on neuromodulatory control (notably serotonergic 5-HT2A signaling) of large-scale oscillatory regimes, which shifts alpha/theta–gamma coupling and network synchrony, thereby regulating the brain’s entropy and accessible repertoire of states. Under 5-HT2A-driven perturbations, alpha power in DMN hubs collapses and cross-frequency interactions reorganize, pushing the system toward higher-entropy, more metastable dynamics that alter self-related content and access.', 'type': 'string'}
+2025-08-24 15:50:11,768 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [12, 16, 13]}
+2025-08-24 15:50:11,768 - INFO - Number of evidence details: 3

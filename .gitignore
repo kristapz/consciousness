@@ -1,1 +1,5 @@
 replacements.txt
+.env
+*.env
+config/.env
+new/Consciousness_analysis/config/.env
