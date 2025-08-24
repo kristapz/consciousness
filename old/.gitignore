@@ -2,7 +2,7 @@
 .env
 *.env
 config/.env
-new/Consciousness_analysis/config/.env
+../new/Consciousness_analysis/config/.env
 
 # === Python cache ===
 __pycache__/
