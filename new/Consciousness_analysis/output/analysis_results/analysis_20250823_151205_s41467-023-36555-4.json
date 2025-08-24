@@ -1,0 +1,109 @@
+{
+  "paper_metadata": {
+    "link": "https://www.nature.com/articles/s41467-023-36555-4",
+    "title": "Working memory control dynamics follow principles of spatial computing"
+  },
+  "theory_synthesis": {
+    "description": "Selective access to and routing of working-memory content is implemented by low-dimensional, spatially structured beta–gamma field dynamics that gate and align high-dimensional, item-specific spiking. These oscillatory field patterns provide a network-level control surface that coordinates timing across distributed populations independent of fine-grained recurrent connectivity.",
+    "type": "Oscillatory field–based spatial computing"
+  },
+  "supported_claims": [
+    13,
+    16,
+    22
+  ],
+  "evidence_details": {
+    "13": {
+      "claim_text": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
+      "direct_quotes": [
+        {
+          "quote": "In this view, spatial computing is mediated by a low-dimensional (where neurons share similar activity profiles) pattern of gamma-beta power across a network.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "The spatial flow is in turn reflected in low-dimensional activity shared by many neurons. We verify these predictions by analyzing local field potentials and neuronal spiking.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "This yielded virtually identical components in each session… Thus the spatial distribution of these components was stable across sessions (and across sets of WM items).",
+          "page_or_section": "Results – Predictions 2 and 3 (Task 4)"
+        },
+        {
+          "quote": "The manifestation is a dynamic patchwork of beta and gamma bursts.",
+          "page_or_section": "Discussion"
+        },
+        {
+          "quote": "Control-related information was found in the pattern of gamma/beta activity, shared among neurons within a few hundred micrometers.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "LFPs index mesoscopic extracellular fields; the reported low-dimensional, spatially patterned beta–gamma activity across Utah arrays constitutes spatially organized EM field configurations emerging from coordinated population activity. Their stability across sessions further supports organization beyond single-neuron idiosyncrasies.",
+      "strength": "strong",
+      "limitations": "While spatial structure is shown, the work does not explicitly reconstruct EM field topology (e.g., via forward models) or link fields to perceptual unity specifically."
+    },
+    "16": {
+      "claim_text": "Cross-frequency nesting within EM fields couples slow oscillations to faster local synchrony.",
+      "direct_quotes": [
+        {
+          "quote": "The central idea is that top-down control stems from interactions between bursts of gamma and beta power.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "Beta bursts act as the control signal. They carry top-down information and inhibit gamma/spiking… This is supported by empirical observations of an anti-correlated ‘push-pull’ relationship between beta and gamma during the encoding, read-out, and deletion of the contents of WM.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "We have previously shown that beta bursts are anti-correlated with bursts of gamma and spiking.",
+          "page_or_section": "Results – Prediction 4 (Task 3)"
+        },
+        {
+          "quote": "The gamma patterns are determined by patterns in beta activity (the top-down control signal): gamma is where beta is not.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "The documented, task-dependent beta–gamma burst interactions and robust anticorrelation indicate cross-frequency coupling that gates fast, spike-associated gamma by slower beta control dynamics, effectively nesting fast local synchrony within a slower control regime.",
+      "strength": "moderate",
+      "limitations": "The study shows anti-correlated bursting but does not quantify classic nesting metrics (e.g., phase–amplitude coupling) or demonstrate a specific slow-phase/fast-amplitude relationship."
+    },
+    "22": {
+      "claim_text": "Structured EM fields facilitate long-range timing alignment beyond direct synaptic connectivity.",
+      "direct_quotes": [
+        {
+          "quote": "Applying a set of WM operations (e.g., executing task rules) corresponds to imposing a low-dimensional spatio-temporal pattern on the network.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "This allows the item to be accessed and operated on just by knowing its place in network space. Importantly, it enables control without having to know the precise network connectivity forming the ensemble for that item.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "This directly implies that the spatial dimensions of cortex are used and that oscillations can be used to selectively control information despite acting on millions of neurons simultaneously.",
+          "page_or_section": "Discussion"
+        },
+        {
+          "quote": "Cortical beta oscillations are thought to emerge from loops between thalamus, cortex and subcortical structures… top-down information is imposed, at least in part, from outside the local PFC cortical network itself.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "The low-dimensional, spatially structured beta–gamma patterns (measured as LFP fields) coordinate timing and routing of item-specific activity across distributed PFC regions, enabling control that is partly independent of local recurrent wiring and shaped by thalamo–cortical loops—consistent with field-structured coordination beyond purely local synaptic interactions.",
+      "strength": "moderate",
+      "limitations": "Evidence is correlational within PFC and does not directly demonstrate field-mediated timing alignment or causality beyond synapses; no explicit long-range (e.g., cross-area) phase alignment metrics are reported."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Separation of low-dimensional control from high-dimensional content enables generalization and zero-shot learning in working memory.",
+      "quotes": [
+        "We hypothesize that spatial computing can facilitate generalization and zero-shot learning by utilizing spatial component as an additional information encoding dimension.",
+        "This separation of control (in this case, order) from content (objects A vs B) endows WM with the ability to generalize and with the transfer learning to new items not used when a given task was initially learned, i.e., zero-shot learning."
+      ],
+      "relevance": "Highlights a computational consequence of spatially structured field control not captured by the listed claims, linking oscillatory control patterns to flexible cognition."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-23T15:12:05.994686",
+    "model_used": "gpt-5",
+    "paper_link": "https://www.nature.com/articles/s41467-023-36555-4",
+    "prompt_tokens_estimate": 9464
+  }
+}

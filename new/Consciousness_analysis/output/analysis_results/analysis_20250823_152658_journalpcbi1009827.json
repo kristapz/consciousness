@@ -1,0 +1,82 @@
+{
+  "paper_metadata": {
+    "link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009827",
+    "title": "Traveling waves in the prefrontal cortex during working memory"
+  },
+  "theory_synthesis": {
+    "description": "Conscious access may rely on spatially structured extracellular field dynamics—manifesting as traveling waves—that coordinate spike timing across prefrontal circuits. Such mesoscopic phase-gradient patterns can be directionally modulated by task demands, supporting temporal integration needed for working memory and, by extension, unified conscious episodes.",
+    "type": "string"
+  },
+  "supported_claims": {
+    "description": "Array of claim numbers that are best supported by evidence in this paper",
+    "type": "array",
+    "items": [
+      13
+    ]
+  },
+  "evidence_details": {
+    "13": {
+      "claim_text": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
+      "direct_quotes": [
+        {
+          "quote": "Here, we show that oscillations in the prefrontal cortex (PFC) organized as traveling waves in the theta (4-8Hz), alpha (8-12Hz) and beta (12-30Hz) bands.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "Traveling waves are spatially extended patterns in which aligned peaks of activity move sequentially across the cortical surface.",
+          "page_or_section": "Author summary"
+        },
+        {
+          "quote": "These increases in oscillatory power were not equal or simultaneous across the electrode array. Rather, there was a spatio-temporal structure that suggested traveling waves of activity.",
+          "page_or_section": "Results – LFP oscillations formed traveling waves"
+        },
+        {
+          "quote": "As a traveling wave moves across cortex, it should produce a phase gradient across adjacent recording sites... Note the phase gradient across the array and how it changes over time.",
+          "page_or_section": "Results – LFP oscillations formed traveling waves (Fig 1E description)"
+        },
+        {
+          "quote": "Waves travelled in preferred directions... there were preferred “default” directions. Task performance increased or decreased the probability of waves traveling in those directions.",
+          "page_or_section": "Results – Waves travelled in preferred directions"
+        },
+        {
+          "quote": "Wave speed ranged from 20–60 cm/sec and increased with increases in frequency band (Fig 2B) as expected [15].",
+          "page_or_section": "Results – LFP oscillations formed traveling waves"
+        }
+      ],
+      "interpretation": "Local field potentials (extracellular electromagnetic signals arising from coordinated synaptic currents) exhibited consistent phase gradients and directionality across microelectrode arrays, demonstrating spatially organized EM field patterns (traveling waves). The presence of organized phase maps, preferred propagation axes, and characteristic speeds indicates emergent mesoscopic EM structure from coordinated neuronal activity.",
+      "strength": "strong",
+      "limitations": "Evidence is mesoscopic and localized (3×3 mm arrays) without direct demonstration of large-scale or cross-areal field organization or causal EM influence; analyses are correlational and focus on 4–30 Hz bands."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Rotating waves outnumber planar waves across theta, alpha, and beta bands, indicating prevalent curved EM field structure rather than purely planar propagation.",
+      "quotes": [
+        "Overall, rotational waves were more common than planar waves for all frequency bands in all task epochs."
+      ],
+      "relevance": "Highlights that EM field organization often takes rotational forms, which may support recurrent timing structure and spike modulation beyond simple plane-wave models."
+    },
+    {
+      "finding": "Task demands bias wave direction along a preferred axis, especially in beta; baseline shows bidirectionality that becomes asymmetric during working memory epochs.",
+      "quotes": [
+        "Clear directional preferences were seen across all arrays and all frequency bands… there were preferred “default” directions.",
+        "Beta waves showed prominent bidirectionality throughout the trial… during task performance the “bump” on one end of the distribution rose while the other lowered, indicating an increase in waves in one direction and a decrease in the opposite."
+      ],
+      "relevance": "Demonstrates functional modulation of EM field organization by cognitive state, consistent with a role in gating and coordinating network dynamics during working memory."
+    },
+    {
+      "finding": "Spike rates are higher closer to rotating-wave centers (shorter wavelengths on the array).",
+      "quotes": [
+        "Additionally, we found a correlation between spike rate and rotating wave organization. Spike rates were higher closer to the center of the rotating wave (S4 Fig).",
+        "We found that shorter wavelengths were associated with higher spike rates (S4B Fig)."
+      ],
+      "relevance": "Links mesoscopic EM field geometry to neuronal firing, suggesting field organization can modulate excitability and timing relevant for memory maintenance."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-23T15:26:58.752031",
+    "model_used": "gpt-5",
+    "paper_link": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009827",
+    "prompt_tokens_estimate": 11097
+  }
+}

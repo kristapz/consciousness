@@ -1,0 +1,105 @@
+{
+  "paper_metadata": {
+    "link": "https://www.nature.com/articles/ncomms10340",
+    "title": "Human brain networks function in connectome-specific harmonic waves"
+  },
+  "theory_synthesis": {
+    "description": "Conscious access corresponds to the transient selection and stabilization of connectome-specific harmonic modes shaped by structural connectivity and the current excitation–inhibition balance. These large-scale, frequency-specific standing waves align distributed regions over ~100 ms windows, and their stability tracks transitions into and out of consciousness.",
+    "type": "Connectome-harmonic field coordination"
+  },
+  "supported_claims": [
+    13,
+    14,
+    43
+  ],
+  "evidence_details": {
+    "13": {
+      "claim_text": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
+      "direct_quotes": [
+        {
+          "quote": "A key characteristic of human brain activity is coherent, spatially distributed oscillations forming behaviour-dependent brain networks.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "In this new frequency-specific representation of cortical activity, that we call ‘connectome harmonics’, oscillatory networks of the human brain at rest match harmonic wave patterns of certain frequencies.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "We found that the eigenvectors of the connectome Laplacian, the connectome harmonics, yield frequency-specific spatial patterns across distributed cortical regions.",
+          "page_or_section": "Results – Connectome harmonics predict resting state networks"
+        }
+      ],
+      "interpretation": "The paper demonstrates that large-scale brain activity self-organizes into coherent, spatially structured oscillatory patterns (connectome harmonics) across distributed regions. Such coordinated population activity is the physical source of measurable extracellular EM fields (EEG/MEG/LFP), so these findings indirectly support the emergence of spatially organized EM fields from coordinated neural dynamics.",
+      "strength": "moderate",
+      "limitations": "The study does not directly measure extracellular EM fields; primary evidence comes from fMRI-derived RSNs and computational neural field modeling. The term 'field' refers to neural field equations, not explicitly electromagnetic fields."
+    },
+    "14": {
+      "claim_text": "Stable EM field patterns correlate with unified conscious content over integration windows (~50–300 ms).",
+      "direct_quotes": [
+        {
+          "quote": "Remarkably, the critical relation between the neural field patterns and the delicate excitation–inhibition balance fits the neurophysiological changes observed during the loss and recovery of consciousness.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "Remarkably, the topography of these correlation patterns, termed the resting state networks (RSNs)… have been found to relate to electroencephalography microstates, global brain states occurring in discrete epochs of about 100 ms (refs 8, 9).",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "We observed a decrease in the frequency of coherent oscillations when excitatory activity is decreased… or when inhibitory activity is increased… This relationship… shows remarkable overlap with the neurophysiological changes observed during the loss and recovery of consciousness.",
+          "page_or_section": "Results – Neural field model of connectome-wide neural dynamics"
+        }
+      ],
+      "interpretation": "RSNs map onto connectome harmonics and relate to EEG microstates that unfold in ~100 ms epochs, matching canonical integration windows. The modeled dependence of pattern stability and oscillation frequency on excitation–inhibition balance parallels empirical transitions between conscious and unconscious states, suggesting that the stability of these spatial patterns over ~100 ms windows is relevant to conscious access.",
+      "strength": "moderate",
+      "limitations": "The study links patterns to consciousness state (loss/recovery) rather than to specific conscious contents; EM fields per se are not measured, and fMRI temporal resolution is limited. The 50–300 ms window is inferred via cited EEG microstates rather than demonstrated directly here."
+    },
+    "43": {
+      "claim_text": "Anesthesia-induced unconsciousness correlates with disrupted EM field pocket stability, even with preserved spiking.",
+      "direct_quotes": [
+        {
+          "quote": "This relationship between the frequency of temporal oscillations and the excitation–inhibition balance shows remarkable overlap with the neurophysiological changes observed during the loss and recovery of consciousness… drug- or sleep-induced loss of consciousness is associated with increasing inhibitory or decreasing excitatory activity, which is accompanied by a transition from the low amplitude, high-frequency patterns to low-frequency coherent oscillations in cortical activity.",
+          "page_or_section": "Results – Neural field model of connectome-wide neural dynamics"
+        },
+        {
+          "quote": "Recent work also shows gradual decoupling between the posterior and anterior midline nodes of the DMN during loss of consciousness… We observed this decoupling in seed-based correlation analysis of the neural field patterns for the exact parameters, which resulted in slower cortical oscillations.",
+          "page_or_section": "Results – Neural field model of connectome-wide neural dynamics"
+        }
+      ],
+      "interpretation": "Both prior empirical work and the authors’ neural-field-on-connectome model indicate that unconsciousness involves reduced coupling among key hubs (e.g., DMN midline) and a shift toward slower, more global oscillations, consistent with destabilization/reconfiguration of the large-scale field-like patterns that support conscious access. This provides indirect support for the idea that stability of macroscopic patterns (and by extension their EM correlates) is degraded during anesthesia-induced unconsciousness.",
+      "strength": "moderate",
+      "limitations": "No direct anesthesia experiments were performed in this study; EM field 'pockets' and spiking activity were not measured. Evidence is partly inferential from modeling plus literature citations rather than direct recording of EM field stability under anesthesia."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Connectome harmonics (graph Laplacian eigenmodes of the structural connectome) provide a near-universal basis to represent and predict resting-state network topographies.",
+      "quotes": [
+        "Here, we report that functional networks of the human brain are predicted by harmonic patterns… steered by the anatomy of the human cerebral cortex, the human connectome.",
+        "Remarkably, decomposition of the RSNs into the connectome harmonics revealed significant overlap between the resting state networks and certain connectome harmonic patterns."
+      ],
+      "relevance": "Offers a geometry-constrained principle for large-scale coordination that can complement or constrain theories focused on cellular or channel-level mechanisms."
+    },
+    {
+      "finding": "Higher cognitive networks rely on a broader range of connectome harmonics than primary sensory/motor networks.",
+      "quotes": [
+        "Visual, somato-motor and limbic networks showed significant similarity to only low-frequency connectome harmonics, while… control, dorsal attention and ventral attention, significantly matched a broad range of connectome harmonics distributed over the spatial frequency spectrum.",
+        "Slower convergence was observed for the reconstruction errors of higher cognitive networks… suggesting the reliance of these networks on a broader range of frequencies."
+      ],
+      "relevance": "Indicates that cognitive integration may require multi-mode, multi-frequency coordination, informing hypotheses about frequency-specific roles in conscious processing."
+    },
+    {
+      "finding": "Neural-field dynamics on the connectome are Lyapunov-stable to noise for oscillatory regimes.",
+      "quotes": [
+        "After perturbation… L(t) approaches 0 showing the system is Lyapunov stable.",
+        "The perturbed trajectory converges back to the original trajectory… demonstrating that the state corresponding to the original trajectory is Lyapunov stable to small perturbations."
+      ],
+      "relevance": "Robustness to perturbations supports the plausibility of stable large-scale patterns needed for reliable conscious processing in noisy biological environments."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-24T14:15:17.257432",
+    "model_used": "gpt-5",
+    "paper_link": "https://www.nature.com/articles/ncomms10340",
+    "prompt_tokens_estimate": 7336
+  }
+}

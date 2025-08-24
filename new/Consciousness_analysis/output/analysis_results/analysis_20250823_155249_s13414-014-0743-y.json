@@ -1,0 +1,67 @@
+{
+  "paper_metadata": {
+    "link": "https://link.springer.com/article/10.3758/s13414-014-0743-y",
+    "title": "Semantic access occurs outside of awareness for the ground side of a figure"
+  },
+  "theory_synthesis": {
+    "description": "Conscious access follows an initial, nonselective fast pass in which both to-be-figure and to-be-ground regions can reach high-level (semantic) representations, with awareness emerging only after competitive, recurrent resolution of figure–ground organization. Shape features of losing contenders are suppressed, but their semantics can transiently influence behavior outside awareness.",
+    "type": "dynamical interactive selection (recurrent figure–ground resolution) theory"
+  },
+  "supported_claims": [],
+  "evidence_details": {},
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Unconscious semantic access from regions ultimately perceived as ground (outside awareness).",
+      "quotes": [
+        "“This is the first study to show unequivocally that, contrary to traditional assumptions, semantics are accessed for objects that might be perceived on the side of a border that will ultimately be perceived as a shapeless ground.” (Abstract)",
+        "“Because the orientation of the silhouettes was varied in Experiment 1, it provides the first unambiguous behavioral demonstration that prior to figure assignment, semantics are accessed for regions that suggest portions of upright well-known objects, even though those regions are ultimately perceived as shapeless, meaningless grounds.” (General discussion)"
+      ],
+      "relevance": "Demonstrates semantic processing without awareness and prior to figure assignment, informing models of conscious access even though it does not map onto the listed EM/ion/cytoskeletal claims."
+    },
+    {
+      "finding": "Orientation dependence rules out border-feature confounds; semantic activation is tied to object memories, not low-level border curvature.",
+      "quotes": [
+        "“The orientation dependency of our results rules out the hypothesis that the same- versus different-category effects arise from the relationship between the degree of curvature of the silhouette borders… Thus, Experiment 1 shows that the coarse semantics of the object suggested on the ground side of the silhouette figure are processed…” (Discussion)"
+      ],
+      "relevance": "Strengthens the inference that high-level representations (semantics) are accessed preconsciously due to object memory, not low-level features."
+    },
+    {
+      "finding": "Semantic facilitation is short-lived: present at 133 ms SOA, absent at 166 and 250 ms; no evidence of later semantic suppression.",
+      "quotes": [
+        "“Experiment 1 showed that semantic activation from grounds can be assayed using a silhouette-to-word SOA of 133 ms…” (Précis)",
+        "“Once again, no evidence of suppression was observed at either SOA. Moreover, the 166- and 250-ms SOAs were not sufficient to produce a measurable facilitation of semantic categorization responses, either.” (Précis)",
+        "“We found no evidence that semantics are suppressed, even with silhouette-to-word SOAs as long as 166 and 250 ms.” (Experiment 2, Results and discussion)"
+      ],
+      "relevance": "Contributes temporal constraints on unconscious semantic influence relevant to theories of access and recurrent processing windows."
+    },
+    {
+      "finding": "Dissociation between shape suppression and semantic non-suppression for losing (ground) regions.",
+      "quotes": [
+        "“Our data suggest that, although suppression is applied to the shape properties of the losing competitor (which have a direct bearing on object perception across the border), it is not applied to other related aspects of the losing competitor, such as its semantics.” (General discussion)",
+        "“Peterson and Skow (2008)… found evidence that the shape features of unperceived objects in grounds are suppressed… whereas we found evidence that the semantics of objects suggested in grounds are not suppressed…” (General discussion)"
+      ],
+      "relevance": "Informs mechanistic accounts of what is inhibited during figure–ground competition, with implications for how conscious content is selected."
+    },
+    {
+      "finding": "Converging ERP evidence (N400) for unconscious semantic processing of grounds.",
+      "quotes": [
+        "“Sanguinetti, Allen, and Peterson (2014) found that a neural marker of semantic processing, the N400 event-related potential, was modulated in a repetition paradigm by meaningful objects suggested in the ground regions of silhouettes… despite the fact that participants were not consciously aware of them.” (General discussion)"
+      ],
+      "relevance": "Links behavioral priming to neural indices of semantic processing without awareness, constraining timelines for preconscious processing."
+    },
+    {
+      "finding": "Supports a nonselective fast feedforward pass with later interactive resolution rather than strict serial feedforward selection.",
+      "quotes": [
+        "“An alternative to the traditional sequential-processing view is that perception entails a nonselective fast, feedforward pass of processing… Our findings demonstrate that grounds are processed at higher levels than has been supposed in the traditional account.” (General discussion)",
+        "“Together, these results support a dynamical view of object processing that posits that high and low levels of the visual hierarchy interact in evaluating both figures and grounds in order to produce a final percept.” (Conclusion)"
+      ],
+      "relevance": "Provides theoretical framing for how unconscious processing interfaces with later conscious access, though it does not address EM field or cellular mechanisms in the provided claim set."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-23T15:52:49.481652",
+    "model_used": "gpt-5",
+    "paper_link": "https://link.springer.com/article/10.3758/s13414-014-0743-y",
+    "prompt_tokens_estimate": 11880
+  }
+}

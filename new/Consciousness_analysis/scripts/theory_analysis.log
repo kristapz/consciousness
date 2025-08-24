@@ -1,0 +1,503 @@
+2025-08-22 23:19:34,612 - ERROR - OPENAI_API_KEY not found in config/.env file
+2025-08-22 23:19:51,073 - ERROR - OPENAI_API_KEY not found in config/.env file
+2025-08-23 11:47:47,364 - ERROR - OPENAI_API_KEY not found in config/.env file
+2025-08-23 11:47:57,610 - ERROR - OPENAI_API_KEY not found in config/.env file
+2025-08-23 11:48:54,091 - INFO - Starting paper analysis...
+2025-08-23 11:48:54,092 - ERROR - File not found: prompts/theory_analysis.txt
+2025-08-23 11:48:54,092 - ERROR - Failed to read input files: [Errno 2] No such file or directory: 'prompts/theory_analysis.txt'
+2025-08-23 11:49:48,757 - ERROR - OPENAI_API_KEY not found in config/.env file
+2025-08-23 11:53:52,656 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 11:53:52,679 - INFO - Starting paper analysis...
+2025-08-23 11:53:52,679 - INFO - Successfully read theory_analysis.txt
+2025-08-23 11:53:52,680 - INFO - Successfully read article.txt
+2025-08-23 11:53:52,680 - INFO - Successfully read link.txt
+2025-08-23 11:53:52,681 - INFO - Prompt size: ~15242 words
+2025-08-23 11:53:52,681 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 11:56:11,227 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 11:56:11,249 - INFO - Received response from GPT-5 (tokens used: 30853)
+2025-08-23 11:56:11,251 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_115611_S0149763413000146.json
+2025-08-23 11:56:11,251 - INFO - Analysis complete!
+2025-08-23 11:56:11,251 - INFO - Theory synthesis: {'description': 'Conscious access depends on distributed activation regimes and tight excitation–inhibition balance that set gain and timing windows; gamma-band activity indexes these infrastructural control states rather than directly implementing conscious content. Neuromodulators tune preferred bands and cross-frequency nesting aligns timing across scales to facilitate access when networks are activated, but the EM/LFP signatures are primarily concomitants of underlying circuit dynamics.', 'type': 'string'}
+2025-08-23 11:56:11,251 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [3, 4, 8, 11, 12, 13, 16, 39, 41]}
+2025-08-23 11:56:11,251 - INFO - Number of evidence details: 9
+2025-08-23 12:22:04,185 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 12:22:04,209 - INFO - Starting paper analysis...
+2025-08-23 12:22:04,209 - INFO - Successfully read theory_analysis.txt
+2025-08-23 12:22:04,209 - INFO - Successfully read article.txt
+2025-08-23 12:22:04,209 - INFO - Successfully read link.txt
+2025-08-23 12:22:04,210 - INFO - Prompt size: ~17830 words
+2025-08-23 12:22:04,210 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 12:22:05,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 12:22:05,107 - INFO - Retrying request to /chat/completions in 0.459440 seconds
+2025-08-23 12:22:06,048 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 12:22:06,049 - INFO - Retrying request to /chat/completions in 0.932163 seconds
+2025-08-23 12:22:08,160 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 12:22:08,161 - WARNING - Rate limit hit. Waiting before retry...
+2025-08-23 12:22:08,161 - ERROR - GPT-5 API call failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Requested 30954. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-08-23 12:22:18,168 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 12:22:19,976 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 12:22:19,977 - INFO - Retrying request to /chat/completions in 0.405051 seconds
+2025-08-23 12:22:20,678 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 12:22:20,678 - INFO - Retrying request to /chat/completions in 0.957362 seconds
+2025-08-23 12:22:21,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 12:22:21,937 - WARNING - Rate limit hit. Waiting before retry...
+2025-08-23 12:22:21,937 - ERROR - GPT-5 API call failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Requested 30954. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-08-23 12:23:15,125 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 12:23:15,153 - INFO - Starting paper analysis...
+2025-08-23 12:23:15,153 - INFO - Successfully read theory_analysis.txt
+2025-08-23 12:23:15,154 - INFO - Successfully read article.txt
+2025-08-23 12:23:15,154 - INFO - Successfully read link.txt
+2025-08-23 12:23:15,155 - INFO - Prompt size: ~16650 words
+2025-08-23 12:23:15,155 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 12:24:31,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 12:24:31,806 - INFO - Received response from GPT-5 (tokens used: 29065)
+2025-08-23 12:24:31,808 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_122431_54A2FF12685631EC90DFCC4AA24639.json
+2025-08-23 12:24:31,808 - INFO - Analysis complete!
+2025-08-23 12:24:31,808 - INFO - Theory synthesis: Consciousness should be modeled as a perspectival integration process (a unified egocentric/projective geometry) operating under strict spatial, temporal, and energetic constraints, while network measures like Φ primarily index efficiency rather than consciousness itself. Energetic limitations thus act as boundary conditions shaping the neural architectures that can realize the constitutive viewpoint required for conscious experience.
+2025-08-23 12:24:31,808 - INFO - Supported claims: [10]
+2025-08-23 12:24:31,808 - INFO - Number of evidence details: 1
+2025-08-23 14:13:33,549 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 14:13:33,573 - INFO - Starting paper analysis...
+2025-08-23 14:13:33,573 - INFO - Successfully read theory_analysis.txt
+2025-08-23 14:13:33,573 - INFO - Successfully read article.txt
+2025-08-23 14:13:33,573 - INFO - Successfully read link.txt
+2025-08-23 14:13:33,574 - INFO - Prompt size: ~11779 words
+2025-08-23 14:13:33,574 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 14:15:18,658 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 14:15:18,674 - INFO - Received response from GPT-5 (tokens used: 22692)
+2025-08-23 14:15:18,675 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_141518_S1053810003000023.json
+2025-08-23 14:15:18,675 - INFO - Analysis complete!
+2025-08-23 14:15:18,675 - INFO - Theory synthesis: {'description': 'Consciousness functions as a subcortical ‘reality space’ that stabilizes multimodal spatial information and motivational biasing to guide action, implemented by an upper-brainstem core (superior colliculus, hypothalamus/PAG, zona incerta, mesopontine state nuclei) and supplemented by cortex. Neuromodulatory systems gate global state and thereby tune the dynamics through which this reality space supports access and control.', 'type': 'string'}
+2025-08-23 14:15:18,675 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [12]}
+2025-08-23 14:15:18,676 - INFO - Number of evidence details: 1
+2025-08-23 14:37:50,719 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 14:37:50,746 - INFO - Starting paper analysis...
+2025-08-23 14:37:50,746 - INFO - Successfully read theory_analysis.txt
+2025-08-23 14:37:50,747 - INFO - Successfully read article.txt
+2025-08-23 14:37:50,747 - INFO - Successfully read link.txt
+2025-08-23 14:37:50,747 - INFO - Prompt size: ~11616 words
+2025-08-23 14:37:50,747 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 14:39:27,339 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 14:39:27,355 - INFO - Received response from GPT-5 (tokens used: 22970)
+2025-08-23 14:39:27,357 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_143927_.json
+2025-08-23 14:39:27,357 - INFO - Analysis complete!
+2025-08-23 14:39:27,357 - INFO - Theory synthesis: {'description': 'Conscious access arises from recurrent, lamina-specific interactions between feedforward and feedback ‘countercurrent’ streams across cortex, which also gate what is written into long-term, contextually embedded “personal history.” A hippocampal apex acts as a temporary buffer enabling retrospective integration when immediate contextual matches are unavailable.', 'type': 'Recurrent countercurrent integration (contextual capture)'}
+2025-08-23 14:39:27,357 - INFO - Supported claims: [48]
+2025-08-23 14:39:27,357 - INFO - Number of evidence details: 1
+2025-08-23 14:47:34,740 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 14:47:34,765 - INFO - Starting paper analysis...
+2025-08-23 14:47:34,765 - INFO - Successfully read theory_analysis.txt
+2025-08-23 14:47:34,765 - INFO - Successfully read article.txt
+2025-08-23 14:47:34,765 - INFO - Successfully read link.txt
+2025-08-23 14:47:34,765 - INFO - Prompt size: ~8816 words
+2025-08-23 14:47:34,766 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 14:48:58,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 14:48:58,249 - INFO - Received response from GPT-5 (tokens used: 19010)
+2025-08-23 14:48:58,250 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_144858_.json
+2025-08-23 14:48:58,250 - INFO - Analysis complete!
+2025-08-23 14:48:58,250 - INFO - Theory synthesis: {'description': 'Interhemispheric working-memory transfer is coordinated by band-specific field synchrony (theta and high-beta) that transiently aligns timing between hemispheres to route information. Such structured field dynamics provide a mechanism for stitching distributed neural representations into unified contents over relevant integration windows.', 'type': 'string'}
+2025-08-23 14:48:58,250 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [13, 15, 22, 49, 16]}
+2025-08-23 14:48:58,250 - INFO - Number of evidence details: 5
+2025-08-23 15:03:40,945 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:03:40,969 - INFO - Starting paper analysis...
+2025-08-23 15:03:40,969 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:03:40,969 - INFO - Successfully read article.txt
+2025-08-23 15:03:40,970 - INFO - Successfully read link.txt
+2025-08-23 15:03:40,970 - INFO - Prompt size: ~4270 words
+2025-08-23 15:03:40,970 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:06:37,069 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:06:37,086 - INFO - Received response from GPT-5 (tokens used: 17055)
+2025-08-23 15:06:37,088 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_150637_.json
+2025-08-23 15:06:37,089 - INFO - Analysis complete!
+2025-08-23 15:06:37,089 - INFO - Theory synthesis: {'description': 'Structured extracellular fields generated by neuronal ensembles causally shape and stabilize cytoskeletal architecture via ephaptic coupling, electrodiffusion, and mechanotransduction, thereby tuning timing-sensitive synaptic machinery. This cytoelectric coupling enables mesoscale oscillations to organize micro- to mesoscale computation and can be harnessed by closed-loop stimulation to enhance synchrony and cognition.', 'type': 'string'}
+2025-08-23 15:06:37,089 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [13, 18, 22, 7, 6, 9, 29, 39, 44, 8]}
+2025-08-23 15:06:37,089 - INFO - Number of evidence details: 10
+2025-08-23 15:06:54,598 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:06:54,623 - INFO - Starting paper analysis...
+2025-08-23 15:06:54,623 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:06:54,624 - INFO - Successfully read article.txt
+2025-08-23 15:06:54,624 - INFO - Successfully read link.txt
+2025-08-23 15:06:54,625 - INFO - Prompt size: ~19809 words
+2025-08-23 15:06:54,625 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:06:55,258 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 15:06:55,259 - INFO - Retrying request to /chat/completions in 0.404049 seconds
+2025-08-23 15:06:55,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 15:06:55,919 - INFO - Retrying request to /chat/completions in 0.903509 seconds
+2025-08-23 15:06:57,174 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 15:06:57,177 - WARNING - Rate limit hit. Waiting before retry...
+2025-08-23 15:06:57,178 - ERROR - GPT-5 API call failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Requested 32586. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-08-23 15:07:07,180 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:07:07,716 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 15:07:07,717 - INFO - Retrying request to /chat/completions in 0.416725 seconds
+2025-08-23 15:07:08,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 15:07:08,826 - INFO - Retrying request to /chat/completions in 0.793562 seconds
+2025-08-23 15:07:09,993 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-23 15:07:09,993 - WARNING - Rate limit hit. Waiting before retry...
+2025-08-23 15:07:09,994 - ERROR - GPT-5 API call failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Requested 32586. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-08-23 15:07:47,257 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:07:47,279 - INFO - Starting paper analysis...
+2025-08-23 15:07:47,279 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:07:47,279 - INFO - Successfully read article.txt
+2025-08-23 15:07:47,279 - INFO - Successfully read link.txt
+2025-08-23 15:07:47,280 - INFO - Prompt size: ~17162 words
+2025-08-23 15:07:47,280 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:09:30,313 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:09:30,332 - INFO - Received response from GPT-5 (tokens used: 32467)
+2025-08-23 15:09:30,334 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_150930_.json
+2025-08-23 15:09:30,334 - INFO - Analysis complete!
+2025-08-23 15:09:30,335 - INFO - Theory synthesis: A field-centric integration account: stable, spatially structured extracellular electric fields enslave faster neuronal activity via ephaptic coupling, guiding ensemble dynamics and coordinating information transfer across distributed engram complexes. Such fields could provide the low-dimensional control scaffold that stabilizes and unifies content over behaviorally relevant windows, complementing synaptic communication.
+2025-08-23 15:09:30,335 - INFO - Supported claims: [13, 14, 15, 18, 21, 22, 49]
+2025-08-23 15:09:30,335 - INFO - Number of evidence details: 7
+2025-08-23 15:10:23,646 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:10:23,672 - INFO - Starting paper analysis...
+2025-08-23 15:10:23,672 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:10:23,673 - INFO - Successfully read article.txt
+2025-08-23 15:10:23,673 - INFO - Successfully read link.txt
+2025-08-23 15:10:23,673 - INFO - Prompt size: ~9464 words
+2025-08-23 15:10:23,673 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:12:05,983 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:12:05,994 - INFO - Received response from GPT-5 (tokens used: 18007)
+2025-08-23 15:12:05,995 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_151205_s41467-023-36555-4.json
+2025-08-23 15:12:05,995 - INFO - Analysis complete!
+2025-08-23 15:12:05,995 - INFO - Theory synthesis: {'description': 'Selective access to and routing of working-memory content is implemented by low-dimensional, spatially structured beta–gamma field dynamics that gate and align high-dimensional, item-specific spiking. These oscillatory field patterns provide a network-level control surface that coordinates timing across distributed populations independent of fine-grained recurrent connectivity.', 'type': 'Oscillatory field–based spatial computing'}
+2025-08-23 15:12:05,995 - INFO - Supported claims: [13, 16, 22]
+2025-08-23 15:12:05,995 - INFO - Number of evidence details: 3
+2025-08-23 15:15:45,329 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:15:45,353 - INFO - Starting paper analysis...
+2025-08-23 15:15:45,353 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:15:45,353 - INFO - Successfully read article.txt
+2025-08-23 15:15:45,353 - INFO - Successfully read link.txt
+2025-08-23 15:15:45,354 - INFO - Prompt size: ~8595 words
+2025-08-23 15:15:45,354 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:21:20,324 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:21:20,347 - INFO - Starting paper analysis...
+2025-08-23 15:21:20,347 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:21:20,348 - INFO - Successfully read article.txt
+2025-08-23 15:21:20,348 - INFO - Successfully read link.txt
+2025-08-23 15:21:20,348 - INFO - Prompt size: ~8595 words
+2025-08-23 15:21:20,348 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:23:14,439 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:23:14,457 - INFO - Received response from GPT-5 (tokens used: 18223)
+2025-08-23 15:23:14,459 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_152314_Propofol-Anesthesia-Alters-Cor.json
+2025-08-23 15:23:14,459 - INFO - Analysis complete!
+2025-08-23 15:23:14,459 - INFO - Theory synthesis: {'description': 'Conscious access depends on the organization of mesoscopic electromagnetic field dynamics: structured, directionally distributed fast-band traveling waves support cognition, while anesthesia imposes dominant slow-delta waves that reorient and destabilize higher-frequency field patterns. Thus, unified access arises when large-scale EM field configurations permit long-range timing alignment rather than being crowded out by slow-delta dominance.', 'type': 'string'}
+2025-08-23 15:23:14,460 - INFO - Supported claims: [13, 22, 43]
+2025-08-23 15:23:14,460 - INFO - Number of evidence details: 3
+2025-08-23 15:23:22,585 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:23:22,607 - INFO - Starting paper analysis...
+2025-08-23 15:23:22,607 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:23:22,608 - INFO - Successfully read article.txt
+2025-08-23 15:23:22,608 - INFO - Successfully read link.txt
+2025-08-23 15:23:22,608 - INFO - Prompt size: ~15207 words
+2025-08-23 15:23:22,608 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:25:22,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:25:22,054 - INFO - Received response from GPT-5 (tokens used: 27357)
+2025-08-23 15:25:22,056 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_152522_S1053811922001872.json
+2025-08-23 15:25:22,056 - INFO - Analysis complete!
+2025-08-23 15:25:22,056 - INFO - Theory synthesis: {'description': 'A field-alignment control theory: content-specific, low-dimensional extracellular electric fields act as stable control variables that constrain and align high-dimensional, drifting neuronal activity. Conscious access may occur when such stable EM configurations persist over integration windows and span key hubs, enabling reliable transfer of latent states across areas.', 'type': 'string'}
+2025-08-23 15:25:22,056 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [13, 14, 18, 21, 22]}
+2025-08-23 15:25:22,056 - INFO - Number of evidence details: 5
+2025-08-23 15:25:29,466 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:25:29,488 - INFO - Starting paper analysis...
+2025-08-23 15:25:29,488 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:25:29,488 - INFO - Successfully read article.txt
+2025-08-23 15:25:29,488 - INFO - Successfully read link.txt
+2025-08-23 15:25:29,489 - INFO - Prompt size: ~11097 words
+2025-08-23 15:25:29,489 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:26:58,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:26:58,751 - INFO - Received response from GPT-5 (tokens used: 21905)
+2025-08-23 15:26:58,753 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_152658_journalpcbi1009827.json
+2025-08-23 15:26:58,753 - INFO - Analysis complete!
+2025-08-23 15:26:58,753 - INFO - Theory synthesis: {'description': 'Conscious access may rely on spatially structured extracellular field dynamics—manifesting as traveling waves—that coordinate spike timing across prefrontal circuits. Such mesoscopic phase-gradient patterns can be directionally modulated by task demands, supporting temporal integration needed for working memory and, by extension, unified conscious episodes.', 'type': 'string'}
+2025-08-23 15:26:58,753 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [13]}
+2025-08-23 15:26:58,753 - INFO - Number of evidence details: 1
+2025-08-23 15:28:22,137 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:28:22,159 - INFO - Starting paper analysis...
+2025-08-23 15:28:22,159 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:28:22,159 - INFO - Successfully read article.txt
+2025-08-23 15:28:22,159 - INFO - Successfully read link.txt
+2025-08-23 15:28:22,160 - INFO - Prompt size: ~14070 words
+2025-08-23 15:28:22,160 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:30:32,249 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:30:32,261 - INFO - Received response from GPT-5 (tokens used: 31719)
+2025-08-23 15:30:32,270 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_153032_.json
+2025-08-23 15:30:32,270 - INFO - Analysis complete!
+2025-08-23 15:30:32,270 - INFO - Theory synthesis: {'description': 'Conscious access depends on maintaining band-specific large-scale EM field coordination (reduced slow-delta domination with preserved beta–gamma coherence) across thalamo-cortical loops. Deep thalamic hubs can rapidly reconfigure this field coordination to restore arousal, indicating a gating role for thalamus in aligning cortical timing for integration.', 'type': 'string'}
+2025-08-23 15:30:32,270 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [4, 13, 15, 16, 17, 22, 42, 43, 44]}
+2025-08-23 15:30:32,270 - INFO - Number of evidence details: 9
+2025-08-23 15:30:52,064 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:30:52,085 - INFO - Starting paper analysis...
+2025-08-23 15:30:52,085 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:30:52,085 - INFO - Successfully read article.txt
+2025-08-23 15:30:52,085 - INFO - Successfully read link.txt
+2025-08-23 15:30:52,086 - INFO - Prompt size: ~12422 words
+2025-08-23 15:30:52,086 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:32:48,046 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:32:48,063 - INFO - Received response from GPT-5 (tokens used: 25268)
+2025-08-23 15:32:48,065 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_153248_250708517.json
+2025-08-23 15:32:48,065 - INFO - Analysis complete!
+2025-08-23 15:32:48,065 - INFO - Theory synthesis: {'description': 'Conscious access depends on network-level integration that can be causally modulated by targeted tFUS of cortical and subcortical hubs, producing immediate and lasting changes in connectivity and reportability. Ultrasound likely acts via mechanosensitive and voltage-gated ion channel interactions, enabling parameter-specific entrainment and plastic aftereffects that tune the brain’s oscillatory landscape for access.', 'type': 'string'}
+2025-08-23 15:32:48,065 - INFO - Supported claims: [1, 39, 42, 44, 45]
+2025-08-23 15:32:48,065 - INFO - Number of evidence details: 5
+2025-08-23 15:39:01,803 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:39:01,829 - INFO - Starting paper analysis...
+2025-08-23 15:39:01,829 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:39:01,830 - INFO - Successfully read article.txt
+2025-08-23 15:39:01,830 - INFO - Successfully read link.txt
+2025-08-23 15:39:01,830 - INFO - Prompt size: ~10060 words
+2025-08-23 15:39:01,830 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:40:59,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:40:59,845 - INFO - Received response from GPT-5 (tokens used: 21309)
+2025-08-23 15:40:59,847 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_154059_.json
+2025-08-23 15:40:59,847 - INFO - Analysis complete!
+2025-08-23 15:40:59,847 - INFO - Theory synthesis: {'description': 'Conscious access under direct cortical stimulation depends on a locally escalating excitability process—driven by initial inhibition followed by intratrain facilitation and glia-mediated K+ accumulation—until sustained neuronal activity is reached. Stabilized population activity is reflected in macroscopic field potentials, and repetitive stimulation induces aftereffects that transiently bias network excitability beyond the stimulation window.', 'type': 'string'}
+2025-08-23 15:40:59,847 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [44, 13, 11]}
+2025-08-23 15:40:59,847 - INFO - Number of evidence details: 3
+2025-08-23 15:43:52,661 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:43:52,686 - INFO - Starting paper analysis...
+2025-08-23 15:43:52,686 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:43:52,686 - INFO - Successfully read article.txt
+2025-08-23 15:43:52,686 - INFO - Successfully read link.txt
+2025-08-23 15:43:52,687 - INFO - Prompt size: ~8467 words
+2025-08-23 15:43:52,687 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:45:37,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:45:37,241 - INFO - Received response from GPT-5 (tokens used: 18694)
+2025-08-23 15:45:37,242 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_154537_full.json
+2025-08-23 15:45:37,242 - INFO - Analysis complete!
+2025-08-23 15:45:37,242 - INFO - Theory synthesis: {'description': 'Targeted low-intensity focused ultrasound to a prefrontal control hub causally alters conscious affect while reconfiguring large-scale functional connectivity, with effects persisting for tens of minutes. This supports a network-control view in which perturbing cortical integration hubs reshapes brain-wide integration states that gate the content and tone of conscious experience.', 'type': 'string'}
+2025-08-23 15:45:37,243 - INFO - Supported claims: [42, 44]
+2025-08-23 15:45:37,243 - INFO - Number of evidence details: 2
+2025-08-23 15:46:28,764 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:46:28,789 - INFO - Starting paper analysis...
+2025-08-23 15:46:28,789 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:46:28,789 - INFO - Successfully read article.txt
+2025-08-23 15:46:28,789 - INFO - Successfully read link.txt
+2025-08-23 15:46:28,790 - INFO - Prompt size: ~5773 words
+2025-08-23 15:46:28,790 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:47:55,825 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:47:55,844 - INFO - Received response from GPT-5 (tokens used: 12840)
+2025-08-23 15:47:55,845 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_154755_.json
+2025-08-23 15:47:55,845 - INFO - Analysis complete!
+2025-08-23 15:47:55,845 - INFO - Theory synthesis: {'description': 'Brief, spatially targeted ultrasound perturbations can transiently shift cortical excitability beyond the stimulation window, plausibly biasing local network dynamics and creating short-lived windows for altered integration. Conscious access could depend on such temporally bounded gain changes that modulate synchrony without requiring continuous drive.', 'type': 'string'}
+2025-08-23 15:47:55,845 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [44]}
+2025-08-23 15:47:55,845 - INFO - Number of evidence details: 1
+2025-08-23 15:48:48,139 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:48:48,160 - INFO - Starting paper analysis...
+2025-08-23 15:48:48,161 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:48:48,161 - INFO - Successfully read article.txt
+2025-08-23 15:48:48,161 - INFO - Successfully read link.txt
+2025-08-23 15:48:48,161 - INFO - Prompt size: ~6456 words
+2025-08-23 15:48:48,161 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:50:13,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:50:13,202 - INFO - Received response from GPT-5 (tokens used: 15841)
+2025-08-23 15:50:13,207 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_155013_S0920996415003278via3Dihub.json
+2025-08-23 15:50:13,207 - INFO - Analysis complete!
+2025-08-23 15:50:13,207 - INFO - Theory synthesis: {'description': 'Conscious access relies on spatially structured, frequency-specific EM field dynamics that coordinate long-range timing between occipital generators and frontal integrative hubs. In schizophrenia, impaired frontal entrainment to alpha disrupts this field-mediated alignment, so local occipital resonance alone is insufficient for large-scale integration.', 'type': 'string'}
+2025-08-23 15:50:13,207 - INFO - Supported claims: [13, 22, 41]
+2025-08-23 15:50:13,207 - INFO - Number of evidence details: 3
+2025-08-23 15:52:00,981 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:52:01,005 - INFO - Starting paper analysis...
+2025-08-23 15:52:01,005 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:52:01,005 - INFO - Successfully read article.txt
+2025-08-23 15:52:01,005 - INFO - Successfully read link.txt
+2025-08-23 15:52:01,006 - INFO - Prompt size: ~11880 words
+2025-08-23 15:52:01,006 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:52:49,467 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:52:49,481 - INFO - Received response from GPT-5 (tokens used: 20326)
+2025-08-23 15:52:49,482 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_155249_s13414-014-0743-y.json
+2025-08-23 15:52:49,482 - INFO - Analysis complete!
+2025-08-23 15:52:49,482 - INFO - Theory synthesis: {'description': 'Conscious access follows an initial, nonselective fast pass in which both to-be-figure and to-be-ground regions can reach high-level (semantic) representations, with awareness emerging only after competitive, recurrent resolution of figure–ground organization. Shape features of losing contenders are suppressed, but their semantics can transiently influence behavior outside awareness.', 'type': 'dynamical interactive selection (recurrent figure–ground resolution) theory'}
+2025-08-23 15:52:49,482 - INFO - Supported claims: []
+2025-08-23 15:52:49,482 - INFO - Number of evidence details: 0
+2025-08-23 15:53:14,004 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:53:14,027 - INFO - Starting paper analysis...
+2025-08-23 15:53:14,028 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:53:14,028 - INFO - Successfully read article.txt
+2025-08-23 15:53:14,028 - INFO - Successfully read link.txt
+2025-08-23 15:53:14,028 - INFO - Prompt size: ~15228 words
+2025-08-23 15:53:14,028 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:54:21,293 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:54:21,306 - INFO - Received response from GPT-5 (tokens used: 26086)
+2025-08-23 15:54:21,307 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_155421_4tqxs_v3.json
+2025-08-23 15:54:21,307 - INFO - Analysis complete!
+2025-08-23 15:54:21,308 - INFO - Theory synthesis: {'description': 'Conscious visual experience reflects a metacognitive reality-monitoring process that fixes a coherent world model over relatively slow (~300–500 ms) integration windows to support model-based planning, while rapid online action is guided by unconscious feedforward and dorsal-stream processes. The timing and presence of late recurrent/broadcast processes, not early feedforward responses, determine conscious access.', 'type': 'string'}
+2025-08-23 15:54:21,308 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [48]}
+2025-08-23 15:54:21,308 - INFO - Number of evidence details: 1
+2025-08-23 15:54:25,605 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:54:25,628 - INFO - Starting paper analysis...
+2025-08-23 15:54:25,628 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:54:25,628 - INFO - Successfully read article.txt
+2025-08-23 15:54:25,628 - INFO - Successfully read link.txt
+2025-08-23 15:54:25,628 - INFO - Prompt size: ~6339 words
+2025-08-23 15:54:25,628 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:55:21,784 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:55:21,801 - INFO - Received response from GPT-5 (tokens used: 12471)
+2025-08-23 15:55:21,802 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_155521_MICTPR-2pdf.json
+2025-08-23 15:55:21,802 - INFO - Analysis complete!
+2025-08-23 15:55:21,803 - INFO - Theory synthesis: Conscious access arises when a prefrontal ‘discriminator’ monitors the reliability of sensory signals and outputs a higher-order pointer to trustworthy first-order representations, thereby creating a stubborn disposition to believe. Phenomenal character can be paired with this access account via quality space theory, which ties how experiences feel to the system’s discriminability structure.
+2025-08-23 15:55:21,803 - INFO - Supported claims: []
+2025-08-23 15:55:21,803 - INFO - Number of evidence details: 0
+2025-08-23 15:56:40,453 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:56:40,476 - INFO - Starting paper analysis...
+2025-08-23 15:56:40,476 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:56:40,476 - INFO - Successfully read article.txt
+2025-08-23 15:56:40,476 - INFO - Successfully read link.txt
+2025-08-23 15:56:40,477 - INFO - Prompt size: ~11428 words
+2025-08-23 15:56:40,477 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-23 15:58:55,468 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-23 15:58:55,486 - INFO - Received response from GPT-5 (tokens used: 23735)
+2025-08-23 15:58:55,487 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250823_155855_MICCPA-6pdf.json
+2025-08-23 15:58:55,488 - INFO - Analysis complete!
+2025-08-23 15:58:55,488 - INFO - Theory synthesis: {'description': 'Conscious perceptual access depends on late, feedback-mediated recruitment of sensory representations by prefrontal circuitry, with enhanced fronto-parietal synchrony supporting reportable awareness. Neuromodulatory control (e.g., cholinergic tone) and frequency-specific entrainment further bias this feedback process and its effectiveness.', 'type': 'string'}
+2025-08-23 15:58:55,488 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [12, 39, 41, 48]}
+2025-08-23 15:58:55,488 - INFO - Number of evidence details: 4
+2025-08-23 15:59:45,488 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-23 15:59:45,523 - INFO - Starting paper analysis...
+2025-08-23 15:59:45,523 - INFO - Successfully read theory_analysis.txt
+2025-08-23 15:59:45,523 - INFO - Successfully read article.txt
+2025-08-23 15:59:45,523 - INFO - Successfully read link.txt
+2025-08-23 15:59:45,524 - INFO - Prompt size: ~13330 words
+2025-08-23 15:59:45,524 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 08:07:27,730 - INFO - Retrying request to /chat/completions in 0.385068 seconds
+2025-08-24 13:49:16,959 - INFO - Retrying request to /chat/completions in 0.786827 seconds
+2025-08-24 13:52:26,630 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 13:52:26,683 - INFO - Received response from GPT-5 (tokens used: 25915)
+2025-08-24 13:52:26,686 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_135226_full.json
+2025-08-24 13:52:26,686 - INFO - Analysis complete!
+2025-08-24 13:52:26,686 - INFO - Theory synthesis: {'description': 'Conscious moments arise from 4D topologically segmented electromagnetic field pockets that bind and segregate neural information, yielding frame-invariant, weakly emergent units capable of downward causation. Temporal continuity of the first-person perspective is produced by successive pockets that integrate immediate memory, while privacy and scale are governed by the formation and interaction limits of these bounded EM domains.', 'type': 'string'}
+2025-08-24 13:52:26,686 - INFO - Supported claims: [13, 14, 16, 17, 18, 20, 21, 22]
+2025-08-24 13:52:26,686 - INFO - Number of evidence details: 8
+2025-08-24 14:00:07,615 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:00:07,638 - INFO - Starting paper analysis...
+2025-08-24 14:00:07,639 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:00:07,639 - INFO - Successfully read article.txt
+2025-08-24 14:00:07,639 - INFO - Successfully read link.txt
+2025-08-24 14:00:07,639 - INFO - Prompt size: ~9719 words
+2025-08-24 14:00:07,639 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:02:34,137 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:02:34,156 - INFO - Received response from GPT-5 (tokens used: 23089)
+2025-08-24 14:02:34,158 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_140234_cahn2013pdf.json
+2025-08-24 14:02:34,158 - INFO - Analysis complete!
+2025-08-24 14:02:34,158 - INFO - Theory synthesis: {'description': 'Meditation modulates spatially structured corticothalamic EM field dynamics and frequency-specific oscillatory mechanisms, enhancing early stimulus representation (gamma/theta/alpha) while reducing frontal delta reactivity, thereby biasing conscious awareness toward clearer, less reactive percepts. Conscious access is thus shaped by state-dependent organization of field patterns and band-specific synchrony over 20–900 ms integration windows.', 'type': 'Oscillatory EM field coordination'}
+2025-08-24 14:02:34,158 - INFO - Supported claims: [13, 16, 41]
+2025-08-24 14:02:34,158 - INFO - Number of evidence details: 3
+2025-08-24 14:02:41,955 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:02:41,977 - INFO - Starting paper analysis...
+2025-08-24 14:02:41,977 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:02:41,977 - INFO - Successfully read article.txt
+2025-08-24 14:02:41,977 - INFO - Successfully read link.txt
+2025-08-24 14:02:41,978 - INFO - Prompt size: ~15066 words
+2025-08-24 14:02:41,978 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:04:52,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:04:52,959 - INFO - Received response from GPT-5 (tokens used: 29455)
+2025-08-24 14:04:52,961 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_140452_delorme_braboszcz_meditationp.json
+2025-08-24 14:04:52,961 - INFO - Analysis complete!
+2025-08-24 14:04:52,961 - INFO - Theory synthesis: {'description': 'Conscious states correspond to large-scale oscillatory field configurations that couple brain and body rhythms, with slow rhythms modulating attentional and affective control over faster cortical dynamics. Meditation trains stabilization and flexible reconfiguration of these oscillatory patterns, thereby shaping conscious contents and emotion regulation.', 'type': 'provisional field-coupling account of conscious access'}
+2025-08-24 14:04:52,961 - INFO - Supported claims: [13, 14, 16, 22]
+2025-08-24 14:04:52,961 - INFO - Number of evidence details: 4
+2025-08-24 14:05:04,539 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:05:04,566 - INFO - Starting paper analysis...
+2025-08-24 14:05:04,566 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:05:04,566 - INFO - Successfully read article.txt
+2025-08-24 14:05:04,567 - INFO - Successfully read link.txt
+2025-08-24 14:05:04,567 - INFO - Prompt size: ~3725 words
+2025-08-24 14:05:04,567 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:06:40,729 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:06:40,746 - INFO - Received response from GPT-5 (tokens used: 12664)
+2025-08-24 14:06:40,747 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_140640_full.json
+2025-08-24 14:06:40,747 - INFO - Analysis complete!
+2025-08-24 14:06:40,747 - INFO - Theory synthesis: {'description': 'Conscious states can be shaped by training that targets specific EEG frequency bands, suggesting that experience-dependent plasticity tunes large-scale electromagnetic field dynamics associated with attention and emotion regulation. Closed-loop neurofeedback that reinforces desired oscillatory signatures may thus scaffold the formation and maintenance of task-relevant field configurations that support sustained conscious access.', 'type': 'string'}
+2025-08-24 14:06:40,747 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [13, 41, 44]}
+2025-08-24 14:06:40,747 - INFO - Number of evidence details: 3
+2025-08-24 14:13:09,697 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:13:09,721 - INFO - Starting paper analysis...
+2025-08-24 14:13:09,721 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:13:09,721 - INFO - Successfully read article.txt
+2025-08-24 14:13:09,721 - INFO - Successfully read link.txt
+2025-08-24 14:13:09,722 - INFO - Prompt size: ~7336 words
+2025-08-24 14:13:09,722 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:15:17,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:15:17,256 - INFO - Received response from GPT-5 (tokens used: 17090)
+2025-08-24 14:15:17,259 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_141517_ncomms10340.json
+2025-08-24 14:15:17,259 - INFO - Analysis complete!
+2025-08-24 14:15:17,259 - INFO - Theory synthesis: {'description': 'Conscious access corresponds to the transient selection and stabilization of connectome-specific harmonic modes shaped by structural connectivity and the current excitation–inhibition balance. These large-scale, frequency-specific standing waves align distributed regions over ~100 ms windows, and their stability tracks transitions into and out of consciousness.', 'type': 'Connectome-harmonic field coordination'}
+2025-08-24 14:15:17,260 - INFO - Supported claims: [13, 14, 43]
+2025-08-24 14:15:17,260 - INFO - Number of evidence details: 3
+2025-08-24 14:50:08,113 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:50:08,140 - INFO - Starting paper analysis...
+2025-08-24 14:50:08,141 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:50:08,141 - INFO - Successfully read article.txt
+2025-08-24 14:50:08,141 - INFO - Successfully read link.txt
+2025-08-24 14:50:08,142 - INFO - Prompt size: ~17963 words
+2025-08-24 14:50:08,142 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:50:09,205 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:50:09,206 - INFO - Retrying request to /chat/completions in 0.473611 seconds
+2025-08-24 14:50:09,977 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:50:09,979 - INFO - Retrying request to /chat/completions in 0.864267 seconds
+2025-08-24 14:50:11,126 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:50:11,130 - WARNING - Rate limit hit. Waiting before retry...
+2025-08-24 14:50:11,130 - ERROR - GPT-5 API call failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Requested 31735. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-08-24 14:51:10,103 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:51:10,126 - INFO - Starting paper analysis...
+2025-08-24 14:51:10,127 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:51:10,127 - INFO - Successfully read article.txt
+2025-08-24 14:51:10,127 - INFO - Successfully read link.txt
+2025-08-24 14:51:10,128 - INFO - Prompt size: ~17867 words
+2025-08-24 14:51:10,128 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:51:11,133 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:51:11,135 - INFO - Retrying request to /chat/completions in 0.383537 seconds
+2025-08-24 14:51:11,720 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 14:51:11,721 - INFO - Retrying request to /chat/completions in 0.897293 seconds
+2025-08-24 14:52:00,319 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 14:52:00,341 - INFO - Starting paper analysis...
+2025-08-24 14:52:00,341 - INFO - Successfully read theory_analysis.txt
+2025-08-24 14:52:00,341 - INFO - Successfully read article.txt
+2025-08-24 14:52:00,341 - INFO - Successfully read link.txt
+2025-08-24 14:52:00,342 - INFO - Prompt size: ~16100 words
+2025-08-24 14:52:00,342 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 14:54:03,938 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 14:54:03,957 - INFO - Received response from GPT-5 (tokens used: 31186)
+2025-08-24 14:54:03,959 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_145403_C9912A5BE9D806012E3C8B3AF612E3.json
+2025-08-24 14:54:03,959 - INFO - Analysis complete!
+2025-08-24 14:54:03,959 - INFO - Theory synthesis: {'description': 'Conscious experience depends on biologically grounded, dynamical processes in which metabolism-generated electromagnetic fields and diffuse neuromodulatory signaling modulate large-scale neural coordination under energetic (metabolic) constraints. On this view, structured EM activity emerging from coordinated neural dynamics participates in binding and access, but only within a living, autopoietic substrate.', 'type': 'dynamical biological naturalism with EM-field modulation'}
+2025-08-24 14:54:03,959 - INFO - Supported claims: [13, 17, 10, 12, 22]
+2025-08-24 14:54:03,959 - INFO - Number of evidence details: 5
+2025-08-24 15:00:34,675 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 15:00:34,700 - INFO - Starting paper analysis...
+2025-08-24 15:00:34,700 - INFO - Successfully read theory_analysis.txt
+2025-08-24 15:00:34,701 - INFO - Successfully read article.txt
+2025-08-24 15:00:34,701 - INFO - Successfully read link.txt
+2025-08-24 15:00:34,702 - INFO - Prompt size: ~21704 words
+2025-08-24 15:00:34,702 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 15:00:35,936 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 15:00:35,938 - INFO - Retrying request to /chat/completions in 0.397714 seconds
+2025-08-24 15:00:37,144 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 15:00:37,145 - INFO - Retrying request to /chat/completions in 0.882939 seconds
+2025-08-24 15:01:31,693 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 15:01:31,714 - INFO - Starting paper analysis...
+2025-08-24 15:01:31,714 - INFO - Successfully read theory_analysis.txt
+2025-08-24 15:01:31,714 - INFO - Successfully read article.txt
+2025-08-24 15:01:31,714 - INFO - Successfully read link.txt
+2025-08-24 15:01:31,715 - INFO - Prompt size: ~21068 words
+2025-08-24 15:01:31,715 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 15:01:32,353 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 15:01:32,354 - INFO - Retrying request to /chat/completions in 0.415641 seconds
+2025-08-24 15:01:33,577 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 15:01:33,579 - INFO - Retrying request to /chat/completions in 0.939951 seconds
+2025-08-24 15:01:34,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-08-24 15:01:34,920 - WARNING - Rate limit hit. Waiting before retry...
+2025-08-24 15:01:34,920 - ERROR - GPT-5 API call failed: Error code: 429 - {'error': {'message': 'Request too large for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Requested 30194. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-08-24 15:07:54,671 - INFO - Loaded .env from: /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/config/.env
+2025-08-24 15:07:54,695 - INFO - Starting paper analysis...
+2025-08-24 15:07:54,697 - INFO - Successfully read theory_analysis.txt
+2025-08-24 15:07:54,698 - INFO - Successfully read article.txt
+2025-08-24 15:07:54,698 - INFO - Successfully read link.txt
+2025-08-24 15:07:54,699 - INFO - Prompt size: ~16007 words
+2025-08-24 15:07:54,699 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-24 15:08:48,079 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-24 15:08:48,097 - INFO - Received response from GPT-5 (tokens used: 30432)
+2025-08-24 15:08:48,099 - INFO - Results saved to /Users/kristapszilgalvis/PycharmProjects/Consciousness_analysis/output/analysis_results/analysis_20250824_150848_s41593-023-01456-8.json
+2025-08-24 15:08:48,099 - INFO - Analysis complete!
+2025-08-24 15:08:48,099 - INFO - Theory synthesis: {'description': 'Targeted, frequency-specific external electric field patterns can modulate timing-sensitive operations in deep hubs like the hippocampus, altering network interactions and improving conscious memory access. This supports a view in which structured EM field interactions at behaviorally relevant frequencies shape access by augmenting endogenous synchrony without necessarily increasing mean firing or BOLD power.', 'type': 'string'}
+2025-08-24 15:08:48,099 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [18, 41, 42, 22, 44]}
+2025-08-24 15:08:48,099 - INFO - Number of evidence details: 5

@@ -1,0 +1,143 @@
+{
+  "paper_metadata": {
+    "link": "https://www.nature.com/articles/s41593-023-01456-8",
+    "title": "Non-invasive temporal interference electrical stimulation of the human hippocampus"
+  },
+  "theory_synthesis": {
+    "description": "Targeted, frequency-specific external electric field patterns can modulate timing-sensitive operations in deep hubs like the hippocampus, altering network interactions and improving conscious memory access. This supports a view in which structured EM field interactions at behaviorally relevant frequencies shape access by augmenting endogenous synchrony without necessarily increasing mean firing or BOLD power.",
+    "type": "string"
+  },
+  "supported_claims": {
+    "description": "Array of claim numbers that are best supported by evidence in this paper",
+    "type": "array",
+    "items": [
+      18,
+      41,
+      42,
+      22,
+      44
+    ]
+  },
+  "evidence_details": {
+    "18": {
+      "claim_text": "Forward modeling of iEEG, LFP, or MEG reconstructs structured EM field configurations.",
+      "direct_quotes": [
+        {
+          "quote": "We used electric field modeling and measurements in a human cadaver to verify that the locus of the transcranial TI stimulation can be steerably focused in the hippocampus with minimal exposure to the overlying cortex.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "The fields’ envelope modulation amplitude in the hippocampus was 30–60% larger than in the overlying cortical regions (Hipp, 0.26 ± 0.04 V m−1 ...).",
+          "page_or_section": "Results – Validation of hippocampal targeting; Fig. 1e"
+        },
+        {
+          "quote": "The envelope modulation ratio along electrode b was low at the cortex (~7% at 12 mm depth) and high near the hippocampus (~90% at 50 mm depth; Fig. 1h).",
+          "page_or_section": "Results – Validation of hippocampal targeting; Fig. 1h"
+        },
+        {
+          "quote": "Changing the current ratio to 1:3 ... resulted in a larger envelope modulation amplitude in the Ant hippocampal region relative to the Post hippocampal region.",
+          "page_or_section": "Results – Validation of hippocampal targeting; Fig. 1i"
+        }
+      ],
+      "interpretation": "The authors combined forward EM modeling with intracranial (sEEG) measurements in a human cadaver to reconstruct the spatial distribution of the stimulation envelope (TI) fields, including their steerability along the hippocampal axis. This demonstrates that modeling plus iEEG-like measurements can recover structured EM field configurations in deep tissue.",
+      "strength": "strong",
+      "limitations": "The reconstructed fields are exogenously applied stimulation fields (TI), not endogenous neural EM fields; cadaver tissue conductivity differs from in vivo conditions, though relative distributions are preserved."
+    },
+    "41": {
+      "claim_text": "Frequency-specific stimulation biases content: gamma entrainment enhances binding, beta/alpha biases gating.",
+      "direct_quotes": [
+        {
+          "quote": "We chose a Δf of 5 Hz within the theta-band due to the evidential bases for the role of hippocampal theta-band oscillation in episodic memory.",
+          "page_or_section": "Results – Probing the physiological effect of TI stimulation"
+        },
+        {
+          "quote": "We then used functional magnetic resonance imaging and behavioral experiments to show that TI stimulation can focally modulate hippocampal activity and enhance the accuracy of episodic memories in healthy humans.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "Participants showed higher proportions of correct (that is, target) recalls during TI compared to sham (P = 0.007) ... higher odds of correct recall during TI stimulation (χ2(2) = 5.857, P = 0.016).",
+          "page_or_section": "Results – Enhancing hippocampal-dependent episodic memory performance; Fig. 5a–b"
+        }
+      ],
+      "interpretation": "Using theta-frequency TI (Δf = 5 Hz) targeted to the hippocampus improved episodic memory accuracy, consistent with the idea that stimulating at a functionally relevant frequency biases mnemonic content/access. Although the claim text highlights specific bands (gamma/alpha/beta), the principle of frequency-specific biasing is supported here in the theta band for episodic memory.",
+      "strength": "moderate",
+      "limitations": "Only theta was tested; there was no direct entrainment measurement or comparison across frequencies, and stimulation was not phase-locked to endogenous rhythms."
+    },
+    "42": {
+      "claim_text": "Focused tFUS targeting deep integration hubs modulates global oscillatory coherence and conscious reportability.",
+      "direct_quotes": [
+        {
+          "quote": "We used electric field modeling and measurements in a human cadaver to verify that the locus of the transcranial TI stimulation can be steerably focused in the hippocampus with minimal exposure to the overlying cortex.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "Compared to sham, both TI stimulations reduced FC between the hippocampus and the AT network ...",
+          "page_or_section": "Results – Modulation of hippocampal functional connectivity; Fig. 4c"
+        },
+        {
+          "quote": "We found an effect of TI stimulation on participants’ performance ... participants showed higher proportions of correct recalls during TI compared to sham (P = 0.007).",
+          "page_or_section": "Results – Enhancing hippocampal-dependent episodic memory performance; Fig. 5a"
+        }
+      ],
+      "interpretation": "Although the modality is electrical TI (not tFUS), the study demonstrates focused, non-invasive targeting of a deep hub (hippocampus) that alters large-scale coupling (hippocampus–AT network FC) and improves conscious memory report. This parallels the claim’s core idea that focused deep stimulation can modulate network-level dynamics and reportable behavior.",
+      "strength": "moderate",
+      "limitations": "Modality differs from the claim (TI vs. tFUS), coherence was not measured directly (FC used instead of oscillatory coherence), and effects on global reportability beyond memory were not assessed."
+    },
+    "22": {
+      "claim_text": "Structured EM fields facilitate long-range timing alignment beyond direct synaptic connectivity.",
+      "direct_quotes": [
+        {
+          "quote": "A substantial body of evidence shows that formation of episodic memories involves hippocampal theta oscillations, which coordinate periodic changes in excitability that synchronize spiking activity across the hippocampal network (without affecting mean spiking rate).",
+          "page_or_section": "Discussion"
+        },
+        {
+          "quote": "Since TI stimulation modulates neural activity at the difference frequency of the kHz-frequency electric fields, we hypothesize that its application with a theta-band difference frequency will augment the endogenous theta synchronization in the hippocampus thereby improving the underlying memory function.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "The authors explicitly frame TI as creating structured fields that modulate neural timing at the difference frequency, proposing augmentation of theta-based synchrony across the hippocampal network to improve memory. This aligns with the idea that EM field structure can facilitate timing alignment beyond purely synaptic mechanisms.",
+      "strength": "weak",
+      "limitations": "Synchrony/timing alignment was not directly measured; evidence is inferential from BOLD/behavior and prior literature rather than direct electrophysiology or phase-locking metrics, and long-range alignment beyond hippocampus is not shown."
+    },
+    "44": {
+      "claim_text": "Repetitive stimulation protocols induce plastic aftereffects, shifting baseline synchrony beyond stimulation windows.",
+      "direct_quotes": [
+        {
+          "quote": "We demonstrate that in these conditions TI provides an improvement in memory accuracy.",
+          "page_or_section": "Discussion"
+        },
+        {
+          "quote": "While accuracy for all re-test items did not differ between TI and sham, focusing the analysis to items that were correctly remembered at recall showed an effect of stimulation ... suggesting that the memory benefit gained during TI stimulation was maintained at re-test.",
+          "page_or_section": "Results – Enhancing hippocampal-dependent episodic memory performance; Fig. 5c"
+        }
+      ],
+      "interpretation": "Extended TI over multiple blocks improved memory and the benefit persisted 30 minutes later for items correctly recalled at initial test, consistent with stimulation-induced plasticity that outlasts the stimulation window.",
+      "strength": "moderate",
+      "limitations": "No direct measurement of baseline synchrony or oscillatory aftereffects; persistence was tested over ~30 minutes and confined to items already recalled, so generalization and mechanistic (synchrony) linkage remain unproven."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Hippocampal BOLD decreased during theta TI even as memory performance improved and the correct>incorrect pattern was preserved.",
+      "quotes": [
+        "TI 1:3 stimulation ... reduced the BOLD signal [in the left hippocampus during encoding] (Encode: Sham–TI 1:3, P = 0.006) ...",
+        "The amplitude of the evoked BOLD signal in the left hippocampus during TI 1:3 ... was larger when the memory associations were encoded correctly as in the sham condition."
+      ],
+      "relevance": "This dissociation cautions against equating increased BOLD with improved cognitive access and suggests that timing/synchrony changes (rather than power increases) may underlie the behavioral benefit from field-based modulation."
+    },
+    {
+      "finding": "TI fields were steerable to anterior versus middle hippocampus with minimal cortical exposure.",
+      "quotes": [
+        "The stimulation locus can also be steered toward one electrode pair by reducing its relative amplitude.",
+        "Changing the current ratio to 1:3 ... steered the location with the largest amplitude to the Ant region of the left hippocampus."
+      ],
+      "relevance": "Supports the feasibility of spatially specific, non-invasive deep targeting required for testing timing-based theories of conscious access in subcortical/medial temporal structures."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-24T15:08:48.097560",
+    "model_used": "gpt-5",
+    "paper_link": "https://www.nature.com/articles/s41593-023-01456-8",
+    "prompt_tokens_estimate": 16007
+  }
+}
