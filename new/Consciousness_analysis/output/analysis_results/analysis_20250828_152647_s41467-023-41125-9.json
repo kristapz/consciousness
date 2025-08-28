@@ -1,0 +1,112 @@
+{
+  "paper_metadata": {
+    "link": "https://www.nature.com/articles/s41467-023-41125-9",
+    "title": "Beta traveling waves in monkey frontal and parietal areas encode recent reward history"
+  },
+  "theory_synthesis": {
+    "description": "Traveling-wave organization of beta-band local field potentials forms spatially coherent EM patterns that maintain and route recently acquired reward information, biasing expectations on the next trial. Conscious access may piggyback on such structured fields by using wave-mediated timing alignment to integrate context over space and short time windows.",
+    "type": "Traveling-wave field gating of expectations"
+  },
+  "supported_claims": [
+    13,
+    18,
+    22
+  ],
+  "evidence_details": {
+    "13": {
+      "claim_text": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
+      "direct_quotes": [
+        {
+          "quote": "We show that TWs are robust in microarray recordings in frontal and parietal cortex and encode recent reward history.",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "across electrodes, the oscillations had phase shifts with a consistent spatial gradient, suggesting the presence of TWs, or plane waves that propagated in consistent directions.",
+          "page_or_section": "Results – Oscillatory activity in the LPFC and PPC shows TWs"
+        },
+        {
+          "quote": "The LFPs that form TWs reflect the average activity of the neurons underneath a local electrode. Thus, a propagating TW indicates that there is a spatiotemporal pattern of neural activity—a wave of neuronal spiking—that is moving in a particular direction across broader populations of cells.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "The directions of the TW propagation were not random but were oriented along an axis approximately perpendicular to the nearby sulci… For all propagation directions, the speed of TW propagation was 0.1–0.6 meters/second…",
+          "page_or_section": "Results – TW properties"
+        }
+      ],
+      "interpretation": "Local field potentials (mesoscopic extracellular EM signals) displayed coherent phase gradients and planar propagation across microelectrode arrays, demonstrating spatially organized EM field patterns emerging from coordinated population activity.",
+      "strength": "strong",
+      "limitations": "Evidence is based on LFPs from limited cortical patches (~10 mm^2) and infers field organization from electrode arrays rather than direct volumetric EM field imaging."
+    },
+    "18": {
+      "claim_text": "Forward modeling of iEEG, LFP, or MEG reconstructs structured EM field configurations.",
+      "direct_quotes": [
+        {
+          "quote": "To quantitatively measure TWs, we used circular–linear statistics to extract the phase gradient directionality (PGD) index… The index measures TW strength—the consistency with which oscillations propagate in a specific direction…",
+          "page_or_section": "Results – Oscillatory activity in the LPFC and PPC shows TWs"
+        },
+        {
+          "quote": "Visualization of the TW across the recording array. The color shows several snapshots of the relative (cosine) phase of the 14-Hz LFPs across the array at 10-ms intervals.",
+          "page_or_section": "Results – Oscillatory activity in the LPFC and PPC shows TWs (Fig. 2C description)"
+        },
+        {
+          "quote": "We used multivariate modeling to statistically distinguish the contributions of different TW features… the PGD of beta-band TWs remained the strongest predictor of reward history even after controlling for LFP power…",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "While not performing formal forward modeling, the authors reconstruct and quantify structured field configurations (direction, speed, strength) from LFPs using PGD and visualization of phase maps, demonstrating methodological recovery of EM field structure from invasive field recordings.",
+      "strength": "weak",
+      "limitations": "No explicit biophysical forward model is used; reconstructions are local and data-driven rather than model-based, and analyses are confined to microarray LFP rather than whole-brain iEEG/MEG."
+    },
+    "22": {
+      "claim_text": "Structured EM fields facilitate long-range timing alignment beyond direct synaptic connectivity.",
+      "direct_quotes": [
+        {
+          "quote": "Because TWs activate ensembles of cells in succession, a key hypothesis is that they facilitate the integration of information across cells.",
+          "page_or_section": "Introduction"
+        },
+        {
+          "quote": "We show that… neural oscillations in the beta frequency band formed reliable TWs… the strength of TWs was enhanced by receipt of a prior trial reward and, in the LPFC, reflected the influence of the reward on the monkeys’ expectations…",
+          "page_or_section": "Abstract"
+        },
+        {
+          "quote": "TWs were robust throughout the pre-cue, cue, and delay epochs and were most prominent in the alpha-beta frequency band…",
+          "page_or_section": "Results – TW properties"
+        },
+        {
+          "quote": "We show that PRs enhanced only the strength of the TWs without changing their propagation direction, suggesting that TW strength specifically encoded the previous outcome.",
+          "page_or_section": "Discussion"
+        },
+        {
+          "quote": "a propagating TW indicates that there is a spatiotemporal pattern of neural activity… moving in a particular direction across broader populations of cells… providing a mechanism by which multiple features of a TW… can be physiologically and behaviorally significant.",
+          "page_or_section": "Introduction and Discussion"
+        }
+      ],
+      "interpretation": "Beta traveling waves provide a structured, spatially extended timing scaffold whose strength carries recent reward information and correlates with behavioral expectations, consistent with waves aligning activity across populations to integrate context over space and time. This supports the idea that field-level organization coordinates timing beyond pairwise synaptic interactions.",
+      "strength": "moderate",
+      "limitations": "No causal perturbation shows alignment beyond synaptic pathways; effects are strongest locally (LPFC) and the authors argue against a single extended fronto-parietal wave in this dataset, suggesting limited large-scale alignment under these conditions."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Frontoparietal TWs appeared locally organized rather than forming a single extended wave across regions.",
+      "quotes": [
+        "These differences suggest that the frontal and parietal TWs are more likely to reflect local activity within each lobe rather than a single extended TW that propagates across the fronto-parietal network."
+      ],
+      "relevance": "Constrains claims about large-scale EM field integration across distant regions (e.g., claim 15), indicating that in this task and frequency band, TWs predominantly operate within areas."
+    },
+    {
+      "finding": "Behavioral relevance was specific to TW strength in LPFC and not PPC, and stronger than LFP power.",
+      "quotes": [
+        "the PGD of beta-band TWs remained the strongest predictor of reward history even after controlling for LFP power…",
+        "the relation between PR and the animal’s behavioral sensitivity was only reflected by the strength of TWs in the LPFC and not by TW’s strength in the PPC nor the power of LFPs in either region."
+      ],
+      "relevance": "Highlights that spatial field organization (wave strength) can carry behaviorally relevant information not captured by local power, and that this may be region-specific."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-28T15:26:47.731353",
+    "model_used": "gpt-5",
+    "paper_link": "https://www.nature.com/articles/s41467-023-41125-9",
+    "prompt_tokens_estimate": 9531
+  }
+}

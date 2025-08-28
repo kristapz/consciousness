@@ -1,0 +1,113 @@
+{
+  "paper_metadata": {
+    "link": "https://onlinelibrary.wiley.com/doi/10.1111/ejn.16079",
+    "title": "Multidimensional assessment of heartbeat-evoked responses in disorders of consciousness"
+  },
+  "theory_synthesis": {
+    "description": "Conscious states are accompanied by structured, temporally specific cortical field responses to interoceptive (cardiac) inputs, with increased variance, complexity, and frontal segregation of EEG heartbeat-evoked responses. Preserved brain–heart coupling organizes large-scale cortical electromagnetic activity over 200–400 ms windows, supporting conscious access.",
+    "type": "Interoceptive field-integration account"
+  },
+  "supported_claims": [
+    13,
+    14,
+    19
+  ],
+  "evidence_details": {
+    "13": {
+      "claim_text": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
+      "direct_quotes": [
+        {
+          "quote": "HERs are averages of EEG epochs locked to heartbeat timings, hypothesized to reflect the central processing of cardiac activity.",
+          "page_or_section": "Introduction / Methods 2.3 (HERs analysis)"
+        },
+        {
+          "quote": "We used the HER segregation–integration ratio to examine whether the distribution of HERs across the scalp differs based on consciousness. Our results suggest that the conscious group exhibited greater midline frontal segregation.",
+          "page_or_section": "Results (Figure 4 description)"
+        },
+        {
+          "quote": "Average of EEG epochs locked to heartbeats (blue) and EEG epochs non-locked to heartbeats (green)... The healthy state showed higher neural activity overall, and conscious patients had well-defined HERs compared with their EEG signals that were not locked to heartbeats.",
+          "page_or_section": "Results (Figure 1 description)"
+        }
+      ],
+      "interpretation": "EEG captures extracellular electromagnetic fields; the observed scalp-distributed HER patterns and increased frontal segregation in conscious participants indicate that coordinated neuronal activity produces spatially structured field configurations. The clearer, heartbeat-locked topographies in conscious states align with the emergence of organized EM activity.",
+      "strength": "moderate",
+      "limitations": "Scalp EEG provides indirect, coarse spatial resolution and no explicit forward-modeling of fields; segregation/integration was inferred from correlations of HER averages rather than direct EM field mapping."
+    },
+    "14": {
+      "claim_text": "Stable EM field patterns correlate with unified conscious content over integration windows (~50–300 ms).",
+      "direct_quotes": [
+        {
+          "quote": "HERs were defined by time-locking EEG epochs with respect to R-peaks, from −200 to 600 ms.",
+          "page_or_section": "Methods 2.3 (HERs analysis)"
+        },
+        {
+          "quote": "We then z-score normalized the variance of all epochs and considered the mean amplitude between 200 and 400 ms as the HER variance index.",
+          "page_or_section": "Methods 2.3 (HER variance index)"
+        },
+        {
+          "quote": "The conscious group exhibited a slightly higher HER variance index... the HER complexity index demonstrated a greater ability to distinguish between groups... Our findings revealed that the specificity index was higher in the conscious group and demonstrated the most distinct differences between the unconscious and conscious groups.",
+          "page_or_section": "Results (Figure 4 description)"
+        },
+        {
+          "quote": "The expected latencies for HERs are between 200 and 600 ms, based on experimental evidence found mostly from healthy participants.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "HER-derived field measures computed in a 200–400 ms window differentiate conscious from unconscious states, suggesting that temporally stable field patterns in this integration window correlate with the presence of consciousness. Although the study targets conscious level rather than content, the timing aligns with proposed integration windows for conscious processing.",
+      "strength": "weak",
+      "limitations": "The work addresses conscious state, not unified conscious content; windows are 200–400 ms (not explicitly 50–300 ms); no direct demonstration of pattern stability within trials or content-specific correlations."
+    },
+    "19": {
+      "claim_text": "Mesoscopic EM 'pockets' show higher spatial coherence during conscious perception than during unconscious states.",
+      "direct_quotes": [
+        {
+          "quote": "To assess the scalp distribution of HERs, we calculated the HER segregation–integration index... The conscious group exhibited greater midline frontal segregation.",
+          "page_or_section": "Results (Figure 4 description)"
+        },
+        {
+          "quote": "Our findings revealed that the specificity index was higher in the conscious group and demonstrated the most distinct differences between the unconscious and conscious groups.",
+          "page_or_section": "Results (Figure 4 description)"
+        },
+        {
+          "quote": "Conscious patients had well-defined HERs compared with their EEG signals that were not locked to heartbeats.",
+          "page_or_section": "Results (Figure 1 description)"
+        }
+      ],
+      "interpretation": "Greater frontal segregation and higher HER specificity in conscious participants imply more organized and reliable spatial patterns of heartbeat-locked cortical activity, consistent with higher spatial coherence of mesoscopic field configurations in conscious vs unconscious states.",
+      "strength": "moderate",
+      "limitations": "No explicit coherence metric or identification of bounded 'pockets'; analyses are based on low-density (19-channel) EEG and correlation-derived efficiency rather than direct spatial coherence mapping during perceptual tasks."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Combining HER features with heart rate variability (HRV) enhances differentiation between levels of consciousness.",
+      "quotes": [
+        "These indices, when combined with heart rate variability, have the potential to enhance the differentiation between different levels of awareness.",
+        "When combined with the HER segregation and variance measures, this abnormal HF activity enhances the distinguishability between the participant groups in a two-dimensional space."
+      ],
+      "relevance": "Highlights interoceptive-autonomic contributions to conscious state assessment, suggesting multimodal markers beyond pure cortical measures."
+    },
+    {
+      "finding": "Slow delta–theta oscillations can spuriously mimic HERs in UWS, necessitating surrogate controls and multi-window analyses.",
+      "quotes": [
+        "The UWS patient had HERs with a different waveform... the HERs in the UWS patient did not show a clear distinction from the EEG signals not locked to heartbeats...",
+        "We observed the presence of these slow oscillations in the UWS patient... indicating that the EEG signals locked to heartbeats may not differ from those not locked to heartbeats.",
+        "We recommend performing repeated analyses in different time windows and performing signal-to-noise ratio controls on EEG data... surrogate analysis."
+      ],
+      "relevance": "Methodological caveat for interpreting heartbeat-locked EM patterns; prevents over-attribution of field structure to conscious processing."
+    },
+    {
+      "finding": "Brain–heart interactions are markedly reduced in coma and brain death, but HERs alone may not differentiate between them.",
+      "quotes": [
+        "The multidimensional evaluation of HERs and HRV demonstrated a considerable reduction in brain–heart interactions in the comatose and BD cases. However, HERs do not show clear differences to distinguish between these two cases."
+      ],
+      "relevance": "Indicates limits of current HER-based field measures for fine-grained diagnostic separation in deep unconscious states."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-28T15:28:53.515813",
+    "model_used": "gpt-5",
+    "paper_link": "https://onlinelibrary.wiley.com/doi/10.1111/ejn.16079",
+    "prompt_tokens_estimate": 6351
+  }
+}

@@ -1,731 +1,285 @@
-Sensory and Motor Systems
-Heartbeat Induces a Cortical Theta-Synchronized
-Network in the Resting State
-Jaejoong Kim,1 and Bumseok Jeong1,2
-https://doi.org/10.1523/ENEURO.0200-19.2019
-1
-Graduate School of Medical Science and Engineering, Korea Advanced Institute for Science and Technology
-(KAIST), Daejeon 34141, Republic of Korea, and 2
-KI for Health Science and Technology, KAIST Institute, KAIST,
-Daejeon 34141, Republic of Korea
+Skip to main content
+
+An official website of the United States government
+
+Here's how you know
+PMC Search Update
+PMC Beta search will replace the current PMC search the week of September 7, 2025. Try out PMC Beta search now and give us your feedback. Learn more
+
+NCBI home page
+Search
+
+Log in
+Primary site navigation
+Search PMC Full-Text Archive
+Search PMC Full-Text Archive
+
+Search in PMC
+Journal List
+User Guide
+
+New
+Try this search in PMC Beta Search
+As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health.
+Learn more: PMC Disclaimer | PMC Copyright Notice
+NIHPA Author Manuscripts logo
+Nat Neurosci. Author manuscript; available in PMC: 2025 May 12.
+Published in final edited form as: Nat Neurosci. 2024 Sep 19;27(10):1999–2008. doi: 10.1038/s41593-024-01744-x
+Primate superior colliculus is causally engaged in abstract higher-order cognition
+Barbara Peysakhovich 1, Ou Zhu 1, Stephanie M Tetrick 1, Vinay Shirhatti 1, Alessandra A Silva 1, Sihai Li 1, Guilhem Ibos 1,2, Matthew C Rosen 1, W Jeffrey Johnston 1, David J Freedman 1,3,*
+Author information
+Article notes
+Copyright and License information
+PMCID: PMC12068555  NIHMSID: NIHMS2032673  PMID: 39300307
+The publisher's version of this article is available at Nat Neurosci
+Previous version available: This article is based on a previously available preprint posted on bioRxiv on January 18, 2023: " Primate superior colliculus is engaged in abstract higher-order cognition ".
 Abstract
-In the resting state, heartbeats evoke cortical responses called heartbeat-evoked responses (HERs), which reflect
-cortical cardiac interoceptive processing. While previous studies have reported that the heartbeat evokes cortical
-responses at a regional level, whether the heartbeat induces synchronization between regions to form a network
-structure remains unknown. Using resting-state MEG data from 85 human subjects of both genders, we first
-showed that heartbeat increases the phase synchronization between cortical regions in the theta frequency but
-not in other frequency bands. This increase in synchronization between cortical regions formed a network
-structure called the heartbeat-induced network (HIN), which did not reflect artificial phase synchronization. In the
-HIN, the left inferior temporal gyrus and parahippocampal gyrus played a central role as hubs. Furthermore, the
-HIN was modularized, containing five subnetworks called modules. In particular, module 1 played a central role
-in between-module interactions in the HIN. Furthermore, synchronization within module 1 had a positive
-association with the mood of an individual. In this study, we show the existence of the HIN and its network
-properties, advancing the current understanding of cortical heartbeat processing and its relationship with mood,
-which was previously confined to region level.
-Key words: emotion; heartbeat-induced network; interoception; MEG; resting state network
+The superior colliculus (SC) is an evolutionarily conserved midbrain region that is thought to mediate spatial orienting, including saccadic eye movements and covert spatial attention. Here, we reveal a role for the superior colliculus in higher-order cognition, independent of its role in spatial orienting. We trained rhesus macaques to perform an abstract visual categorization task that involved neither instructed eye movements nor differences in covert attention. We compared neural activity in the superior colliculus and the posterior parietal cortex (PPC), a region previously shown to causally contribute to category decisions. The SC exhibits robust encoding of learned visual categories, which is stronger than in the PPC and arises at a similar latency in the two areas. Moreover, inactivation of the SC markedly impaired animals’ category decisions. These results demonstrate that the primate SC mediates abstract, higher-order cognitive processes that have traditionally been attributed to the neocortex.
+
+Keywords: superior colliculus, cognition, categorization, subcortical, vision, parietal, decision making, primate, electrophysiology, reversible inactivation
+
+Main text
 Introduction
-One of the important purposes of the brain is to maintain homeostasis by continuously sensing the homeostatic state (for example, visceral sensations and
-immunologic signals), which is termed interoception, and
-the brain regulates the bodily condition using this homeoReceived May 29, 2019; accepted July 16, 2019; First published July 30, 2019.
-The authors declare no competing financial interests.
-Author contributions: J.K. and B.J. designed research; J.K. and B.J. performed research; J.K. analyzed data; J.K. and B.J. wrote the paper.
-This work was supported by the Brain Research Program through
-the National Research Foundation of Korea (NRF) funded by the Ministry of
-Science and ICT Grants NRF-2016M3C7A1914448 and NRF2017M3C7A1031331 (to B.J.).
-Significance Statement
-Complex brain processing usually occurs at a network level, which requires an interaction between brain
-regions. However, despite its importance in homeostasis and affective processing, a network level processing of cardiac interoception has not been investigated. Here, we first provided an evidence that the
-heartbeat induces phase synchronizations between cortical regions those comprise a heartbeat-induced
-network (HIN) with control analyses excluding the possibility of an artificial synchronization. Furthermore, by
-applying graph-theoretical analysis, we find hubs of the HIN and found out that it is a modularized network
-with five modules. Finally, we also showed the relationship between the participants’ mood and the HIN.
-These results provide the first evidence of network-level heartbeat processing and its relevance with
-emotion.
-New Research
-July/August 2019, 6(4) ENEURO.0200-19.2019 1–11
-static information even in the resting state (Craig, 2009).
-Recently, interoceptive processing, especially at the cortical level, has been proposed to play various roles not
-only in reflective homeostatic regulation but also in psychological processes, including affective and cognitive
-processing (Tsakiris and De Preester, 2018). Therefore,
-understanding the precise mechanism of cortical interoceptive processing is important for understanding “embodied” emotion and cognition.
-Because the brain processes interoceptive information,
-there exist brain responses related to visceral signal processing. For example, the heartbeat signal evokes cortical
-activity defined as heartbeat-evoked responses (HERs;
-Pollatos and Schandry, 2004). HERs are associated with
-many psychological processes, including heartbeat
-awareness (Pollatos and Schandry, 2004), emotion processing (Couto et al., 2015; Maister et al., 2017; Kim et al.,
-2019), visual awareness (Park et al., 2014), bodily selfconsciousness (Park et al., 2016), and autobiographical
-self-related processing (Babo-Rebelo et al., 2016a,b).
-Furthermore, disruption of resting-state HERs is known to
-be related to emotion-related psychiatric diseases/disorders, such as depression and borderline personality disorder (Terhaar et al., 2012; Müller et al., 2015).
-While previous studies have shown that the heartbeat
-evokes region-level or sensor-level cortical responses
-and is related to a variety of psychological states and
-functions, whether the heartbeat also induces interactions
-between cortical regions remains unknown. However,
-previous fMRI studies have shown that network-level fluctuations vary with visceral signal-related measures such
-as heart rate variability (HRV; Chang et al., 2013; Rebollo
-et al., 2018), indicating that heartbeat-related interactions
-may occur between cortical regions. Therefore, we hypothesized that the heartbeat induces functional coupling
-between cortical regions involved in heartbeat processing
-and forms a network structure in the resting state. In this
-study, using a resting-state MEG dataset, we investigated
-the heartbeat-induced network (HIN), which was defined
-as a network composed of significantly increased phase
-synchronization between regions compared with baseline
-values. We first showed the existence of the HIN and that
-it does not reflect artificial synchronization between cortical regions. Then, we investigated the properties of the
-HIN using graph-theoretical measures. In particular, we
-first investigated the hubs of the HIN, which play a central
-role in the HIN. Next, we investigated the modularized
-property of the HIN to determine whether the HIN is one
-homogeneous network or can be segregated into several
-subnetworks. Finally, cardiac interoceptive processing
-has been suggested to be closely related to an affective
-state of an individual (Terhaar et al., 2012; Müller et al.,
-2015). Therefore, we hypothesized that synchronization
-within the HIN, reflecting network-level cardiac interoceptive processing, is related to an affective state of an
-individual. We tested this hypothesis by investigating the
-relationship between synchronization within the HIN and
-affective state scores of study participants.
-Materials and Methods
-Dataset description
-Resting-state MEG data from 89 subjects collected
-from the Human Connectome Project (HCP) S1200 data
-release were used in this study (Larson-Prior et al., 2013;
-Van Essen et al., 2013, RRID: SCR_008749). All subjects
-were young (22–35 years of age) and healthy. MEG recordings were collected on a whole-head Magnes 3600
-scanner (4D Neuroimaging) with 248 magnetometer channels at a sampling rate of 2034.51 Hz. Recordings were
-performed in three sessions, and each session lasted 6
-min. HERs were extracted from the preprocessed version
-of the MEG dataset, which is publicly available at Connectome DB (Hodge et al., 2016). The preprocessing
-pipeline of HCP data included segmentation of the raw
-data into epochs of 2 s and removal of bad segments and
-bad channels. Importantly, an independent component
-analysis (ICA; Hämäläinen et al., 1993) was applied to
-remove cardiac field artifacts (CFAs) and electrooculography (EOG)-related artifacts, and the data were finally
-downsampled to 508.68 Hz. Notably, because these preprocessed data did not include electrocardiogram (ECG)
-recordings, which are essential for HER extraction, we
-used an ECG recording included in the raw MEG data.
-Among 89 subjects, four subjects were excluded (IDs
-133019, 140117, 149741, and 17746); we failed to detect
-the R-peak in the ECG recording of subject 149741, and
-in subjects 133019, 140117, and 177741, an excessive
-error occurred when performing Brainnetome atlas-based
-(Fan et al., 2016) source time course extraction [the time
-course extraction of 16 cortical regions (among 210
-cortical regions) failed in this subject]. Finally, 85 subjects
-were included in our analysis (47 males and 38 females).
-MEG analysis
-HER extraction procedure
-HER extraction and preprocessing were performed using the FieldTrip toolbox (Oostenveld et al., 2011, RRID:
-SCR_004849). First, preprocessed HCP MEG data, which
-were initially segmented into 2-s epochs, were concatenated into one continuous time series such that each
-segment was realigned to its original location in the raw
-MEG recording (preprocessed data contained information
-about the locations of each segment in the raw MEG
-recording). Because bad segments were removed, the
-concatenated continuous time series data had empty
-spaces where the bad segments existed. These empty
-spaces were replaced by NaN. Next, the R-peak was
-Acknowledgments: We thank Hyeong-Dong Park for helpful comments and
-discussions on the manuscript. Data were provided by the Human Connectome Project of the WU-Minn Consortium (principal investigators: David Van
-Essen and Kamil Ugurbil; 1U54MH091657), which was funded by the 16 NIH
-Institutes and Centers that support the NIH Blueprint for Neuroscience Research and the McDonnell Center for Systems Neuroscience at Washington
-University.
-Correspondence should be addressed to Bumseok Jeong at bs.jeong@
-kaist.ac.kr.
-https://doi.org/10.1523/ENEURO.0200-19.2019
-Copyright © 2019 Kim and Jeong
-This is an open-access article distributed under the terms of the Creative
-Commons Attribution 4.0 International license, which permits unrestricted use,
-distribution and reproduction in any medium provided that the original work is
-properly attributed.
-New Research 2 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-detected in the ECG recordings using the Pan-Tomkins
-algorithm (Pan and Tompkins, 1985). Then, epoching of
-HERs from 900 ms before the R-peak to 1800 ms after the
-R-peak was performed on the concatenated continuous
-MEG data. As mentioned above, the concatenated MEG
-data contained the time window including NaN; thus, the
-HER epoching procedure resulted in some NaNcontaining epochs. These NaN-containing HER epochs
-were removed. Finally, the HER extraction procedure resulted in 840.8 (138.7) HER epochs on average. The
-mean interbeat interval (IBI) of every subject was 981.8 ms
-[151.5, corresponding heart rate: 61.11 beats per minute (BPM)], with a range of 675.4 –1374.2 ms (heart rate
-range: 43.67– 88.84 BPM).
-Source reconstruction of HERs
-All sensor HER data were source-reconstructed using
-the linearly constrained minimum variance (LCMV) beamformer methods (Van Veen et al., 1997) provided in the
-FieldTrip toolbox in a manner similar to that used in a
-previous study (Heusser et al., 2016). A common spatial
-filter was estimated for each source point using HER data
-from all trials, an HCP-provided single-shell volume conduction head model and an HCP-provided 4-mm grid
-source model for every subject (Larson-Prior et al., 2013).
-Then, this common spatial filter was applied to sensor
-HER data (sensor  time matrices) to calculate the time
-courses of each source. Finally, we used Brainnetome atlasbased parcellation (Fan et al., 2016, RRID: SCR_014091) to
-perform a region of interest (ROI)-based connectivity analysis. Among the total of 246 brain regions, because an HER
-is known to mainly reflect cortical heartbeat processing
-(Pollatos et al., 2005) and the deep source activity estimation including the subcortex and cerebellum in MEG
-data are less reliable than cortical source estimation
-(Hämäläinen et al., 1993), we excluded 36 subcortical
-cerebellar regions. We also excluded 15 cortical regions
-among the remaining 210 cortical regions because the
-source reconstruction procedure failed to extract time
-courses in these regions in at least one subject (indicating
-that these regions did not contain source vertices in some
-participants). Therefore, the time courses of vertices
-within each of the 195 cortical regions (Extended Data
-Table 1-1) were averaged. This final step produced the
-time courses of HERs for all 195 cortical regions, epochs
-and subjects.
-Calculation of the debiased wPLI estimator in the theta
-frequency range between cortical regions
-The debiased estimator for weighted phase lag index
-(wPLI-D; Vinck et al., 2011) was used as a measure of
-functional connectivity between cortical regions. The
-weighted phase lag index (wPLI; Vinck et al., 2011) is a
-measure of phase coherence and is robust to the spurious
-connectivity induced by volume conduction, which is reflected in “zero-phase synchronization” between sources.
-Furthermore, the wPLI is invariant to linear mixing of two
-dependent sources (Vinck et al., 2011; Palva et al., 2018),
-and in the presence of true interactions, this measure is
-immune to false-positive detection (Palva et al., 2018).
-Because a direct estimator of the wPLI is biased by
-sample size (Vinck et al., 2011), we used the debiased
-wPLI estimator (wPLI-D; Vinck et al., 2011), which ranges
-from zero to one (maximum coherence). We hypothesized
-that synchronization would occur in the theta band (4 –7
-Hz), which is the frequency band with the strongest increase in phase synchronization within regions according
-to a previous study (Park et al., 2018). First, complex
-Morlet wavelet transformation was performed on every
-trial (which was epoched from –900 to 1800 ms R-peak)
-with a 20-ms time step starting from –300 to 600 ms
-R-peak and a frequency ranging from 4 –7 Hz with 1-Hz
-steps. Four cycles were used in the wavelet transformation procedure. Then, the wPLI-D was calculated for every
-pair of regions in each time and frequency step. wPLI-Ds
-from 4 to 7 Hz were averaged to obtain the wPLI-D of the
-theta frequency range. These procedures resulted in 195
-(number of ROIs) by 195 by 31 (time windows from –300
-to 600 ms at the R-peak with 20-ms steps) wPLI-D matrices for each subject. Additionally, although our frequency band of interest was the theta band, which has
-been shown to be a major frequency band with respect to
-HERs, we tested whether similar HINs exist in the  (8 –13
-Hz) and  (14 –29 Hz) bands by using the same pipeline
-used in the theta band HIN.
-Identification of the HIN using network-based statistics
-(NBSs)
-We compared the wPLI-Ds between the baseline period, which was defined as a time window 300 –100 ms
-before the R-peak onset, and a time window 200 – 600 ms
-after the R-peak onset, which is the time window in which
-the effects of HERs were reported in most previous HER
-studies (Fukushima et al., 2011; Pollatos and Schandry,
-2004), to determine whether the heartbeat induced a
-network composed of significantly increased phase synchronization between regions, and we called this time
-window the “induced” period. The 200-ms period after the
-R-peak onset corresponds to the approximate time that
-the heartbeat signal enters the CNS following carotid
-baroreceptor stimulation, which is the major input path of
-the heartbeat to the CNS (Eckberg and Sleight, 1992).
-However, note that because the heartbeat signal is conveyed to the CNS via various pathways except this pathway including somatosensory pathway via spinal cord or
-stimulation of cardiac afferent neuron at heart wall, the
-timing of this CNS entrance of the heartbeat signal could
-be varying (Park and Blanke, 2019). The baseline period
-used in the present study is the same period used in a
-previous study of HER-induced phase synchronization
-within regions. This baseline period was postulated to
-avoid cardiac artifacts around the ECG P-wave (Park
-et al., 2018).
-We then performed a group-level NBS (Zalesky et al.,
-2010; RRID:SCR_002454) analysis, which is a statistical
-method that controls multiple comparisons at the network
-level. This analysis enabled us to identify a network composed of significantly increased wPLI-Ds between cortical
-regions in the induced period compared to the baseline
-period at the group level. First, baseline and induced
-wPLI-D matrices were computed by averaging wPLI-Ds
-from each time window for every subject, which resulted
-New Research 3 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-in one baseline wPLI-D matrix and one induced wPLI-D
-matrix for each subject. Second, multiple paired t tests
-comparing wPLI-Ds from the induced period and the
-baseline wPLI-D were performed for every pair of cortical
-regions, which resulted in one matrix of t values from
-these paired t tests. Then, a threshold t value of 2.51 was
-applied to the matrix of t values, and a t value  2.51 was
-therefore set to 0. The network statistic was computed by
-adding the t values of all the connected components in
-the thresholded matrix (a connected component refers to
-any two nodes within a component are connected by a
-path of edges). Next, a null distribution of the network
-statistic was created from 5000 permutations by randomly permuting an element of the induced wPLI-D matrices and the baseline wPLI-D matrices within each
-subject. Finally, network-level familywise-error (FWE)-
-corrected p values of the network were obtained using the
-original network statistic and null distribution. Next, we
-constructed a heartbeat-induced synchronization (HIS)
-matrix whose elements corresponded to the increase in
-the wPLI-D in the induced period compared to that in the
-baseline period, and each element was significant in the
-NBS results. Therefore, the HIS matrix was composed of
-elements with significantly increased wPLI-Ds in the
-group-level NBS analysis and represents the structure of
-the HIN.
-Examination of increased theta phase synchronization
-between ECG signals and brain regions
-We postulated that the HIN that we identified may
-represent an artificial increase in phase synchronization
-caused by a CFAs. We expected that if an electromagnetic field induced by cardiac contractile activity directly
-influenced both regions A and B and this effect artificially
-increased phase synchronization between these two regions, then phase synchronization would increase between regions A and B, and the phase synchronization
-between the ECG signal and both regions A and B should
-increase after a heartbeat because the same electromagnetic field induced by cardiac contraction influenced all
-three signals, including the ECG signal and the signals
-from regions A and B. We assessed whether theta-phase
-synchronization between ECG signals and brain regions
-increased during an induced period (200 – 600 ms after
-the R-peak) compared to that in the baseline period to
-test this hypothesis. We calculated the wPLI-Ds between
-ECG signals and 195 cortical regions in the theta band for
-every subject, which resulted in two 195 by one vector of
-ECG-brain region wPLI-Ds from the baseline and induced
-periods for every subject. Then, we performed 195 grouplevel paired t tests between the wPLI-Ds from the induced
-and baseline periods for all 195 cortical regions to determine which wPLI-Ds between each ECG-brain region pair
-were significantly increased in the induced period compared to that at baseline.
-The forward and inverse-modeled trial-shuffled surrogate method for evoked component estimation of the
-HIN
-We next tested whether phase synchronization in the
-HIN reflected artificial synchronization due to evoked responses within distributed regions, which are phaselocked to the heartbeat (Hirvonen et al., 2018), using the
-forward and inverse-modeled trial-shuffled surrogate
-method, which was used to identify an evoked component of phase synchronization in a previous study (Hirvonen et al., 2018). This method selectively and more
-effectively identifies true-induced interareal interactions
-compared to the conventional trial shuffling method
-(Lachaux et al., 1999). Briefly, using the source-modeled
-single-trial data, the time course of each source vertex
-within a particular region was simulated with the region
-time courses of a random trial (trial shuffle) and using the
-forward model, sensor-level surrogate data were generated. Finally, the sensor-level surrogate data were sourcereconstructed, and the wPLI-Ds between cortical regions
-were calculated with procedures identical to those used
-for the real data. As noted in a previous study (Hirvonen
-et al., 2018), by using this procedure, surrogate data
-contain both evoked, stimulus-phase-locked components
-and signal spread caused by MEG data acquisition and
-inverse modeling, while non-stimulus locked (induced)
-phase synchronization between regions is eliminated.
-Therefore, by comparing the HIN of the surrogate data
-with the HIN of the real data, we can identify whether
-phase synchronization within the HIN was caused by
-evoked responses. We established 20 sets of surrogate
-data and compared phase synchronization within the HIN
-between the surrogate data and the real data.
-Network properties of the HIN
-After confirming that the HIN does not reflect artificial
-synchronization induced by either CFAs or evoked responses, we identified the following characteristics of the
-HIN. First, we identified the hubs of the HIN, which play an
-important role in connecting regions within the HIN. Then,
-we identified whether the HIN is one homogeneous network or can be divided into subnetworks called modules,
-indicating that the HIN is modularized. Additionally, we
-also investigated how synchronization within the HIN
-changes over time by summing the wPLI-D of every HIN
-edge at every time point from –300 to 600 ms.
-Identification of the hubs of the HIN
-One of the important features of a network is the hub of
-the network, which is defined as a node that plays an
-important role within a network, such as connecting
-nodes (Fornito et al., 2016). To identify the hubs of the
-HIN, we calculated the strength and betweenness centrality of each region. The strength of a node is defined as
-a sum of the weights of all edges connected to that node,
-and betweenness centrality is defined as the fraction of all
-the shortest paths in a network that pass through a given
-node (Brandes, 2001). The graph-theoretical measures
-used to define hubs were calculated using the functions of
-the brain connectivity toolbox (BCT; Rubinov and Sporns,
-2010; RRID: SCR_004841).
-Identification of the modularized structure of the HIN
-Because we expected that the HIN would have a modular structure, we applied a community detection algorithm to the HIS matrix to determine how the HIN is
-partitioned into different subnetworks. However, to identify whether the HIN is modularized, one should examine
-New Research 4 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-the extent of modularity compared to random networks.
-Therefore, we compared the “modularity index” of the HIN
-with 100 random networks (Bassett et al., 2011). Optimal
-partitioning of cortical regions was performed using the
-Louvain greedy algorithm (Blondel et al., 2008) to maximize the modularity index Q formulated using the following equation:
-Q  1
-2
-ij
-[Aij  Pij](gi
-, gj
-).
-In this equation, Aij represents the strength of the edge
-between node i and node j, Pij represents the expected
-weight between node i and node j,  is the sum of the
-strengths of all edges in the network, and gi
-gj
- is 1 if
-node i and j belong to the same community and 0 otherwise (gi is a label of the community to which node i
-belongs). The resolution parameter  was set to 1, which
-is a default value. However, because the partition that
-maximizes Q can vary across each algorithm run, we used
-the consensus partition method to identify the most representative partition S (Lancichinetti and Fortunato, 2012)
-using the functions of the BCT (Rubinov and Sporns,
-2010). The consensus partition procedure, which is identical to a previously reported procedure (Fornito et al.,
-2016), is briefly explained below. First, a community detection algorithm (Louvain greedy algorithm) was run
-10,000 times to create 10,000 partitions. Second, the
-agreement matrix D was constructed. Each element of D
-corresponded to the proportion of the number of times
-that nodes i and j were in the same module to the number
-of total iterations. Third, a threshold 	  0.2 was applied
-to D. The value of 	 was set to 0.4 as recommended in
-a previous study (Lancichinetti and Fortunato, 2012).
-Fourth, community detection was performed 10,000 times
-using D, which created another agreement matrix, D’.
-Fifth, steps 2 through 4 were repeated until the consensus
-matrix exhibited a block-diagonal structure in which all
-edge weights equaled one for node pairs in the same
-community and zero otherwise. We initially constructed
-the agreement matrix with 10,000 iterations of the HIS
-matrix. Then, 10,000 partitions were provided as the functional input for steps 2 through 4, and these processes
-were repeated until convergence was achieved. By this
-consensus partitioning procedure, we achieve optimal
-partitioning and obtain the modularity index Q of this
-optimal partition. To test whether the HIN is modularized,
-we constructed 100 random networks with preservation
-of the weight distribution and then applied the same
-consensus partition procedure on these random networks. As a result, we obtained 100 Q values of each
-random network, which constituted a surrogate distribution of the Q. Then, we tested the location of the Q value
-of the HIN in this surrogate distribution.
-Properties of each module of the HIN
-After partitioning the HIN, we identified the properties of
-each module of the HIN. Specifically, we extracted the
-time course of within-module synchronization for each
-module, which was defined as the sum of the edge
-weights within each module at every time point, and then
-determined which node was the “connector hub” of the
-modules. These connector hubs connect modules and
-enable effective interactions between modules and are
-defined by graph-theoretical measurements called the
-within-module degree z score (Guimera and Amaral, 2005)
-and the participation coefficient (Guimera and Amaral,
-2005). The within-module degree z score quantifies the
-normalized within-module strength, while the participation
-coefficient quantifies a node’s participation in each module. Using within-module degree z scores and participation coefficients, we defined the role of every node
-according to the z-P classification (Guimera and Amaral,
-2005). In particular, the connector hub is a node with
-many connections within the module to which the node
-belongs and also forms many connections with nodes of
-other modules; thus, the connector hub efficiently connects nodes within one module to nodes of other modules
-(Fornito et al., 2016). In our study, the connector hub was
-defined as a node with a within-module degree z score
-2.5 and a participation coefficient (P)  0.3 (Guimera
-and Amaral, 2005; Fornito et al., 2016).
-Identification of between-module interactions using
-graph-theoretical analysis
-We next investigated synchronization patterns between
-modules. Between-module synchronization of 5C2 pairs of
-modules was computed by the sum of the edge weights
-between each module, which resulted in a 5  5 betweenmodule synchronization matrix. By applying graph-theoretical analysis to this between-module synchronization
-matrix, we identified which module plays a central role
-within the HIN using module-level nodal strength and
-betweenness centrality.
-The relationship between emotional status and the HIN
-To identify relationships between the HIN and participants’ emotional states, we used the emotional statuses
-included in the HCP data. The HCP data included a
-measure for six negative emotional affective states, including anger-affect, anger-hostility, anger-aggression,
-fear-affect, fear-somatic, and sadness, and positive affect
-surveys were retrieved from the NIH Toolbox (Gershon
-et al., 2010). To reduce dimensions, we performed a
-principal component analysis of seven survey scores and
-extracted the first principal component (PC) reflecting the
-moods of the participants. Then, we fit a stepwise linear
-regression model in which the first PC was a dependent
-variable to the within-module and between-module synchronizations of the five HIN modules.
+Categorization is a fundamental cognitive process by which the brain assigns stimuli to behaviorally meaningful groups. Investigations of visual categorization in primates have identified a hierarchy of cortical areas that transform visual feature encoding into abstract category representations [1]. However, categorization behaviors are ubiquitous across diverse animal species, even those without a neocortex, motivating the possibility that subcortical regions may contribute to abstract cognition in primates.
+
+One candidate structure is the superior colliculus (SC), a brainstem region that is evolutionarily conserved across all vertebrate species [2]. The SC has long been known to play a crucial role in directing orienting movements of the eyes and head. Although traditionally thought to implement reflexive motor actions via inputs from upstream brain areas [3–12], the SC is also involved in overt and covert spatial target selection during a wide range of behavioral tasks [13–30]. However, it is unknown whether SC is also involved in mediating cognitively demanding tasks that do not manipulate spatial orienting, covert attention, or target selection.
+
+Here, we investigated whether the primate SC is more generally involved in abstract cognition. We trained monkeys to perform an abstract visual categorization task that dissociates sensory, cognitive, and motor components, and compared neuronal activity in the SC and the lateral intraparietal area (LIP), a cortical region in the posterior parietal cortex that is anatomically interconnected with the SC [31–36] and known to causally contribute to category processing [37, 38]. Importantly, the categorization task required the monkeys to maintain central gaze fixation during all task epochs, and the animals reported their decisions with a manual response and not an eye movement. We also reversibly inactivated the SC to assess its causal contribution to category decisions. We show that the SC exhibits robust, short-latency encoding of abstract categories and that inactivation of the SC markedly impairs animals’ categorization task performance. These results indicate that the primate SC plays an unexpected key role in higher-order cognition, independent of its role in spatial orienting. In addition, we show that category and saccade-related signals are encoded in near-orthogonal population subspaces in the SC, providing an explanation for how a motor structure like the SC can be recruited to participate in cognitive behaviors without interfering with its well-known motor functions.
+
 Results
-Theta-phase synchronization between cortical
-regions increased after the heartbeat, confirming the
-existence of the HIN
-The NBS analysis showed a network displaying a significant increase in phase synchronization in the induced
-period compared to that in the baseline period (networklevel FWE-corrected p  0.001), revealing the existence
-of the HIN. The density of the network was 9.2%, indicating that among the total of 195C2 pairs of regions, 9.2% of
-New Research 5 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-the region pairs showed significantly increased phase
-synchronization after the heartbeat. Additionally, no HIN
-formed in the -frequency or -frequency bands.
-No significant change in phase synchronization
-occurred between ECG signals and cortical regions
-The paired t tests (wPLI-Ds for ECG signals and cortical
-regions) comparing responses between the induced period (200 – 600 ms after the R-peak) and the baseline
-period did not reveal a significant increase or decrease in
-wPLI-Ds between ECG signals and cortical regions in the
-theta band (the minimum p value among the 195 cortical
-regions was p  0.104 [false discovery rate (FDR)-
-corrected] with t(86)  2.97 in the “right postcentral gyrus
-A2”; Fig. 1A). If the electromagnetic field generated by
-cardiac contractile activity induced artificially increased
-phase synchronization between regions in the HIN compared with the baseline period, then the ECG signal originating from the same electromagnetic field should show
-increased phase synchronization with cortical regions
-within the HIN. However, phase synchronization between
-cortical regions and ECG signals did not change in the
-induced period compared to baseline, while phase synchronization between the regions in the HIN increased in
-the induced period, indicating that the increased thetaphase synchronization between cortical regions in the HIN
-was not caused by CFAs (Fig. 1A). Furthermore, the HIN
-was not likely caused by a pulse artifact (PA), which
-occurs when sensors are influenced (moved) by vascular
-pulsation. In our study, we used MEG data, and MEG
-sensors do not directly contact the subject; thus, a vessel
-cannot induce pulsatile movement of the sensors to
-cause a PA. To our knowledge, no previous studies have
-reported a PA in MEG recordings. Furthermore, according
-to a previous HER study using electrocorticography
-(ECoG; Kern et al., 2013), if PA-induced artificial synchrony occurs between ECoG electrodes, then the ECG
-and ECoG electrodes likely display high phase synchronization (Kern et al., 2013), which was not observed in our
-results. By summarizing these results, the HIN that we
-identified in the theta frequency band was not caused by
-an artificial increase in phase synchronization induced by
-CFAs or a PA. While the theta-phase synchronization
-between ECG signals and cortical regions was not increased compared to baseline, a CFA-induced increase in
-phase synchronization compared with baseline may exist
-in lower frequency bands, such as the  band (0.5– 4 Hz),
-because cardiac contractile activity typically occurs at a
-rate of 60 –100 BPM, which corresponds to a frequency of
-1–1.67 Hz belonging to the  band. Similarly, in our data,
-the subjects displayed a maximum heart rate of 88.84
-BPM ( 1.48 Hz); therefore, the CFAs or PA induced by
-pulsation may have increased artificial synchronization in
-the  band.
-The HIN is not composed of artificially increased
-synchronization induced by evoked responses
-We compared the synchronization within the HIN in 20
-surrogate datasets and in the real data. The results
-showed that the HIS within the HIN in the real data were
-significantly stronger than that in all 20 surrogate datasets
-(Monte Carlo p  0.05; Fig. 1B,C; Extended Data Fig. 1-1),
-indicating that the synchronization within the HIN could
-not be explained by artificial synchronization caused by
-evoked responses in distributed regions. Notably, if the
-HIN is composed of evoked responses in distributed regions, the existence of only a small proportion of edges
-among all possible edges (9.2%) within HIN regions is
-unlikely.
-Figure 1. Results of the control analysis. A, The time course of synchronization between the ECG signal and HIN regions. We plotted
-the wPLI-D in the theta band between the ECG signal and HIN regions for all HIN regions (thin colored lines). In addition, the averaged
-synchronization time course was also plotted (thick black line). These time courses show similar levels of synchronization between
-the baseline and induced periods. B, Comparison of the synchronization within the HIN between real and surrogate data in the
-induced period. We generated 20 surrogate datasets without an induced component of synchronization and compared synchronization within the HIN between real (yellow bar with the label R) and surrogate data (blue bar). This figure shows that the
-synchronization within the real data are stronger than the synchronization in all 20 surrogate datasets in the induced period, indicating
-that the synchronization within the HIN cannot be explained by artificial synchronization caused by evoked responses (Extended Data
-Fig. 1-1). C, The time courses of synchronization within the HIN for real and surrogate data. This panel shows that the synchronization
-within the real data are stronger than the mean synchronization in the surrogate datasets in the induced period (Extended Data Fig.
-1-1). Note that in A, B, baseline subtraction was performed (–300 to –100 ms at the R-peak).
-New Research 6 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-Network properties of the HIN
-Within the HIN, left inferior temporal regions including
-the temporal pole and parahippocampal gyrus had high
-strength and betweenness centrality (Fig. 2A; Table 1).
-Figure 2A shows that the connections between HIN regions are centered at the polar part of an inferior temporal
-region including the inferior temporal gyrus and parahippocampal gyrus. Specifically, “left inferior temporal gyrus
-A20il” had the highest betweenness centrality and
-strength among the regions (Table 1), suggesting its importance as a hub of the HIN. In addition to these regions,
-orbitofrontal regions also had a high degree and betweenness centrality. Notably, the HIN was left-dominant such
-that the HIS between regions was substantially stronger
-within left hemispheric regions than that within right hemispheric regions (t(84)  5.22, p  0.001 in a paired t test
-comparing induced synchronization between the right
-and left hemispheres; Fig. 2A). Finally, the time course of
-the synchronization within the HIN showed that the degree of synchronization increases from baseline and was
-maximal at 300 ms after the R-peak (Fig. 1C).
-The HIN is a modularized network with five
-subnetworks, and module 1 plays a central role
-within the HIN
-Based on the consensus partitioning results, the HIN
-was partitioned into five modules (Fig. 2A,B). Using the
-consensus partitioning result for the real data and the
-consensus partitioning of the random network, we tested
-whether the HIN is modularized. We found that the HIN
-Figure 2. Structures of the HIN. A, Synchronization patterns within the HIN. The figure shows that the synchronization within the HIN
-is concentrated in the left inferior temporal region (white dashed circles), particularly in the polar part and the parahippocampal gyrus,
-which are hubs of the HIN. Furthermore, these regions were contained in module 1. B, Spatial pattern of each module of the HIN. In
-this spatial map of each module, module 1 contained most of the polar part of the left inferior temporal regions and the
-parahippocampal gyrus. The posteromedial part of the bilateral hemispheres was also contained in this module. Module 2 contained
-the ventromedial and orbitofrontal cortices, which are also hubs of the HIN.
-Table 1. High-strength nodes of the HIN
-Region name BC Strength Module
-Left inferior temporal gyrus A20il, intermediate lateral area 20 8661 30.1 1
-Left parahippocampal gyrus A35/36r, rostral area 35/36 4775 25.9 1
-Left inferior temporal gyrus A20iv, intermediate ventral area 20 2781 25.4 4
-Left inferior temporal gyrus A20r, rostral area 20 4069 24.8 1
-Left fusiform gyrus A20rv, rostroventral area 20 1556 24.3 4
-Five regions having high strength are reported here with their betweenness centrality and modules they belong to. Full list of regions and their network characteristics are provided in the Extended Data Table 1-1. BC, betweenness centrality.
-New Research 7 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-had a significantly greater modularity index than the random network (Monte Carlo p  0.01), indicating that the
-HIN is modularized rather than one homogeneous network. Importantly, among the five modules, the synchronization within module 1 was the strongest (Figs. 2A, 3A).
-This module contained most of the polar part of the left
-inferior temporal gyrus and parahippocampal gyrus (Fig.
-2B). Specifically, left inferior temporal gyrus A20il, which
-had the highest betweenness centrality and strength, was
-also contained in this module. Furthermore, graphtheoretical analysis of the between-module synchronization matrix showed that module 1 was the center of an
-interaction between the HIN modules with the highest
-strength (1.29) and betweenness centrality (2) among the
-modules (Fig. 3B). The posteromedial regions including
-the middle cingulate cortex, supplementary motor area,
-posterior cingulate and precuneal regions were also contained in this module (Fig. 2B). Module 2 had the second
-strongest within-module synchronization and contained
-the bilateral ventromedial/orbital frontal regions (Figs. 2A,
-3A). Finally, seven hubs connected each module, most of
-which were located in the temporal polar regions and
-orbitofrontal regions.
-The relationship between affective status and
-synchronization within the HIN
-The first PC explained 47% of the variance of the
-emotion survey data and had positive loading on the
-positive affect score and negative loading on the other
-negative affect scores. Therefore, we surmised that this
-PC reflected the moods of the participants. Stepwise
-linear regression analysis resulted in a model that only
-contained the within-module synchronization of module 1
-in the HIN, which explains 10% of the variance of the
-mood data (model F(1,83)  8.95, p  0.004, R2  0.10,
-of the within-module synchronization of module 1  0.57,
-t  3.00, p  0.004; Fig. 4), indicating that an individual
-with higher synchronization within module 1 has a more
-positive mood or is less likely to experience a negative
-mood. Notably, the relationship between these two variables was also significant when we applied a robust
-regression or non-parametric correlation to reduce the
-effect of outlier points (all p  0.05).
+Behavior
+Two monkeys performed a delayed match-to-category (DMC) task in which they grouped 360° of motion directions into two categories based on a learned arbitrary category rule. The categories were defined by two perpendicular boundaries that produced four 90°-wide quadrants (Fig. 1a). To disambiguate neuronal encoding of direction vs. category, opposite quadrants were assigned to the same category, such that motion directions that are 180° apart belonged to the same category while nearby directions were often in different categories. On each trial, monkeys viewed sample and test motion stimuli separated by a 1.2 sec delay (Fig. 1b) and received a fluid reward for releasing a manual touch bar when the category of the test matched the sample. If the test category was a non-match, the monkeys were shown a second test stimulus that always matched the sample category (and required a manual response to receive a reward). Monkeys were required to maintain gaze fixation throughout the trial (see Methods). The monkeys’ category decisions were abstract because the two categories were defined by the learned arbitrary boundaries, and because they were not explicitly linked to different motor actions.
+
+Fig. 1: Monkeys learn to categorize motion stimuli based on an arbitrary category rule.
+Fig. 1:
+
+Open in a new tab
+a, Stimulus geometry of the two-boundary delayed match-to-category (DMC) task. 12 directions of motion (depicted by arrows) are grouped into two categories based on two orthogonal category boundaries (dashed lines), such that directions that are 180° apart belong to the same category. Directions within the same quadrant are 22.5° apart, and near-boundary directions are 22.5° from the boundary. b, Trial structure of the DMC task. Monkeys were required to maintain gaze within a small window centered on a central fixation cue during fixation, sample, delay, and test periods and report their decisions with a hand movement (holding or releasing a lever). c, Behavioral performance across recording sessions for each of the 12 sample stimulus directions for Monkey N (left) and Monkey S (right). Black circles indicate mean and vertical black bars indicate s.d. Horizontal dashed line indicates chance performance. d, Behavioral performance across sessions on Match trials in which the sample and test stimuli were in the same or opposite quadrants. Black circles indicate mean and vertical black bars indicate s.d. There was no significant difference in mean performance on trials in which sample and test stimuli were in the same or different quadrants (Monkey N: n = 62 sessions, Same quad. = 88.2 ± 4.6%, Opp. quad. = 86.9 ± 4.7%, P =.130, Monkey S: n = 25 sessions, Same quad. = 84.9 ± 7.4%, Opp. quad. = 83.8 ± 5.2%, P = .583, two-tailed permutation test). e, Schematic of neural recording locations in the lateral intraparietal area (LIP) and superior colliculus (SC).
+
+Both monkeys performed the DMC task with >85% mean accuracy during neural recordings (Monkey N: 89.4 ± 3.4%, Monkey S: 88.2 ± 3.3%; Fig. 1c), with equivalent accuracy between LIP and SC sessions (Monkey N: P = .095, Monkey S: P = .234, permutation test; Extended Fig. 1). Monkeys performed similarly on Match trials in which sample and test stimuli were in the same vs. opposite quadrants (Monkey N: P = .130, Monkey S: P = .583, permutation test; Fig. 1d).
+
+Robust encoding of sample category in the SC
+We recorded neural activity during the DMC task in the SC (Monkey N:362 neurons, Monkey S: 243 neurons) and LIP (Monkey N: 228 neurons, Monkey S: 327 neurons) (Fig. 1e), a posterior parietal region that has been suggested by our group to be the cortical nexus of category computation. Our past work has shown that LIP has shorter latency category encoding compared to other cortical areas such as prefrontal cortex and medial superior temporal area [39–42], and reversible inactivation of LIP impairs monkeys’ categorization behavior [37, 38].
+
+LIP neuronal activity often showed binary-like category selectivity during the sample and delay periods, with distinct activity for directions in different categories and similar activity for directions in the same category (Fig. 2a), consistent with previous categorization studies that used a simpler linear boundary [38–45]. In our task, LIP category selectivity extended even to stimuli in opposite quadrants that belong to the same category. Remarkably, SC neurons also showed strong category selectivity during the sample, delay and test period of the task (Fig. 2b).
+
+Fig. 2: Neural activity in the SC contains reliable and short-latency information about stimulus category.
+Fig. 2:
+
+Open in a new tab
+a, Peristimulus time histograms of example category-tuned LIP neurons. b, Same as a, but for SC. c, ROC-based category tuning index (rCTI) across time in trial for the two example LIP neurons in a. Line and shading indicates mean and s.d., computed via resampling of trials. Grey symbols at the top of the plots indicate time points at which rCTI is significantly above chance. d, Same as c, but for SC. e, Matrix of rCTI values for all LIP and SC neurons, where each row shows a single neuron’s rCTI as a function of time in the trial f, Time course of mean rCTI across LIP and SC neurons. Shading indicates s.e.m. g, Latency of category selectivity in neurons that are category-tuned during the sample epoch (0–550 ms from sample onset; LIP: n = 131 neurons, SC: n = 133 neurons). Left: Distribution of category selectivity latency. Triangular markers indicate median latency (LIP: 330 ± 105 ms, SC: 270 ± 90; P = .016, two-tailed permutation test). Right: Empirical cumulative distribution functions of latency values in LIP and SC neurons (two-sample Kolmogorov-Smirnov test, D = .195, P = .011). h, Top: Schematic of cross-quadrant sample category classifiers, which are trained on trials from two quadrants (dark gray) and validated on trials from the remaining two quadrants (light gray). Bottom: Time course of mean accuracy of cross-quadrant category classifiers for LIP and SC populations. Shading indicates s.d. In f and h, colored symbols above the panel indicate time points at which values significantly exceed chance in each brain area, and black symbols above the panel indicate time points at which there is a significant difference between brain areas (P < .05, two-tailed permutation tests). (* P < 0.05)
+
+We quantified category tuning in individual neurons using an ROC-based category tuning index (rCTI), which compares neuronal discrimination between directions in the same vs. different categories (Supplementary Fig. 1; see Methods). Positive rCTI values indicate larger differences in firing rates between directions in different vs. the same category (i.e., category tuning). Bottom panels of Fig. 2a and Fig. 2b show the time course of rCTI for the single-neuron examples in the corresponding top panels, and Fig. 2c and Fig. 2d show rCTI values for all LIP and SC neurons. 70.3% of LIP neurons (Monkey N: 81.1%, Monkey S: 62.7%) and 59.5% of SC neurons (Monkey N: 63.5%, Monkey S: 53.5%) were significantly category tuned based on rCTI.
+
+In LIP and SC, the mean rCTI across neurons was significantly elevated at nearly every time point following sample onset (Fig. 2e, yellow and blue symbols above panel), with greater rCTI values observed in SC than LIP throughout much of the trial (Fig. 2e, black symbols above panel). Moreover, elevated mean rCTI values during the sample period occurred earlier in SC than LIP (SC: 160 ms, LIP: 245 ms, P = .002, two-tailed permutation test). To compare the onset of category selectivity between LIP and SC, we restricted analyses to neurons that were category tuned during the 550 ms after sample onset (LIP: n = 131 neurons, SC: n = 133). Among these early-onset tuned neurons, SC had lower median latency than LIP (Fig. 2f, left; LIP: 330 ± 105 ms, SC: 270 ± 90; P = .016, two-tailed permutation test), and latency distributions were significantly different between the two areas (Fig. 2f, right; two-sample Kolmogorov-Smirnov test, D = .195, P = .011). Additionally, we observed significantly longer durations of persistent category selectivity in SC than LIP neurons (Supplementary Fig. 2; see Methods).
+
+These differences in strength and timing of category tuning cannot be explained by differences in direction tuning between areas (see Supplementary Fig. 3); when we restricted analyses to direction-untuned neurons (LIP: n = 399, SC: n = 498; see Methods), we again observed shorter-latency category selectivity in SC compared to LIP based on mean rCTI across neurons (SC: 160 ms , LIP: 225 ms, P = .004, two-tailed permutation test) and median category tuning latency during the sample period (LIP: 330 ± 105 ms, n = 111 neurons, SC: 265 ± 80, n = 107, P = .005, two-tailed permutation test; Kolmogorov-Smirnov test: D = .225, P = .007). We also observed equivalent results when we artificially matched mean firing rates of SC and LIP neurons at each analysis time step by randomly removing spikes from SC neurons (see Methods; Supplementary Fig. 4).
+
+We quantified the strength and timing of category encoding in LIP and SC populations using support vector machine (SVM) classifiers. We evaluated category encoding in a direction-independent manner by training the classifiers on trials from two quadrants (one per category) and validating them on the remaining two quadrants (Fig. 2g, top). If the neural populations robustly encode category in a binary-like format, the classifier will generalize between the two quadrants of the same category. This approach also prevents bell-shaped direction tuning from contributing to category decoding by decorrelating direction and category between the sample and test sets; note that we find below-chance classifier performance if the population shows strong direction tuning.
+
+In SC, category classifier accuracy rapidly increased within ~170 ms of sample onset and remained at almost 100% throughout the rest of the trial (Fig. 2g, bottom). In LIP, category classifier accuracy was below chance shortly after sample onset, consistent with strong bell-shaped direction tuning in LIP during the early sample. Sample category could be decoded more reliably from SC than LIP throughout the sample, delay, and early test phases of the task (Fig. 2g, bottom, black symbols above panel), indicating stronger population category encoding in SC than LIP. These results were similar in the two animals (Supplementary Fig. 5).
+
+Category encoding in SC is not explained by eye movements
+Given the well-established role of SC in directing gaze [3–12], one explanation for category selectivity in SC is that it could be a result of distinct patterns of microsaccades during different conditions of the DMC task. Interestingly, we indeed observed that the monkeys produced idiosyncratic, category-specific eye movements (within the allowed fixation window) that were highly stereotyped across sessions (Supplementary Fig. 6). However, these category-specific microsaccades occurred only during the memory delay in Monkey N and primarily during the delay in Monkey S, indicating that the monkeys’ eye movements reflect the contents of working memory, consistent with prior results in monkeys performing a delayed matching task [46]. To understand whether these eye movements can explain SC category signals, we compared the time course of SC’s neuronal category selectivity and the time course of category-specific eye positions. These two time courses were highly decoupled in time (Supplementary Fig. 7a), with category selectivity preceding category-specific eye position by hundreds of milliseconds (Monkey N: neural decoder = 175 ms, eye decoder = 1075 ms; Monkey S: neural decoder = 170 ms, eye decoder = 865 ms). We next built linear encoding models [47] to determine whether neuronal firing rates (across trials and time within trial) are better predicted by category or eye movements (see Methods). For a majority of SC neurons, firing rates during the DMC task were better predicted by the stimulus than by eye movements (Supplementary Fig. 7b). These results indicate that SC category selectivity cannot be accounted for by category-specific eye movements during the DMC task, and raise the possibility that the eye movements may instead be a consequence of the presence of category selectivity in the SC.
+
+Preferential encoding of category in visual SC neurons
+The SC is a core stage of oculomotor processing and contains diverse neuronal response types based on firing rate modulation to visual, visuomotor, and motor aspects of visually- and memory-guided saccade (MGS) tasks. We sought to understand whether SC category encoding was more prevalent among neurons with particular patterns of visual or motor selectivity. In each DMC recording session, monkeys also performed the MGS task (Supplementary Fig. 8a,b), allowing us to compare neuronal activity from the same neurons during the two tasks. We analyzed activity from 424 SC neurons (Monkey N: 259, Monkey S: 165) with stable recordings during both DMC and MGS tasks. Examples of SC activity during the MGS task are shown in Supplementary Fig. c,d).
+
+The short-latency category encoding in SC raises the possibility that it plays a direct role in the rapid bottom-up categorization of incoming visual stimuli (i.e., the transformation of direction to category tuning). One piece of evidence that would support such a role is if the category signal first emerges in visually responsive neurons whose receptive fields match the position of the DMC stimuli (Extended Fig. 2a). We compared rCTI values between three groups of SC neurons (see Methods): (1) those that are visually responsive during the MGS task to stimuli at locations that overlap with the stimulus in the DMC task (Vis neurons; n = 127 ), (2) neurons that are visually unresponsive at the DMC stimulus location but visually responsive at other locations (Vis-other; n = 167), and (3) visually unresponsive neurons (Non-vis; n = 130). Examples of these three classes of neurons are shown in Extended Fig. 2b.
+
+Category selectivity emerged earlier in Vis neurons than in Vis-other neurons (Vis: 155 ms, Vis-other: 205 ms, P = .021, permutation test) and Non-vis neurons (Non-vis: 634 ms, P < .001, two-tailed permutation test; Extended Fig. 2c), and mean rCTI was significantly higher in Vis neurons compared to the other two groups throughout much of the trial (Extended Fig. 2c, black symbols above panel). Additionally, median category selectivity latency during the sample period was lower in Vis neurons compared to Vis-other neurons, even when we artificially matched firing rates between the two groups as for the earlier analysis of LIP vs. SC latency (Extended Fig. 2d, left; Vis: 228 ± 75 ms, n = 48, Vis-other: 330 ± 95, n = 35; P = .001, two-tailed permutation test), and there was a significant difference in the latency distributions between Vis and Vis-other (Extended Fig. 2d, right; two-sample Kolmogorov-Smirnov test, D = .407, P = .002).
+
+Category encoding in SC and LIP is dependent on task context
+We next investigated whether category encoding in LIP or SC depended on the context in which the monkeys viewed sample motion stimuli. It is possible that the animals’ extensive training on the DMC task could have led to automatized processing of motion category in SC or LIP even when stimuli were shown outside of the DMC task context. We tested this possibility by comparing neuronal responses to motion stimuli during interleaved blocks of DMC task trials and passive viewing trials in which the same motion stimuli were shown (see Methods). Neuronal category encoding in both SC and LIP was largely absent during passive viewing trials (Supplementary Fig. 9), indicating that category selectivity is highly task-dependent and that neural populations in the LIP and the SC can flexibly route sensory input based on current behavioral demands.
+
+Orthogonal encoding of saccades and category in the SC
+How is it that a core oculomotor structure like the SC can be strongly modulated by stimulus category (or visual information in general) without producing task-interfering saccades, given that injection of even a small amount of electrical current into intermediate and deep layers of the SC can reliably generate large-amplitude eye movements [6, 7]? One explanation is that independent populations of SC neurons might participate in saccade and category encoding. Thus, we quantified the overlap in neural populations that are category-selective during the DMC task and saccade direction-selective during the MGS task (see Methods). We observed substantial overlap in the population of SC neurons that are category- and saccade-selective (Fig. 3a), indicating that category and saccade encoding are not segregated to different SC populations.
+
+Fig. 3: Orthogonal population-level encoding of saccade and category in the SC.
+Fig. 3:
+
+Open in a new tab
+a, Venn diagrams showing the overlap of neurons that are category-tuned during the DMC task (dark green) and neurons that are saccade-direction-modulated during the MGS task (light green; see Methods). b, Schematic of the hypothesized orthogonal saccade and category activity subspaces. c, Left: Magnitude of the projections of the: 1) sine and cosine values from MGS data (green), and 2) the two categories from DMC data (grey and black) from Monkey N onto the two MGS neural axes identified through targeted dimensionality reduction (TDR). Right: Projection of the same MGS and DMC data from Monkey N onto one of the MGS TDR axes and the DMC category axis. d, The percentage of variance of DMC sample period data explained when projected onto its own top 12 principal components (solid dark green line) or onto the top 12 principal components defined by activity during the peri-saccade period (−200 to 0 from saccade onset) of the MGS task (dotted light green line). e, Alignment index between the DMC sample epoch data and MGS peri-saccade data. The alignment index, which is the ratio of the two traces shown in d, equals 1 when two subspaces are perfectly aligned and equals 0 when two subspaces are perfectly orthogonal. Blue: alignment indices for the real data. Grey: 95% confidence intervals of alignment indices between pairs of random vector projections from data (see Methods). For both monkeys, the real data are significantly more orthogonal than expected by chance (Monkey N: AI = .131, n = 258 neurons; Money S: AI = .205, n = 165 neurons), all P < .001, two-tailed randomization test. f and g, same as d and e but for the fixation epochs (−500 to 0 ms relative to stimulus onset) for the DMC and MGS tasks. The data are significantly more aligned than expected by chance (Monkey N: AI = .429, n = 259 neuron, P < .001; Money S: AI = .390, n = 165 neurons, P = .007, two-tailed randomization test). (* P < 0.05, *** P < 0.001).
+
+We hypothesized that the structure of population activity in the SC is organized to maintain approximately orthogonal neural representations during category processing and saccade planning, such that projection of category-related neural activity onto the saccade-encoding neural axis produces minimal interference with neural encoding of eye movements (Fig. 3b). To investigate this idea, we characterized the alignment between neural activity from the DMC task (150–350 ms after sample onset) and the MGS task (−200–0 ms before saccade onset). To visualize their alignment, we used targeted dimensionality reduction (TDR) to identify two MGS condition-related neural axes (sin and cos of the position of the targets) and a DMC category axis (see Methods). The DMC data had a small projection onto the MGS axes, as did the MGS data onto the category axis (Fig. 3c), indicating substantial misalignment between category and saccadic encoding.
+
+To quantify the alignment between neural activity during the MGS and DMC tasks, we used the subspace variance alignment analysis introduced in [48]. This approach compares the percentage of DMC data variance explained when the DMC data are projected onto DMC-defined vs. MGS-defined principal components and produces an alignment index (AI) value that ranges from 0 (indicating total orthogonality between two subspaces) to 1 (indicating perfect alignment). To determine statistical significance, we compared the AI computed from the data to a null distribution of AI values between subspaces drawn from a random space that shares a covariance structure with the real data (see Methods).
+
+In both monkeys, alignment between the category and saccade subspaces was near-orthogonal; projection of the DMC data onto the first 12 MGS principal components (PCs) captured minimal DMC data variance (Fig. 3d), and the resulting alignment index was closer to 0 than expected by chance (Fig. 3e; Monkey N: AI = .131, P < .001, n = 258 neurons; Money S: AI = .205, P < .001, n = 165 neurons). This misalignment did not depend on the number of PCs included in the analysis; the DMC and MGS data were significantly misaligned when the analysis was repeated using different numbers of included PCs (Supplementary Fig. 10). This result is also unlikely to be due to neural fluctuations over time in the session; in both monkeys, DMC activity from the beginning of the sessions was closely aligned to DMC activity from the end of the sessions (Extended Fig. 3a), and alignment to MGS activity was similarly low for DMC activity from the beginning vs end of the sessions (Extended Fig. 3b). To determine whether this misalignment between category and saccade subspaces may be due to general differences in behavioral state in the two task contexts, we quantified the alignment between the baseline neural activity during the fixation epochs (from −500 to 0 ms relative to stimulus onset) for the two tasks. During this baseline period, the task demands (i.e., maintaining fixation) are shared between the two tasks, but the overall behavioral context is different. In both monkeys, fixation epoch activity during the DMC and MGS tasks was more aligned than expected by chance (Fig. 3f–g; Monkey N: AI = .429, P < .001, n = 259 neurons; Money S: AI = .390, P = .007, n = 165 neurons), indicating that the misalignment between category and saccade subspaces cannot be explained by differences in behavioral state between tasks, and suggesting that the SC may selectively use an orthogonal-coding strategy to minimize motor interference.
+
+Together, these results suggest a mechanism by which neural populations in the SC can multiplex motor signals and the higher-order cognitive signals that we report here. These results also provide a possible explanation for the stereotyped, category-specific microsaccades that emerge several hundred ms after neural category selectivity onset during the DMC task (Supplementary Figs. 6,7); these category-specific eye movements may reflect “leak” from the category subspace to the saccade subspace. During learning of the DMC task, the SC network may arrive at a particular geometry of population activity that is sufficiently (though not perfectly) orthogonal to the saccade subspace, such that any resulting eye movements are within the behavioral constraints of the task (i.e., fall within the allowed fixation window).
+
+Impaired category task performance during SC inactivation
+We sought to determine whether neuronal category encoding in the SC plays a causal role in the DMC task by infusing muscimol, a GABAA agonist, to reversibly inactivate the SC prior to task performance (Fig. 4a; Table S1). We compared monkeys’ behavior during SC inactivation with behavior during control blocks collected before injection on the same day. SC inactivation is known to cause a reduction of velocity for saccades toward targets contralateral to the inactivated hemisphere [10–12]. To verify inactivation efficacy, we compared saccade velocities for a memory-guided (Monkey N) or visually-guided (Monkey S) saccade task before vs. after inactivation (Fig. 4b). Although both monkeys were able to successfully perform the saccade task following injection, we observed a reduction in saccade velocity to targets in the inactivated hemifield (Fig. 4c), both for data combined across all sessions (Monkey N: control = 418 ± 90°/s, treatment = 249 ± 51°/s, P < .001; Monkey S: control = 420 ± 106°/s, treatment = 193 ± 92°/s, P < .001, two-tailed permutation test) and for each individual session (Table S2). This effect was absent for sham control sessions (saline injection) (Table S2; Monkey N: control = 432 ± 90°/s, treatment = 438 ± 95°/s, P = .673, Monkey S: control = 415±84°/s, treatment µ= 413±87°/s, P = .848, two-tailed permutation test).
+
+Fig. 4: SC is causally involved in categorization task performance.
+Fig. 4:
+
+Open in a new tab
+a, We performed reversible unilateral inactivation of the SC by infusing muscimol, a GABAA agonist, using a custom 16-channel recording probe with a fluid delivery channel. b, Top: Following injection of muscimol, spiking activity markedly decreased in the surrounding tissue. Bottom: Trajectories of eye movements in Monkey S during the visually-guided saccade task for an example session before (left) and after (right) muscimol injection. Individual traces represent eye gaze trajectories for individual trials and are color-coded by condition. Small colored squares indicate the position of saccade targets for different conditions. c, Left: Changes in peak saccade velocity during the memory/visually-guided saccade task before and after SC inactivation at each of the eight stimulus locations used in the task. Traces indicate mean ± s.e.m. Grey background shading indicates conditions in which the target location was in the inactivated hemifield. Right: Change in peak saccade velocity for trials (across all sessions) in which the target was in the inactivated hemifield for muscimol (magenta) and saline (blue) injection sessions. In both monkeys, we observed a significant reduction in peak velocity for muscimol sessions (Monkey N: n = 654 trials, −166 ± 55 °/s, P < .001; Monkey S: n = 497 trials, −219 ± 117 °/s, P < .001, two-tailed permutation test) and no change in peak velocity for saline sessions (Monkey N: n = 174 trials, 4 ± 101 °/s, P = .651; Monkey S: n = 400 trials, 5 ± 59 °/s, P = .881, two-tailed permutation test). Horizontal black bars indicate mean of distributions and vertical black bars indicate s.e.m. For each treatment trial, we quantified the change in peak velocity as the difference in peak velocity on that trial and the mean peak saccade velocity for that trial type from the preceding control block. (*** P < 0.001). d, Overall session accuracy for the DMC task before vs. during SC inactivation. Unfilled: saline injection, Filled: muscimol, Circles: Monkey N, Triangles: Monkey S. Error bars: 95% multinomial confidence intervals for each session. e, Mean performance on the DMC task on each of the 12 sample motion stimuli during control behavior (dark grey) and SC inactivation (magenta). Gray bars indicate mean ± s.e.m. f, Comparison of the behavioral impairments on the DMC task during SC vs. LIP inactivation. Left: Behavior performance on the DMC task during control blocks (grey) and SC inactivation blocks (magenta) for Monkey N and Monkey S. Traces show mean accuracy ± s.e.m. for 6 control sessions and 6 inactivation sessions in each monkey. Right: Behavior performance on the DMC task during control sessions (grey) and LIP inactivation sessions (magenta) for Monkey M and Monkey Q. Traces show mean accuracy ± s.e.m for 12 control/8 inactivation sessions in Monkey M, and 8 control/11 inactivation sessions in Monkey Q. Text indicates the difference in mean accuracy between control and inactivation sessions. LIP data are from [38].
+
+Both monkeys showed a marked impairment in DMC task performance after muscimol injection (Fig. 4d,e), with a reduction in DMC accuracy on every muscimol infusion session, and no change on saline sessions (Table S3). These results are consistent with SC being causally involved in DMC task performance. Notably, the DMC task deficits that we observed during SC inactivation were substantially larger than those previously reported during LIP inactivation [38] (Fig. 4f). The larger effect of SC vs. LIP inactivation on DMC performance cannot be explained by differences in muscimol concentration (SC = 5 µg/µL, LIP = 8 µg/µL) or infusion volume (SC = 0.25–0.33 µL, LIP = 6–9µL) between experiments. Although these experiments were performed in different monkeys, used slightly different versions of the DMC task (e.g. different category boundary structures), and used different muscimol infusion protocols (see Methods), this comparison suggests that the SC may have an even more critical role in mediating the DMC task than LIP.
+
+SC inactivation equally affected performance on trials in which the sample stimulus was from Category 1 vs. Category 2, as well as on Match trials in which the Sample and Test stimuli were in the same vs. opposite quadrants (Extended Fig. 4). However, both monkeys showed a bias in inactivation effects between Match and Non-Match trials (Extended Fig. 4c,d). Monkey N had a significantly larger impairment for Match trials (Match = −59.1 ± 18.8%, Non-Match = 2.3 ± 2.9%, U = 0, P = .002, Wilcoxon rank-sum test), while Monkey S had a significantly larger impairment for Non-Match trials (Match = −17.6 ± 3.6, Non-Match = −28.4 ±4.6, U = 1, P = .004). Investigation of Monkey N’s behavior revealed that during many inactivation sessions, he held the touch-bar throughout the Test 1 epoch for all trials and released the lever during the Test 2 stimulus (which only appeared during Non-Match trials). Therefore, after SC inactivation, his performance was close to 0% for Match trials and was close to 100% for Non-Match trials. This may reflect a behavioral strategy to optimize reward and minimize effort; he may have adopted this strategy to receive reward on 50% of the trials if he had difficulty interpreting the stimulus category following SC inactivation.
+
+The behavioral impairment on the DMC task during SC inactivation is unlikely to be largely due to deficits in low-level visual processing of stimuli presented in the inactivated hemifield. The DMC deficit is not purely an attentional/hemispatial neglect-like impairment, as the monkeys are still able to perceive and respond to stimuli presented in the inactivated hemifield during the MGS task, and still attempt the DMC task and respond at appropriate times in the trial (i.e., release the lever only during the test epochs). The DMC deficit is also unlikely due to an impairment in sensory processing of motion stimuli, as previous studies using similar experimental protocols have shown that SC inactivation produces minimal impairments in direction discrimination of high-coherence motion stimuli like those in our DMC task [28].
+
+We note that our experimental design cannot isolate the precise nature of the deficit caused by SC inactivation, as the DMC task requires several complex computations, including transforming sample direction into category, maintenance of category information in working memory, computation of the test category, and comparing sample and test categories. Our recordings identified encoding of each of these task variables in SC, so that the behavioral deficits observed during SC inactivation may result from interfering in any combination of these factors. Future targeted experiments can more precisely characterize the nature of the deficit(s) caused by SC inactivation. Despite this limitation, our study reveals that the functions of primate SC extend well beyond those ascribed to it by previous studies, which had, to our knowledge, never tested SC’s role in cognitive tasks that involve neither eye movements nor explicit modulation of covert spatial attention.
+
+Shorter latency match vs non-match encoding in SC than LIP
+Finally, we were interested in whether there were differences between LIP and SC encoding during the test period when the monkey had to decide whether the category of the currently visible test stimulus matched the sample stimulus shown earlier in the trial. We applied SVM classifiers to activity during the first test period on Match and Non-match trials and computed latency values for each classifier run as the first time bin the classifier value exceeded 75% for five consecutive time bins. When applied to pooled pseudo-populations containing all neurons from both monkeys (Fig. 5a), encoding of Match vs. Non-Match arose with a shorter mean latency in SC (135 ± 6 ms) than LIP (176 ±18 ms) (bootstrap, P < 0.001), suggesting that SC is preferentially involved in the monkeys’ match vs non-match decisions compared to LIP. This analysis revealed similar results when applied separately for Monkey N (SC latency = 136 ± 6 ms, LIP latency = 168 ± 18 ms, P < 0.001) and Monkey S (SC latency = 162 ± 9 ms, LIP latency = 230 ± 13 ms, P < 0.001) (Fig. 5b).
+
+Fig. 5: SC and LIP activity reflects match vs. non-match decisions during the test period.
+Fig. 5:
+
+Open in a new tab
+Time course of match (M) vs. non-match (NM) encoding for SC and LIP pseudopopulations was assessed by SVM decoding with a sliding window (Width: 30 ms s.d. Gaussian; step size: 5 ms). a, Mean accuracy of match vs. non-match decoding accuracy is shown for a combined pseudopopulation containing all neurons from both monkeys. b, Same as a, containing neurons from only monkey N (top) or S (bottom). For both a and b, shading indicates s.d., computed via resampling of trials when constructing the pseudopopulation. Horizontal dashed lines indicate the level of decoding expected by chance (50%). Insets show latency distributions and corresponding mean (black line) and median (red line) values for SC and LIP. Statistical significance of bootstrap tests comparing latency distribution means between SC and LIP is indicated in the insets (**** P < 0.001).
+
 Discussion
-In the resting state, our brain receives cardiac afferent
-signals, and previous studies have shown regional modulation of HERs. As shown in the present study, we found
-that the heartbeat induces theta-phase synchronization of
-cortical regions, thus generating a network that we called
-Figure 3. Within-module and between-module synchronization in the HIN. A, Within-module synchronization in the HIN. Withinmodule synchronization was strongest in module 1, followed by that in module 2. B, Between-module synchronization pattern of the
-HIN. The between-module synchronization pattern graph shows that module 1 is the center of interaction between modules such that
-it has strong connections with other modules, which were quantified by the strength of this node.
-Figure 4. The relationship between mood and the within-module
-synchronization of module 1. Stepwise linear regression showed
-that the within-module synchronization of module 1 has a positive association with the moods of the participants.
-New Research 8 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-the HIN, which did not reflect artificially-induced synchronization. This HIN was not present within other frequency
-bands, including  and  bands. The synchronization
-within the HIN was maximal at 300 ms after the R-peak,
-and the left inferior temporal gyrus and parahippocampal
-gyrus played a central role as hubs. Furthermore, the HIN
-was a modularized network with five modules. Module 1
-included major hubs of the HIN and played a central role
-in interactions between modules of the HIN. Finally, we
-found that the stronger synchronization within module 1
-of the HIN explained 10% of the variance in mood and
-had a positive association with mood.
-In this study, we first showed that the heartbeat increases “true” induced synchronization between cortical
-regions by controlling several factors that can cause artificial synchronization. By using the wPLI-D as a synchronization metric, we controlled the effect of zero-phase
-synchronization caused by volume conduction (Cohen,
-2014). Furthermore, we controlled for the possibility of
-artificially increased synchronization induced by CFAs
-from cardiac contractile activity or a PA by analyzing the
-increase in ECG-cortical region phase synchronization.
-However, because an artifact-induced increase in phase
-synchronization compared with synchronization at baseline may exist in a lower frequency band, such as the 
-band, we suggest that for MEG studies, an investigation
-of the HIN in the frequency ranges covering the theta and
-higher frequency bands would be more reliable because
-these bands are unlikely to be influenced by CFAs or a PA,
-while an investigation of the HIN in the  band and lower
-frequency bands would be less reliable because artifacts
-and the HIN would be difficult to discriminate in these
-frequency bands. Lastly, we controlled for large-scale
-synchronization within the HIN that may occur artificially
-due to evoked responses in cortical regions. We compared the HIN of real data with that of surrogate data
-whose non-heartbeat-locked phase relationships were
-eliminated while evoked components were preserved
-(Hirvonen et al., 2018) and found that the phase synchronization within the HIN could not be explained by artificial
-synchronization caused by evoked responses. These results from the control analyses consistently suggest the
-existence of the HIN, which is likely composed of truly
-increased neural-phase synchronization induced by the
-heartbeat.
-Several studies have investigated brain regions or networks related to cardiac activity. Chang and colleagues
-investigated a resting-state brain network that fluctuated
-with HRV using the dorsal anterior cingulate cortex and
-amygdala as seed regions (Chang et al., 2013). In the
-recent reviews of Azzalini et al. (2019), authors mentioned
-that because HRV was reported to be largely driven by the
-brain, the HRV-associated resting-state brain networks
-are likely to be associated with descending influences
-from the brain to heart (Azzalini et al., 2019). Another
-recent fMRI study showed regions associated with a lowfrequency peripheral pulse fluctuation called an autonomic network (Shokri-Kojori et al., 2018). Based on these
-studies showing cortical regions or networks related to
-cardiac activity-related measures, we showed ascending
-cardiac afferent signal-induced phase synchronization
-between cortical regions in this study. Furthermore, we
-quantified the interaction pattern between these regions
-in the network using graph-theoretical measures, which
-have not been investigated in previous studies.
-In the analysis of the properties of the HIN, synchronization within the HIN was maximal at 300 ms after the
-R-peak, which is the time after the heartbeat enters the
-CNS (Eckberg and Sleight, 1992). Most of the hubs of the
-HIN with high strength and betweenness centrality were
-concentrated around the left inferior temporal gyrus and
-the parahippocampal gyrus. In particular, the parahippocampal gyrus has been reported to be related to the
-cardiac cycle duration (Kim et al., 2019) and to be part of
-an autonomic network (Shokri-Kojori et al., 2018). Additionally, the bilateral orbitofrontal region also had high
-strength and betweenness centrality, which is a visceromotor region that sends motor signals to the viscera
-(Kleckner et al., 2017). Notably, unlike previous theories
-emphasizing the role of the insula in processing interoceptive signals, in our study, the insula did not serve as a
-hub (Craig, 2009). However, some recent studies of HERs
-showed that the insula is not always the most important
-structure for heartbeat processing, but its importance
-varies according to the task or situation that one is engaged in (Babo-Rebelo et al., 2016a,b; Tsakiris and De
-Preester, 2018).
-Next, we found that the HIN was a modularized network
-with greater modularity than random networks. The HIN
-was divided into five modules, and module 1 was the
-center of interactions between these five modules with
-high module-level betweenness centrality and strength,
-indicating that module 1 is responsible for a large portion
-of the interactions between modules of the HIN. Module 1
-contained left inferior temporal regions including the parahippocampal gyrus and posteromedial regions. Interestingly, an autonomic network identified in a previous fMRI
-study was composed of regions showing stronger interactions with low-frequency peripheral pulse amplitude
-fluctuations (occurring at 0.01– 0.09 Hz) than with other
-brain regions (Shokri-Kojori et al., 2018), and the network
-had some topological overlap with module 1 such that it
-also contained a large portion of posteromedial regions
-and the parahippocampal gyrus. Notably, this previous
-study also used an HCP dataset (fMRI and behavior data,
-18 participants in the previous study were also included in
-our study) as in our study. Furthermore, while module 1
-showed a significant relationship with the mood score, the
-autonomic network also showed a significant relationship
-with the emotion PC extracted from the HCP behavioral
-data of emotion (which is slightly different from our study
-because the authors not only extracted an emotion PC
-from the score related to mood but also included other
-measures such as an emotion recognition score; ShokriKojori et al., 2018). The topological overlap between module 1 and the autonomic network, which is also a cardiac
-activity-related network, and their similar relationships
-with emotion may suggest that they are the same or a
-similar kind of network induced by the heartbeat although
-they were measured by different modalities and methods,
-New Research 9 of 11
-July/August 2019, 6(4) ENEURO.0200-19.2019 eNeuro.org
-with the autonomic network emphasizing a peripheral
-pulse-cortical region relationship and module 1 of the HIN
-focusing on heartbeat-induced interactions between cortical regions. However, the regions included in each network were not entirely the same; therefore, we cannot
-determine whether the automatic network and module 1
-are the same in this study. However, we can conclude that
-a strong relationship exists between the regions included
-in both networks and heartbeat processing and also between heartbeat-related processing within these regions
-and the emotional state of an individual.
-A limitation of our study is that although interoceptive
-processing typically includes subcortical regions, such as
-the amygdala (Kleckner et al., 2017), we used only cortical
-regions to construct the HIN. The HIN including subcortical regions may show different properties than those
-reported in this study. Therefore, future studies on HINs
-including subcortical regions using deep source imaging
-MEG techniques are needed.
-In conclusion, we first showed the existence of HIN
-interactions with hubs in inferior temporal regions. The
-HIN was modularized and contained five modules, with
-module 1 as the center of module interactions. The synchronization within module 1 of the HIN had a positive
-association with the mood scores of the participants.
-Considering recent theories on abnormal interoceptive
-processing in mood disorder patients (Paulus and Stein,
-2010), investigating the HIN within such patients may also
-improve our understanding of the corresponding pathophysiology.
+We demonstrate that the primate SC is involved in abstract visual categorization, a cognitive function that was previously thought to be mediated by cortical association areas. Our results indicate that the role of the primate SC extends beyond sensorimotor functions and spatial orienting to abstract, higher-order cognitive processing, even in tasks that do not involve reporting decisions with saccades. We show that the SC reliably encodes the learned categories of visual stimuli during stimulus presentation, working memory, and stimulus comparison periods. This category encoding in the SC arose with a short latency and was stronger than in LIP, a cortical region with the shortest-latency category encoding of all cortical areas previously examined in this DMC task [39, 40, 42]. During the Test period of the DMC task when the monkeys compared the current Test stimulus to the remembered sample, SC showed stronger and earlier encoding of the monkeys’ trial-by-trial decisions. The stronger category and decision-related encoding in the SC than LIP is especially notable, since LIP had been suggested to be a central node of category processing [1, 37–39, 42]. Moreover, we show that reversible inactivation of the SC markedly impairs monkeys’ DMC task performance, indicating that activity in the SC is causally involved in category task behavior. Although inactivation of the LIP also causes deficits in similar visual categorization tasks [38, 49], the impairment that we observed during SC inactivation was substantially larger than those reported during LIP inactivation.
+
+Previous studies that observed cognitive and/or abstract encoding in the primate SC used tasks in which animals either spatially orient to a particular target to indicate their choices [17–23, 50–52], or tasks in which animals need to covertly orient to stimuli at distinct locations in different conditions [24–30]. By contrast, in the current study, monkeys did not report their decisions with a saccade or orient attention to different locations for different categories. Thus, it is difficult to account for our results based on differences in covert spatial attention. It is also unlikely that the current results are explained by SC inactivation causing a deficit in motion perception or direction discrimination, as a previous SC inactivation study found that motion-direction discrimination was minimally impaired for brief (160 ms) pulses of medium (50%) coherence motion, whereas our study used 100% coherence and a longer presentation duration. Our task also required monkeys to maintain gaze fixation throughout the trial, and category encoding in SC could not be explained by the animals’ patterns of eye movements during the task.
+
+Our analyses of the alignment of population encoding suggest that the SC population multiplexes category and saccade information by projecting those variables into distinct and near-orthogonal activity subspaces. This can explain how a motor structure like the SC can simultaneously encode other task variables without interfering with motor-encoding or producing task-interfering eye movements, closely related to the mechanism proposed to explain motor planning activity (without motor output) in the primary motor cortex [48]. Even more broadly, this segregation of diverse behavioral functions into separate subspaces could be a general principle of neural coding through which a single neural population can efficiently and robustly encode multiple factors.
+
+We investigated SC during the DMC task because of evidence that cortical areas that are closely involved in oculomotor functions, such as LIP and the frontal eye fields (FEF), are also engaged in abstract categorization and flexible decision tasks [53]. Our previous work shows that LIP plays a causal role in abstract categorization [37, 38], and that it preferentially encodes motion categories compared both to visual cortical areas MT and MST [42, 43], and executive regions such as lateral prefrontal cortex [39]. Anatomical connections between LIP and SC also motivated examining SC [31–36], as well as the similar patterns observed in SC and LIP during saccade-based tasks. We were also inspired by work showing that SC activity reflects higher-order functions such as attention and perceptual decisions (during tasks in which decisions were reported via eye movements or which manipulated covert spatial attention; [17–30, 50]).
+
+Future directions
+Our study opens several avenues for future research. The SC is interconnected with a diversity subcortical and cortical regions [2]. It will be important to investigate the involvement of these different pathways in categorization behavior. Our results also highlight the need to directly and simultaneously compare encoding across the SC-FEF-LIP network to determine their contributions to computing abstract category information from upstream visual cortical regions (e.g. MT and MST) [42, 43, 54], and to understand how communication between these areas supports such decisions.
+
+We speculate that the primate SC is generally involved in abstract visual categorization for a wider range of visual features beyond motion, as cortical areas such as LIP are involved in the categorization of both motion and shapes [55]. It will be interesting to investigate the relative roles of the SC and the LIP in motion vs. object categorization, as well as the involvement of the SC in non-visual (e.g., auditory) categorization.
+
+Monkeys were trained on the DMC task for hundreds of training sessions over many months. We wonder whether non-spatial task-related encoding in subcortical or motor structures such as SC emerges only after prolonged training on a task. The SC might participate in abstract decision making even during early stages of learning a task. Alternatively, it is possible that the SC is critical for categorization only after the task becomes well-learned following this extensive training. This would suggest an intriguing relationship between experience level and cortical vs. subcortical involvement in higher-order cognition, wherein cognitive functions are first cortically-mediated and become subcortically-mediated after extensive experience. This idea is supported by a study in mice showing that PPC inactivation impairs categorization performance with newly learned stimuli, but not well-learned stimuli [49]. This idea also aligns with a prominent model of motor learning, according to which early motor skill learning is cortex-dependent but, as behavior becomes increasingly automated, control of the motor skill is gradually transferred to subcortical structures such as the basal ganglia [56]. To determine whether the SC is critical for the category learning, or only becomes involved in categorization after extended training, future experiments should compare the effects of SC inactivation on performance during early vs. late task learning stages.
+
+Our findings are interesting to consider from an evolutionary perspective and highlight the importance of considering the functions of the SC between mammals and other vertebrates. While previous work in mammalian SC has emphasized its role in simple sensorimotor functions, our work suggests that SC also mediates higher-order behaviors including categorization, working memory, and decision making. It may be advantageous for an area like the SC, which is close to both sensory input and motor output brain centers, to play such a role in order to facilitate rapid yet flexible behaviors. The idea that the SC is involved in complex behaviors is especially plausible in non-mammalian vertebrate species, which lack a neocortex and in which the tectum occupies a large fraction of brain volume and is known to play a major role in visual processing. Indeed, studies have found innate spatial encoding of stimulus size categories in the optic tectum of untrained barn owls [57]. In mammals and primates, this spatial orienting circuit may have evolved to rapidly compute more complex types of information (like the visual categories described here), while cortical pathways developed to allow for slower, but even more sophisticated and flexible processing.
+
+Methods
+Subjects
+Two adult (13–15 years old) male rhesus macaques (Macaca mulatta) participated in the experiment (Monkey N: ∼12 kg, Monkey S: ∼13 kg). All procedures were in accordance with the University of Chicago Institutional Animal Care and Use Committee and the National Institutes of Health guidelines and policies.
+
+Behavioral tasks
+For the behavioral tasks described below, the monkeys were head restrained and seated in a primate chair inserted inside an isolation box (Crist Instrument), facing a 24-inch LCD monitor on which stimuli were presented (1,920 × 1,080 resolution, refresh rate 60 Hz, 57 cm viewing distance). Reward delivery, stimulus presentation, behavioral signals, and task events were controlled by MonkeyLogic 2.0 software [58], running under MATLAB 2015–2022 on a Windows-based PC. Gaze position was measured with an optical eye tracker (Eyelink 1000; SR Research, Ottawa, Canada) with a 1.0 kHz sample rate. For both tasks, monkeys initiated trials by holding a manual touch bar.
+
+Delayed match-to-category task
+We trained monkeys to perform a delayed match-to-category (DMC) task in which they grouped twelve dot-motion stimuli into two categories based on two orthogonal boundaries, such that motion directions that are 180° apart belong to the same category. Motion directions were separated into quadrants with three directions per quadrant, and stimuli within the same quadrant were 22.5° apart and near-boundary directions were 22.5° away from the boundary. We used the same stimulus parameters (e.g. stimulus size, contrast, speed, etc.) for both animals and for SC and LIP recordings. The stimuli were 6°-diameter circular patches of white dots moving at a speed of 10°/s with 100% coherence, presented at 6.5–7.5° eccentricity in the contralateral visual field. Animals were required to fixate within a 2.5–3.5° circular window.
+
+Memory-guided saccade task
+We used a memory-guided saccade (MGS) task [59] to identify visual and motor receptive fields of LIP and SC neurons (Extended Fig. 10). At the start of a trial, monkeys had to maintain fixation on the central ~0.25° white spot for 500 ms, after which a ~0.5° white square target briefly appeared for 300 ms at one of eight peripheral locations (equally spaced and concentric at 6.5° eccentricity). The target presentation was followed by a 1000-ms delay period, after which the fixation cue disappeared and monkeys had to saccade to the remembered location of the visual target presented earlier in the trial.
+
+Passive viewing of motion stimuli
+On DMC recording sessions, monkeys also performed interleaved blocks of a passive viewing (PV) paradigm in which they were shown the same motion stimuli used in the DMC task (and presented at the same peripheral location). At the start of a trial, a blue fixation circle appeared to indicate a PV trial to monkeys (as opposed to a white fixation circle for the DMC task). Monkeys had to maintain gaze fixation on this central cue for 500 ms, after which 3–5 motion stimuli appeared in succession for 400 ms each and separated by 200 ms. Monkeys received a fluid reward at the end of the trial for maintaining gaze fixation on the central cue.
+
+Surgical procedures and electrophysiological recordings
+We followed procedures that were described in detail in previous studies from our group [37, 42, 45]. Monkeys were implanted with a titanium headpost and a single recording chamber positioned over LIP and SC. Stereotaxic coordinates for chamber placement were determined from magnetic resonance imaging (MRI) scans obtained before implantation of recording chambers. LIP and SC recordings were conducted in separate sessions, typically using 16- and 24-channel linear Plexon V-probes (in which channels span 1.5–2.0 mm of tissue), a dura-piercing guide tube, a Plexon Omniplex acquisition system, and a NAN microdrive system (NAN Instruments). A small subset of recording sessions from one monkey were conducted using single epoxy-insulated tungsten electrodes (FHC, Inc). We used anatomical landmarks and responses during the MGS task to guide recordings. For SC recordings, we primarily targeted neurons in superficial and intermediate layers, although we also recorded neurons in deep layers as well due to the ∼2 mm span of recording channels on our probes. Neurophysiological signals were amplified, digitized, and stored for offline spike sorting (Plexon) to verify the quality and stability of neuronal isolation.
+
+SC inactivation
+We infused muscimol, a GABAA agonist, to unilaterally inactivate the SC. Muscimol was dissolved in phosphate-buffered saline to a concentration of 5 µg/µL. We built a microfluidic injectrode system to deliver small amounts of the drug or saline (muscimol: 0.25–0.5 µL; saline: 0.25–0.5 µL; see Table S1) using the protocol developed by [60]. To ensure that we precisely injected the drug into superficial and intermediate layers of the SC, we used a custom 16-channel Plexon S-probe with a fluid delivery channel that allowed us to monitor neural activity during probe lowering and before injection. Before drug injection on each session, monkeys first completed a control behavioral session in which they performed at least 200 correct trials of the DMC task and at least 100 correct trials of the MGS task (Monkey N) or visually-guided saccade task (Monkey S). After monkeys completed the control behavioral session, we infused the drug and waited 15–25 minutes to begin the post-treatment behavioral session. To verify success of SC inactivation, we compared saccade metrics (peak saccade velocity) during the MGS/VGS tasks during the control and post-treatment trials. We analyzed data from 12 muscimol injection sessions (Monkey N: 6 sessions, Monkey S: 6 sessions) and six control saline injection sessions (Monkey N: 2 sessions, Monkey S: 4 sessions). Table S1 provides information for each injection session, including muscimol and saline concentration, injection volume, and number of completed DMC trials.
+
+LIP inactivation
+We compared behavioral results from the SC inactivation experiments described above to data from a previous study from our group [38] that investigated the effect of LIP inactivation (using muscimol) on DMC task performance. The LIP inactivation experiment was performed in a different pair of monkeys (Monkey Q and Monkey M) than the ones used for the LIP/SC electrophysiological recordings and SC inactivation experiments reported here. The procedure used to infuse muscimol to reversibly inactivate the LIP is described in detail in [38]. We will highlight the differences between the SC inactivation procedure described above and the LIP inactivation procedure: (1) The LIP inactivation experiments used a higher muscimol concentration than the SC inactivation experiments (LIP: 8 µg/µL, SC: 5 µg/µL); (2) In the LIP inactivation experiments, a much larger volume of muscimol was infused than in the SC inactivation experiments (LIP: 6–9µL; SC: 0.25–0.33 µL); (3) The motion DMC tasks had different category boundary for the LIP vs SC inactivation experiments (the task used for the LIP inactivation experiment had a single 45° boundary separating motion directions into two categories, rather than the two orthogonal boundaries used in the SC inactivation experiment).
+
+Behavioral inclusion criteria
+For electrophysiological recordings and inactivation experiments, we included sessions in which behavioral performance on each category for the DMC task was at least 75% (criterion applied only to control blocks for the inactivation experiments). We excluded six LIP recording sessions (four in Monkey N and two in Monkey S) from analyses due to poor behavioral performance. For the inactivation experiments, we excluded two sessions in Monkey S (one saline injection session with 66% accuracy for category 2 during the control block, and one muscimol injection session with 53% accuracy for category 2 during the control block).
+
+For DMC analyses, we included well-isolated neurons for which we had data recorded during at least five correct trials for each sample direction. We analyzed spiking data during the DMC task from 555 LIP neurons recorded over 49 recording sessions (Monkey N: N neurons = 228, N sessions = 36; Monkey S: N neurons = 327, N sessions = 13) and 605 SC neurons recorded over 38 recording sessions (Monkey N: N neurons = 362, N sessions = 26; Monkey S: N neurons = 243, N sessions = 12). We collected and analyzed spiking activity during the MGS task in a subset of 424 SC neurons (Monkey N: N = 259, Monkey S: N = 165) for which we recorded data from least two correct trials for each MGS condition.
+
+Data analysis
+Analyses were performed in Python (version 3.7.3) or MATLAB (versions R2019a-R2023b). Behavioral analyses for the DMC task (including those for inactivation) were performed on all completed trials (i.e., correct trials, misses on match trials, and false alarms on Non-Match trials). Unless otherwise specified, all neural analyses for the DMC task were performed only on correct trials. Behavioral and neural analyses for the MGS/VGS tasks were performed only on correct (completed) trials. All P -values are two-tailed unless otherwise specified. For neural analyses, spike trains for each neuron were smoothed using Gaussian kernel (σ = 25 ms). Eye tracker gaze position data were low-pass filtered to reduce noise using a 2nd-order Butterworth filter with a 70-Hz cutoff.
+
+Behavioral performance
+To compare differences in mean behavioral accuracy (across all sample directions) between LIP and SC recording sessions in each monkey (Extended Fig. 1a), we used a permutation test in which we randomly permuted mean accuracy values between the two brain areas (while preserving the number of sessions per area). We repeated this procedure for 5000 unique iterations to generate a null distribution of accuracy differences. To compare differences in behavioral performance on match trials in which the sample and test stimuli were in the same vs. opposite quadrants, we computed the difference in mean accuracy for same vs. opposite quadrant match trials for each session and used a permutation test (with 5000 iterations) to randomly permute the per-session accuracy values between the two conditions.
+
+Quantifying single-neuron category tuning
+We quantified the strength, reliability, and time course of single-neuron category tuning using a receiver operating characteristic (ROC)-based category tuning index (rCTI)[44]. For each neuron, we applied ROC analysis to distributions of trial-by- trial firing rates and compared area under the ROC curve (AUC) values for eight pairs of sample motion directions that are in the same category (Within-Category; WC) and eight pairs of directions that are in different categories (Between-Category; BC). To ensure equalized angle differences between WC and BC pairs (and thus minimize the influence of direction tuning on rCTI), the WC and BC groups each included four direction pairs spaced 45° apart and four direction pairs spaced 135° apart (Extended Fig. 2). We quantified rCTI at each timepoint as the mean rectified WC AUC subtracted from the mean rectified BC AUC:
+
+where BCp1 and BCp2 are the two directions in the pth BC pair, and WCp1 and WCp2 are the two directions in the pth WC pair.
+
+We applied the rCTI analysis to smoothed spike trains (see above) across 5-ms time steps in the trial. To generate the error shading shown in Fig. 2c and d, we calculated rCTI for each neuron over 500 bootstraps using 10 trials per sample motion direction (sampled with replacement from a pool of 50% of trials for each bootstrap). We generated null distributions of rCTI values for each neuron using a bootstrap analysis (repeated 5000 times) in which we randomly assigned (with replacement) eight direction pairs (four 45°-spaced and four 135°-spaced pairs) to each of the shuffled BC and WC groups (Extended Fig. 2). In this procedure, we reshuffled the labels (between- vs within-category) assigned to each pair of directions, such that each shuffled group contained four 45°-apart direction pairs and four 135°-apart direction pairs. We defined category-tuned “runs” as time bins at which rCTI values significantly exceed the null distribution for a minimum of five consecutive analysis time bins (25 ms). We considered neurons to be category-tuned if they were classified as task-responsive and had at least one significant run, and defined latency of category selectivity for each category-tuned neuron as the first time bin of the earliest significant run.
+
+To test for significant above-chance mean rCTI in each brain area (as shown in Fig. 2f), we used a permutation procedure in which we computed a null mean rCTI across neurons for each WC/BC-label-shuffling iteration. To test for a significant difference between brain areas in the onset time of category selectivity for mean rCTI, we compared the observed between-area latency difference to a null distribution of latency differences. For each of 5000 iterations, we randomly permuted neurons between the two brain areas (while preserving the number of neurons in each area) and we computed the difference in latency of category selectivity onset in the two shuffled groups. To test for differences in onset time of category selectivity between Vis and Vis-other SC neurons, we used a similar procedure in which we randomly permuted neurons between the two groups instead of between brain areas.
+
+Support vector machine (SVM) analyses
+We used SVM classifiers (with a linear kernel) to quantify the strength and timing of sample stimulus category encoding in populations of LIP and SC neurons. To quantify category encoding in a direction-independent manner, we constructed cross- quadrant classifiers for which training sets consisted of trials in which the sample motion directions were from two of the four quadrants (one from each category), and testing sets consisted of sample motion direction trials from the other two quadrants (Fig. 2g). The training and testing quadrants were randomly chosen on each iteration. The analysis was applied in 5-ms steps across time in the trial and repeated for 200 iterations. For each neuron, we included 15 trials from each of six sample motion directions for training (as described above) and 15 trials from each of the remaining six sample motion directions for testing. To reduce the biases in classifier performance across brain areas due to an unequal number of neurons, for each iteration of the analysis, we randomly selected N neurons for inclusion, where N is the number of neurons in the brain area with the lower number of neurons. We generated null distributions of decoder performance values at each time using a permutation procedure (repeated 5000 times) in which we shuffled the sample direction label assigned to each trial.
+
+We also used linear SVM classifiers to decode sample direction from LIP and SC population activity. To quantify the amount of direction encoding in a category- independent manner, the training/validation sets for each iteration of the classifier only included data from one of the two categories. The classifiers were trained on 48 trials (8 trials from each of the six directions from one of the two categories, randomly chosen) and validated on 12 held-out trials (2 trials from each of the six motion directions). This analysis was applied in 5-ms steps across the trial and repeated for 200 iterations.
+
+Mean matching procedure
+We controlled for the possibility that differences in mean firing rates between LIP and SC neurons could interfere in our measures of neuronal category selectivity strength or latency by performing a mean matching procedure on the raw data prior performing some of the rCTI analyses (where indicated in the Results). For each 20 ms time window in sequence from the fixation period through first test period, we computed the mean spike count across all neurons in LIP and in SC. For the area that had the higher mean (usually SC, which had higher average rates overall), spikes were removed from that area at random (across neurons and trials) random until the means were matched at that time-step.
+
+Identifying task-responsive neurons
+To identify neurons that are task-responsive during the DMC task, we used a bin- and parameter-free statistical test (ZETaPY) to detect any consistent time-locked modulations in firing rate for each neuron [61]. In brief, this analysis consists of the following steps (applied separately for each sample direction): (1) aligning the spike trains for all correct trials to the onset of the sample stimulus, (2) stacking these spike trains to create a single vector of spikes relative to sample onset, (3) calculating the cumulative distribution of spikes over trial time using this spike vector, and (4) comparing this cumulative distribution to a linear baseline (which represents an unvarying firing rate over time), producing a deviation value for each timepoint. To generate a null distribution of 5000 deviation-from-baseline values, we shuffled the spike trains in each trial to destroy any time-locked activity patterns across trials while preserving the total number of spikes, and then computed the maximum deviation (across time) for these shuffled data. For this analysis, we included data for each trial from 100 ms before sample stimulus onset until the end of the first test stimulus epoch. We also computed the peak mean firing across time (in the period from the beginning of the sample epoch until the end of the first test epoch) for each sample direction. We classified each neuron as task-responsive if it satisfied the following two criteria: (1) if it showed a significant modulation in firing rate (i.e., had significantly elevated deviation-from-linear-baseline values) at any timepoint from the start of the sample epoch until the end of the test epoch, and (2) if its maximum peak mean firing rate (across sample directions) was at least 3.0 sp/s. In LIP, 506/555 (91.2%) of neurons were task-responsive (Monkey N: 210/228, 92.1%; Monkey S: 296/327, 90.5%), and in SC, 493/605 (81.5%) of neurons were task-responsive (Monkey N: 296/362, 81.8%; Monkey S: 197/243, 84.4%).
+
+Identifying direction-tuned neurons during the DMC task
+To identify neurons that are significantly direction tuned during the sample epoch of the DMC task, we computed a direction tuning index (DTI) for each neuron using the circular variance method introduced in [62]. We calculated neurons’ mean firing rate for each sample stimulus direction in a direction vector space, and quantified DTI as the normalized length of the sum of these vectors:
+
+where f(θk) is a neuron’s mean firing rate for direction θk.
+
+To test for significant direction tuning, we compared the true DTI to a distribution of 5000 null DTIs generated by randomly shuffling the direction labels assigned to each mean firing rate. We applied this analysis to firing rates in three non-overlapping 200-ms windows from 0 to +600 ms relative to sample stimulus onset. We classified neurons as direction tuned if they showed significant direction tuning during at least one of the three time windows and if they were identified as responsive during the DMC task (see above). In LIP, 156/555 (28.1%) of neurons were significantly direction-tuned (Monkey N: 78/228, 34.2%; Monkey S: 78/327, 23.9%), and in SC, 107/605 (17.7%) of neurons were significantly direction-tuned (Monkey N: 52/362, 14.4%; Monkey S: 55/243, 22.6%).
+
+Memory-guided saccade task analyses
+Identifying visually-responsive neurons
+We analyzed neuronal activity during the MGS task in order to characterize the visual and motor response fields of SC neurons. For each neuron, we determined whether the DMC stimulus was presented in its visual receptive field by identifying the MGS condition (MGSDMCloc) whose location overlapped with the DMC stimulus location on that session. We then determined whether the neuron was significantly modulated during the MGS visual epoch for that condition. For each of the eight MGS conditions, we computed the mean firing rate (per trial) for each non- overlapping 25-ms bin from 0 ms to +400 ms relative to stimulus onset. We used the Kruskal–Wallis H-test to compare the firing rate distributions across these windows and compared the resulting H-statistic to a distribution of 5000 null H-statistics. To generate the null H distribution, we shuffled the neuron’s time-varying firing rates (from 0 to +400 ms relative to stimulus onset) for each trial, calculated the mean firing in non-overlapping 25-ms windows for these permuted trials, and computed a shuffled H-statistic. In addition, we applied the ZETaPY procedure (described above) to detect any consistent time-locked modulations in firing rate for each condition (applied from −100 ms to +400 relative to stimulus onset). Neurons were classified as “Vis” neurons if they were significantly modulated across the visual stimulus period based on the H-test or ZETaPY test for the MGSDMCloc condition and if their maximum firing rate was above 3.0 sp/s. Neurons were classified as “Vis-other” if they were significantly modulated across the visual stimulus period for another MGS condition (and if their maximum firing rate was above 3.0 sp/s). Neurons were classified as “Non-vis” if they were not significantly modulated across the visual period for any of the MGS conditions, or if their maximum firing rate across analysis windows and conditions was below 3.0 sp/s. To minimize inclusion bias between the Vis group and the other two groups, P-values for the 7 non-MGSDMCloc conditions were Bonferroni corrected. 127 (30.0%) neurons were classified as Vis neurons (Monkey N: 90 [34.7%], Monkey S: 37 [22.4%]), 167 (39.4%) as Vis-other neurons (Monkey N: 90 [34.7%], Monkey S: 77 [46.7%]), and 130 (30.7%) as non-Vis neurons (Monkey N: 79 [30.5%], Monkey S: 51 [30.9%]).
+
+Identifying saccade-modulated neurons
+We analyzed activity of SC neurons during the saccade period of the MGS task (−200 ms to +50 ms relative to saccade onset) to identify neurons that are significantly modulated by saccade direction. For each neuron, we computed its mean firing rate across the saccade period window for each trial. We used the Kruskal–Wallis H-test to compare the neuron’s the firing rate distributions across the eight MGS conditions, and compared the resulting H-statistic to a distribution of 5000 null H-statistics generated by shuffling condition labels among trials. 124/424 (29.2%) neurons were significantly modulated by saccade direction (Monkey N: 80/259 [30.9%], Monkey S: 44/165 [26.7%]).
+
+Quantifying contribution of stimulus category vs. eye position to neuronal firing rates
+We constructed linear encoding models [47] to quantify how much firing rates of individual neurons (across trials and time within trials) are modulated by stimulus category vs microsaccades. The linear models contained regressors related to stimulus category and microsaccade parameters. For the category regressors, we constructed a binary vector containing a pulse at the time of the sample stimulus onset, and created copies of this vector shifted in time by 1ms for every point until the end of the trial. The microsaccade regressors included two analog regressors: horizontal and vertical eye velocity at each timepoint throughout the trial, shifted in time by −50 relative to neural activity to account for lag between neural activity and saccades. We also included two types of saccade event kernel regressors: (1) a binary vector containing a pulse at every timepoint at which a microsaccade occurred, and (2) a vector containing microsaccade direction at every timepoint at which a microsaccade occurred and zeros at every other timepoint. We created time-shifted copies of the binary saccade vector and saccade direction vector, spanning from −500 until +100 ms (relative to saccade onset) in 10-ms steps. The design matrix of the full model included all of the category and saccade regressors. We also built reduced models that contained shuffled saccade regressors and unshuffled category regressors, or shuffled category regressors and unshuffled saccade regressors. For each neuron, we fit the models using ridge regression (with L2 regularization and 10-fold cross validation) and computed an R2 for the full model and each of the reduced models. To quantify how well category or saccade regressors predict neural activity in each neuron, we computed the change in cross-validated R2 from the full model to each reduced model. A large (negative) change in R2 indicates a strong contribution of the excluded variables.
+
+Subspace alignment analysis
+We used a subspace alignment analysis introduced in [48] to quantify the degree of alignment between neural activity in the SC during the MGS and DMC tasks. For this analysis, we constructed matrices D and M of neural activity during the DMC and MGS tasks, respectively. D and M were size N by cxt, where N is the number of neurons, c the number of conditions (12 for DMC and 8 for MGS), and t is the number of time points per condition. Each row of D and M contains the concatenated mean firing rates (per condition and across time points) of one neuron. We normalized the firing rates of each neuron by its range (across all included DMC and MGS conditions and time points) plus a constant, chosen as 5 sp/s. We then performed principal components analysis (PCA) on the matrix D to obtain the top 12 DMC PCs, and on matrix M to obtain the top 12 MGS PCs. We then projected the DMC activity D onto both the DMC and MGS PCs and calculated sum of the percent of variance explained (relative to total variance of D) for each of the projections. We quantified the alignment index (AI) between the two subspaces as the ratio of these two sums. The logic behind this analysis is that if the DMC and MGS subspaces are approximately orthogonal, the projection of D onto the MGS PCs will capture minimal D variance. AI ranges from 0 (indicating perfect orthogonality between two subspaces) and 1 (indicating perfect alignment).
+
+To determine whether measured AI values are more (or less) misaligned than expected by chance, we calculated the alignment between pairs of random subspaces sampled from the full covariance structure of the data to generate a null distribution of alignment values [48]. To create the random subspaces, we first computed the covariance matrix C from the concatenated D and M matrices, and obtained the left singular vectors (U) and singular values (s) of C using singular value decomposition. For each of 5000 iterations per comparison, we computed the AI between two random subspaces (vrand). We sampled each random subspace vrand as follows:
+
+where v is an N x 12 matrix in which each element is drawn from a normal distribution with mean 0 and variance 1, and orth(X) returns the orthonormal basis of X defined by its left singular values.
+
+For the main alignment analysis (shown in Fig. 3c–e), we included DMC task data from 150–350 ms after sample stimulus onset (during stimulus presentation) and MGS task data from 200 before saccade onset until saccade onset. Data for both tasks were sampled in 10-ms steps.
+
+SC inactivation analyses
+To verify efficacy of SC inactivation, we quantified the difference in peak saccade velocity for saccades made toward the inactivated hemifield during the MGS/VGS task between the control and post-treatment blocks. For each trial, we computed the maximum eye gaze velocity from 200 ms before go cue onset until successful target fixation initiation. We excluded one trial for Monkey N (session 2, muscimol treatment, upper-center condition) in which we could not accurately quantify peak saccade velocity because the monkey blinked during the response period. For each session, we combined trials from the three conditions in which the target was in the inactivated hemifield (“Contralateral”), and the three conditions in which the target was out of the inactivated hemifield (“Ipsilateral”). We tested for significant differences in mean peak saccade velocity between the control and treatment blocks for Contralateral and Ipsilateral trials on each session using a bootstrap test with 5000 iterations (Table S2). We also tested for significant differences in mean peak saccade velocity between control and treatment blocks for Contralateral trials pooled across all muscimol sessions and pooled across all saline sessions, as shown in Fig. 4c. For the muscimol sessions, this analysis included 270 (470) control (treatment) trials in Monkey N and 320 (376) control (treatment) trials in Monkey S, and for saline sessions included 72 (103) control (treatment) trials in Monkey N and 207 (215) control (treatment) trials in Monkey S.
+
+We used a two-tailed Fisher exact test to quantify differences in behavioral performance on the DMC task between control and post-treatment blocks for each session. The statistics for the test are shown in Table S3. We used a Wilcoxon rank-sum test to quantify differences in behavioral accuracy changes (from pre- to post-inactivation) between Category 1 and Category 2 trials (Extended Fig. 14a,b), Match and Non- Match trials (Extended Fig. 14c,d), and Match trials in which Sample and Test stimuli are in the same vs. opposite quadrants (Extended Fig. 14e,f ).
+
+Extended Data
+Extended Data Figure 1.
+Extended Data Figure 1.
+
+Open in a new tab
+a, Distributions of overall session accuracy for LIP and SC recording sessions in Monkey N (LIP: n = 36 sessions; SC: n = 26 sessions). Black symbols indicate mean ± s.d. There was no difference in mean accuracy between brain areas (LIP: 88.8±3.9%, SC: 90.3±2.3%, P= .095, two-tailed permutation test). b, same as a but for Monkey S (LIP: n = 13 sessions, μ= 87.4±3.5%; SC: n = 12 sessions, μ= 89.1±2.9%, P= .234, two-tailed permutation test). c, Mean accuracy by sample direction for LIP (left) and SC (right) recording sessions. Horizontal bars indicate mean and plot bodies indicate range. d, same as c but for Monkey S.
+
+Extended Data Figure 2.
+Extended Data Figure 2.
+
+Open in a new tab
+a, Schematic of the overlap between MGS target position and DMC stimulus position. Square indicate the eight possible locations of the targets during the MGS task, and the dashed circle indicates the position of the DMC stimulus for an example session. c, Example PSTHs of SC neurons during the MGS task. Left: Neuron that is visually responsive during the MGS task to the target presented at the same location as the DMC task stimuli. Dashed line indicates MGS condition whose position matches the DMC stimulus. Center: Neuron that is visually unresponsive during the MGS task to the target presented at the same location as the DMC task stimuli, but is visually responsive to other MGS targets. Right: Neuron that is visually unresponsive to all stimuli during MGS task. c, Time course of mean rCTI across SC neurons that are visually responsive to stimuli at locations that overlap with the position of the DMC stimuli (pink), neurons that are visually unresponsive at DMC locations but visually responsive at other locations (dark grey), and neurons that are visually unresponsive(light grey). Shading indicates s.e.m. across neurons. Colored symbols above plots indicate timepoints at which values significantly exceed chance. Black symbols above panel indicate time points at which mean rCTI of Vis neurons is significantly higher than both Vis-other and Non-vis neurons (P<.050, two-tailed permutation tests). d, Latency of category selectivity for SC neurons that are category-tuned during the Sample epoch (0–650 ms from Sample onset) (Vis: n = 48 neurons, Vis-other: n = 35 neurons). Left: Distribution of category selectivity latency. Triangular markers indicate median latency (Vis: 228±75 ms, Vis-other: 330±95; P = .001, two-tailed permutation test). Right: Empirical cumulative distribution functions of latency values in LIP and SC neurons (two-sample Kolmogorov-Smirnov test, D= .407, P = . 002). (**P<0.005), ***P<0.001)
+
+Extended Data Figure 3.
+Extended Data Figure 3.
+
+Open in a new tab
+a, Alignment between SC neural subspaces recorded during the first half and second half of the trials for each session. Data are significantly more aligned than chance (Monkey N: AI= .439, n = 235 neurons, P<.001; Money S: AI = .469, n = 150 neurons, P <. 001,two-tailed randomization test). b, Left: SC neural subspaces during the first half of DMC trials and the MGS saccade period were significantly misaligned (Monkey N:AI = .151, n = 233 neurons, P <. 001; Money S: AI = .229, n = 151 neurons, P <. 001, two-tailed randomization test). Right: SC neural subspaces during the second half of DMC trials and the MGS saccade period were significantly misaligned (Mon-key N: AI = .139, n = 235 neurons, P <. 001; Money S: AI = .191, n = 151 neurons, P <. 001). In a and b, alignment indices for the real data are indicated by horizontal blue lines and 95% confidence intervals of alignment indices between pairs of random vector projections from data (see Methods) are indicated in grey. (***P<0.001).
+
+Extended Data Figure 4.
+Extended Data Figure 4.
+
+Open in a new tab
+a, Left: Behavioral performance (% correct) in Monkey N for Category1 and Category 2 trials during control (grey) and inactivation (magenta) blocks. Right: Change in accuracy between control and inactivation blocks for Category 1(cyan) and Category 2 (orange) trials. Negative values indicate decreased accuracy during inactivation blocks. Category 1 (median ± m.a.d. %) = −29.9±11.4, Category2 = −26.5±9.4,U= 13,P= .485, two-tailed Wilcoxon rank-sum test. b, Same as a but for Monkey S. Category 1 = −12.2±5.6, Category 2 = −34.5±7.7,U= 1,P= .065. c, Left: Behavioral performance (% correct) in Monkey N for Match and Non-Match trials during control (grey) and inactivation (magenta) blocks. Right: Change in accuracy between control and inactivation blocks for Match (green) and Non-Match (pink) trials. Match = −59.1±18.8%, Non-Match = 2.3±2.9%,U=0,P= .002, two-tailed Wilcoxon rank-sum test. d, Same as c but for Monkey S. Match = −17.6±3.6, Non-Match = −28.4±4.6,U= 1,P= .004. e, Left: Behavioral performance (% correct) in Monkey N for Match trials in which Sample and Test stimuli are in the same vs. opposite quadrants. Right: Change in accuracy between control and inactivation blocks for same-quadrant (black) and opposite-quadrant (light grey) trials. Same quad. = −62.5±15.2, Opposite quad. = −55.9±22.8,U=18,P= .936, two-tailed Wilcoxon rank-sum test. f, Same as e but for Monkey S. Same quad. = −15.2±3.0, Opposite quad. = −21.1±3.0,U= 25,P= .310, two-tailed Wilcoxon rank-sum test. For all comparisons, n = 6 control and 6 treatment blocks in each monkey.
+
+Supplementary Material
+Supp Figures
+NIHMS2032673-supplement-Supp_Figures.pdf (8MB, pdf)
+Acknowledgments
+We are grateful to the following individuals for helpful discussions and/or comments on an earlier version of this manuscript: Chris Hauser, Matthew Kaufman, Kenneth Latimer, Jason MacLean, John Maunsell, Krithika Mohan, and Yang Zhou. We are grateful for expert technical assistance from Suha Chang, Yinghui Qiu, and Sam Zheng. We acknowledge expert animal care and veterinary support from the staff the University of Chicago Animal Resources Center. This work was supported by NIH R01EY019041, NIH U19NS107609, NIH NRSA 1F31MH124395 (BP), NIH NRSA F30EY033648 (OZ), NIH NRSA F31 EY029155 (WJJ), and DOD Vannevar Bush Faculty Fellowship N000141912001 (DJF).
+
+Footnotes
+Competing interests statement
+
+Authors declare that they have no competing interests.
+
+Code Availability
+
+Data analysis code for accessing and analyzing data from this manuscript is available via Figshare at https://doi.org/10.6084/m9.figshare.25742958.v1.
+
+Data Availability
+Processed data for this manuscript is available via Figshare at https://doi.org/10.6084/m9.figshare.25742958.v1. Raw data is available upon request to the corresponding author.
+

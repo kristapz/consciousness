@@ -1,0 +1,119 @@
+{
+  "paper_metadata": {
+    "link": "https://www.nature.com/articles/s41467-024-47860-x",
+    "title": "Human connectome topology directs cortical traveling waves and shapes frequency gradients"
+  },
+  "theory_synthesis": {
+    "description": "Conscious access depends on large-scale, frequency-specific traveling field patterns that are scaffolded by structural instrength gradients and conduction delays, which coordinate timing and functional connectivity across cortex. Myelination-tuned conduction speeds set the feasible bands and directions of these waves, enabling coherent integration when field gradients are stable.",
+    "type": "string"
+  },
+  "supported_claims": {
+    "description": "Array of claim numbers that are best supported by evidence in this paper",
+    "type": "array",
+    "items": [
+      9,
+      13,
+      15,
+      22
+    ]
+  },
+  "evidence_details": {
+    "9": {
+      "claim_text": "Myelination and conduction tuning synchronize long-range circuits at oscillation-relevant bands.",
+      "direct_quotes": [
+        {
+          "quote": "To understand the role of conduction delays, we removed time delays while preserving the original SC and instrength gradients... Thus, conduction delays are crucial for the instrength gradient mechanism of wave direction.",
+          "page_or_section": "Results — The human connectome directs traveling waves in a cortical network model"
+        },
+        {
+          "quote": "We observed that cortical network models with higher IF required faster conduction speeds to sustain traveling waves.",
+          "page_or_section": "Results — Instrength-directed traveling waves emerge in a cortical network model within a wide range of parameters (Fig. 6)"
+        },
+        {
+          "quote": "We chose a biologically realistic conduction speed of 3 m/s corresponding to estimates in white matter fibers39–41.",
+          "page_or_section": "Results — Instrength gradients direct traveling waves and shape effective frequency patterns in a 2D network model"
+        },
+        {
+          "quote": "instrength-directed traveling waves still emerged in a cortical network model with uniform average time delays suggesting that large-scale traveling wave directions could be robust to specific changes of conduction delays, for example in response to myelin plasticity68.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "Traveling waves (and their directions) depend critically on finite conduction delays, and sustaining waves at higher intrinsic frequencies requires faster conduction speeds. Because white-matter conduction speed is largely set by myelination, these results imply that myelin-dependent conduction tuning synchronizes long-range circuits in frequency-specific regimes.",
+      "strength": "strong",
+      "limitations": "Evidence is modeling-based without direct measurements of myelin or subject-level conduction variability; subcortical pathways are not modeled; conduction speed is a parameter rather than an empirically fitted subject-specific measure."
+    },
+    "13": {
+      "claim_text": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
+      "direct_quotes": [
+        {
+          "quote": "Cortical traveling waves are signals of neuronal origin, measured e.g., with M/EEG, VSD, LFP, fMRI, that propagate systematically across space and time (e.g., plane waves, expanding waves, spiral waves, or impulse waves).",
+          "page_or_section": "Introduction"
+        }
+      ],
+      "interpretation": "EEG/MEG/LFP record extracellular electromagnetic fields; the paper documents spatially organized traveling waves in these modalities and reproduces them in models, supporting that coordinated neuronal activity produces structured field patterns.",
+      "strength": "moderate",
+      "limitations": "The paper does not explicitly analyze EM fields per se (uses phases/PLV after source reconstruction), and does not isolate field generation mechanisms beyond neural coordination."
+    },
+    "15": {
+      "claim_text": "Coherent EM gradients across cortical and subcortical regions facilitate large-scale signal integration.",
+      "direct_quotes": [
+        {
+          "quote": "Previous studies have found that traveling waves coordinate functional connectivity (FC)10,50.",
+          "page_or_section": "Results — Simulated instrength-directed traveling waves and smooth frequency gradients are consistent with MEG resting-state functional connectivity"
+        },
+        {
+          "quote": "We found that across frequency bands simulated and empirical PLV-FC fit increased if directed traveling waves emerged (Fig. 8a).",
+          "page_or_section": "Results — Simulated instrength-directed traveling waves and smooth frequency gradients are consistent with MEG resting-state functional connectivity"
+        },
+        {
+          "quote": "We found that our cortical network model achieved high correlation with empirically derived PLV-FCs if directed traveling waves emerged and smooth EF gradients were produced across the alpha, beta, and gamma bands.",
+          "page_or_section": "Results — Simulated instrength-directed traveling waves and smooth frequency gradients are consistent with MEG resting-state functional connectivity"
+        }
+      ],
+      "interpretation": "Smooth effective-frequency (field) gradients and traveling waves co-occur with higher fit to empirical functional connectivity, indicating that coherent large-scale field organization facilitates integration (synchrony/FC) across distant cortical areas.",
+      "strength": "moderate",
+      "limitations": "Integration is assessed via cortical FC (PLV/PLI); subcortical structures are not modeled; the relationship is based on model–data fit rather than causal manipulation."
+    },
+    "22": {
+      "claim_text": "Structured EM fields facilitate long-range timing alignment beyond direct synaptic connectivity.",
+      "direct_quotes": [
+        {
+          "quote": "We found that simulated and empirical PLI-FCs strongly correlated in the alpha band (r = 0.46)... This suggests that non-zero-lag phase interactions could be frequency-specific.",
+          "page_or_section": "Results — Simulated instrength-directed traveling waves and smooth frequency gradients are consistent with MEG resting-state functional connectivity"
+        },
+        {
+          "quote": "we investigated non-zero-lag interactions with PLI-FC, which was largest in the alpha band and less pronounced in beta and gamma bands suggesting that instrength-directed alpha traveling waves could coordinate non-zero-lag FC.",
+          "page_or_section": "Discussion"
+        }
+      ],
+      "interpretation": "Non-zero-lag phase coordination across distant regions is best captured in the alpha band and is attributed to traveling waves, implying that structured field dynamics help align timing across long distances. This aligns with the idea that field organization can coordinate timing beyond local synaptic interactions.",
+      "strength": "weak",
+      "limitations": "The model explicitly relies on structural connectivity to generate waves; the study does not demonstrate timing alignment independent of synaptic pathways nor test causality; ‘beyond connectivity’ is inferred rather than shown."
+    }
+  },
+  "additional_or_contradictory_insights": [
+    {
+      "finding": "Instrength and intrinsic frequency (IF) gradients interact to set wave direction, and instrength can directly guide waves even when EF patterns do not match direction.",
+      "quotes": [
+        "We hypothesize that instrength gradients contribute to traveling wave direction and interact with IF gradients.",
+        "The instrength gradient’s influence weakened with increasing IF gradient scaling until both balanced each other out... A further increasing IF gradient switched the wave direction from instrength- to IF-directed.",
+        "Thus, instrength gradients guide traveling waves directly and not through mediating EF gradients."
+      ],
+      "relevance": "Extends mechanisms of wave control beyond local cellular properties, indicating multiple macroscopic gradient controls on timing dynamics relevant for conscious-state-dependent coordination."
+    },
+    {
+      "finding": "Frequency-specific structural subnetworks (putative alpha and beta) derived by NMF reproduce opposing empirical EF gradients and improve FC–EF fits.",
+      "quotes": [
+        "We built two rank-5 NMF subnetwork models... The alpha- and beta-subnetwork models improved the EF fit drastically compared to the original cortical network model.",
+        "Empirical and simulated EFs in the alpha and beta bands at peak CCC were similar with opposing anterior-posterior gradients."
+      ],
+      "relevance": "Suggests anatomically embedded, band-specific pathways shaping field gradients and traveling-wave directions, offering a substrate for frequency-tuned coordination relevant to cognitive access."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-08-28T15:23:01.315280",
+    "model_used": "gpt-5",
+    "paper_link": "https://www.nature.com/articles/s41467-024-47860-x?",
+    "prompt_tokens_estimate": 16678
+  }
+}
