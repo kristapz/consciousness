@@ -530,3 +530,17 @@
 2025-08-24 16:17:11,388 - INFO - Theory synthesis: Conscious state quality depends on neuromodulator-gated oscillatory dynamics that shape cross-frequency-coupled electromagnetic activity across large-scale networks, with the DMN’s alpha-dominant organization supporting a constrained, ego-bound mode and serotonergic 5-HT2A perturbation shifting the brain toward higher-entropy, more metastable regimes. Conscious access and self-related phenomenology thus track changes in nested field rhythms (e.g., PCC theta–gamma coupling and alpha power) and network entropy rather than spiking alone.
 2025-08-24 16:17:11,388 - INFO - Supported claims: [12, 13, 16]
 2025-08-24 16:17:11,388 - INFO - Number of evidence details: 3
+2025-08-27 13:15:50,223 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-27 13:15:50,259 - INFO - Starting paper analysis...
+2025-08-27 13:15:50,259 - INFO - Successfully read theory_analysis.txt
+2025-08-27 13:15:50,260 - INFO - Successfully read article.txt
+2025-08-27 13:15:50,260 - INFO - Successfully read link.txt
+2025-08-27 13:15:50,260 - INFO - Prompt size: ~8281 words
+2025-08-27 13:15:50,260 - INFO - Calling GPT-5 API with model: gpt-5
+2025-08-27 13:16:53,108 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-27 13:16:53,124 - INFO - Received response from GPT-5 (tokens used: 16880)
+2025-08-27 13:16:53,126 - INFO - Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/analysis_20250827_131653_ENEURO0200-192019pdf.json
+2025-08-27 13:16:53,126 - INFO - Analysis complete!
+2025-08-27 13:16:53,126 - INFO - Theory synthesis: {'description': 'Interoceptive cardiac inputs transiently organize large-scale cortical electromagnetic dynamics into modular, theta-synchronized networks, aligning timing across distant regions. Such structured field configurations can gate affective state and may contribute to integrating bodily signals with conscious processes over ~200–600 ms windows.', 'type': 'string'}
+2025-08-27 13:16:53,126 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [13, 18, 22, 20]}
+2025-08-27 13:16:53,126 - INFO - Number of evidence details: 4
