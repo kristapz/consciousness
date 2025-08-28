@@ -123,3 +123,146 @@
 2025-08-28 15:34:49,378 - INFO - Synthesis: Conscious access emerges when connectome-constrained electromagnetic field modes, coordinated across cortical and subcortical hubs, stabilize over 200–500 ms to align and route high-dimensional neural activity. Subcortical structures, especially the superior colliculus and pulvinar, provide context-dependent, abstract biasing signals that shape which cortical field modes are selected, while prefrontal reality monitoring closes the integration window and commits content to memory. Neuromodulators and interoceptive rhythms tune the accessible field regimes, and perturbations that restore organized fast-band field dynamics reinstate access.
 2025-08-28 15:34:49,378 - INFO - Additions: 2
 2025-08-28 15:34:49,378 - INFO - Modifications: 2
+2025-08-28 16:51:06,174 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-28 16:51:06,197 - INFO - Starting theory update process...
+2025-08-28 16:51:06,198 - INFO - Loaded analysis: analysis_20250822_234642_.json
+2025-08-28 16:51:06,198 - INFO - Loaded analysis: analysis_20250823_115611_S0149763413000146.json
+2025-08-28 16:51:06,199 - INFO - Loaded analysis: analysis_20250823_122431_54A2FF12685631EC90DFCC4AA24639.json
+2025-08-28 16:51:06,199 - INFO - Loaded analysis: analysis_20250823_141518_S1053810003000023.json
+2025-08-28 16:51:06,199 - INFO - Loaded analysis: analysis_20250823_143927_.json
+2025-08-28 16:51:06,200 - INFO - Loaded analysis: analysis_20250823_144858_.json
+2025-08-28 16:51:06,200 - INFO - Loaded analysis: analysis_20250823_150637_.json
+2025-08-28 16:51:06,200 - INFO - Loaded analysis: analysis_20250823_150930_.json
+2025-08-28 16:51:06,201 - INFO - Loaded analysis: analysis_20250823_151205_s41467-023-36555-4.json
+2025-08-28 16:51:06,201 - INFO - Loaded analysis: analysis_20250823_152314_Propofol-Anesthesia-Alters-Cor.json
+2025-08-28 16:51:06,201 - INFO - Loaded analysis: analysis_20250823_152522_S1053811922001872.json
+2025-08-28 16:51:06,201 - INFO - Loaded analysis: analysis_20250823_152658_journalpcbi1009827.json
+2025-08-28 16:51:06,202 - INFO - Loaded analysis: analysis_20250823_153032_.json
+2025-08-28 16:51:06,202 - INFO - Loaded analysis: analysis_20250823_153248_250708517.json
+2025-08-28 16:51:06,202 - INFO - Loaded analysis: analysis_20250823_154059_.json
+2025-08-28 16:51:06,202 - INFO - Loaded analysis: analysis_20250823_154537_full.json
+2025-08-28 16:51:06,203 - INFO - Loaded analysis: analysis_20250823_154755_.json
+2025-08-28 16:51:06,203 - INFO - Loaded analysis: analysis_20250823_155013_S0920996415003278via3Dihub.json
+2025-08-28 16:51:06,203 - INFO - Loaded analysis: analysis_20250823_155249_s13414-014-0743-y.json
+2025-08-28 16:51:06,203 - INFO - Loaded analysis: analysis_20250823_155421_4tqxs_v3.json
+2025-08-28 16:51:06,204 - INFO - Loaded analysis: analysis_20250823_155521_MICTPR-2pdf.json
+2025-08-28 16:51:06,204 - INFO - Loaded analysis: analysis_20250823_155855_MICCPA-6pdf.json
+2025-08-28 16:51:06,204 - INFO - Loaded analysis: analysis_20250824_135226_full.json
+2025-08-28 16:51:06,204 - INFO - Loaded analysis: analysis_20250824_140234_cahn2013pdf.json
+2025-08-28 16:51:06,205 - INFO - Loaded analysis: analysis_20250824_140452_delorme_braboszcz_meditationp.json
+2025-08-28 16:51:06,205 - INFO - Loaded analysis: analysis_20250824_140640_full.json
+2025-08-28 16:51:06,205 - INFO - Loaded analysis: analysis_20250824_141517_ncomms10340.json
+2025-08-28 16:51:06,205 - INFO - Loaded analysis: analysis_20250824_145403_C9912A5BE9D806012E3C8B3AF612E3.json
+2025-08-28 16:51:06,206 - INFO - Loaded analysis: analysis_20250824_150848_s41593-023-01456-8.json
+2025-08-28 16:51:06,206 - INFO - Loaded analysis: analysis_20250824_161711_full.json
+2025-08-28 16:51:06,206 - INFO - Loaded analysis: analysis_20250827_131653_ENEURO0200-192019pdf.json
+2025-08-28 16:51:06,206 - INFO - Loaded analysis: analysis_20250828_150218_full.json
+2025-08-28 16:51:06,206 - INFO - Loaded analysis: analysis_20250828_151016_7908286.json
+2025-08-28 16:51:06,207 - INFO - Loaded analysis: analysis_20250828_152301_s41467-024-47860-x.json
+2025-08-28 16:51:06,207 - INFO - Loaded analysis: analysis_20250828_152647_s41467-023-41125-9.json
+2025-08-28 16:51:06,207 - INFO - Loaded analysis: analysis_20250828_152853_ejn16079.json
+2025-08-28 16:51:06,207 - INFO - Loaded analysis: analysis_20250828_153202_.json
+2025-08-28 16:51:06,208 - INFO - Loaded analysis: analysis_20250828_163230_s41598-023-36801-1.json
+2025-08-28 16:51:06,208 - INFO - Loaded analysis: analysis_20250828_163959_41598_2018_Article_30453pdf.json
+2025-08-28 16:51:06,208 - INFO - Loaded analysis: analysis_20250828_164249_s10571-022-01290-9.json
+2025-08-28 16:51:06,208 - INFO - Loaded analysis: analysis_20250828_164731_.json
+2025-08-28 16:51:06,208 - INFO - Loaded analysis: analysis_20250828_165055_.json
+2025-08-28 16:51:06,208 - INFO - Processing new analysis: analysis_20250828_165055_.json
+2025-08-28 16:51:26,219 - ERROR - Theory update failed: RetryError[<Future at 0x102c0f250 state=finished raised AttributeError>]
+2025-08-28 16:51:31,579 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-28 16:51:31,597 - INFO - Starting theory update process...
+2025-08-28 16:51:31,597 - INFO - Loaded analysis: analysis_20250822_234642_.json
+2025-08-28 16:51:31,597 - INFO - Loaded analysis: analysis_20250823_115611_S0149763413000146.json
+2025-08-28 16:51:31,597 - INFO - Loaded analysis: analysis_20250823_122431_54A2FF12685631EC90DFCC4AA24639.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_141518_S1053810003000023.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_143927_.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_144858_.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_150637_.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_150930_.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_151205_s41467-023-36555-4.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_152314_Propofol-Anesthesia-Alters-Cor.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_152522_S1053811922001872.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_152658_journalpcbi1009827.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_153032_.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_153248_250708517.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_154059_.json
+2025-08-28 16:51:31,598 - INFO - Loaded analysis: analysis_20250823_154537_full.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250823_154755_.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250823_155013_S0920996415003278via3Dihub.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250823_155249_s13414-014-0743-y.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250823_155421_4tqxs_v3.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250823_155521_MICTPR-2pdf.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250823_155855_MICCPA-6pdf.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_135226_full.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_140234_cahn2013pdf.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_140452_delorme_braboszcz_meditationp.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_140640_full.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_141517_ncomms10340.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_145403_C9912A5BE9D806012E3C8B3AF612E3.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_150848_s41593-023-01456-8.json
+2025-08-28 16:51:31,599 - INFO - Loaded analysis: analysis_20250824_161711_full.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250827_131653_ENEURO0200-192019pdf.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_150218_full.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_151016_7908286.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_152301_s41467-024-47860-x.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_152647_s41467-023-41125-9.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_152853_ejn16079.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_153202_.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_163230_s41598-023-36801-1.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_163959_41598_2018_Article_30453pdf.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_164249_s10571-022-01290-9.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_164731_.json
+2025-08-28 16:51:31,600 - INFO - Loaded analysis: analysis_20250828_165055_.json
+2025-08-28 16:51:31,600 - INFO - Processing new analysis: analysis_20250828_165055_.json
+2025-08-28 16:51:51,612 - ERROR - Theory update failed: RetryError[<Future at 0x10283f250 state=finished raised AttributeError>]
+2025-08-28 16:57:56,003 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-28 16:57:56,027 - INFO - Starting theory update process...
+2025-08-28 16:57:56,028 - INFO - Loaded analysis: analysis_20250822_234642_.json
+2025-08-28 16:57:56,029 - INFO - Loaded analysis: analysis_20250823_115611_S0149763413000146.json
+2025-08-28 16:57:56,029 - INFO - Loaded analysis: analysis_20250823_122431_54A2FF12685631EC90DFCC4AA24639.json
+2025-08-28 16:57:56,029 - INFO - Loaded analysis: analysis_20250823_141518_S1053810003000023.json
+2025-08-28 16:57:56,030 - INFO - Loaded analysis: analysis_20250823_143927_.json
+2025-08-28 16:57:56,030 - INFO - Loaded analysis: analysis_20250823_144858_.json
+2025-08-28 16:57:56,030 - INFO - Loaded analysis: analysis_20250823_150637_.json
+2025-08-28 16:57:56,031 - INFO - Loaded analysis: analysis_20250823_150930_.json
+2025-08-28 16:57:56,031 - INFO - Loaded analysis: analysis_20250823_151205_s41467-023-36555-4.json
+2025-08-28 16:57:56,031 - INFO - Loaded analysis: analysis_20250823_152314_Propofol-Anesthesia-Alters-Cor.json
+2025-08-28 16:57:56,032 - INFO - Loaded analysis: analysis_20250823_152522_S1053811922001872.json
+2025-08-28 16:57:56,032 - INFO - Loaded analysis: analysis_20250823_152658_journalpcbi1009827.json
+2025-08-28 16:57:56,032 - INFO - Loaded analysis: analysis_20250823_153032_.json
+2025-08-28 16:57:56,032 - INFO - Loaded analysis: analysis_20250823_153248_250708517.json
+2025-08-28 16:57:56,033 - INFO - Loaded analysis: analysis_20250823_154059_.json
+2025-08-28 16:57:56,033 - INFO - Loaded analysis: analysis_20250823_154537_full.json
+2025-08-28 16:57:56,033 - INFO - Loaded analysis: analysis_20250823_154755_.json
+2025-08-28 16:57:56,033 - INFO - Loaded analysis: analysis_20250823_155013_S0920996415003278via3Dihub.json
+2025-08-28 16:57:56,034 - INFO - Loaded analysis: analysis_20250823_155249_s13414-014-0743-y.json
+2025-08-28 16:57:56,034 - INFO - Loaded analysis: analysis_20250823_155421_4tqxs_v3.json
+2025-08-28 16:57:56,034 - INFO - Loaded analysis: analysis_20250823_155521_MICTPR-2pdf.json
+2025-08-28 16:57:56,034 - INFO - Loaded analysis: analysis_20250823_155855_MICCPA-6pdf.json
+2025-08-28 16:57:56,035 - INFO - Loaded analysis: analysis_20250824_135226_full.json
+2025-08-28 16:57:56,035 - INFO - Loaded analysis: analysis_20250824_140234_cahn2013pdf.json
+2025-08-28 16:57:56,035 - INFO - Loaded analysis: analysis_20250824_140452_delorme_braboszcz_meditationp.json
+2025-08-28 16:57:56,036 - INFO - Loaded analysis: analysis_20250824_140640_full.json
+2025-08-28 16:57:56,036 - INFO - Loaded analysis: analysis_20250824_141517_ncomms10340.json
+2025-08-28 16:57:56,036 - INFO - Loaded analysis: analysis_20250824_145403_C9912A5BE9D806012E3C8B3AF612E3.json
+2025-08-28 16:57:56,037 - INFO - Loaded analysis: analysis_20250824_150848_s41593-023-01456-8.json
+2025-08-28 16:57:56,037 - INFO - Loaded analysis: analysis_20250824_161711_full.json
+2025-08-28 16:57:56,037 - INFO - Loaded analysis: analysis_20250827_131653_ENEURO0200-192019pdf.json
+2025-08-28 16:57:56,037 - INFO - Loaded analysis: analysis_20250828_150218_full.json
+2025-08-28 16:57:56,038 - INFO - Loaded analysis: analysis_20250828_151016_7908286.json
+2025-08-28 16:57:56,038 - INFO - Loaded analysis: analysis_20250828_152301_s41467-024-47860-x.json
+2025-08-28 16:57:56,038 - INFO - Loaded analysis: analysis_20250828_152647_s41467-023-41125-9.json
+2025-08-28 16:57:56,038 - INFO - Loaded analysis: analysis_20250828_152853_ejn16079.json
+2025-08-28 16:57:56,039 - INFO - Loaded analysis: analysis_20250828_153202_.json
+2025-08-28 16:57:56,039 - INFO - Loaded analysis: analysis_20250828_163230_s41598-023-36801-1.json
+2025-08-28 16:57:56,039 - INFO - Loaded analysis: analysis_20250828_163959_41598_2018_Article_30453pdf.json
+2025-08-28 16:57:56,039 - INFO - Loaded analysis: analysis_20250828_164249_s10571-022-01290-9.json
+2025-08-28 16:57:56,039 - INFO - Loaded analysis: analysis_20250828_164731_.json
+2025-08-28 16:57:56,040 - INFO - Loaded analysis: analysis_20250828_165055_.json
+2025-08-28 16:57:56,040 - INFO - Processing new analysis: analysis_20250828_165055_.json
+2025-08-28 16:59:25,469 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 16:59:25,492 - INFO - Theory saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/cumulative_theory/current_theory.json with backup at /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/cumulative_theory/theory_backup_20250828_165925.json
+2025-08-28 16:59:25,492 - INFO - Theory update complete!
+2025-08-28 16:59:25,492 - INFO - Synthesis: Conscious access depends on the transient stabilization of connectome-constrained electromagnetic field modes (traveling waves and harmonics) that align spike timing across distributed circuits over 200–500 ms windows. Subcortical hubs set orienting and arousal, while a TAU- and cytoskeleton-governed infrastructure controls the precision and endurance of these modes by tuning microtubule stability, AIS organization, synaptic scaffolds, vesicle cycling, and mitochondrial support. Prefrontal reality monitoring closes the window to fix content and write it into long-term memory; perturbations to cytoskeletal and field dynamics predictably alter conscious access.
+2025-08-28 16:59:25,492 - INFO - Additions: 3
+2025-08-28 16:59:25,492 - INFO - Modifications: 2

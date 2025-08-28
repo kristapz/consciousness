@@ -11,6 +11,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 import sys
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_not_exception_type
+
 
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -144,6 +146,41 @@ def find_latest_analysis(analyses: List[Dict]) -> Optional[Dict]:
 
     return None
 
+def _extract_evidence_strength_map(analysis: Dict) -> Dict[str, str]:
+    """
+    Return {claim_number_str: strength_lower_or_unknown} handling
+    dict, list, and mixed shapes in analysis['evidence_details'].
+    """
+    ed = analysis.get('evidence_details', {})
+    out: Dict[str, str] = {}
+
+    # Case A: expected dict {claim -> details}
+    if isinstance(ed, dict):
+        for claim, details in ed.items():
+            strength = 'unknown'
+            if isinstance(details, dict):
+                strength = details.get('strength') or 'unknown'
+            elif isinstance(details, list) and details:
+                first = details[0]
+                if isinstance(first, dict):
+                    strength = first.get('strength') or 'unknown'
+            out[str(claim)] = str(strength).lower()
+        return out
+
+    # Case B: list of items with claim & strength
+    if isinstance(ed, list):
+        for item in ed:
+            if not isinstance(item, dict):
+                continue
+            claim = item.get('claim_number') or item.get('claim') or item.get('claim_num')
+            if claim is None:
+                claim = len(out) + 1  # fallback index
+            strength = item.get('strength') or 'unknown'
+            out[str(claim)] = str(strength).lower()
+        return out
+
+    return out
+
 
 def summarize_analysis(analysis: Dict) -> Dict:
     """Create a concise summary of an analysis for the prompt"""
@@ -152,14 +189,12 @@ def summarize_analysis(analysis: Dict) -> Dict:
         'link': analysis.get('paper_metadata', {}).get('link', ''),
         'theory_synthesis': analysis.get('theory_synthesis'),
         'supported_claims': analysis.get('supported_claims', []),
-        'evidence_strength': {
-            claim: details.get('strength', 'unknown')
-            for claim, details in analysis.get('evidence_details', {}).items()
-        },
+        'evidence_strength': _extract_evidence_strength_map(analysis),
         'key_insights': [
             insight.get('finding', '')
-            for insight in analysis.get('additional_or_contradictory_insights', [])[:3]
-        ]
+            for insight in (analysis.get('additional_or_contradictory_insights', []) or [])[:3]
+            if isinstance(insight, dict)
+        ],
     }
 
 
@@ -169,7 +204,8 @@ def summarize_analysis(analysis: Dict) -> Dict:
 
 @retry(
     stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=2, min=10, max=120)
+    wait=wait_exponential(multiplier=2, min=10, max=120),
+    retry=retry_if_not_exception_type(AttributeError)  # don't retry programmer errors
 )
 def update_theory_with_gpt5(current_theory: Dict, all_analyses: List[Dict],
                             new_analysis: Dict, model: str = "gpt-5") -> Dict:
