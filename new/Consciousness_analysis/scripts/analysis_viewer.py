@@ -23,6 +23,21 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).parent.parent.absolute()
 OUTPUT_DIR = PROJECT_ROOT / "output" / "analysis_results"
 
+# Cumulative theory location
+THEORY_DIR = PROJECT_ROOT / "output" / "cumulative_theory"
+THEORY_FILE = THEORY_DIR / "current_theory.json"
+
+def load_cumulative_theory():
+    """Load the latest cumulative theory JSON (if present)."""
+    try:
+        if THEORY_FILE.exists():
+            with open(THEORY_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        logger.error(f"Error loading cumulative theory: {e}")
+    return None
+
+
 # Define the 50 consciousness claims
 CONSCIOUSNESS_CLAIMS = {
     # Ion Channels (1-5)
@@ -194,7 +209,7 @@ HTML_TEMPLATE = '''
             left: 0;
             top: 0;
             bottom: 0;
-            width: 60px;
+            width: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -226,7 +241,7 @@ HTML_TEMPLATE = '''
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
-            padding: 20px 0;
+            padding: 10px 0;
         }
 
         .nav-dot {
@@ -259,7 +274,7 @@ HTML_TEMPLATE = '''
         .tooltip {
             position: absolute;
             left: 100%;
-            margin-left: 15px;
+            margin-left: 5px;
             font-size: 13px;
             font-weight: 400;
             color: #666;
@@ -280,10 +295,10 @@ HTML_TEMPLATE = '''
 
         /* Main Content */
         .main-content {
-            margin-left: 15%;
-            width: 44%;
+            margin-left: 17%;
+            width: 54%;
             max-width: 900px;
-            padding: 60px 0;
+            padding: 90px 0;
         }
 
         /* Right Citations Column */
@@ -778,6 +793,137 @@ HTML_TEMPLATE = '''
 
         <!-- Main Content -->
         <article class="main-content">
+                    <!-- Cumulative Theory (Latest) -->
+            {% if theory and theory.theory %}
+            <section id="cumulative-theory" style="margin-bottom: 40px;">
+                <h1 style="margin-bottom: 20px;">Cumulative Theory (Latest)</h1>
+
+                {% if theory.synthesis %}
+                <div class="theory-synthesis">
+                    {{ theory.synthesis }}
+                </div>
+                {% endif %}
+
+                <!-- Core Principles -->
+                {% if theory.theory.core_principles %}
+                <div class="section">
+                    <h3 class="section-title">Core Principles</h3>
+                    <ol style="padding-left: 20px;">
+                        {% for p in theory.theory.core_principles %}
+                        <li style="margin-bottom: 8px;">{{ p }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                {% endif %}
+
+                <!-- Mechanisms -->
+                {% if theory.theory.mechanisms %}
+                <div class="section">
+                    <h3 class="section-title">Mechanisms</h3>
+                    <div style="display: grid; grid-template-columns: 1fr; gap: 12px;">
+                        {% for mech_name, mech_desc in theory.theory.mechanisms.items() %}
+                        <div>
+                            <strong style="text-transform: capitalize;">{{ mech_name.replace('_',' ') }}</strong>
+                            <div style="margin-top: 6px;">{{ mech_desc }}</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Integration Framework -->
+                {% if theory.theory.integration_framework %}
+                <div class="section">
+                    <h3 class="section-title">Integration Framework</h3>
+                    <p>{{ theory.theory.integration_framework }}</p>
+                </div>
+                {% endif %}
+
+                <!-- Key Predictions -->
+                {% if theory.theory.key_predictions %}
+                <div class="section">
+                    <h3 class="section-title">Key Predictions</h3>
+                    <ol style="padding-left: 20px;">
+                        {% for pred in theory.theory.key_predictions %}
+                        <li style="margin-bottom: 8px;">{{ pred }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                {% endif %}
+
+                <!-- Confidence Levels -->
+                {% if theory.theory.confidence_levels %}
+                <div class="section">
+                    <h3 class="section-title">Confidence Levels</h3>
+                    {% for level, items in theory.theory.confidence_levels.items() %}
+                    <div style="margin-bottom: 12px;">
+                        <strong style="text-transform: capitalize;">{{ level }}</strong>
+                        {% if items %}
+                        <ul style="padding-left: 20px; margin-top: 6px;">
+                            {% for it in items %}
+                            <li style="margin-bottom: 6px;">{{ it }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% else %}
+                        <div style="color:#666; font-size: 15px;">No items.</div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <!-- Change Log (optional) -->
+                {% if theory.changes_from_previous %}
+                <div class="section">
+                    <h3 class="section-title">Recent Changes</h3>
+                    <div style="display: grid; grid-template-columns: 1fr; gap: 8px;">
+                        {% for key, vals in theory.changes_from_previous.items() %}
+                        <div>
+                            <strong style="text-transform: capitalize;">{{ key }}</strong>
+                            {% if vals %}
+                            <ul style="padding-left: 20px; margin-top: 6px;">
+                                {% for v in vals %}
+                                <li style="margin-bottom: 6px;">{{ v }}</li>
+                                {% endfor %}
+                            </ul>
+                            {% else %}
+                            <div style="color:#666; font-size: 15px;">None</div>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+
+                <!-- Next Research Priorities -->
+                {% if theory.next_research_priorities %}
+                <div class="section">
+                    <h3 class="section-title">Next Research Priorities</h3>
+                    <ol style="padding-left: 20px;">
+                        {% for nrp in theory.next_research_priorities %}
+                        <li style="margin-bottom: 8px;">{{ nrp }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+                {% endif %}
+
+                <!-- Metadata -->
+                {% if theory._metadata %}
+                <div class="section" style="font-size: 14px; color: #666;">
+                    <div><strong>Updated:</strong> {{ theory._metadata.update_timestamp or theory._metadata.updated or theory._metadata.timestamp }}</div>
+                    <div><strong>Model:</strong> {{ theory._metadata.model_used }}</div>
+                    <div><strong>Papers Incorporated:</strong> {{ theory._metadata.papers_incorporated }}</div>
+                    {% if theory.incorporated_analyses %}
+                    <div style="margin-top: 6px;">
+                        <strong>Latest Analysis File:</strong>
+                        {{ theory.incorporated_analyses[-1] }}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+            </section>
+            {% endif %}
+
             <section id="overview">
                 <h1>Consciousness Theory Analysis</h1>
 
@@ -1412,17 +1558,20 @@ def index():
     """Main page displaying all analysis results"""
     papers, error = load_analysis_results()
     stats = calculate_statistics(papers)
+    theory = load_cumulative_theory()  # NEW
 
     return render_template_string(
         HTML_TEMPLATE,
         papers=papers,
         error=error,
+        theory=theory,  # NEW
         get_paper_title=get_paper_title,
         extract_theory_synthesis=extract_theory_synthesis,
         extract_claims_list=extract_claims_list,
         get_claim_text=get_claim_text,
         **stats
     )
+
 
 
 if __name__ == '__main__':

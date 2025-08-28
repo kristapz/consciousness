@@ -1,0 +1,40 @@
+2025-08-28 11:32:10,152 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-08-28 11:32:10,183 - INFO - Starting theory update process...
+2025-08-28 11:32:10,183 - INFO - Loaded analysis: analysis_20250822_234642_.json
+2025-08-28 11:32:10,184 - INFO - Loaded analysis: analysis_20250823_115611_S0149763413000146.json
+2025-08-28 11:32:10,184 - INFO - Loaded analysis: analysis_20250823_122431_54A2FF12685631EC90DFCC4AA24639.json
+2025-08-28 11:32:10,184 - INFO - Loaded analysis: analysis_20250823_141518_S1053810003000023.json
+2025-08-28 11:32:10,185 - INFO - Loaded analysis: analysis_20250823_143927_.json
+2025-08-28 11:32:10,185 - INFO - Loaded analysis: analysis_20250823_144858_.json
+2025-08-28 11:32:10,185 - INFO - Loaded analysis: analysis_20250823_150637_.json
+2025-08-28 11:32:10,186 - INFO - Loaded analysis: analysis_20250823_150930_.json
+2025-08-28 11:32:10,186 - INFO - Loaded analysis: analysis_20250823_151205_s41467-023-36555-4.json
+2025-08-28 11:32:10,186 - INFO - Loaded analysis: analysis_20250823_152314_Propofol-Anesthesia-Alters-Cor.json
+2025-08-28 11:32:10,186 - INFO - Loaded analysis: analysis_20250823_152522_S1053811922001872.json
+2025-08-28 11:32:10,187 - INFO - Loaded analysis: analysis_20250823_152658_journalpcbi1009827.json
+2025-08-28 11:32:10,187 - INFO - Loaded analysis: analysis_20250823_153032_.json
+2025-08-28 11:32:10,187 - INFO - Loaded analysis: analysis_20250823_153248_250708517.json
+2025-08-28 11:32:10,188 - INFO - Loaded analysis: analysis_20250823_154059_.json
+2025-08-28 11:32:10,188 - INFO - Loaded analysis: analysis_20250823_154537_full.json
+2025-08-28 11:32:10,189 - INFO - Loaded analysis: analysis_20250823_154755_.json
+2025-08-28 11:32:10,189 - INFO - Loaded analysis: analysis_20250823_155013_S0920996415003278via3Dihub.json
+2025-08-28 11:32:10,190 - INFO - Loaded analysis: analysis_20250823_155249_s13414-014-0743-y.json
+2025-08-28 11:32:10,190 - INFO - Loaded analysis: analysis_20250823_155421_4tqxs_v3.json
+2025-08-28 11:32:10,190 - INFO - Loaded analysis: analysis_20250823_155521_MICTPR-2pdf.json
+2025-08-28 11:32:10,190 - INFO - Loaded analysis: analysis_20250823_155855_MICCPA-6pdf.json
+2025-08-28 11:32:10,191 - INFO - Loaded analysis: analysis_20250824_135226_full.json
+2025-08-28 11:32:10,191 - INFO - Loaded analysis: analysis_20250824_140234_cahn2013pdf.json
+2025-08-28 11:32:10,191 - INFO - Loaded analysis: analysis_20250824_140452_delorme_braboszcz_meditationp.json
+2025-08-28 11:32:10,192 - INFO - Loaded analysis: analysis_20250824_140640_full.json
+2025-08-28 11:32:10,192 - INFO - Loaded analysis: analysis_20250824_141517_ncomms10340.json
+2025-08-28 11:32:10,192 - INFO - Loaded analysis: analysis_20250824_145403_C9912A5BE9D806012E3C8B3AF612E3.json
+2025-08-28 11:32:10,193 - INFO - Loaded analysis: analysis_20250824_150848_s41593-023-01456-8.json
+2025-08-28 11:32:10,193 - INFO - Loaded analysis: analysis_20250824_161711_full.json
+2025-08-28 11:32:10,193 - INFO - Loaded analysis: analysis_20250827_131653_ENEURO0200-192019pdf.json
+2025-08-28 11:32:10,193 - INFO - Processing new analysis: analysis_20250827_131653_ENEURO0200-192019pdf.json
+2025-08-28 11:33:31,867 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-28 11:33:31,890 - INFO - Theory saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/cumulative_theory/current_theory.json with backup at /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/cumulative_theory/theory_backup_20250828_113331.json
+2025-08-28 11:33:31,890 - INFO - Theory update complete!
+2025-08-28 11:33:31,890 - INFO - Synthesis: Conscious access occurs when the brain transiently stabilizes large-scale, frequency-specific EM field configurations that align spike timing across distributed circuits over a few hundred milliseconds. Subcortical hubs set state, orienting, and perspective while interoceptive rhythms (notably heartbeat) impose theta-phase structure that modulates affect and integration; prefrontal reality monitoring then closes the window and writes stabilized content into memory. These field modes are constrained by the structural connectome and energetic limits, and can be causally steered by targeted, frequency-specific perturbations.
+2025-08-28 11:33:31,890 - INFO - Additions: 3
+2025-08-28 11:33:31,890 - INFO - Modifications: 3
