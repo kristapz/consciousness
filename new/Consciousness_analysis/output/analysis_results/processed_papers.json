@@ -1,0 +1,14 @@
+{
+  "s41467-024-49173-5.pdf": {
+    "file_hash": "adf86b64f0c4929308f7150437acb360",
+    "processed_at": "2025-09-03T14:51:47.866546",
+    "output_file": "Nature_Communications_article_(DOI_101038s41467-024-49173-5).json",
+    "paper_title": "Nature Communications article (DOI: 10.1038/s41467-024-49173-5)"
+  },
+  "s41583-023-00778-7.pdf": {
+    "file_hash": "699d606c32af51a2159a520853989a5a",
+    "processed_at": "2025-09-03T14:59:47.896863",
+    "output_file": "Causation_in_neuroscience_keeping_mechanism_meaningful.json",
+    "paper_title": "Causation in neuroscience: keeping mechanism meaningful"
+  }
+}

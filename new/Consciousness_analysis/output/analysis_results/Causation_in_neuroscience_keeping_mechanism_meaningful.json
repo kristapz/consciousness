@@ -1,0 +1,75 @@
+{
+  "paper_metadata": {
+    "title": "Causation in neuroscience: keeping mechanism meaningful",
+    "authors": [
+      "Lauren N. Ross",
+      "Dani S. Bassett"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.1038/s41583-023-00778-7",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "other",
+      "species_or_model": "conceptual review",
+      "brief_mechanism": "Clarifies the distinction between causal interventions (difference-making/control) and mere correlates in neuroscience, using neural correlates of consciousness as a key example.",
+      "method": "theoretical review",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Miscommunication",
+          "section_type": "Discussion",
+          "page": 87,
+          "paragraph_index": null,
+          "quote": "One example of miscommunication is when mechanism language is used to refer to neural correlates of interest, such as the neural correlates of consciousness, and it is not clear whether mechanism is intended in a causal sense or in a non-causal, ‘mere’ correlation sense (which is suggested by the term ‘correlate’)112–115. This usage has engendered confusion about whether a mere correlate or cause of consciousness is being referred to, which is supported by slippage between a causal and a non-causal use of mechanism116,117.",
+          "interpretation": "The authors highlight that claims about mechanisms of consciousness require causal, interventionist evidence rather than correlational signatures, directly motivating causal-control tests in both brain and AI systems ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Why do causation and mechanism matter for neuroscience?",
+          "section_type": "Discussion",
+          "page": 82,
+          "paragraph_index": null,
+          "quote": "Causal relationships provide explanations and understanding of ‘how’ a system — such as the brain, a neural ensemble or a cellular circuit — works, functions and behaves... causal models identify factors that control, explain and ‘make a difference’ to them1,27.",
+          "interpretation": "By grounding explanation in factors that control outcomes, the paper frames mechanistic understanding as difference-making, reinforcing intervention-based assays (e.g., stimulation, lesions) as the gold standard for consciousness-relevant causal control ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 1",
+          "page": 86,
+          "caption_quote": "Fig. 1 | The narrow and broad notions of mechanism. a,b, The narrow notion of mechanism is found in examples such as ion channel mechanisms... c,d, The broader notion of mechanism is found in appeals to circuit mechanisms... and cognitive mechanisms, but it includes systems with lower scale detail as well...",
+          "interpretation_short": "Figure 1 contrasts narrow, reductive mechanisms with broader causal systems, clarifying evidentiary standards for claiming mechanisms (vs correlates) in consciousness studies and AI evaluations ."
+        }
+      ],
+      "table_refs": [
+        {
+          "table_label": "Table 2",
+          "page": 85,
+          "caption_quote": "Table 2 | Examples of grant and funding information that mentions the ‘mechanism’ concept and ‘mechanistic research’"
+        }
+      ],
+      "limitations": "This review is conceptual and does not present new empirical interventions or quantitative tests; it provides guidance on causal standards but no direct measurements or model ablations linking specific consciousness signatures to control."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T14:59:47.890892",
+    "model_used": "gpt-5",
+    "pdf_filename": "s41583-023-00778-7.pdf",
+    "vector_store_id": "vs_68b8b9dfaeb081918eac6cbce0dfecd4",
+    "file_id": "file-XfQhhp6cYbeSvLpeAxYbLV",
+    "content_length": null
+  }
+}

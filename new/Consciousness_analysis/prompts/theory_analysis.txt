@@ -1,110 +1,145 @@
 {
-  "task": "Analyze the provided paper against a set of core consciousness-related claims",
-  "instructions": "Extract evidence from the paper that supports or relates to any of the listed claims. Provide direct quotes and your interpretation. The paper content will be provided separately.",
-  "core_claims": {
-    "ion_channels": {
-      "1": "Nav channel density and kinetics influence spike initiation precision and phase-locking across oscillatory bands.",
-      "2": "Kv, KCNQ, and HCN channel dynamics regulate oscillation frequency and spike-time variability.",
-      "3": "Fast-spiking PV interneurons are necessary for sustaining gamma-band synchrony.",
-      "4": "GABA_A and GABA_B receptor kinetics set inhibitory timing windows critical for oscillation stability.",
-      "5": "Presynaptic vesicle cycling, including dynamin-dependent endocytosis, constrains sustained high-frequency synchrony"
+  "core_phenomena": [
+    {
+      "id": "information_integration",
+      "name": "Information Integration",
+      "description": "Distributed elements combine into unified representations or system-wide access.",
+      "biological_markers": ["global workspace-like activation", "frontoparietal hub engagement", "long-range coherence", "binding by synchrony"],
+      "ai_markers": ["attention convergence", "low-rank/residual integration", "feature superposition", "aggregator/CLS tokens"]
     },
-    "cytoskeleton": {
-      "6": "Microtubule and MAP stability maintain synaptic organization and influence spike-time precision.",
-      "7": "Actin dynamics and synaptic scaffolds (PSD-95, Shank, Homer) regulate excitatory input timing alignment.",
-      "8": "AIS and node organization (ankyrin-G, βIV-spectrin) control spike initiation timing and conduction delays.",
-      "9": "Myelination and conduction tuning synchronize long-range circuits at oscillation-relevant bands.",
-      "10": "Mitochondrial density and ATP availability set energetic limits on high-frequency oscillations.",
-      "11": "Astrocyte-neuron metabolic coupling (e.g., lactate shuttling, glutamate clearance) supports network-wide synchrony.",
-      "12": "Neuromodulators (ACh, NE, DA, 5-HT) regulate oscillatory gain and preferred frequency bands."
+    {
+      "id": "state_transitions",
+      "name": "State Transitions",
+      "description": "Abrupt or metastable switches between processing regimes.",
+      "biological_markers": ["ignition events (e.g., P3b)", "metastable switching", "up/down states"],
+      "ai_markers": ["abrupt capability onsets", "mode switches in activation space", "grokking-like phase change"]
     },
-    "em_fields": {
-      "13": "Spatially organized extracellular EM fields emerge from coordinated neuronal activity.",
-      "14": "Stable EM field patterns correlate with unified conscious content over integration windows (~50–300 ms).",
-      "15": "Coherent EM gradients across cortical and subcortical regions facilitate large-scale signal integration.",
-      "16": "Cross-frequency nesting within EM fields couples slow oscillations to faster local synchrony.",
-      "17": "Disruption of EM field stability selectively alters conscious access without abolishing spiking activity.",
-      "18": "Forward modeling of iEEG, LFP, or MEG reconstructs structured EM field configurations.",
-      "19": "Mesoscopic EM 'pockets' show higher spatial coherence during conscious perception than during unconscious states.",
-      "20": "EM field boundaries separate unrelated contents into distinct integration domains.",
-      "21": "Computational models predict that local dipole alignment produces bounded EM regions supporting unified percepts.",
-      "22": "Structured EM fields facilitate long-range timing alignment beyond direct synaptic connectivity."
+    {
+      "id": "temporal_coordination",
+      "name": "Temporal Coordination",
+      "description": "Timing mechanisms that bind or segment content.",
+      "biological_markers": ["oscillations", "phase-locking", "cross-frequency coupling", "thalamic pacing"],
+      "ai_markers": ["attention synchronization", "routing schedules", "positional/temporal encoding dynamics"]
     },
-    "microtubules": {
-      "23": "Microtubule stability influences neuronal spike-time precision and phase-locking.",
-      "24": "Tau and other MAPs (MAP2, MAP1B, CRMP2) regulate lattice stability needed for conduction timing.",
-      "25": "Microtubule destabilization (e.g., nocodazole, colchicine) increases spike-time variability without abolishing spiking.",
-      "26": "Stabilization agents (epothilones, paclitaxel) enhance spike-field coherence and phase alignment.",
-      "27": "Anesthetics that bind tubulin (e.g., isoflurane) modulate microtubule stability and oscillatory synchrony.",
-      "28": "Microtubule dynamics regulate receptor trafficking (AMPA, NMDA, GABA) impacting excitatory/inhibitory balance.",
-      "29": "MAP-dependent microtubule stability influences dendritic spine structure and excitatory input timing.",
-      "30": "Microtubule disruption impairs late-phase LTP while sparing early synaptic responses.",
-      "31": "Pharmacological or genetic stabilization enhances learning-related oscillatory coherence.",
-      "32": "Neurotrophic signaling pathways (e.g., Trk family) regulate MAP expression and microtubule stability gating circuit alignment."
+    {
+      "id": "selective_routing",
+      "name": "Selective Routing",
+      "description": "Gating and control of information flow.",
+      "biological_markers": ["pulvinar/intralaminar gating", "TRN inhibition", "PV/SST/VIP gain control", "neuromodulation"],
+      "ai_markers": ["attention weights", "masking/gating modules", "mixture-of-experts routing"]
     },
-    "signaling_pathways": {
-      "33": "PI3K/Akt/mTOR activity modulates tau phosphorylation and MAP synthesis affecting lattice stability.",
-      "34": "GSK3β and CDK5 phosphorylation dynamics influence microtubule stability and spike-time precision.",
-      "35": "Protein phosphatases (PP2A, calcineurin) can reverse tau/MAP phosphorylation and restore synchrony capacity.",
-      "36": "Microtubule post-translational modifications (acetylation, detyrosination, polyglutamylation) tune lattice longevity and timing precision.",
-      "37": "Actin–microtubule cross-talk (RhoA/ROCK, LIMK/cofilin, Arp2/3) shapes spine architecture critical for timing alignment.",
-      "38": "Oligodendrocyte/myelination signaling (e.g., NRG1/ErbB) tunes conduction properties for phase alignment."
+    {
+      "id": "representational_structure",
+      "name": "Representational Structure",
+      "description": "How information is encoded, organized, and accessed.",
+      "biological_markers": ["population codes", "cell assemblies", "cognitive maps"],
+      "ai_markers": ["embeddings", "SAE latents", "representational subspaces/geometry", "polysemanticity"]
     },
-    "perturbation_experiments": {
-      "39": "Closed-loop phase-locked stimulation (tACS/tFUS/TMS) delivered in-phase with endogenous rhythms enhances local synchrony and conscious access.",
-      "40": "Out-of-phase stimulation disrupts synchrony and excludes the stimulated region from contributing to access.",
-      "41": "Frequency-specific stimulation biases content: gamma entrainment enhances binding, beta/alpha biases gating.",
-      "42": "Focused tFUS targeting deep integration hubs modulates global oscillatory coherence and conscious reportability.",
-      "43": "Anesthesia-induced unconsciousness correlates with disrupted EM field pocket stability, even with preserved spiking.",
-      "44": "Repetitive stimulation protocols induce plastic aftereffects, shifting baseline synchrony beyond stimulation windows.",
-      "45": "Well-powered sham-controlled studies can yield null results, directly testing the necessity of local synchrony for conscious access.",
-      "46": "High-density ECoG/MEG/iEEG reveals bounded EM pockets during conscious perception that collapse during unconscious states.",
-      "47": "Binocular rivalry and ambiguous figure paradigms show EM pocket topology tracks dominant percepts at constant sensory input.",
-      "48": "Backward masking paradigms demonstrate preserved early responses but reduced late coherence when access fails.",
-      "49": "Information-theoretic analyses (Granger, transfer entropy) can identify directionality of conscious content flow distinct from raw coherence.",
-      "50": "Cross-species replication (mouse laminar → macaque ECoG → human MEG) tests generalizability of EM pocket formation and their role in conscious access."
+    {
+      "id": "causal_control",
+      "name": "Causal Control",
+      "description": "Interventions that change computation, access, or behavior.",
+      "biological_markers": ["TMS/tACS/tFUS/DBS effects", "lesion/optogenetic manipulation"],
+      "ai_markers": ["ablation", "activation patching", "routing/objective edits"]
+    },
+    {
+      "id": "emergent_dynamics",
+      "name": "Emergent Dynamics",
+      "description": "Higher-order phenomena arising from interactions.",
+      "biological_markers": ["criticality", "complexity indices (PCI/LZC)", "global state signatures"],
+      "ai_markers": ["in-context learning", "emergent strategies", "self-organization"]
+    },
+    {
+      "id": "valence_welfare",
+      "name": "Valence & Welfare",
+      "description": "Affective value, aversion, and persistence relevant to suffering.",
+      "biological_markers": ["PAG, amygdala, insula, ACC coupling", "spinothalamic input", "neuromodulatory shifts"],
+      "ai_markers": ["negative reward channels", "value heads/critics", "aversive-cost signals", "persistence of negative states"]
+    },
+    {
+      "id": "self_model_report",
+      "name": "Self-Model & Reportability",
+      "description": "Higher-order access, confidence, and report links.",
+      "biological_markers": ["PFC/ACC metacognition", "report-linked signatures"],
+      "ai_markers": ["introspection/verifier modules", "confidence estimators", "report pathways"]
+    }
+  ],
+
+  "extraction_templates": {
+    "evidence_item": {
+      "phenomenon_id": "string (must match a core_phenomena.id)",
+      "system_type": "bio|ai|other",
+      "species_or_model": "string (e.g., human|macaque|mouse|in vitro|model family/version)",
+      "brief_mechanism": "string (one-line description of what was shown)",
+      "method": "string (e.g., MEG|iEEG|spikes|fMRI|model-internal|ablation)",
+      "state": "awake|sleep|anesthesia|DoC|task_on|task_off|inference|training|other",
+      "time": {
+        "bio_ms": "number or null",
+        "ai_units": {
+          "layers": "number or null",
+          "tokens": "number or null",
+          "steps": "number or null",
+          "updates": "number or null"
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "string (exact section header)",
+          "section_type": "Introduction|Methods|Results|Discussion|Supplement",
+          "page": "integer",
+          "paragraph_index": "integer or null",
+          "quote": "string (verbatim, not from abstract)",
+          "interpretation": "string (one-sentence description of the relevance to consciousness research in AI and the brain)"
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "string (e.g., Fig. 3 or Extended Data Fig. 2)",
+          "page": "integer",
+          "caption_quote": "string (exact snippet from the figure caption)",
+          "interpretation_short": "string (one sentence of what this figure shows relevant to the phenomenon, explain the relevance to consciousness research in AI and the brain)"
+        }
+      ],
+      "table_refs": [
+        {
+          "table_label": "string (e.g., Table 2 or Supplementary Table 1)",
+          "page": "integer",
+          "caption_quote": "string (exact snippet from the table caption)"
+        }
+      ],
+      "limitations": "string"
     }
   },
-  "required_output_format": {
+
+  "output_format": {
     "paper_metadata": {
-      "link": "string (URL of the paper)",
-      "title": "string (paper title if identifiable)"
+      "title": "string (the title of the paper)",
+      "authors": ["string"],
+      "year": "integer or null",
+      "doi_or_arxiv": "string",
+      "domain": "neuroscience|ai|theoretical|hybrid"
     },
-    "theory_synthesis": {
-      "description": "What theory of consciousness would you develop based on the claims supported by this paper? (2 sentences maximum)",
-      "type": "string"
-    },
-    "supported_claims": {
-      "description": "Array of claim numbers that are best supported by evidence in this paper",
-      "type": "array",
-      "items": "integer"
-    },
-    "evidence_details": {
-      "description": "For each supported claim, provide quotes and interpretation",
-      "type": "object",
-      "structure": {
-        "[claim_number]": {
-          "claim_text": "string (the original claim)",
-          "direct_quotes": [
-            {
-              "quote": "string (exact quote from paper)",
-              "page_or_section": "string (location reference if available)"
-            }
-          ],
-          "interpretation": "string (your analysis of how this evidence supports the claim)",
-          "strength": "string (strong/moderate/weak)",
-          "limitations": "string (any caveats or limitations of this evidence)"
-        }
-      }
-    },
-    "additional_or_contradictory_insights": {
-      "description": "Important findings not captured by the existing claims, or that contradict the claims (only include if necessary)",
-      "type": "array",
-      "items": {
-        "finding": "string",
-        "quotes": ["string"],
-        "relevance": "string"
-      }
-    }
-  }
+    "evidence": [
+      "evidence_item objects (text_refs must be non-empty; figure_refs and table_refs must be present arrays; use empty arrays if none apply)"
+    ]
+  },
+
+  "guidelines": [
+    "Do not quote from the abstract.",
+    "Every evidence item must include at least one text_refs entry with section_title, section_type, page, verbatim quote, and a one-sentence interpretation tying the quote to consciousness research in AI and the brain.",
+    "Always include figure_refs and table_refs arrays; leave them empty when not applicable. When using figures/tables, include figure_label/table_label, page, and a caption_quote. For figures, add a one-sentence interpretation_short.",
+    "Prefer Results and Methods for quantitative claims; treat Discussion quotes as interpretive but include them verbatim and labeled with section_type.",
+    "Normalize time to ms for biology and to tokens/steps/updates/layers for AI when available; use null when not reported.",
+    "Do not invent values. Leave fields as empty strings or nulls only where allowed."
+  ],
+
+  "qc_checklist": [
+    "No abstract quotes present.",
+    "At least one text_refs entry per evidence item contains section_title, section_type, page, verbatim quote, and interpretation.",
+    "figure_refs and table_refs arrays exist (empty if not used).",
+    "Figure-based claims include figure_label, page, caption_quote, and interpretation_short.",
+    "Section_type correctly reflects the source (Introduction/Methods/Results/Discussion/Supplement).",
+    "Time fields use numbers or nulls and formats are consistent across items."
+  ]
 }

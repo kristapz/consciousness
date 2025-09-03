@@ -1,0 +1,210 @@
+{
+  "paper_metadata": {
+    "title": "Shared functional specialization in transformer-based language models and the human brain",
+    "authors": [
+      "Sreejan Kumar",
+      "Theodore R. Sumers",
+      "Samuel A. Nastase"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.1038/s41467-024-49173-5",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "BERT-base; GPT-2 (Transformer language models)",
+      "brief_mechanism": "Embeddings act as a residual stream accumulating context; headwise self-attention transformations inject contextual information that is nonlinearly fused into embeddings.",
+      "method": "model-internal",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Transformer-based features",
+          "section_type": "Methods",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "Embeddings represent the contextualized semantic content, with information accumulating across successive layers as the Transformer blocks extract increasingly nuanced relationships between tokens... The second set of features we extract are the headwise “transformations” (Eq. 1), which capture the contextual information introduced by a particular head into the residual stream prior to the feedforward layer (MLP).",
+          "interpretation": "This clarifies the internal representational structure: a residual embedding stream that accumulates context and per-head transformations that introduce context-specific updates at each layer, an architecture-level analogue of representational subspaces and feature geometry relevant to consciousness-inspired analyses in AI and the brain ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Transformer-based features",
+          "section_type": "Methods",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "Although the transformations at a given layer are “cued” by the embedding arriving from the previous layer, they are not derived from this embedding; similarly, the transformations are nonlinearly fused with the content of the output embedding... Embeddings are sometimes referred to as the “residual stream”: the transformations at one layer are added to the embedding from the previous layer, so the embeddings accumulate previous computations that subsequent computations may access.",
+          "interpretation": "The paper distinguishes two representational objects—embeddings and headwise transformations—and how they are integrated, which maps cleanly onto analyses of representational subspaces, superposition, and low-rank integration in current AI-meets-neuroscience frameworks ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "This evidence is model-internal and descriptive; it does not by itself establish which of these representational components are necessary for conscious access or report in humans."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Contextual Transformer features (embeddings and headwise transformations) predict fMRI responses across cortical language areas during naturalistic story listening, outperforming classical linguistic features.",
+      "method": "fMRI + encoding models",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Comparing three classes of language models across cortical language areas",
+          "section_type": "Results",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "First, we confirmed that Transformer embeddings and transformations outperform classical linguistic features in most language ROIs (p < 0.005 in HG, PostTemp, AntTemp, AngG, IFG, IFGorb, vmPFC, dmPFC, and PMC for both embeddings and transformations; permutation test; FDR corrected; Table S1).",
+          "interpretation": "This shows broad, system-wide integration: context-enriched model features explain variance across a distributed fronto-temporal language network, consistent with integrated representations spanning multiple regions in the human brain during language comprehension ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Functional anatomy of a Transformer model",
+          "section_type": "Results",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "We adopted a model-based encoding framework... to map Transformer features onto brain activity measured using fMRI while subjects listened to naturalistic spoken stories.",
+          "interpretation": "Naturalistic, continuous narratives induce distributed brain activity that can be predicted by integrated, context-sensitive model features, linking distributed elements to unified cortical responses during ongoing cognition ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 2",
+          "page": 4,
+          "caption_quote": "We used encoding models to evaluate the performance of three different classes of language models... Among the Transformer features, embeddings capture the contextual semantic content of words, transformations capture the contextual transformations that yield these embeddings, and transformation magnitudes capture the non-semantic contribution of each head to a given token.",
+          "interpretation_short": "Figure 2 visualizes that contextual Transformer features robustly predict responses across language ROIs, supporting system-wide integration across the cortical language network via context-sensitive representations ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Encoding-model predictivity under naturalistic listening is correlational; it demonstrates shared information but not causal necessity for conscious access."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Headwise (per-attention-head) transformations show structured correspondences with cortical parcels and syntactic dependencies; shuffling features across heads abolishes this structure.",
+      "method": "fMRI + model-internal",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Interpreting transformations via headwise analysis",
+          "section_type": "Results",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "Headwise correspondence between dependencies and ROIs indicates that attention heads containing information about a given dependency also tend to contain information about brain activity for a given ROI—thus linking that ROI to the computation of that dependency.",
+          "interpretation": "Different attention heads (selective routes) preferentially map to different cortical computations, suggesting a gating-like correspondence between head-specific routing and regional processing in the human language network ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Interpreting transformations via headwise analysis",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "After this perturbation, the first two PCs accounted for only 17% of variance... and look-back distance... reduced... This control analysis indicates that the structure observed in Fig. 4 does not arise trivially, and results from the grouping of transformation features into functionally specialized heads; transformation features map onto brain activity in a way that systematically varies head by head, and shuffling features across heads (even within layers) disrupts this structure.",
+          "interpretation": "Ablating head identity by shuffling disrupts the mapping, implying that selective routing by heads is functionally meaningful for the brain–model correspondence rather than an artifact of pooling ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 4",
+          "page": 7,
+          "caption_quote": "Heads colored according to their average backward attention distance in the story stimuli... We next devised a control analysis... shuffling the transformation features across heads... abolished any visible geometry of layer, look-back distance, or headwise dependency decoding.",
+          "interpretation_short": "Fig. 4 shows organized headwise structure (layer and look-back gradients) that disappears when head assignments are shuffled, consistent with selective routing by attention heads mapping to cortical organization ."
+        },
+        {
+          "figure_label": "Fig. 5",
+          "page": 8,
+          "caption_quote": "Correlation between headwise brain prediction and dependency prediction scores for each language ROI and syntactic dependency... Cells with black borders contain significant correlations...",
+          "interpretation_short": "Fig. 5 links specific syntactic dependencies to particular ROIs via headwise correspondences, supporting targeted, selective information flow between model heads and cortical regions ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Head–ROI correspondences are correlative and depend on model training; causal routing in the brain is not manipulated."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "ai",
+      "species_or_model": "BERT-base; GPT-2 (Transformer language models)",
+      "brief_mechanism": "Headwise ‘backward attention distance’ quantifies how far back in the token stream heads integrate information; cortical mappings show gradients tied to look-back distance.",
+      "method": "model-internal",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": 128,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Transformer-based features",
+          "section_type": "Methods",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "To generate the “backward attention” metric (Fig. 4)... for each TR selected the 128 tokens preceding the end of the TR... We extracted each head’s matrix of token-to-token attention weights... multiplied each token-to-token attention weight by the distance between the two tokens... averaged this metric over all TRs... to obtain the headwise attention distances.",
+          "interpretation": "The paper defines a timing-sensitive measure of how attention heads integrate across time (tokens), enabling temporal coordination analyses of routing scales and their cortical correlates ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Interpreting transformations via headwise analysis",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "We observed a strong gradient of look-back distance increasing along PC2 (Fig. 4E)... the upper quartile of headwise attention distances exceeds 30 tokens, corresponding to look-back distances on the scale of multiple sentences.",
+          "interpretation": "Temporal coordination emerges as graded headwise look-back ranges that map systematically across cortical parcels, suggesting organized timing windows linking model attention dynamics to brain organization ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 4",
+          "page": 7,
+          "caption_quote": "E Heads colored according to their average backward attention distance in the story stimuli (look-back token distance is colored according to a log-scale).",
+          "interpretation_short": "Fig. 4E visualizes headwise timing preferences (look-back distances), tying temporal coordination in model attention to spatial organization across language parcels ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Look-back distance is defined in token space rather than neural time in milliseconds; linking these scales requires further temporal-resolution data (e.g., MEG/iEEG)."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T14:51:47.850961",
+    "model_used": "gpt-5",
+    "pdf_filename": "s41467-024-49173-5.pdf",
+    "vector_store_id": "vs_68b8b7b61768819189db8284e13417fa",
+    "file_id": "file-CLyeVbvZamX3XZixW8dDPa",
+    "content_length": null
+  }
+}

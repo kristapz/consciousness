@@ -698,3 +698,12 @@
 2025-08-28 16:50:55,539 - INFO - Theory synthesis: {'description': 'This paper supports a cytoskeleton-centered view in which TAU isoform–dependent control of microtubule dynamics, AIS organization, and synaptic scaffolds governs the precision and stability of synaptic signaling. Mitochondrial support and presynaptic vesicle machinery linked to TAU further constrain the network’s capacity for sustained, high-fidelity activity.', 'type': 'string'}
 2025-08-28 16:50:55,539 - INFO - Supported claims: {'description': 'Array of claim numbers that are best supported by evidence in this paper', 'type': 'array', 'items': [24, 28, 29, 36, 37, 8, 5, 10, 34, 35, 7]}
 2025-08-28 16:50:55,539 - INFO - Number of evidence details: 11
+2025-09-03 13:59:27,939 - INFO - Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-03 13:59:27,965 - INFO - 
+============================================================
+2025-09-03 13:59:27,966 - INFO - Starting analysis of: s41467-024-49173-5.pdf
+2025-09-03 13:59:27,966 - INFO - ============================================================
+2025-09-03 13:59:27,966 - INFO - Uploading s41467-024-49173-5.pdf (5.43 MB)...
+2025-09-03 13:59:31,700 - INFO - HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-03 13:59:31,705 - INFO - Successfully uploaded s41467-024-49173-5.pdf -> file_id: file-3vQKyvp2U5DGt3NYKJJpwc
+2025-09-03 13:59:31,706 - ERROR - Analysis failed for s41467-024-49173-5.pdf: 'Beta' object has no attribute 'vector_stores'
