@@ -1,0 +1,124 @@
+{
+  "paper_metadata": {
+    "title": "Complexes of tubulin oligomers and tau form a viscoelastic intervening network cross-bridging microtubules into bundles",
+    "authors": [
+      "Phillip A. Kohl",
+      "Chaeyeon Song",
+      "Bretton J. Fletcher",
+      "Rebecca L. Best",
+      "Christine Tchounwou",
+      "Ximena Garcia Arceo",
+      "Peter J. Chung",
+      "Herbert P. Miller",
+      "Leslie Wilson",
+      "Myung Chul Choi",
+      "Youli Li",
+      "Stuart C. Feinstein",
+      "Cyrus R. Safinya"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.1038/s41467-024-46438-x",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "in vitro",
+      "brief_mechanism": "Tau–tubulin bundles exhibit an abrupt switch from a wide-spacing (Bws) to an intermediate (Bint) state, synchronized with tubulin ring proliferation.",
+      "method": "SAXS and TEM",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Bws to Bint transition coincides with tubulin ring formation",
+          "section_type": "Results",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "For each sample, comparing dw-w to the amplitude of scattering from tubulin rings (Aring, Fig. 8B, D) highlights the striking synchronization between the proliferation of tubulin rings and the abrupt drop in dw-w. This reduced MT-MT spacing, together with the increase in MT bundle domain size, precisely when increasing amounts of rings and smaller curved tubulin oligomers begin proliferating, suggests that tubulin oligomers directly affect the bundling of MTs and drive the Bws to Bint transition observed through SAXS and TEM.",
+          "interpretation": "This result documents a sudden, synchronized structural switch (Bws→Bint) tightly coupled to a specific mesoscopic product (tubulin rings), exemplifying an abrupt state transition relevant to ignition-like changes discussed in consciousness research. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Time-dependent synchrotron SAXS data with increasing divalent cations in PIPES buffer at pH 6.8 reveals an intermediate bundled (Bint) microtubule state between the bundled wide-spacing (Bws) and the tubulin ring states.",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "As shown for 1.2mM Ca2+ (Fig. 2C), each of these samples originates in the Bws state but abruptly transitions to the Bint state after several hours.",
+          "interpretation": "Direct phrasing of an 'abrupt transition' supports the presence of metastable regime switching, a core marker of state transitions in complex systems. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 2",
+          "page": 3,
+          "caption_quote": "Time-dependent synchrotron SAXS data with increasing divalent cations in PIPES buffer at pH 6.8 reveals an intermediate bundled (Bint) microtubule state between the bundled wide-spacing (Bws) and the tubulin ring states.",
+          "interpretation_short": "Shows the emergence of a distinct intermediate state and phase transitions over time, evidencing abrupt structural switching. "
+        },
+        {
+          "figure_label": "Fig. 8",
+          "page": 8,
+          "caption_quote": "Change in the microtubule (MT) wall-to-wall spacing, upon transitioning from the wide-spacing (Bws) to the intermediate (Bint) MT bundle state, correlates with tubulin ring proliferation.",
+          "interpretation_short": "Demonstrates tight coupling of the Bws→Bint transition with ring proliferation, indicating a coordinated, abrupt state change. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "In vitro biochemical system with hours-long transitions; structural phase changes are indirect analogs of neural state transitions and do not measure brain-level dynamics or behavior."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "in vitro",
+      "brief_mechanism": "Temperature manipulation causally flips MT bundles between Bws and Bint states, with reversible switching.",
+      "method": "SAXS",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "The phase of bundled MTs is tunable with temperature",
+          "section_type": "Results",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "SAXS data from this temperature cycling experiment (Fig. 9) revealed that the otherwise stable wide-spacing state rapidly transitioned to the Bint state immediately following the drop in temperature to 21 °C. ... Increasing the temperature back up to 37 °C following the 30-minute incubation at 21 °C, the microtubule bundles reverted to the wide-spacing state, as indicated by the increase in dw-w to 30.5 nm, decrease",
+          "interpretation": "Changing temperature induces and reverses the structural state, establishing causal control over the transition—an intervention that modifies system regime, akin to causal probes in neuroscience and AI. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 9",
+          "page": 9,
+          "caption_quote": "Synchrotron SAXS data reveal the stability of the bundled wide-spacing state depends on temperature. A SAXS data (open circles) and corresponding fits (solid lines) for a sample prepared with 2.0mM MgCl2 ... temperature was held at 37 °C for 30min, quickly reduced to 21 °C and held for 30min, then quickly cycled back up to 37 °C.",
+          "interpretation_short": "Cyclic temperature perturbations causally drive reversible state switching (Bws↔Bint). "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Temperature cycling in a cell-free preparation demonstrates controllability but may not map directly onto neural causal manipulations or timescales relevant to conscious access."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:41:15.363532",
+    "model_used": "gpt-5",
+    "pdf_filename": "s41467-024-46438-x.pdf",
+    "vector_store_id": "vs_68b8c34fde048191bb044f32cdc84c4d",
+    "file_id": "file-1BFok6BQk7rC2i4wwNQ4s8",
+    "content_length": null
+  }
+}

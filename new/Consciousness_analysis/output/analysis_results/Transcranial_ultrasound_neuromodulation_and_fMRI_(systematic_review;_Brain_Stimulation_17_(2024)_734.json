@@ -1,0 +1,168 @@
+{
+  "paper_metadata": {
+    "title": "Transcranial ultrasound neuromodulation and fMRI (systematic review; Brain Stimulation 17 (2024) 734–751)",
+    "authors": [
+      "Carly Pellow",
+      "Samuel Pichardo",
+      "G. Bruce Pike"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "rat",
+      "brief_mechanism": "Transcranial ultrasound significantly reduced epileptic EEG burst occurrence in a rat epilepsy model.",
+      "method": "EEG",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1. Milestones of TUS neuromodulation",
+          "section_type": "Results",
+          "page": 738,
+          "paragraph_index": null,
+          "quote": "That same year, Min et al., also experimented with the first disordered cohort (a rat epilepsy model) and demonstrated that TUS could significantly decrease the occurrence of epileptic EEG bursts [72].",
+          "interpretation": "This result shows direct causal control of neural dynamics via noninvasive ultrasound intervention, supporting the use of perturbations to assess and modulate neural mechanisms relevant to consciousness and behavior in vivo ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 738,
+          "caption_quote": "Fig. 3. Preclinical and clinical TUS neuromodulation landscape.",
+          "interpretation_short": "The landscape figure situates this causal EEG effect within a broader map of TUS interventions across species and targets, underscoring generalizable perturbation-based control over brain function ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Summary reported in a review; stimulation parameters, anesthesia state, and effect sizes are not detailed here."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Ultrasound of S1 elicited sonication-specific evoked potentials and phantom tactile sensations, indicating time-locked neural responses.",
+      "method": "EEG",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1. Milestones of TUS neuromodulation",
+          "section_type": "Results",
+          "page": 739,
+          "paragraph_index": null,
+          "quote": "It was later demonstrated that S1 stimulation in healthy humans could elicit sonication-specific evoked potentials and produce phantom tactile sensations [73].",
+          "interpretation": "Evoked potentials time-locked to ultrasonic pulses indicate externally driven temporal coordination of cortical processing, providing an experimental handle on timing mechanisms linked to perception and reportability ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 4",
+          "page": 739,
+          "caption_quote": "Fig. 4. Milestones in TUS neuromodulation, in both the preclinical (top) and clinical (bottom) contexts.",
+          "interpretation_short": "Places the evoked-potential finding among key temporal and behavioral milestones in TUS neuromodulation, highlighting reproducible, time-locked effects across studies ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "The review summarizes the effect; precise latency distributions and SNR versus sham are not provided here."
+    },
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "rabbit",
+      "brief_mechanism": "Parameter-dependent bimodal modulation (stimulation or suppression) of brain activity with first fMRI readout.",
+      "method": "fMRI",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1. Milestones of TUS neuromodulation",
+          "section_type": "Results",
+          "page": 738,
+          "paragraph_index": null,
+          "quote": "It was also shown at this time by Yoo et al. in healthy rabbits that TUS could modulate brain activity bimodally (i.e. stimulate or suppress) in a safe manner, depending on stimulation parameters [63]. This study further presented the first use of functional magnetic resonance imaging (fMRI) as a neural readout in the context of TUS [63].",
+          "interpretation": "The abrupt switch between suppressive and excitatory regimes with parameter changes exemplifies controlled state transitions in large-scale neural processing, a hallmark of regime switching observed in both brains and AI systems ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 738,
+          "caption_quote": "Fig. 3. Preclinical and clinical TUS neuromodulation landscape.",
+          "interpretation_short": "Contextualizes parameter-dependent transitions across targets/species, suggesting general principles of regime switching under ultrasound perturbation ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Study-level details (e.g., exact pulse parameters) are summarized; the review does not quantify transition boundaries or hysteresis."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "bio",
+      "species_or_model": "human (clinical cohort with chronic pain)",
+      "brief_mechanism": "Human sonication produced improvements in mood and pain scores.",
+      "method": "clinical outcome measures (behavioral ratings/scales)",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1. Milestones of TUS neuromodulation",
+          "section_type": "Results",
+          "page": 738,
+          "paragraph_index": null,
+          "quote": "Soon after, TUS was first demonstrated in humans in 2013 with improvement in mood and pain scores after sonication of the posterior frontal lobe in patients with chronic pain [50].",
+          "interpretation": "Changes in affective and nociceptive outcomes indicate that noninvasive perturbations can modulate valence-relevant circuitry (e.g., pain and mood networks), which is central to welfare-relevant aspects of consciousness ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "This is a brief milestone summary; details on controls, blinding, and effect sizes are not provided in the review summary."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:50:01.202728",
+    "model_used": "gpt-5",
+    "pdf_filename": "Clinical_Review_2024.pdf",
+    "vector_store_id": "vs_68b8c52e37d481918b362f1dbc128cdd",
+    "file_id": "file-JnahCGvVEBDLCqnU8ATksQ",
+    "content_length": null
+  }
+}

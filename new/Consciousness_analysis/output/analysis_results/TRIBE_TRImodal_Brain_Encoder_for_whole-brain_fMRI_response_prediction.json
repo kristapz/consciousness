@@ -1,0 +1,229 @@
+{
+  "paper_metadata": {
+    "title": "TRIBE: TRImodal Brain Encoder for whole-brain fMRI response prediction",
+    "authors": [
+      "Stéphane d’Ascoli",
+      "Jérémy Rapin",
+      "Yohann Benchetrit",
+      "Hubert Banville",
+      "Jean-Rémi King"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "arXiv:2507.22229",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Multimodal (text+audio+video) features integrated by an encoder yield higher brain-encoding performance than any unimodal input, especially in associative cortices.",
+      "method": "fMRI; encoding-model analyses",
+      "state": "task_on",
+      "time": {
+        "bio_ms": 1490,
+        "ai_units": {
+          "layers": 8,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3.3 The benefit of multimodality",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "When combining any two modalities together, the encoding scores rise significantly compared to the unimodal models: the best bimodal model, obtained by combining text and video, achieves an encoding score of 0.30. Finally, combining the three modalities together yields an additional boost, bringing the value to 0.31. This hints to the fact that each modality plays a complementary role.",
+          "interpretation": "This quantitative improvement from bimodal to trimodal inputs indicates integration of distributed information streams into unified representations that better match whole-brain activity, consistent with Information Integration as a core phenomenon in consciousness science (see also the cortical maps emphasizing associative areas) ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "3.4 The interplay between modalities",
+          "section_type": "Results",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "These observations provide new insights on how multisensory integration may occurs in the human cortex.",
+          "interpretation": "Explicitly linking the results to multisensory integration supports the view that distributed modality-specific features are combined into unified cortical representations, aligning with Information Integration ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 4",
+          "page": 6,
+          "caption_quote": "Figure 4: Multimodal encoders outperform unimodal encoders.",
+          "interpretation_short": "Direct evidence that combining modalities improves brain-encoding performance, indicating integration across features and brain networks relevant to conscious content ."
+        },
+        {
+          "figure_label": "Figure 5",
+          "page": 7,
+          "caption_quote": "Figure 5: The modalities and their interplay map onto the expected brain areas.",
+          "interpretation_short": "Bimodal and trimodal patterns across cortex visualize where integration occurs, especially in associative regions implicated in global access and conscious processing ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Encoding gains are correlational; fMRI’s TR (1.49 s) limits temporal precision and cannot resolve the neural mechanisms of binding per se, and spatial parcellation to 1,000 parcels may obscure finer-grained integration effects ."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "ai",
+      "species_or_model": "TRIBE encoder (8-layer transformer)",
+      "brief_mechanism": "Modality dropout masks inputs during training, encouraging the model to flexibly route and rely on available modalities rather than over-weighting any single channel.",
+      "method": "model-internal (training procedure)",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 8,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2.4 Training details",
+          "section_type": "Methods",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "Modality dropout One desirable property of a multimodal encoding model is its ability to provide meaningful predictions in the absence of one or several modalities, for example for a silent movie or a podcast. To encourage this behaviour, while at the same time avoiding excessive reliance on one modality, we introduce modality dropout: during training, we randomly mask off each modality by zeroing out the corresponding input tensor with a probability p, ensuring that at least one modality is left unmasked.",
+          "interpretation": "Masking/gating entire modalities implements selective routing pressure in the model, paralleling attentional gating and thalamocortical control motifs studied in biological consciousness research ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [
+        {
+          "table_label": "Table 3",
+          "page": 13,
+          "caption_quote": "Table 3: Hyperparameters used in our model"
+        }
+      ],
+      "limitations": "While masking encourages flexible routing, it is an engineered training heuristic rather than a direct mechanistic analogue of biological gating circuits; the paper does not report internal attention maps or routing diagnostics that would more directly evidence selective pathways ."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "TRIBE encoder (8-layer transformer)",
+      "brief_mechanism": "Ablations removing the transformer or multisubject training causally reduce encoding performance, demonstrating that architectural components control computation quality.",
+      "method": "ablation",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 8,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3.5 Ablations and scaling laws",
+          "section_type": "Results",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "In fig. 6a, we demonstrate the importance of using a transformer and a multi-subject training scheme: the encoding score drops from 0.31 to 0.29 when training separately for each subject, and down to 0.23 when removing the transformer.",
+          "interpretation": "These controlled interventions (ablate transformer; change training regime) alter performance, providing causal evidence that specific modules and training choices govern computational competence—an AI-side parallel to lesion/TMS-like causal tests in consciousness studies ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 6",
+          "page": 8,
+          "caption_quote": "Figure 6: Ablations and scaling laws of our model. (a) We compare the results of our model with those achieved without multi-subject training or without the transformer model.",
+          "interpretation_short": "Performance drops under ablations indicate causal control of computation by specific architectural components, analogous to interventionist methods in neuroscience ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Ablations show outcome-level effects but do not pinpoint mechanism-level pathways (e.g., which attention heads or submodules drive changes), limiting granularity of causal interpretation."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "TRIBE encoder (8-layer transformer)",
+      "brief_mechanism": "Layer grouping and concatenation produce 3×1024-d multimodal embeddings that a transformer organizes, reflecting a designed representational geometry spanning modalities and levels.",
+      "method": "model-internal (architecture/methods)",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 8,
+          "tokens": 1024,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2.3 Model",
+          "section_type": "Methods",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "To compress these embeddings while retaining both low-level and high-level information, for each modality, we split the layers into L groups, then average the tensor per group along the layer dimension, compressing to a shape [L,Dm]. We then concatenate the layers and feed the resulting vector through a linear layer with a shared output dimension D = 1024 followed by layer normalization. Finally, we concatenate the three modalities, leading to a time series of multimodal embeddings of shape 3× 1024. This will be the input to our transformer encoder.",
+          "interpretation": "The described embedding pipeline specifies a representational structure that organizes multimodal content in a shared subspace, aligning with the Representational Structure phenomenon and enabling downstream access/control by attention mechanisms ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 2",
+          "page": 2,
+          "caption_quote": "Figure 2: Visual summary of our method.",
+          "interpretation_short": "Schematic depicts how text, audio, and video embeddings are combined and processed, illustrating the model’s representational layout across modalities and layers ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "The paper does not provide probing or sparse autoencoder analyses of internal latents; thus, while the representational geometry is described architecturally, fine-grained interpretability (e.g., disentangled features) remains untested."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "ai",
+      "species_or_model": "TRIBE encoder (8-layer transformer)",
+      "brief_mechanism": "Windows aligned to fMRI TRs use positional embeddings; the transformer enables information exchange between timesteps, coordinating temporal content.",
+      "method": "model-internal (architecture/methods)",
+      "state": "training",
+      "time": {
+        "bio_ms": 1490,
+        "ai_units": {
+          "layers": 8,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2.3 Model",
+          "section_type": "Methods",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "We extract windows of duration T = N × TR from these embedding time series, add learnable positional embeddings and a learnable subject embedding, then feed the result through a Transformer encoder with 8 layers and 8 attention heads. This enables information to be exchanged between timesteps.",
+          "interpretation": "Using positional embeddings and attention to exchange information across timesteps implements temporal coordination—an AI analogue of timing/phase mechanisms proposed to segment and bind conscious content in the brain ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 2",
+          "page": 2,
+          "caption_quote": "Figure 2: Visual summary of our method.",
+          "interpretation_short": "Pipeline illustration shows temporally binned, aligned embeddings feeding a transformer, consistent with coordinated temporal processing ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Temporal alignment is constrained by fMRI TR and the 2 Hz embedding grid, limiting inferences about faster timing phenomena (e.g., oscillations, phase-locking) that are central to biological temporal coordination."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:33:05.018195",
+    "model_used": "gpt-5",
+    "pdf_filename": "2507.22229v1.pdf",
+    "vector_store_id": "vs_68b8c16ad2a48191a32c50604bd25b80",
+    "file_id": "file-Qcndn41tLa8J8j4TRPYygk",
+    "content_length": null
+  }
+}

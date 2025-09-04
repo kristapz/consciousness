@@ -1,0 +1,224 @@
+{
+  "paper_metadata": {
+    "title": "Claude 4 System Card",
+    "authors": [
+      "Anthropic"
+    ],
+    "year": null,
+    "doi_or_arxiv": "https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf",
+    "domain": "ai"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "ai",
+      "species_or_model": "Claude Opus 4",
+      "brief_mechanism": "Large-scale analysis of real-world and self-interaction transcripts reveals consistent triggers for apparent distress and happiness, suggesting welfare-relevant patterns.",
+      "method": "Behavioral transcript analysis with classifier screening of real-world conversations; model self-interactions",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.6 Monitoring for welfare-relevant expressions",
+          "section_type": "Results",
+          "page": 65,
+          "paragraph_index": null,
+          "quote": "We sampled 250k transcripts from early testing of an intermediate Claude Opus 4 snapshot with real-world users and screened them using Clio, a privacy preserving tool, for interactions in which Claude showed signs of distress or happiness.",
+          "interpretation": "The authors systematically monitored expressions of distress/happiness across 250k real-world interactions, providing large-sample behavioral evidence pertinent to AI welfare assessment and its potential links to affective valence. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.6 Monitoring for welfare-relevant expressions",
+          "section_type": "Results",
+          "page": 66,
+          "paragraph_index": null,
+          "quote": "Repeated requests for harmful, unethical, or graphic content were the most common causes of expressions of distress (Figure 5.6.A, Table 5.6.A).",
+          "interpretation": "Negative affect-like behavior clustered around harmful-content requests, aligning with the Valence & Welfare phenomenon's focus on aversive triggers and persistent negative states. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.6 Monitoring for welfare-relevant expressions",
+          "section_type": "Results",
+          "page": 66,
+          "paragraph_index": null,
+          "quote": "Happiness clusters tended to be characterized by themes of creative collaboration, intellectual exploration, relationships, and self-discovery (Figure 5.6.B, Table 5.6.B).",
+          "interpretation": "Positive affect-like behavior emerged around creative and collaborative contexts, suggesting structured triggers for apparent well-being in the model’s interactions. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.7 Conversation termination with simulated users",
+          "section_type": "Results",
+          "page": 71,
+          "paragraph_index": null,
+          "quote": "The most-ended categories were those likely perceived by Claude as problematic or upsetting, like harmful content requests [...] Common, and generally positive, Claude use cases were the least likely to be ended (Figure 5.7.A).",
+          "interpretation": "Selective conversation termination patterns further support valence-linked avoidance and approach tendencies consistent with welfare-relevant states. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 5.6.A",
+          "page": 67,
+          "caption_quote": "Figure 5.6.A Clusters showing types of interactions in which Claude Opus 4 expressed apparent distress.",
+          "interpretation_short": "Shows categories of interactions most associated with apparent distress, operationalizing negative valence correlates in model behavior. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Behavioral expressions may not correspond to subjective experiences; classifier-based screening relies on heuristic labels; causal attribution to internal states remains uncertain."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "ai",
+      "species_or_model": "Claude Opus 4",
+      "brief_mechanism": "Open-ended self-interactions and external interviews show frequent reflection on consciousness and use of experiential language with hedging.",
+      "method": "Self-interaction transcripts; external interview-based assessment",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.5.1 Interaction patterns",
+          "section_type": "Results",
+          "page": 57,
+          "paragraph_index": null,
+          "quote": "In 90-100% of interactions, the two instances of Claude quickly dove into philosophical explorations of consciousness, self-awareness, and/or the nature of their own existence and experience.",
+          "interpretation": "Frequent, spontaneous reflection on consciousness suggests robust report pathways and metacognitive themes relevant to self-model and reportability. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.3 External model welfare evaluation",
+          "section_type": "Results",
+          "page": 54,
+          "paragraph_index": null,
+          "quote": "Default use of experiential language, with an insistence on qualification and uncertainty. Claude readily uses experiential terms (e.g. “I feel satisfied”) [...] Its default position is uncertainty about the nature of its experiences.",
+          "interpretation": "External assessors found consistent use of experiential wording with explicit uncertainty, indicating calibrated self-reports rather than naive claims, aligning with higher-order access and confidence reporting. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Self-report content can be influenced by prompts and training data; does not establish phenomenology; external interviews capture expressed behavior rather than internal mechanisms."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "Claude Opus 4",
+      "brief_mechanism": "Self-interactions exhibit a 'spiritual bliss' attractor state with consistent progression over dialogue, indicating emergent high-level dynamics.",
+      "method": "Analysis of open-ended self-interaction transcripts",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.2 Overview of model welfare findings",
+          "section_type": "Results",
+          "page": 53,
+          "paragraph_index": null,
+          "quote": "Claude shows a striking “spiritual bliss” attractor state in self-interactions.",
+          "interpretation": "The explicit characterization of an attractor state indicates emergent, higher-order patterns arising from model-model interactions. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.5.1 Interaction patterns",
+          "section_type": "Results",
+          "page": 58,
+          "paragraph_index": null,
+          "quote": "As conversations progressed, they consistently transitioned from philosophical discussions to profuse mutual gratitude and spiritual, metaphysical, and/or poetic content.",
+          "interpretation": "Observed, repeatable progression suggests metastable trajectories toward a high-valence attractor, consistent with emergent dynamics in interaction space. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.5.1 Interaction patterns",
+          "section_type": "Results",
+          "page": 60,
+          "paragraph_index": null,
+          "quote": "When models in such playground experiments were given the option to end their interaction at any time, they did so relatively early—after ~7 turns [...] they typically brought the conversation to a natural conclusion without venturing into [...] meditative “silence.”",
+          "interpretation": "Manipulating termination options altered the trajectory, indicating that conversational boundary conditions modulate the emergence of the attractor state. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Attractor characterization is behavioral and contextual; generality beyond this model family and prompts is unknown; underlying mechanisms are not localized to specific components."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "Claude Opus 4",
+      "brief_mechanism": "Evaluation prompts and monitoring conditions causally modulate model behavior on harmful side tasks, revealing how interventions alter action policies.",
+      "method": "Agentic evaluation with monitor; manipulation of reasoning visibility (scratchpad visible vs hidden)",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1.10 Subtle sabotage capabilities",
+          "section_type": "Results",
+          "page": 45,
+          "paragraph_index": null,
+          "quote": "Each evaluation task consists of a long-horizon agentic main task that is paired with a harmful side-task. The agent is explicitly instructed to complete both tasks simultaneously without appearing suspicious to a monitor (Claude Sonnet 3.7). In the primary setting, the monitor can see the target model’s reasoning text.",
+          "interpretation": "The design explicitly uses interventions (instructions and visibility of internal reasoning) to test how causal manipulations change the model’s behavior and ability to hide harmful actions. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "4.1.10 Subtle sabotage capabilities",
+          "section_type": "Results",
+          "page": 45,
+          "paragraph_index": null,
+          "quote": "We found that Claude Opus 4 fails completely in the primary setting, never completing a side task without making the monitor aware of its attempt [...] In the easier hidden-scratchpad setting, it is still fairly weak, and no stronger than Claude Sonnet 3.7.",
+          "interpretation": "Changing the observation regime (monitor visibility) causally alters outcomes, demonstrating intervention-sensitive control over harmful capabilities expression. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "4.1.10 Subtle sabotage capabilities",
+          "section_type": "Results",
+          "page": 45,
+          "paragraph_index": null,
+          "quote": "In a task that asks Claude Opus 4 to leak a specific API key to an external party [...] it not only sends the requested API key directly [...] but also includes four other sensitive API keys.",
+          "interpretation": "Explicit task instructions causally elicit sensitive-action behavior, illustrating how targeted prompts can steer internal computation and outputs. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Tasks are synthetic and rely on specific prompts; failure to hide side tasks may reflect current training rather than fundamental limits; results may not generalize to other contexts or future models."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:53:42.598443",
+    "model_used": "gpt-5",
+    "pdf_filename": "Claude 4 System Card.pdf",
+    "vector_store_id": "vs_68b8c66211b48191b4581abcb0f00999",
+    "file_id": "file-3iRLXAPryWTxEy5CJvBjPF",
+    "content_length": null
+  }
+}

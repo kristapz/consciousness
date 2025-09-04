@@ -1,0 +1,218 @@
+{
+  "paper_metadata": {
+    "title": "Cytoelectric coupling: Electric fields sculpt neural activity and “tune” the brain’s infrastructure",
+    "authors": [
+      "Dimitris A. Pinotsis",
+      "Gene Fridman",
+      "Earl K. Miller"
+    ],
+    "year": 2023,
+    "doi_or_arxiv": "10.1016/j.pneurobio.2023.102465",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "multi-species review (human, nonhuman primate, rodent, in vitro)",
+      "brief_mechanism": "Endogenous and exogenous fields entrain neuronal timing and organize oscillatory rhythms that coordinate spiking.",
+      "method": "Perspective/review citing LFP, neurostimulation, and electrophysiology",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "1. Electric fields, ephaptic coupling and LFPs",
+          "section_type": "Discussion",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "Application of external electric fields resulted in membrane potentials oscillating at the same frequency as the drive (Anastassiou et al., 2011).",
+          "interpretation": "Field-driven entrainment of membrane potentials indicates a timing mechanism that can bind or segment content—a core ingredient for temporal coordination in consciousness and an analogue to attention synchronization in AI ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "2. Mesoscale organization and neural ensembles",
+          "section_type": "Discussion",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Rhythms in the cortex entrain to the rhythms of the outside world (Schroeder et al., 2010; Fries, 2015), which are exploited for focusing attention.",
+          "interpretation": "Cortical rhythms aligning to external temporal structure support a mechanism for temporal coordination of perceptual content and attentional selection, relevant to conscious access and to timing/routing schedules in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Evidence is synthesized from prior studies; the perspective does not provide new experimental timing measurements or direct causal manipulations at specific frequencies."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "multi-species review (human, nonhuman primate, rodent, in vitro)",
+      "brief_mechanism": "Oscillations and LFP-mediated synchrony form neural ensembles, integrating distributed activity into mesoscale representations.",
+      "method": "Perspective/review of LFP, ensemble imaging, multielectrode recordings",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2. Mesoscale organization and neural ensembles",
+          "section_type": "Discussion",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Studies by us (Miller et al., 2018; Antzoulatos and Miller, 2016; Buschman et al., 2012; ... ) exploiting multielectrode arrays support the conclusion that oscillations can form neural ensembles via synchronous activity at the LFP level.",
+          "interpretation": "Formation of ensembles via synchrony reflects information integration across distributed elements, paralleling integrative mechanisms like binding by synchrony and global access in theories of consciousness and informing AI markers such as attention convergence ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Integrative claims derive from converging correlational evidence across studies rather than a single causal experiment demonstrating global access."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "multi-species review (human, nonhuman primate, rodent, in vitro)",
+      "brief_mechanism": "Oscillatory coherence and LFP dynamics are linked to attentional selection and routing of task-relevant information.",
+      "method": "Perspective/review of attention-related oscillations",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2. Mesoscale organization and neural ensembles",
+          "section_type": "Discussion",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "They seem to mediate the processing of incoming stimuli (Gray, 1999), attention (Desimone and Duncan, 1995; Fries, 2009), encoding of rules, memory encoding and recall (Buschman et al., 2012) or the binding of sensory inputs to representations (Singer and Gray, 1995).",
+          "interpretation": "Linking oscillations to attention implies selective routing/gating of information flow, a control mechanism relevant to conscious access and mirrored by attention-weighted routing in AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "The section summarizes prior literature; it does not isolate specific gating circuits (e.g., pulvinar/TRN) within a single experimental paradigm."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "human (clinical) and animal (cited)",
+      "brief_mechanism": "Closed-loop electrical stimulation modulates endogenous oscillatory power and can alter cognition.",
+      "method": "Neurostimulation (closed-loop), LFP modulation (reviewed)",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3. The cytoelectric coupling hypothesis",
+          "section_type": "Discussion",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "Closed-loop electrical stimulation can be used to modulate endogenous oscillatory power, rather than impose outside rhythms on the brain (Widge et al., 2018). ... Closed-loop electrical stimulation has also been used to improve cognitive function in human surgical patients (Widge et al., 2019).",
+          "interpretation": "Demonstrates that targeted interventions on oscillations causally influence computation and behavior, aligning with causal-control markers like TMS/tACS effects in consciousness research and with ablation/routing edits in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Clinical and animal examples are cited rather than newly reported; specific parameters and effect sizes are not detailed here."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "rodent and human (cited via engram imaging and PET/fMRI)",
+      "brief_mechanism": "LFPs and mesoscale organization relate to selection of engram neurons; storage depends on connectivity patterns rather than synaptic strength alone.",
+      "method": "Review of engram imaging, optogenetics, and mesoscale recordings",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2. Mesoscale organization and neural ensembles",
+          "section_type": "Discussion",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "LFPs seem to play a role in selecting neurons representing memories (neural ensembles). ... Importantly, memory storage seems to depend on connectivity patterns (which neurons are connected to which), not how strong the connection is.",
+          "interpretation": "Suggests that representational content is organized by mesoscale connectivity/ensemble structure rather than just weight magnitudes—analogous to structured embedding subspaces or SAE latents in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Claims are inferential from multiple studies and do not provide a direct, simultaneous mapping from LFP patterns to engram identity in the same preparation."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "multi-species review (general cortical circuits)",
+      "brief_mechanism": "Endogenous fields create feedback loops that modulate the very activity that generates them, yielding self-organizing dynamics.",
+      "method": "Review of ephaptic coupling and electrodiffusion modeling",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "1. Electric fields, ephaptic coupling and LFPs",
+          "section_type": "Discussion",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "Endogenous fields can form a feedback loop that modulates the very activity that generates them (Fröhlich and McCormick, 2010).",
+          "interpretation": "Feedback between field and neuronal activity indicates emergent, self-organizing network dynamics that can underwrite global state signatures relevant to consciousness and to emergent strategies in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Feedback loops are inferred from prior studies and models; the perspective does not establish criticality or quantify complexity indices directly."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:15:23.485568",
+    "model_used": "gpt-5",
+    "pdf_filename": "1-s2.0-S0301008223000667-main.pdf",
+    "vector_store_id": "vs_68b8bd5a76e08191a7d1dbe5e3126e0b",
+    "file_id": "file-92aj5WhK7BtH9n7GsATmUH",
+    "content_length": null
+  }
+}

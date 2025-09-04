@@ -1,0 +1,120 @@
+{
+  "paper_metadata": {
+    "title": "Editorial: Electromagnetic field theories of consciousness: opportunities and obstacles",
+    "authors": [
+      "Tam Hunt",
+      "Mostyn Jones",
+      "Johnjoe McFadden",
+      "Arnaud Delorme",
+      "Colin G. Hales",
+      "Marissa Ericson",
+      "Jonathan Schooler"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.3389/fnhum.2023.1342634",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "various (human/animal; review of EM field/EEG phenomena)",
+      "brief_mechanism": "Oscillatory brain EM fields (delta/theta/etc.) argued to be causally relevant to conscious processing.",
+      "method": "Editorial/review synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Editorial on the Research Topic",
+          "section_type": "Discussion",
+          "page": 1,
+          "paragraph_index": null,
+          "quote": "EM field theories view brain waves (delta, theta, etc.) and related EM fields as causally potent and functionally relevant to consciousness and the workings of the brain.",
+          "interpretation": "This links rhythmic timing signals (oscillations) to conscious processing, supporting temporal coordination mechanisms relevant to consciousness research in brains and informing timing/routing analogs in AI models ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Editorial summary without primary quantitative data or explicit timing measures; species and methods are discussed broadly."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "various (theoretical overview referencing neural populations)",
+      "brief_mechanism": "Addresses the unity/binding of conscious experience arising from many distributed neural elements.",
+      "method": "Editorial/review synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Editorial on the Research Topic",
+          "section_type": "Discussion",
+          "page": 1,
+          "paragraph_index": null,
+          "quote": "These theories originally emerged because they drew on considerable experimental evidence and provided potential solutions to traditional neuroscience’s well-known problems. For example, how does the unity of consciousness arise from the functioning of billions of neurons and glia?",
+          "interpretation": "The editorial frames EM field theories as addressing the integration/binding problem—how distributed neural activity yields unified experience—directly aligning with information integration as a cross-cutting marker for consciousness in brain and AI research ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual synthesis; does not provide direct empirical measures of integration or explicit network-level analyses."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "various (summary of proposals on ephaptic/EM interactions)",
+      "brief_mechanism": "Proposed inwardly focused EM fields strengthen ephaptic coupling and can causally influence neural circuits.",
+      "method": "Editorial/review synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Editorial on the Research Topic",
+          "section_type": "Discussion",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "MacIver proposes an inward view of EMF energy “clouds,” suggesting that EM fields focused inward to the brain could provide stronger ephaptic connections to neural circuits and thus be causal, contrary to early critiques of EM field theories.",
+          "interpretation": "By describing how EM field configurations could causally modulate circuit dynamics (via ephaptic coupling), this supports the causal control phenomenon and parallels interventionist approaches used in AI (e.g., ablations/routing edits) to test computational roles of components ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Secondary summary of a proposal; lacks direct experimental manipulation or quantified causal effects in this article."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:55:24.997758",
+    "model_used": "gpt-5",
+    "pdf_filename": "fnhum-17-1342634 (3).pdf",
+    "vector_store_id": "vs_68b8c6f6c7cc819192ef9864f1d346dd",
+    "file_id": "file-2FQmQezCS8KVK181gfALEf",
+    "content_length": null
+  }
+}

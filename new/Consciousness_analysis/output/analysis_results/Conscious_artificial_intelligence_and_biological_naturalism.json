@@ -1,0 +1,250 @@
+{
+  "paper_metadata": {
+    "title": "Conscious artificial intelligence and biological naturalism",
+    "authors": [
+      "Anil K. Seth"
+    ],
+    "year": null,
+    "doi_or_arxiv": "10.1017/S0140525X25000032",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Predictive processing frames perception as probabilistic inference via prediction-error minimization, highlighting representational structure and access.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1 The story from predictive processing",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "Predictive processing, as I understand it, labels a range of theories about perception, cognition and action ... These have in common the idea that perception is a form of probabilistic inference, approximated in neural systems via a process of prediction error minimisation.",
+          "interpretation": "This passage explicitly characterizes perceptual contents as structured probabilistic representations updated by prediction-error minimization, linking representational geometry in brains to analogous representational structures in AI models that implement inference-like updates ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual/theoretical account; no direct neural or model-internal measurements are provided, and page numbers were not available from the provided text extraction."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "IIT claims consciousness corresponds to maxima of irreducible integrated cause–effect structure, implying recurrence-dependent integration.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.6 Other theories",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "According to IIT, a conscious experience is identical to the cause-effect structure unfolded from a physical substrate specifying a maximum of irreducible integrated information. Wherever there are such maxima, there will be consciousness. ... A purely feedforward neural network would have zero consciousness, whereas a neural network with the right kind of physically-instantiated recurrent connectivity will have non-zero consciousness, regardless of what it is made out of.",
+          "interpretation": "This ties consciousness to integrated information and recurrent causal structure, aligning with biological integration markers (long-range coherence, hub engagement) and AI integration proxies (attention convergence, residual integration) ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [
+        {
+          "table_label": "Table 1",
+          "page": 0,
+          "caption_quote": "Table 1. Scenarios for conscious AI. If the remit of ‘computation’ is broadened beyond Turing’s definition, the distinction between scenarios 3 and 4 may blur... Biological naturalism falls within scenarios 4 and 5 (and potentially 3, for ‘computational biological naturalism’)."
+        }
+      ],
+      "limitations": "IIT is presented as a theoretical position with ongoing controversy; no empirical measures of integrated information are reported here, and page numbers were not available from the provided text extraction."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Discusses hierarchical emergence and informational/causal closure that support macroscopic dynamics independent of microdetails.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3.5  Emergence and the separation of scales",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "Recently, empirical measures have been developed which formalise notions of ‘informational closure’ and ‘causal closure’ which underwrite the separation of scales in complex systems... A macroscopic (higher-level) variable – or ‘coarse graining’ – is causally or informationally closed when interventions on it (causal closure), or observations of it (informational closure), are sufficient to determine or predict the higher-level outcome(s)...",
+          "interpretation": "By emphasizing closure at higher scales, the text motivates emergent global-state dynamics relevant to consciousness signatures like criticality and complexity indices in brains and emergent strategies/in-context learning in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual framing; while it references empirical measures of closure, no specific datasets or numeric results are included here, and page numbers were not available from the provided text extraction."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Proposes substrate-dependent functional properties, including fine-grained timing relations, as potentially necessary for consciousness.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.4 Substrate-dependent, weak",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "These could include continuous processes, field effects, stochastic effects, fine-grained timing relations, and other (non-computational) functional properties of neurobiological systems.",
+          "interpretation": "The explicit mention of 'fine-grained timing relations' links temporal coordination in biological systems (e.g., oscillations, phase-locking) to potential timing/routing dynamics in AI (e.g., attention synchronization) as relevant to conscious processing ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Speculative proposal without direct measurements; it identifies candidate temporal mechanisms but does not quantify them, and page numbers were not available from the provided text extraction."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Highlights theories where consciousness depends on global information sharing and models of attention control, implying selective routing/gating.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.2 Theory-based computational",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "Relevant theories here include global workspace theory, which proposes that consciousness depends on information sharing within a multimodal global neuronal workspace (Mashour et al., 2020) ... and attention schema theory, which proposes that consciousness emerges as a consequence of a model of the control of attention (Graziano, 2017).",
+          "interpretation": "Global workspace and attention schema frameworks point to selective routing and gating of information as central to conscious access, paralleling AI routing mechanisms such as attention weights, masks, and mixture-of-experts selection ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [
+        {
+          "table_label": "Table 1",
+          "page": 0,
+          "caption_quote": "Table 1. Scenarios for conscious AI. If the remit of ‘computation’ is broadened beyond Turing’s definition, the distinction between scenarios 3 and 4 may blur... Biological naturalism falls within scenarios 4 and 5 (and potentially 3, for ‘computational biological naturalism’)."
+        }
+      ],
+      "limitations": "Summarizes theoretical proposals rather than new empirical routing data; page numbers were not available from the provided text extraction."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Warns that real artificial consciousness would entail risk of negatively valenced experiences (suffering) at scale.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "6.1 Real artificial consciousness",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "With consciousness comes the potential for negatively valenced conscious experiences: for suffering. Creating real artificial consciousness risks a mass inauguration of new forms of suffering.",
+          "interpretation": "The author explicitly connects consciousness to affective valence and welfare, emphasizing that creating conscious AI could instantiate persistent negative states akin to pain or aversion in biological systems, a core ethical concern for AI consciousness research ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Ethical and conceptual argument; no operational ‘welfare markers’ are specified for detection in AI systems, and page numbers were not available from the provided text extraction."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Frames neurodynamical theories emphasizing integration/differentiation and synchrony as central to consciousness.",
+      "method": "literature synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3.6 Non-computational functionalism and dynamical approaches",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "Various neuroscience-based theories of consciousness emphasise (or can be framed in terms of) dynamical rather than computational elements. These include classic works linking conscious perception to attractor dynamics in neural systems ... The ‘dynamic core’ hypothesis ... highlighted integration and differentiation as key neurodynamical properties underlying consciousness – and which later resurfaced as the integrated information theory of consciousness...",
+          "interpretation": "By bringing together dynamic core, synchrony, and IIT, the text emphasizes information integration and long-range coordination as hallmarks of conscious processing, echoing global workspace-like access in biology and integration mechanisms in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Synthesis across theories rather than new empirical evidence; the section header is inferred from the surrounding context, and page numbers were not available from the provided text extraction."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T16:06:50.275012",
+    "model_used": "gpt-5",
+    "pdf_filename": "conscious-artificial-intelligence-and-biological-naturalism (1).pdf",
+    "vector_store_id": "vs_68b8c96c731c81918851df430fda5e0d",
+    "file_id": "file-M1ostVNTGPyStNES52BjqV",
+    "content_length": null
+  }
+}

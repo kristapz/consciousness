@@ -1,0 +1,198 @@
+{
+  "paper_metadata": {
+    "title": "In vivo ephaptic coupling allows memory network formation",
+    "authors": [
+      "Dimitris A. Pinotsis",
+      "Earl K. Miller"
+    ],
+    "year": 2023,
+    "doi_or_arxiv": "10.1093/cercor/bhad251",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Electric-field-mediated interactions between FEF and SEF occur in temporally specific windows that track ensemble dynamics.",
+      "method": "LFP; spatial Granger causality; computational modeling",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 9891,
+          "paragraph_index": null,
+          "quote": "Third, the temporal windows during which FEF to SEF interactions take place followed the dynamics of neural ensembles in these areas.",
+          "interpretation": "Field-mediated coupling aligns with specific time windows tied to ensemble dynamics, supporting a temporal coordination mechanism relevant to binding and sequencing in conscious processing and offering a potential bridge to analogous timing/routing schedules in AI attention systems. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 9887,
+          "caption_quote": "Fig. 3. A) GC strengths for field-to-neural activity interactions. B) Significance of GC strengths. All GC strengths were significant (shown as white) across all time points and cued locations that were maintained.",
+          "interpretation_short": "Significant GC across delay suggests temporally structured, field-driven interactions that realize coordination windows between areas. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Temporal windows are inferred from GC/model-based analyses rather than direct phase-locking or cross-frequency coupling measures; causal timing control was not perturbed experimentally."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Directionality: field-to-activity GC far exceeds activity-to-field GC, and FEF-to-SEF interactions dominate.",
+      "method": "LFP; Granger causality; model-based field reconstruction",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Results",
+          "section_type": "Results",
+          "page": 9887,
+          "paragraph_index": null,
+          "quote": "All in all, the above results suggest that across all remembered cued locations, GC was much larger in the field to activity than the reverse direction in both FEF and SEF.",
+          "interpretation": "Field-to-neuron influence indicates a gating/routing role for bioelectric fields in directing information flow (e.g., FEF→SEF), paralleling selective routing via attention masks or gating modules in AI systems. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 9887,
+          "caption_quote": "Fig. 3. A) GC strengths for field-to-neural activity interactions. B) Significance of GC strengths. All GC strengths were significant (shown as white) across all time points and cued locations that were maintained.",
+          "interpretation_short": "Demonstrates robust, directed field→activity influence consistent with a selective routing mechanism. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Granger causality supports directed predictability but is not definitive proof of mechanistic causation; no invasive perturbation (e.g., TMS/tACS) was used to manipulate routing directly."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "RSA shows that only electric-field RDMs are significantly matched across FEF and SEF, suggesting memory content is shared at the field level.",
+      "method": "LFP; model-inferred electric fields; RSA",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Results",
+          "section_type": "Results",
+          "page": 9890,
+          "paragraph_index": null,
+          "quote": "To sum, we found significantly related DMs in FEF and SEF computed using electric fields, but not LFPs or reconstructed neural activity.",
+          "interpretation": "Shared representational geometry across areas at the field level indicates a common representational substrate for memory, analogous to shared embedding subspaces or SAE latents in AI. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 5",
+          "page": 9890,
+          "caption_quote": "E) Deviations (second-order correlations) between RDMs. Deviation for electric field RDMs was the only that was significant (denoted by an asterisk above the leftmost bar; significance at the P < 0.05 level).",
+          "interpretation_short": "Only field-based RDMs align across FEF and SEF, highlighting a field-level representational structure. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "RSA relies on model-reconstructed fields and correlation-based metrics; while significant, results are associative and do not isolate the specific neural generators producing matched RDMs."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Electric fields posited to integrate distributed information rapidly, complementing synaptic transmission.",
+      "method": "Discussion-based synthesis grounded in modeling and empirical GC/RSA findings",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 9892,
+          "paragraph_index": null,
+          "quote": "Fields can integrate distributed information at the speed of light and might not be mere epiphenomena; instead, they could complement synaptic transmission and communication, whereas the brain performs mental transformations and computations (McFadden 2020).",
+          "interpretation": "Proposes an integration mechanism where fields unify distributed content, echoing AI features like attention convergence or aggregator tokens that consolidate global information. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "This is an interpretive claim in the Discussion; the integration role is hypothesized based on indirect evidence rather than direct causal manipulation of field integration."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Synergetics framework frames fields as slow control parameters; order parameters and timescale separation relate to phase-transition-like changes tied to awareness.",
+      "method": "Theoretical analysis (synergetics) linked to empirical findings",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 9892,
+          "paragraph_index": null,
+          "quote": "Order parameters evolve slowly and this “can be interpreted as a phase transition from subliminal to conscious phase”.",
+          "interpretation": "Positions field/ensemble dynamics within a phase-transition framework, resonant with emergent capabilities in AI (e.g., abrupt onsets) and with global state signatures in conscious access. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "The phase-transition link to conscious access is conceptual; no direct measurement of conscious report or global state signatures was performed in this dataset."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T15:46:06.079559",
+    "model_used": "gpt-5",
+    "pdf_filename": "bhad251 (1) (1).pdf",
+    "vector_store_id": "vs_68b8c495e8cc8191a4a34c0807b0dad4",
+    "file_id": "file-F9gjauGc4rGFriKmpYxp5X",
+    "content_length": null
+  }
+}
