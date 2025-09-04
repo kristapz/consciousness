@@ -1,0 +1,94 @@
+{
+  "paper_metadata": {
+    "title": "The Microtubule-Stabilizing Agent, Epothilone D, Reduces Axonal Dysfunction, Neurotoxicity, Cognitive Deficits, and Alzheimer-Like Pathology in an Interventional Study with Aged Tau Transgenic Mice",
+    "authors": [
+      "Bin Zhang",
+      "Jenna Carroll",
+      "John Q. Trojanowski",
+      "Yuemang Yao",
+      "Michiyo Iba",
+      "Justin S. Potuzak",
+      "Anne-Marie L. Hogan",
+      "Sharon X. Xie",
+      "Carlo Ballatore",
+      "Amos B. Smith III",
+      "Virginia M.-Y. Lee",
+      "Kurt R. Brunden"
+    ],
+    "year": 2012,
+    "doi_or_arxiv": "10.1523/JNEUROSCI.4922-11.2012",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "mouse (PS19 tau transgenic)",
+      "brief_mechanism": "Pharmacological stabilization of microtubules with epothilone D (EpoD) causally improved axonal transport and cognition and reduced tau pathology in aged PS19 mice.",
+      "method": "behavioral assays (Y-maze, Barnes maze), autoradiography of fast axonal transport, immunohistochemistry (AT8/MC1, NeuN, synaptophysin, NFL), ELISA for insoluble tau; interventional drug administration",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Results",
+          "section_type": "Results",
+          "page": 3605,
+          "paragraph_index": null,
+          "quote": "The PS19 mice that received EpoD had improved performance relative to those that received vehicle, with the 1 mg/kg treatment group reaching statistical significance. ... The EpoD-treated PS19 mice showed improved spatial learning when compared with the vehicle-treated PS19 mice, with the 1 mg/kg dose group reaching significance in the success endpoint and both EpoD dose groups showing significant improvement in the latency measure (Fig. 4B,C).",
+          "interpretation": "Improved task performance after EpoD demonstrates causal manipulation of neural substrates leading to behavioral changes, aligning with the 'Causal Control' criterion for linking interventions to changes in computation and reportable behavior in consciousness-related research ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Methods",
+          "section_type": "Methods",
+          "page": 3602,
+          "paragraph_index": null,
+          "quote": "Semiquantitative analysis of tau pathology was performed using the AT8 and MC1 antibodies, utilizing previously published criteria adapted from the Braak staging system for AD that assesses both the intensity and spatial distribution of tau pathology in Tg mice (Hurtado et al., 2010).",
+          "interpretation": "This methodological detail anchors the causal inference to objective histopathological measures, enabling linkage between intervention, neural pathology, and behavior in a way useful for cross-species comparisons in consciousness science ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 3607,
+          "paragraph_index": null,
+          "quote": "Here, we have confirmed and substantially extended these previous studies by examining the safety and efficacy of EpoD in an interventional treatment paradigm, using aged PS19 mice with existing tau pathology. ... the determination that very low EpoD doses can safely and effectively mitigate axonal deficits and improve cognitive performance in aged PS19 mice with pre-existing tau pathology provides critical evidence that such a therapeutic strategy might ameliorate disease in human tauopathy patients.",
+          "interpretation": "The authors explicitly frame EpoD as a causal intervention that modifies both neural function and behavior, a template for studying controlled manipulations of system dynamics relevant to consciousness and cognition ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 4",
+          "page": 3605,
+          "caption_quote": "Figure 4. Cognitive evaluation of vehicle- or EpoD-treated 12-month-old PS19 and WT mice. A–C, Y-maze testing of spontaneous alternation (SA) behavior (A), and Barnes maze performance as judged by the percentage of trials that were successfully completed (B) and the time taken to identify the correct target (C) with WT or PS19 mice that had received vehicle or EpoD...",
+          "interpretation_short": "Behavioral improvements after EpoD indicate a causal link between pharmacological intervention and cognitive performance, supporting the 'Causal Control' phenomenon in bio systems ."
+        },
+        {
+          "figure_label": "Figure 8",
+          "page": 3608,
+          "caption_quote": "Figure 8. Evaluation of hippocampal synaptic and axonal density in the brains of vehicle- or EpoD-treated 12-month-old PS19.",
+          "interpretation_short": "Increased synaptic and axonal measures following EpoD reinforce that the intervention alters underlying neural substrates accompanying behavioral change, consistent with causal manipulation criteria ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Pharmacological specificity cannot be definitively established; off-target effects are acknowledged by the authors as possible contributors to reduced tau pathology, and multiple improved endpoints (FAT, synapses, neurons, behavior) are interrelated, making precise attribution of causal pathways difficult; results in a mouse model may not generalize to humans and do not isolate timing at millisecond scales."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T10:14:20.316157",
+    "model_used": "gpt-5",
+    "pdf_filename": "3601.full.pdf",
+    "vector_store_id": "vs_68b9c87a4ef08191bfc5dbba1f3a97f3",
+    "file_id": "file-BQwDGd7RTXP1B3bxcSpaum",
+    "content_length": null
+  }
+}

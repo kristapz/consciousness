@@ -145,9 +145,9 @@
   },
   "3601.full.pdf": {
     "file_hash": "322428d58fca655ca6d1d4cb045919fc",
-    "processed_at": "2025-09-04T09:59:15.014387",
-    "output_file": "3601full.json",
-    "paper_title": "3601.full"
+    "processed_at": "2025-09-04T10:14:20.329536",
+    "output_file": "The_Microtubule-Stabilizing_Agent_Epothilone_D_Reduces_Axonal_Dysfunction_Neurotoxicity_Cognitive_De.json",
+    "paper_title": "The Microtubule-Stabilizing Agent, Epothilone D, Reduces Axonal Dysfunction, Neurotoxicity, Cognitive Deficits, and Alzheimer-Like Pathology in an Interventional Study with Aged Tau Transgenic Mice"
   },
   "Convergent_Effects_of_Different_Anesthetics_2025.pdf": {
     "file_hash": "a1e93bf379fca347e66642c4d6d02631",
@@ -175,14 +175,20 @@
   },
   "2025.findings-acl.55.pdf": {
     "file_hash": "b0a8984c912df21319608280f8cefd07",
-    "processed_at": "2025-09-04T09:49:19.022838",
-    "output_file": "2025findings-acl55.json",
-    "paper_title": "2025.findings-acl.55"
+    "processed_at": "2025-09-04T10:17:20.128523",
+    "output_file": "Improve_Language_Model_and_Brain_Alignment_via_Associative_Memory.json",
+    "paper_title": "Improve Language Model and Brain Alignment via Associative Memory"
   },
   "Principles-for-Conscious-AI.pdf": {
     "file_hash": "b9f14d40cdfae09c3b95a93de0f63654",
-    "processed_at": "2025-09-04T10:05:42.887478",
-    "output_file": "Principles-for-Conscious-AI.json",
-    "paper_title": "Principles-for-Conscious-AI"
+    "processed_at": "2025-09-04T10:12:26.109182",
+    "output_file": "Principles_for_Responsible_AI_Consciousness_Research.json",
+    "paper_title": "Principles for Responsible AI Consciousness Research"
+  },
+  "nol-5-1-43.pdf": {
+    "file_hash": "ce65b6dd8ee38fe83fab790422c2d692",
+    "processed_at": "2025-09-04T10:20:43.163351",
+    "output_file": "Artificial_neural_network_language_models_predict_human_brain_responses_to_language_even_after_a_dev.json",
+    "paper_title": "Artificial neural network language models predict human brain responses to language even after a developmentally realistic amount of training"
   }
 }

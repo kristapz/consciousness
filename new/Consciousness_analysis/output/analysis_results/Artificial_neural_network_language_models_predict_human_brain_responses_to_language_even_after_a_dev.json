@@ -1,0 +1,199 @@
+{
+  "paper_metadata": {
+    "title": "Artificial neural network language models predict human brain responses to language even after a developmentally realistic amount of training",
+    "authors": [
+      "Eghbal A. Hosseini",
+      "Martin Schrimpf",
+      "Yian Zhang",
+      "Samuel Bowman",
+      "Noga Zaslavsky",
+      "Evelina Fedorenko"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.1162/nol_a_00137",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "GPT-2 (12-layer) and miniBERTa/RoBERTa",
+      "brief_mechanism": "Layer-wise model representations linearly map to human fMRI in the language network; lower perplexity models yield higher neural predictivity, with later layers capturing more contextualized structure.",
+      "method": "model-internal + fMRI encoding comparison",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Model Perplexity Predicts Model Performance",
+          "section_type": "Results",
+          "page": 56,
+          "paragraph_index": null,
+          "quote": "Critically, across both Experiments 1 and 2, we observed a consistent relationship between perplexity and neural predictivity, such that lower perplexity is associated with higher predictivity. However, once a model reaches a certain level of perplexity, further improvements in the model’s ability to predict the next word are no longer associated with increases in predictivity, in line with recent findings (Oh & Schuler, 2022, 2023).",
+          "interpretation": "This establishes that representational quality (proxied by perplexity) systematically tracks how well model embeddings align with brain responses, supporting representational-structure links between ANN internals and human language representations ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Human Datasets (Benchmarks)",
+          "section_type": "Methods",
+          "page": 45,
+          "paragraph_index": null,
+          "quote": "C) Model representations were related to human representations by building a linear regression between unit activations for each layer of the model and voxel activity (in the language-selective network; Fedorenko et al., 2011) or reading times for the stimuli used in each of the benchmarks. This regression was then used to make predictions about human neural/behavioral responses for unseen language stimuli, and a Pearson correlation was computed between these predictions and the observed responses.",
+          "interpretation": "The analysis pipeline explicitly links model-layer activations to distributed voxel patterns in the language network, operationalizing a cross-system readout of representational structure that is central to consciousness-relevant mapping work ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "In exploratory analyses (Results)",
+          "section_type": "Results",
+          "page": 52,
+          "paragraph_index": null,
+          "quote": "for the Pereira2018 benchmark, we observed that for layers 4–9, performance peaks for the 1 million word model, and for the last three layers (layers 10–12), a consistent improvement in performance is observed with larger datasets (Figure 2E).",
+          "interpretation": "Layer-specific behavior indicates that deeper layers encode more contextualized linguistic structure, reinforcing a hierarchical representational geometry that can be probed for access and content in both AI and brain studies ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 3",
+          "page": 55,
+          "caption_quote": "Figure 3. Relationship between model perplexity and model ability to predict human brain responses to sentences.",
+          "interpretation_short": "Shows that lower perplexity tracks higher fMRI predictivity, linking representational quality in ANN embeddings to neural responses during sentence processing ."
+        },
+        {
+          "figure_label": "Figure 1",
+          "page": 44,
+          "caption_quote": "Figure 1. Methodological approach. (A) Unidirectional-attention transformer architecture. Text input is processed sequentially to predict the next likely token at each step. (B) The setup for Experiments 1 and 2...",
+          "interpretation_short": "Depicts the architecture and the model-to-brain comparison pipeline, grounding how layer-wise representations are related to fMRI signals ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Encoding links are correlational and depend on fMRI’s coarse spatiotemporal resolution and benchmark specifics; representational–brain alignment may plateau beyond a perplexity threshold and may differ for longer narrative stimuli."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "GPT-2 (training trajectory on >9B tokens)",
+      "brief_mechanism": "Model-to-brain alignment increases during training and plateaus around 10% of training steps; early layers peak earlier than later layers, indicating staged emergence.",
+      "method": "model-internal + fMRI encoding comparison across training checkpoints",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Models Trained on a Small Portion of a Massive Corpus Predict Human Responses",
+          "section_type": "Results",
+          "page": 53,
+          "paragraph_index": null,
+          "quote": "Critically, mirroring the results from Experiment 1, we observed a consistent increase in how well the model predicts fMRI responses to sentences until the model reaches the 10% checkpoint, at which point the performance plateaus.",
+          "interpretation": "Training induces a systematic, then saturating, increase in brain-aligned representations—an emergent dynamic that constrains expectations about when ANN representations become brain-like during learning ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Models Trained on a Small Portion of a Massive Corpus Predict Human Responses",
+          "section_type": "Results",
+          "page": 53,
+          "paragraph_index": null,
+          "quote": "In exploratory analyses of the individual model layers, we observed that performance shows a consistent increase across layers up to the 1.0% checkpoint... earlier layers reach close to maximal performance earlier in the training (at the 1% checkpoint), whereas later layers reach their peak close to the 10% checkpoint (Figure 2F).",
+          "interpretation": "Layer-staged improvement suggests hierarchical emergence of contextual representations, paralleling staged processing regimes hypothesized in biological systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Plateau timing may depend on dataset, objective, and measurement noise; fMRI’s temporal averaging could obscure continued improvements that might appear with intracranial data."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "GPT-2 variants (different weight initializations; uni- vs. bidirectional attention)",
+      "brief_mechanism": "Changing weight initialization or attention directionality causally alters the model’s ability to predict fMRI responses and task performance.",
+      "method": "ablation/initialization manipulation + fMRI encoding comparison",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Performance of Untrained Models",
+          "section_type": "Results",
+          "page": 55,
+          "paragraph_index": null,
+          "quote": "We showed that initializing a model with a normal distribution for all weights leads to the model being unable to predict fMRI response to sentences (predictivity is at ~0; of course, such a model is also unable to perform the next-word prediction task).",
+          "interpretation": "An initialization change functions like a causal intervention that eliminates both task competence and brain predictivity, directly linking internal parameterization to representational access and behavior ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Results (Experiment 1 and generalization to miniBERTa)",
+          "section_type": "Results",
+          "page": 51,
+          "paragraph_index": null,
+          "quote": "However, the 100 million word model still performs below the fully trained model. This difference between the GPT-2 and miniBERTa models in the amount of training they require to align with human data is likely due to the difference in the directionality of the attention mechanisms, with unidirectional-attention mechanisms being more sample efficient.",
+          "interpretation": "Manipulating attention directionality (uni- vs. bidirectional) changes data efficiency and alignment, a causal handle on routing/representation formation relevant to control analyses in AI–brain comparisons ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Causal inferences are within-model manipulations; differences could interact with dataset and objective, and fMRI alignment is an indirect proxy for representational adequacy."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Language-selective frontotemporal voxels collectively encode sentence content that can be predicted from ANN representations, indicating distributed integration across the network.",
+      "method": "fMRI encoding (language localizer-defined network) + linear mapping from model activations",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Human Datasets (Benchmarks)",
+          "section_type": "Methods",
+          "page": 45,
+          "paragraph_index": null,
+          "quote": "The contrast between sentences and nonword lists has been shown to robustly identify the frontotemporal language-selective network of brain areas (Fedorenko et al., 2011; Lipkin et al., 2022). These areas support language comprehension across modalities (listening, reading, etc.) and have been established to be sensitive to both word meanings and syntactic structure processing...",
+          "interpretation": "By targeting a functionally defined network that integrates lexical and syntactic information, the mapping demonstrates system-level access to distributed content—key to information integration accounts bridging AI and brain data ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Integration is inferred from encoding performance and functional localization; fMRI does not directly reveal fast binding dynamics or causal inter-area routing."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T10:20:43.156150",
+    "model_used": "gpt-5",
+    "pdf_filename": "nol-5-1-43.pdf",
+    "vector_store_id": "vs_68b9c9a06574819194df14acc64d494e",
+    "file_id": "file-6Bf19yud1vPs4qxrFhRkL9",
+    "content_length": null
+  }
+}

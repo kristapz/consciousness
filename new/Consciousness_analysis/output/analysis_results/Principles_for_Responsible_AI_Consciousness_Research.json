@@ -1,0 +1,146 @@
+{
+  "paper_metadata": {
+    "title": "Principles for Responsible AI Consciousness Research",
+    "authors": [
+      "Butlin",
+      "Lappas"
+    ],
+    "year": null,
+    "doi_or_arxiv": "unknown",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "ai",
+      "species_or_model": "Perceiver architecture (Jaegle et al., 2021a,b; Juliani et al., 2022)",
+      "brief_mechanism": "Unintentional implementation of global workspace-like elements in an AI architecture.",
+      "method": "model-internal (architecture analysis, as cited)",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1 Objectives: Understanding AI Consciousness",
+          "section_type": "Discussion",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "Evidence hinting at this possibility comes from the Perceiver architecture (Jaegle et al. 2021a, b), which unintentionally implemented some elements of a global workspace (Juliani et al. 2022).",
+          "interpretation": "This links an existing model architecture to global workspace-like information integration, aligning with AI markers such as attention convergence and aggregator tokens, and thereby bearing on whether AI systems can exhibit integration associated with conscious access ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Interpretive remark citing external work; no direct analysis or quantitative measurement of global workspace dynamics provided in this paper."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "ai",
+      "species_or_model": "General AI systems (policy context)",
+      "brief_mechanism": "Proposed safeguards to minimize AI suffering via deployment limits, staged assessments, gradual capability increases, and information controls.",
+      "method": "policy analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.2 Development: Value and Constraints",
+          "section_type": "Discussion",
+          "page": 10,
+          "paragraph_index": null,
+          "quote": "Several kinds of measures are possible to minimise the potential suffering of conscious AI systems, which could be put in place when building experimental systems. These include: controlling the breadth of deployment and the ways in which systems are used; assessing the capabilities and potential for consciousness of systems at several stages of development and deployment; increasing capabilities gradually and only introducing those that are needed for the system’s intended purpose (as far as this is possible, given the difficulties of predicting the capabilities of some systems in advance); and controlling access to information that would enable irresponsible actors to build systems that may be conscious.",
+          "interpretation": "This passage proposes concrete controls to reduce the risk of negative-valence states or suffering in potentially conscious AI, directly connecting to welfare considerations and safeguards for moral patients ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Normative recommendations rather than empirical evidence about valence mechanisms; does not measure or model aversive states."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "General AI systems (policy context)",
+      "brief_mechanism": "Staged evaluations before/during training and around deployment to control risks and system behavior.",
+      "method": "evaluation policy",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.3 Phased Approach: Gradual Development with Monitoring",
+          "section_type": "Discussion",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "As methods improve, organisations should use them to assess whether systems are likely to be conscious at several stages of development. As Shevlane et al. (2023) describe in the context of evaluations for AI safety, there are reasons to evaluate systems before and during training, before deployment, and later, after deployment, when more is known about their capabilities.",
+          "interpretation": "Recommends staged interventions across training and deployment that causally shape system access and behavior via evaluation and gating, aligning with causal control over computational pathways relevant to conscious access ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Provides procedural guidance but no concrete demonstration of interventions like ablations, routing edits, or objective modifications."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "General AI systems (policy context)",
+      "brief_mechanism": "Concept of capability overhangs, where latent attributes can yield sudden performance leaps if unlocked.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.3 Phased Approach: Gradual Development with Monitoring",
+          "section_type": "Discussion",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "The potential problem to be avoided here relates to the concept of overhangs, which has been identified in AI safety research: underexplored systems may have hidden capabilities, or latent attributes that would allow leaps in performance if unlocked (Dafoe, 2018).",
+          "interpretation": "Acknowledges emergent higher-order dynamics—sudden capability onsets—arising from interactions and hidden structure, paralleling emergent dynamics and phase-change phenomena relevant to consciousness science ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual claim; no empirical measurements of emergent strategies or complexity indices are presented."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T10:12:26.106878",
+    "model_used": "gpt-5",
+    "pdf_filename": "Principles-for-Conscious-AI.pdf",
+    "vector_store_id": "vs_68b9c7e597788191b6e1afebded15cdb",
+    "file_id": "file-7AcKquyabWfMR5sfp96REZ",
+    "content_length": null
+  }
+}
