@@ -1,0 +1,94 @@
+{
+  "paper_metadata": {
+    "title": "Fusions of Consciousness",
+    "authors": [
+      "Donald D. Hoffman",
+      "Chetan Prakash",
+      "Robert Prentner"
+    ],
+    "year": 2023,
+    "doi_or_arxiv": "10.3390/e25010129",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "other",
+      "species_or_model": "theory of conscious agents (Markov chains)",
+      "brief_mechanism": "Defines conscious agents and a 'qualia kernel' Q = D·A·P that encodes probabilistic transitions among experiences; networks of agents yield Markov polytopes describing possible dynamics.",
+      "method": "theoretical derivation; mathematical modeling with Markov kernels",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4. Conscious Agents",
+          "section_type": "Results",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "We propose that consciousness is fundamental, and can be modeled as a network of interacting “conscious agents”. In this section, we briefly motivate and present a definition of conscious agents.",
+          "interpretation": "This defines the modeling substrate—interacting agents—as the representational units, grounding later claims about structured encodings (qualia kernels and polytopes) that can inform how representational structure might be formalized for both brains and AI systems ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "4. Conscious Agents",
+          "section_type": "Results",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "The qualia kernel, Q, thus expresses the relation that conscious experience has to itself.",
+          "interpretation": "By introducing Q as a formal object that maps experiences to experiences, the paper specifies an internal representational structure that could be compared to embedding spaces or latent codes in AI and to population codes in neuroscience ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual and mathematical; no empirical neural or AI implementation is demonstrated, so mappings to biological codes or model latents remain conjectural."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theory of conscious agents (Markov polytopes and fusion simplices)",
+      "brief_mechanism": "Shows that agents can combine or fuse; combinations span Markov polytopes and fusions lie on lower-dimensional fusion simplices, implying integration of distributed elements into unified entities.",
+      "method": "theoretical derivation; geometric characterization of agent dynamics",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "1. Introduction",
+          "section_type": "Introduction",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "When agents interact, what happens? We demonstrate, in Section 5, that they can combine into a complex agent, or fuse into a simpler agent with a novel conscious experience. If n agents interact, their possible combinations form an n(n− 1)-dimensional polytope with n^n vertices—the Markov polytope Mn. Their possible fusions form an (n − 1)-dimensional simplex—the fusion simplex Fn.",
+          "interpretation": "This formalizes an integration mechanism: distributed agents combine into higher-order unified structures (polytopes/simplices), paralleling information integration ideas relevant to global access in brains and convergent attention in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Combining/fusing agents is shown mathematically but lacks empirical tests linking these constructs to neural global workspace dynamics or to specific integration mechanisms in modern AI architectures."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T19:48:26.764802",
+    "model_used": "gpt-5",
+    "pdf_filename": "entropy-25-00129-v2.pdf",
+    "vector_store_id": "vs_68b8fd64f59081918f54893545caa625",
+    "file_id": "file-PsByfY8nbN7nDFYrM8wccP",
+    "content_length": null
+  }
+}

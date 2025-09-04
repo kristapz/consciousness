@@ -1,0 +1,207 @@
+{
+  "paper_metadata": {
+    "title": "Concepts of Consciousness",
+    "authors": [
+      "Ned Block"
+    ],
+    "year": 2002,
+    "doi_or_arxiv": "",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Defines access-consciousness as information being globally broadcast for reasoning and direct control of action/reporting (global workspace-like integration).",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Access-Consciousness",
+          "section_type": "Discussion",
+          "page": 208,
+          "paragraph_index": null,
+          "quote": "A-consciousness is access-consciousness. A representation is A-conscious if it is broadcast for free use in reasoning and for direct \"rational\" control of action (including reporting).",
+          "interpretation": "This operationalizes access as a global broadcast, aligning with information integration and global workspace markers used to study reportable conscious access in brains and, by analogy, in AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Philosophical claim; no direct empirical measurement or biomarker is provided."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Reportability is treated as a practical indicator within a broader cluster for access-consciousness.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Access-Consciousness",
+          "section_type": "Discussion",
+          "page": 208,
+          "paragraph_index": null,
+          "quote": "I see A-consciousness as a cluster concept in which reportability is the element of the cluster that has the smallest weight even though it is often the best practical guide to A-consciousness.",
+          "interpretation": "Identifies report pathways as practically informative about access, relevant to designing and auditing self-report mechanisms and confidence estimators in AI and to interpreting report-based neural signatures in humans ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Places reportability within a conceptual cluster rather than as a necessary or sufficient condition; lacks empirical validation."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Access is achieved when content reaches an Executive system, positioning gating to a hub that controls reasoning and action.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Access-Consciousness",
+          "section_type": "Discussion",
+          "page": 210,
+          "paragraph_index": null,
+          "quote": "Content is A-conscious in virtue of (a representation with that content) reaching the Executive system, the system that is in charge of rational control of action and speech, ... what makes a typical A-conscious representation A-conscious is what getting to the Executive module sets it up to do, namely affect reasoning and action.",
+          "interpretation": "Frames access as selective routing to an executive hub, paralleling gating mechanisms in thalamo-cortical control and AI modules like attention masks or MoE routers that regulate downstream influence ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual mapping; does not specify neural substrates (e.g., pulvinar/TRN) or AI architectural implementations."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Differentiates phenomenal content from representational (access) content and emphasizes system-relative functional roles.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Access-Consciousness",
+          "section_type": "Discussion",
+          "page": 209,
+          "paragraph_index": null,
+          "quote": "P-conscious content is phenomenal, whereas A-conscious content is representational. It is of the essence of A-conscious content to play a role in reasoning, and only representational content can figure in reasoning.",
+          "interpretation": "Separates phenomenal from representational encodings, informing how to interpret model embeddings/SAE latents (representational) vs. putative phenomenal aspects in biological systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Provides conceptual distinctions but no quantitative representational geometry or decoding analyses."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Discusses synchronized 35–75 Hz oscillations as a proposed mechanism for feature binding, while noting they do not explain phenomenality.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Phenomenal Consciousness",
+          "section_type": "Discussion",
+          "page": 207,
+          "paragraph_index": null,
+          "quote": "Crick and Koch have offered a sketch of an account of how the 35-75 hertz oscillation might contribute to a solution to the \"binding problem.\" ... Representations of colors, shapes and motions of a single object are supposed to involve oscillations that are in phase with one another ... But even if the oscillation hypothesis deals with the informational aspect of the binding problem ... how does it explain what it is like to see something as red in the first place?",
+          "interpretation": "Links phase-synchronized oscillations to temporal binding mechanisms consistent with coordination accounts of access, yet stresses the gap to phenomenality—useful when relating neural rhythms to AI timing/routing schedules ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Cites proposals rather than reporting new data; emphasizes conceptual limitations of oscillation-based accounts."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis",
+      "brief_mechanism": "Higher-order thought (HOT) framing: reflexive consciousness as being accompanied by a thought about one’s state; HOT and phenomenality can dissociate.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Monitoring-Consciousness",
+          "section_type": "Discussion",
+          "page": 215,
+          "paragraph_index": null,
+          "quote": "S is a reflexively conscious state of mine H S is accompanied by a thought—arrived at non-inferentially and non-observationally—to the effect that I am in S. ... It is obvious that phenomenal consciousness without HOT and HOT without phenomenal consciousness are both conceptually possible.",
+          "interpretation": "Clarifies that metacognitive report/introspection channels (HOT) are separable from phenomenality, a principle that guides evaluation of AI introspection/verifier modules vis-à-vis genuine access or experience-related processes ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual; does not specify neural correlates of metacognition nor AI implementation details."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T19:40:25.605637",
+    "model_used": "gpt-5",
+    "pdf_filename": "2002.concepts.pdf",
+    "vector_store_id": "vs_68b8fbb323848191875a6170c10bd9e6",
+    "file_id": "file-PQVgQSygZV22KjMgczWmJo",
+    "content_length": null
+  }
+}

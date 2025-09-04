@@ -1,0 +1,146 @@
+{
+  "paper_metadata": {
+    "title": "Meditation and neurofeedback",
+    "authors": [
+      "Tracy Brandmeyer",
+      "Arnaud Delorme"
+    ],
+    "year": 2013,
+    "doi_or_arxiv": "10.3389/fpsyg.2013.00688",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Alpha/theta EEG rhythms are emphasized in both meditation and neurofeedback, aligning with rhythm-based timing/segmentation of mental content.",
+      "method": "EEG (reviewed evidence)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Meditation and neurofeedback",
+          "section_type": "Discussion",
+          "page": 1,
+          "paragraph_index": null,
+          "quote": "It is worth noting that the alpha and\ntheta frequency bands trained in most cog-\nnitive enhancement neurofeedback pro-\ntocols (Zoefel et al., 2011) share many\nsimilarities with the EEG frequency bands\nthat show the most significant change dur-\ning the early stages of meditation prac-\ntice (Braboszcz and Delorme, 2011; Cahn\net al., 2013).",
+          "interpretation": "By linking alpha/theta bands used in neurofeedback with those prominently modulated during early meditation practice, the article highlights rhythmic timing mechanisms as a shared scaffold for temporal coordination of content in conscious processing ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "This is an opinion article synthesizing prior findings; no new quantitative analysis is presented and specific timing (ms-scale) relationships are not reported."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Proposed neurofeedback alarms or subtle cues would intervene to reduce mind-wandering during meditation, altering attentional state.",
+      "method": "EEG neurofeedback (conceptual proposal)",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Meditation and neurofeedback",
+          "section_type": "Discussion",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "A neurofeedback device could\nprovide an alarm to users when their mind\nstarts to wander, therefore supporting and\nimproving upon their meditation practice.",
+          "interpretation": "This explicitly proposes an intervention that would causally influence cognitive state by detecting and counteracting mind-wandering, directly aligning with causal control as a consciousness-relevant manipulation in humans ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Intervention is proposed but not empirically tested in this article; effectiveness, specificity, and potential confounds are not established."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Meditation and neurofeedback are suggested to enhance attention and emotion regulation, implicating affective components relevant to welfare.",
+      "method": "Narrative synthesis (EEG and clinical literature referenced)",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Meditation and neurofeedback",
+          "section_type": "Introduction",
+          "page": 1,
+          "paragraph_index": null,
+          "quote": "One hypothesis to explain the similarity\nbetween meditation and neurofeedback is\nthat both techniques facilitate and improve\nconcentration and emotion regulation, for\nwhich both attentional control and cogni-\ntive control are necessary.",
+          "interpretation": "Improved emotion regulation links these practices to affective valence, a key dimension for welfare and potential suffering, situating them within a framework for studying how training modulates affective components of conscious experience ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Statement is hypothesized rather than demonstrated; mechanisms and measures of affective change (e.g., ACC/insula coupling) are not directly reported here."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Meditation practice is suggested to induce brain plasticity, pointing to higher-order, training-driven changes in neural dynamics.",
+      "method": "Narrative synthesis citing prior empirical work",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Meditation and neurofeedback",
+          "section_type": "Introduction",
+          "page": 1,
+          "paragraph_index": null,
+          "quote": "With the general aim of understanding how\nmeditation affects the mind, brain, body\nand general health, particularly interest-\ning findings in recent research suggest that\nthe mental activity involved in meditation\npractices may induce brain plasticity (Lutz\net al., 2004).",
+          "interpretation": "By indicating meditation-driven plasticity, the article points to emergent dynamics where training sculpts system-wide patterns of neural activity relevant to evolving conscious capacities over time ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Plasticity claim references prior work rather than presenting new longitudinal or mechanistic data here; no quantitative complexity metrics (e.g., PCI/LZC) are provided."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T19:34:17.621457",
+    "model_used": "gpt-5",
+    "pdf_filename": "fpsyg-04-00688 (1).pdf",
+    "vector_store_id": "vs_68b8fa1d0568819194253a07f4f9e3b6",
+    "file_id": "file-UvAAG7bfwQ89jFff7CgDv4",
+    "content_length": null
+  }
+}

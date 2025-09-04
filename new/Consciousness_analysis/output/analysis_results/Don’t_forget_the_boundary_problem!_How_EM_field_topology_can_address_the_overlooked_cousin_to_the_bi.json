@@ -1,0 +1,235 @@
+{
+  "paper_metadata": {
+    "title": "Don’t forget the boundary problem! How EM field topology can address the overlooked cousin to the binding problem for consciousness",
+    "authors": [
+      "Andrés Gómez-Emilsson",
+      "Chris Percy"
+    ],
+    "year": 2023,
+    "doi_or_arxiv": "10.3389/fnhum.2023.1233119",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theoretical EM-field ToC",
+      "brief_mechanism": "EM fields are ontologically unified and automatically integrate information from underlying neural activity, proposed to underwrite unified 1PP.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2.4. Further EM-field theory perspectives on the boundary problem",
+          "section_type": "Introduction",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "EM-field ToCs regularly reference the ease with which they defeat the binding problem, typically noting that fields are ontologically unified by their physical nature and automatically integrate all the information contained in the underlying EM activity that generates them (Jones, 2016; Keppler, 2021; Ward and Guevara, 2022; McFadden, 2023; etc.).",
+          "interpretation": "This passage explicitly links EM fields with intrinsic unity and across-module information integration, aligning with signatures like global integration and binding posited for unified conscious access in brain and AI systems. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual proposal without direct neural measurements; it does not specify which neural field configurations realize the proposed unified 1PP or how to empirically discriminate them."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "other",
+      "species_or_model": "theoretical EM-field ToC",
+      "brief_mechanism": "Competing modules’ EM activity is selectively incorporated into a well-bounded 4D pocket linked to immediate memory, echoing global workspace-like routing.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.3.3. Addressing the fifth problem",
+          "section_type": "Discussion",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "In the context of continually jostling topologies, we can imagine these different modules producing EM fields that “compete” to contribute information to the well-bounded 4D field that is integrated with the relevant memory modules, helping to account for the phenomenology of multiple inputs competing for our attention that inspires advocates of global workspace theories.",
+          "interpretation": "The authors propose selection and gating of information into a dominant field ‘workspace,’ mirroring selective routing mechanisms in both cortex and attention-based AI. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Speculative account of routing; lacks quantitative criteria for when and how modules win access to the putative 4D pocket."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "other",
+      "species_or_model": "theoretical EM-field ToC",
+      "brief_mechanism": "Topologically closed EM structures exert weak downward causation on constituents, shaping computation within a bounded unit.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.1. How field topology can create hard boundaries",
+          "section_type": "Discussion",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "Closed EM structures with certain durations can be understood as enclosing electromagnetic space so as to temporarily prevent the transit of energy with that same EM spectral range outside of the space.6 For its duration, there is an ontologically closed space for the relevant phenomena in that spectral range... The charged particles nonetheless continue to operate, subject to downward causation from the field, and as the closed structure collapses, causal interactions and information exchange with surrounding entities can continue.",
+          "interpretation": "By positing closed EM pockets that constrain internal interactions via downward causation, the authors sketch a causal handle for interventions to modulate computation within a conscious unit. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "4.2.4. Weak emergence in the brain",
+          "section_type": "Discussion",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "A brief definition of weak emergence is in order, where causal influence rather than ontological fundamentality is sufficient to support non-epiphenomenalism. In this paper, weakly emergent causality is where a structure influences the behaviour of its constituent parts, perhaps by constraining the space of actions available to individual parts.",
+          "interpretation": "Weakly emergent, structure-level causal constraints are proposed as the mechanism by which a unified field could control its parts—an avenue for causal control without strong emergence. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "No experimental manipulations (e.g., stimulation) are demonstrated; the scope and magnitude of proposed downward causation in neural tissue remain unspecified."
+    },
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "other",
+      "species_or_model": "theoretical EM-field ToC",
+      "brief_mechanism": "Phase transitions are proposed as mechanisms that create or dissolve hard boundaries of a 1PP, implying abrupt regime changes.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2.4. Further EM-field theory perspectives on the boundary problem",
+          "section_type": "Introduction",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Bond (2023) suggests coherence fields as atomic nodes within expanses of integrating photonic waves as the fundamental units of 1PP... it is also possible that a phase transition between coherence/decoherence in his electric currents might motivate a hard boundary. Keppler (2021) similarly appeals to phase transitions...",
+          "interpretation": "Phase transitions are identified as candidate mechanisms for on/off-like formation of conscious boundaries, consistent with abrupt state changes in conscious processing. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "3.2. The lower-levels boundary problem",
+          "section_type": "Introduction",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "A more general phenomenon to call upon is that of phase transitions, although a full solution must identify where the transition takes place, the mechanism that drives it, and motivate why the hard boundary it generates is adequate for enclosing phenomenal consciousness.",
+          "interpretation": "The authors argue that phase transitions could demarcate conscious from non-conscious regimes, highlighting the need to specify mechanisms and loci of such transitions. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Phase-transition claims are programmatic; no concrete neural order parameters or thresholds are provided to predict or detect transitions."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "other",
+      "species_or_model": "theoretical EM-field ToC",
+      "brief_mechanism": "Temporal boundary problem: consecutive, internally bound 4D pockets must knit over time via immediate memory to sustain felt continuity.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3. Precise statement of five specific boundary problems",
+          "section_type": "Introduction",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "The temporal binding problem asks how the moments are knitted together over time to feel like part of the same experience. The temporal boundary problem asks how, once we have a boundary around a static experience or a particular moment of 1PP, that boundary can shift mostly contiguously to have different shapes in future moments.",
+          "interpretation": "This specifies a temporal coordination requirement—mechanisms must pace and link successive bounded states to yield continuity of experience over time. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "No quantitative timing scales or neural oscillatory mechanisms are proposed; continuity is linked to memory but without an operational neural test."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "other",
+      "species_or_model": "theoretical EM-field ToC",
+      "brief_mechanism": "A 1PP is associated with an EM field encoding a model of environment, self, and available actions, connecting field content to reportable self-models.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "2.4. Further EM-field theory perspectives on the boundary problem",
+          "section_type": "Introduction",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Ward and Guevara (2022) set out the case for a particular EM field generated by the thalamus, suggesting that axiomatically a 1PP is an EM field that expresses a model of an external environment, a self-entity, and various actions that entity can take to influence its environment.",
+          "interpretation": "Linking 1PP to an EM-encoded self-model aligns with metacognitive/reportable signatures, tying conscious access to structured representations of self and action. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "2.4. Further EM-field theory perspectives on the boundary problem",
+          "section_type": "Introduction",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Other fields do not express such models, although they may interface with it (e.g., subconscious inputs into our 1PP), and hence are not themselves phenomenally conscious—they lack a 1PP.",
+          "interpretation": "By distinguishing fields with and without explicit self-environment models, the authors connect model content to reportable consciousness versus non-reporting processing. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Attribution to thalamic EM fields is second-hand and theoretical; no direct evidence shows such fields encoding a usable self-model or supporting report behavior."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T20:26:11.674849",
+    "model_used": "gpt-5",
+    "pdf_filename": "fnhum-17-1233119.pdf",
+    "vector_store_id": "vs_68b9063648c081918f2d670402459022",
+    "file_id": "file-5oz4gQ3gWmt2cFdAHPZbqV",
+    "content_length": null
+  }
+}

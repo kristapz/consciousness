@@ -1,0 +1,167 @@
+{
+  "paper_metadata": {
+    "title": "On the Potential of Microtubules for Scalable Quantum Computation",
+    "authors": [
+      "Nick E. Mavromatos",
+      "Andreas Mershin",
+      "Dimitri V. Nanopoulos"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "arXiv:2505.20364",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "in vitro|microtubule lattice model",
+      "brief_mechanism": "Entangled tubulin dipoles collapse into solitonic excitations that mediate dissipation-free energy/signal transfer across microtubules.",
+      "method": "theoretical modeling",
+      "state": "other",
+      "time": {
+        "bio_ms": 0.001,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "II. SOLITONIC EFFECTS IN MICROTUBULES AND OBSERVABLE BIOLOGICAL FUNCTIONS",
+          "section_type": "Results",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "The basic underlying mechanism for dissipation-free energy and signal transduction along the MT is the formation of appropriate solitonic dipole states in the protein dimer walls of the MT, which are reminiscent of the quantum coherent states in the Fröhlich-Davydov approach.",
+          "interpretation": "The model posits that coherent, self-organized waves emerge from interacting dipole populations, supporting macroscopic coordination within a finite coherence window—an emergent dynamics signature relevant to system-wide integration in consciousness science. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [
+        {
+          "table_label": "Table I",
+          "page": 18,
+          "caption_quote": "TABLE I. Physical parameters relevant to quantum effects in biological systems. In this table we collect all physical parameter values salient to our calculations and assumptions used in prior sections throughout the present text."
+        }
+      ],
+      "limitations": "Entirely theoretical; microsecond-scale coherence and solitonic transport in neuronal microtubules remain to be experimentally demonstrated, and parameter values are model-dependent. "
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "in vitro|microtubule lattice model",
+      "brief_mechanism": "Snoidal solitonic waves in microtubules are proposed to act as timing carriers, analogous to pendulum-based clocks.",
+      "method": "theoretical modeling",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "VI. CONCLUSIONS AND OUTLOOK",
+          "section_type": "Discussion",
+          "page": 22,
+          "paragraph_index": null,
+          "quote": "A similar role, as transporters of the passing of time, characterizes the snoidal solitonic waves of the dipole quanta in MT. There is a really good analogy between MT and turret clocks.",
+          "interpretation": "The authors explicitly frame MT-propagating waves as intrinsic timekeepers, aligning with temporal coordination mechanisms (e.g., binding/segmentation) hypothesized to support conscious processing in biological systems. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Analogy-based reasoning in the discussion; no physiological measurements showing phase-locking or oscillatory timing in MTs under cognitive conditions."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "in vitro|microtubule lattice model",
+      "brief_mechanism": "Defines a quDit as the fundamental information unit formed by specific combinations of tubulin dipole states within the MT hexagonal lattice cell.",
+      "method": "theoretical modeling",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "VI. CONCLUSIONS AND OUTLOOK",
+          "section_type": "Discussion",
+          "page": 22,
+          "paragraph_index": null,
+          "quote": "In this context we have identified the fundamental hexagonal unit of the honeycomb lattice representing the various tubulin heterodimer dipole arrangements in an MT (see fig. 4), with the fundamental unit of information storage, the so-called quDit...",
+          "interpretation": "This specifies an explicit representational primitive (quDit) and coding scheme in a biological substrate—directly relevant to how information might be structured, stored, and accessed in systems hypothesized to support consciousness. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 7",
+          "page": 12,
+          "caption_quote": "FIG. 7. A MT arrangement in cell as a ‘logic’ XOR gate. Left panel: the biological arrangement, a group of MTs and their MAPs, reproduced from [1]. Right panel: a conventional XOR gate for comparison.",
+          "interpretation_short": "Schematic of an MT/MAP network that could implement an XOR-like operation, illustrating how representational structures and operations might be realized in the substrate. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "No direct demonstration of encoding/decoding or readout of such quDits in living tissue; proposal remains a theoretical construct."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "in vitro|microtubule network model",
+      "brief_mechanism": "Proposes MAP-mediated transfer of solitons between MTs to implement logic-gate-like routing (XOR).",
+      "method": "theoretical modeling plus schematic figure",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "III. MICROTUBULAR NETWORKS AS LOGIC GATES",
+          "section_type": "Results",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "In addition to efficient energy transport, the presence of solitonic structures in MT may imply their role as biological logic gates, as proposed initially in [4], and elaborated further, from a quantum computational viewpoint in [1] (See fig. 7, left panel). Although MT do not themselves branch, the analogue of a ‘logic’ XOR gate (see Fig. 7, right panel) by MT arrangements in cells has been proposed with microtubule associated proteins (MAPs) that connect the various MTs in a network...",
+          "interpretation": "Describes a concrete routing/gating mechanism (MT-to-MT soliton transfer via MAPs) that aligns with selective routing and control of information flow—core features of conscious access theories. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 7",
+          "page": 12,
+          "caption_quote": "FIG. 7. A MT arrangement in cell as a ‘logic’ XOR gate. Left panel: the biological arrangement... Right panel: a conventional XOR gate for comparison.",
+          "interpretation_short": "Illustrates selective gating via MAP-mediated soliton transfer, providing a mechanistic proposal for controlled information routing."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Schematic and model-based; relies on MAP-mediated transfer because MTs do not branch; lacks experimental verification of logic-level operations in vivo."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T19:29:37.796527",
+    "model_used": "gpt-5",
+    "pdf_filename": "2505.20364v1 (1) (1).pdf",
+    "vector_store_id": "vs_68b8f8a633c481919ad857b336844ba3",
+    "file_id": "file-EpgVMk2pn27CmWKm5kA2kn",
+    "content_length": null
+  }
+}

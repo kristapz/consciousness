@@ -1,0 +1,182 @@
+{
+  "paper_metadata": {
+    "title": "The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs",
+    "authors": [
+      "Robin L. Carhart-Harris",
+      "Robert Leech",
+      "Peter J. Hellyer",
+      "Murray Shanahan",
+      "Amanda Feilding",
+      "Enzo Tagliazucchi",
+      "Dante R. Chialvo",
+      "David Nutt"
+    ],
+    "year": 2014,
+    "doi_or_arxiv": "10.3389/fnhum.2014.00020",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "fMRI resting-state analyses show increased metastability and entropy of high-level association networks under psilocybin.",
+      "method": "fMRI (RSFC + variance/entropy analyses)",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "INCREASED NETWORK ENTROPY IN THE PSYCHEDELIC STATE",
+          "section_type": "Results",
+          "page": 10,
+          "paragraph_index": null,
+          "quote": "In the present context, the “metastability” (Tognoli and Kelso, 2014) of a brain network is a measure of the variance in the network’s intrinsic synchrony over time. That is, if the signal in all of the voxels within a given network deviates little from the network’s mean signal, then variance is low, whereas if the signal in voxels fluctuate erratically, then variance is high.",
+          "interpretation": "They operationalize metastability as variance of intra-network synchrony and use it to quantify how psychedelic states move brain dynamics toward higher variability consistent with critical-like emergent dynamics ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "INCREASED NETWORK ENTROPY IN THE PSYCHEDELIC STATE",
+          "section_type": "Results",
+          "page": 10,
+          "paragraph_index": null,
+          "quote": "Results revealed significantly increased network variance in high-level association networks after psilocybin but not in sensory specific and motor networks, and there were no changes after placebo. These results imply that activity in high-level networks becomes relatively disorganized under psilocybin, consistent with the entropic brain hypothesis.",
+          "interpretation": "Empirical fMRI evidence shows selective increases in variance in association networks under psilocybin, supporting a shift toward more entropic, globally flexible dynamics relevant to consciousness state changes ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 6",
+          "page": 11,
+          "caption_quote": "FIGURE 6 | Changes in network metastability and entropy post-infusion of psilocybin. (A) This chart displays the mean variance of the internal synchrony of 9 brain networks... A post-infusion increase in metastability for a specific network indicates that the mean signal in that network is a poor model of the activity in its constituent voxels, implying that the network is behaving more “chaotically” post-infusion than pre.",
+          "interpretation_short": "Figure 6 visualizes increased metastability and entropy after psilocybin, indicating more chaotic network behavior—a hallmark of emergent dynamics near criticality in altered conscious states ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Entropy and metastability are inferred from BOLD-based measures at relatively low temporal resolution; causal linkage to subjective experience is correlational and relies on re-analysis rather than a preregistered primary endpoint."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Cross-frequency coupling in PCC (theta phase modulating high-gamma amplitude) aligns with slow BOLD fluctuations in DMN.",
+      "method": "iEEG (cited human recordings) linked to fMRI RSN timescales",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "THE DEFAULT MODE NETWORK AND THE EGO",
+          "section_type": "Discussion",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "For example, intracranial recordings from the ventral PCC in humans revealed a dominant presence of theta oscillations. The phase of these oscillations modulate the amplitude of high-gamma oscillations and the magnitude of this coupling fluctuates at a frequency that is consistent with that of spontaneous BOLD signal fluctuations (i.e., ∼0.1 Hz) observed in resting-state networks (RSNs) such as the DMN.",
+          "interpretation": "This establishes a temporal coordination mechanism—phase-amplitude coupling in PCC—that tracks resting-state timescales, linking local oscillatory timing to large-scale DMN dynamics relevant to content binding and segmentation in conscious processing ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "The coupling evidence is drawn from cited intracranial work rather than new data in this article, and the mapping from electrophysiological coupling to conscious content is indirect."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "PCC alpha power decreases correlate with self-reported ego dissolution under psilocybin.",
+      "method": "MEG with behavioral ratings",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "THE DEFAULT MODE NETWORK AND THE EGO",
+          "section_type": "Results",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "it was remarkable that we recently found a highly significant positive correlation between the magnitude of alpha power decreases in the PCC after psilocybin and ratings of the item “I experienced a disintegration of my ‘self ’ or ‘ego’.”",
+          "interpretation": "A report-linked neural signature (PCC alpha power decrease) tracks subjective ego-dissolution, tying metacognitive/self-model processes to measurable neural changes during altered consciousness ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 4",
+          "page": 8,
+          "caption_quote": "FIGURE 4 | Decreased PCC alpha power predicts ego-disintegration and magical thinking after psilocybin.",
+          "interpretation_short": "Figure 4 summarizes the correlation between PCC alpha reductions and self-report of ego-disintegration, linking neural oscillatory changes to reportable self-model alterations ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Correlational design with multiple ratings; while Bonferroni-corrected results are shown, causality between PCC oscillations and ego phenomenology cannot be established."
+    },
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Transition from normal waking to a psychedelic state is accompanied by increased network entropy and altered dynamics.",
+      "method": "fMRI/MEG with drug infusion; variance/entropy metrics",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "INCREASED NETWORK ENTROPY IN THE PSYCHEDELIC STATE",
+          "section_type": "Discussion",
+          "page": 10,
+          "paragraph_index": null,
+          "quote": "In the next section we cite direct evidence for increased entropy in brain networks in psychedelic state and use this to support a general principle: that the transition from normal waking consciousness to primary consciousness is marked by an increase in system entropy.",
+          "interpretation": "They explicitly frame the psychedelic shift as a state transition characterized by increased entropy, aligning with metastable switching between processing regimes in consciousness research ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 8,
+          "caption_quote": "FIGURE 3 | Increased variance/amplitude fluctuations in the hippocampus post-psilocybin. The charts on the left show the complete time series... The transparent red vertical line indicates the beginning and duration of the 60 s infusion of psilocybin.",
+          "interpretation_short": "Figure 3 shows a time-locked change in hippocampal variance following infusion, consistent with an induced transition into a new dynamical regime ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "While time-locked to infusion, the analyses emphasize statistical changes rather than formal change-point detection; abruptness and metastability are inferred rather than directly quantified with state-space models."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T19:45:32.950296",
+    "model_used": "gpt-5",
+    "pdf_filename": "fnhum-08-00020 (3).pdf",
+    "vector_store_id": "vs_68b8fcb59d948191bb85f438af0ef978",
+    "file_id": "file-7p3HHgAptAKYy6ZVEJron8",
+    "content_length": null
+  }
+}

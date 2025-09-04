@@ -1,0 +1,115 @@
+{
+  "paper_metadata": {
+    "title": "Beyond dimension reduction: Stable electric fields emerge from and allow representational drift",
+    "authors": [
+      "Dimitris A. Pinotsis",
+      "Earl K. Miller"
+    ],
+    "year": 2022,
+    "doi_or_arxiv": "10.1016/j.neuroimage.2022.119058",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Latent connectivity components are mapped to a cortical patch via a connectivity kernel, organizing information flow and enabling reconstruction of electric fields.",
+      "method": "LFP; model-internal latent analysis; inverse modeling",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": ".7. Mapping the latent space to a cortical patch",
+          "section_type": "Methods",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "The extra step that allowed us to obtain the electric field above was the mapping of the latent space to a cortical patch (Pinotsis et al., 2017). Starting from the connectivity components, we obtained the weights that scaled incoming input to each population from all other populations in the ensemble, called the connectivity kernel. This describes information exchange and electrical activity on the patch. Having this, we then reconstructed the EF.",
+          "interpretation": "This passage shows how representational structure is encoded: latent variables (connectivity components) are explicitly mapped to spatially organized connectivity kernels that define information exchange on the cortical patch, a key step for understanding how neural populations encode, organize, and access task-relevant content ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Relies on LFPs and model-based inference (bidomain assumptions and inverse problem); mapping from latent components to physical space is indirect and may be sensitive to modeling choices."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Electric fields show cross-trial stability and carry unique, decodable information about working memory content despite representational drift in underlying neural activity.",
+      "method": "LFP; decoding analyses (Naïve Bayes, diagonal LDA); correlation-based stability metrics",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": ".6. Emergent electric fields carry unique information about working memory content",
+          "section_type": "Results",
+          "page": 13,
+          "paragraph_index": null,
+          "quote": "We found that a large part of electrodes had R EF > R NA 2. In other words, electric field estimates were more often correlated across trials, i.e. more stable, compared to neural activity estimates 3. In the next section, we will see that stronger stability of the EF compared to neural activity was also confirmed by decoding analyses. Training accuracy based on neural activity was significantly lower than accuracy based on EF estimates. This also suggests that information contained in delay neural activity was less stable than that contained in the electric field.",
+          "interpretation": "These results indicate an emergent, higher-order dynamic at the field level: EFs remain stable and more decodable across trials than underlying neural activity, supporting the idea that stable computations can arise from interactions within a variable substrate (representational drift) ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Stability evidence is correlational; decoding performance depends on classifier choice and dataset; EFs inferred from LFP data and model assumptions rather than directly manipulated."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Conserved electric fields are proposed to enable interaction of latent variables across brain areas, supporting coordinated behavior.",
+      "method": "LFP; modeling and interpretive synthesis",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 14,
+          "paragraph_index": null,
+          "quote": "All in all, our results and related work suggest that the electric field is conserved in memory networks and allows latent variables from different brain areas to interact and produce behavior.",
+          "interpretation": "The authors link conserved EFs to coordination across distributed elements, implying a mechanism for information integration whereby field-level dynamics provide system-wide access and interaction among latent representations ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Integrative role is argued from observed stability and theoretical considerations rather than direct causal tests of inter-areal interaction mediated by EFs."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T20:31:12.656090",
+    "model_used": "gpt-5",
+    "pdf_filename": "1-s2.0-S1053811922001872-main.pdf",
+    "vector_store_id": "vs_68b9078521448191ba6250afbe4acb9f",
+    "file_id": "file-B7DJ332GVTMicBg3AGLN5i",
+    "content_length": null
+  }
+}

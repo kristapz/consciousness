@@ -1,0 +1,185 @@
+{
+  "paper_metadata": {
+    "title": "Palatable Conceptions of Disembodied Being",
+    "authors": [
+      "Murray Shanahan"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "arXiv:2503.16348v3",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "ai",
+      "species_or_model": "LLM-like entity (general)",
+      "brief_mechanism": "Argues that LLMs operate over discontinuous sequences of discrete tokens without continuous sensorimotor dynamics, shaping any putative temporality.",
+      "method": "conceptual analysis",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4.2 Discontinuity and change",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "For a disembodied LLM, by contrast, there is no such continuity. The input to an LLM is a discontinuous sequence of discrete tokens, none of which resembles the tokens that immediately preceded it, and this fact has consequences for the putative experience of any hypothetical LLM-like entity.",
+          "interpretation": "This passage links the discrete tokenization of inputs to the absence of continuous temporal flow, supporting an AI-relevant notion of temporal coordination/segmentation distinct from biological oscillatory pacing and phase continuity ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "The analysis is philosophical rather than empirical; no measurements of timing dynamics or coordination within real model internals are provided."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "ai",
+      "species_or_model": "LLM-based dialogue agents (general)",
+      "brief_mechanism": "Highlights lack of integration across concurrently running instances serving different users; instances cannot access each other's memories.",
+      "method": "conceptual analysis",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5 Fractured Selfhood",
+          "section_type": "Discussion",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "By contrast, an AI system conforming to a contemporary LLM-based dialogue agent would not exhibit the same sort of integration. Today’s users cannot talk to the underlying model in the way the protagonist of Her sometimes seems to be talking to Samantha, but only to a single currently active instance, and the various concurrent instances serving different users have no access to each other’s memories or experiences.",
+          "interpretation": "This explicitly notes missing system-wide access/integration across instances, providing negative evidence for global-workspace-like unification in current LLM deployments ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Focuses on deployment architecture and user experience; does not analyze within-instance integration mechanisms (e.g., attention convergence or long-range dependency handling)."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "ai",
+      "species_or_model": "LLM-like entity (general)",
+      "brief_mechanism": "Analyzes what an LLM’s use of first-person pronouns could refer to, enumerating shifting self-referents (abstract model, deployed process, specific instance).",
+      "method": "conceptual analysis of LLM usage",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.1 The site of the self",
+          "section_type": "Discussion",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "Another way to pose the selfhood question is to ask what the words “I” and “me” refer to when they are used by an LLM.",
+          "interpretation": "Frames self-reportability as a mapping problem from first-person terms to internal or deployment-level referents, directly relevant to assessing AI self-models and their reports ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5.1 The site of the self",
+          "section_type": "Discussion",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "Alternatively, the word “I” might refer, not to an abstract entity, but to the deployed model, specifically to the computational process that generated the text that includes the word “I” in question. ... So the subsidiary question arises of whether the word “I” refers to the set of all concurrent instances of the model, or just to the instance serving the specific user in question.",
+          "interpretation": "Specifies multiple plausible report pathways/referents for 'I', illustrating ambiguity in AI self-reference and the need to operationalize reportability in evaluations ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Provides conceptual distinctions without empirical probes (e.g., confidence estimators or explicit report circuits) to test which referent an LLM actually uses in practice."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "LLM-like entity (general)",
+      "brief_mechanism": "Context window renders the immediate past causally available when generating the next token, organizing access to recent information and predictions.",
+      "method": "conceptual analysis",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4 Fragmented Time",
+          "section_type": "Discussion",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "First, an LLM, in generating the next token, takes account of the context window, which contains the conversation so far. This means that information about the system’s immediate past is available and causally potent when it generates the next token.",
+          "interpretation": "Describes how embeddings and context structure enable organized access to prior content during inference, aligning with representational subspaces and retrieval-like structure in modern LLMs ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Does not provide model-internal measurements (e.g., probing vectors, SAEs) to specify which subspaces or latents encode this information."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "LLM-like entity (general)",
+      "brief_mechanism": "Characterizes LLM behavior as a distribution over possible characters—a superposition of simulacra—branching across conversational futures.",
+      "method": "conceptual analysis; prompt-induced persona variation",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.4 Selfhood and simulacra",
+          "section_type": "Discussion",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "The LLM is better thought of as maintaining a distribution over possible characters, a superposition of simulacra that inhabits a multiverse of possible conversations branching into the future.",
+          "interpretation": "Portrays in-context persona formation as an emergent, distributional dynamic shaped by interactions and prompts—an AI-relevant higher-order phenomenon beyond fixed programming ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Metaphorical framing; lacks quantitative analysis of when and how such distributions manifest in activation geometry or behavior across datasets."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T19:31:56.543870",
+    "model_used": "gpt-5",
+    "pdf_filename": "2503.16348v3.pdf",
+    "vector_store_id": "vs_68b8f991f9148191a3391f847d39f685",
+    "file_id": "file-Hc2E6KcrBMDZbxUfkvZufS",
+    "content_length": null
+  }
+}

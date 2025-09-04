@@ -1,0 +1,208 @@
+{
+  "paper_metadata": {
+    "title": "A Roadmap for Using tFUS to Investigate the Neural Substrate of Conscious Perception",
+    "authors": [],
+    "year": null,
+    "doi_or_arxiv": "arXiv:2507.08517",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Global Workspace Theory posits an 'ignition'—a rapid surge spreading through frontoparietal networks—marking a switch to globally accessible content.",
+      "method": "theoretical/review",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Contemporary Theories and Debates in Consciousness Research",
+          "section_type": "Introduction",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "At the heart of GWT is the concept of \"ignition,\" a rapid surge of neural activity that spreads through this network, signifying that information has reached a sufficient level of accessibility.",
+          "interpretation": "This passage defines a hallmark state transition (ignition) tied to conscious access in humans, aligning with abrupt switching between processing regimes as a consciousness marker ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 3",
+          "page": 0,
+          "caption_quote": "Figure 3. Neural substrates underlying conscious visual perception are illustrated for four major theories of consciousness. Each panel highlights specific brain regions implicated in the conscious processing of visual stimuli.",
+          "interpretation_short": "The figure situates GWT within frontoparietal substrates, providing anatomical context for ignition-like transitions in conscious access ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "The description is theoretical and does not report quantitative latencies for ignition; page numbers unavailable in the provided extract."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "macaque|human (proposal)",
+      "brief_mechanism": "Pulvinar activity shapes decision confidence/criteria without affecting sensitivity; proposed tFUS targeting can causally test thalamic gating of access.",
+      "method": "review of primate electrophysiology + proposed tFUS neuromodulation",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Using tFUS to Evaluate the Role of Subcortical Structures in Conscious Perception",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "specific subregions of the thalamus may directly contribute to distinct aspects of perceptual decision making; for example, results show that low-duty cycles shifted decision criteria towards a more conservative stance, whereas high duty cycle stimulation of the ventral anterior thalamus increased perceptual sensitivity... previous work in nonhuman primates has shown that the pulvinar may uniquely contribute to the confidence in visual decisions",
+          "interpretation": "This links thalamic nuclei—especially pulvinar—to gating criterion and confidence, a selective routing mechanism relevant to conscious access and metacognition ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Using tFUS to Evaluate the Role of Subcortical Structures in Conscious Perception",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "Our preliminary hypothesis would be that targeting the pulvinar should leave measures of perceptual performance (such as d’) unchanged, but would significantly alter confidence ratings and overall metacognitive sensitivity...",
+          "interpretation": "The proposed double dissociation (confidence change without sensitivity change) directly operationalizes thalamic routing of information linked to conscious reportability ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Causal claims for human pulvinar are prospective; quotes summarize prior primate work and proposed human tFUS experiments."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "human|nonhuman primate (methods context)",
+      "brief_mechanism": "tFUS offers spatially precise, depth-penetrating neuromodulation with both excitatory and suppressive effects, enabling causal tests of substrates for perceptual experience.",
+      "method": "tFUS neuromodulation (methods-focused review)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Techniques for Brain Stimulation in Consciousness Research",
+          "section_type": "Methods",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "These limitations highlight the need for alternative approaches, such as tFUS, which offers the potential for greater spatial specificity, deeper penetration, and the capacity to produce excitatory versus suppressive effects by tuning sonication parameters.",
+          "interpretation": "This motivates tFUS as a causal manipulation tool to probe NCCs by turning candidate circuits up/down with high spatial control ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Conclusion",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "The ability of tFUS to induce transient disruptions in brain activity makes it an ideal tool for experimentally dissociating conscious perception from unconscious processing and post-perceptual cognition.",
+          "interpretation": "Articulates how causal control via tFUS can separate consciousness-specific computations from confounds in human experiments ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "General capability statements; concrete effect sizes and timing parameters depend on protocol and are not specified here."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "bio",
+      "species_or_model": "human (intraoperative stimulation context)",
+      "brief_mechanism": "Amygdala stimulation evokes modality-specific percepts and strong emotions; tFUS could test sufficiency/necessity by modulating downstream targets.",
+      "method": "direct electrical stimulation (context) + proposed tFUS suppression of downstream nodes",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Using tFUS to Evaluate the Role of Subcortical Structures in Conscious Perception",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "direct electrical stimulation of the amygdala produces an array of sensations, including visual, auditory, olfactory, and somatosensory percepts, as well as emotional responses that included fear and anger, but also pleasure and joy... tFUS offers an excellent opportunity to localize the source of perception by non-invasively suppressing various targets that are downstream of the amygdala",
+          "interpretation": "These affect-laden percepts implicate subcortical circuits in valence; targeted causal modulation could localize welfare-relevant substrates of aversive or rewarding experience ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Human evidence cited is from invasive stimulation in clinical settings; the tFUS approach is a proposed noninvasive follow-up."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Prefrontal cortex involvement in metacognition and reportability; tFUS to dlPFC/vlPFC predicted to reduce visibility/confidence and meta-d′ in performance-matched designs.",
+      "method": "noninvasive stimulation proposal grounded in prior TMS and metacognition studies",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Using tFUS to Evaluate the Role of Prefrontal Cortex in Conscious Perception",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "Potentially, subjective ratings of more than one type could be tested to evaluate whether suppression of PFC affected all equally, or produced differential outcomes across confidence, visibility, and awareness... reduction of 2AFC meta-d’ would provide further evidence of a role for PFC in awareness.",
+          "interpretation": "Targets self-report pathways and metacognitive readouts as signatures of conscious access linked to PFC, proposing causal tests via tFUS ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Using tFUS to Evaluate the Role of Prefrontal Cortex in Conscious Perception",
+          "section_type": "Discussion",
+          "page": 0,
+          "paragraph_index": null,
+          "quote": "tFUS presents a safer alternative to probe whether bilateral stimulation to dlPFC or vlPFC alters confidence, visibility, or metacognitive sensitivity in performance-matched designs.",
+          "interpretation": "Emphasizes bilateral, performance-matched manipulation to isolate report-related and metacognitive components of consciousness in humans ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Effects are hypothesized based on prior TMS and blindsight signatures; actual tFUS efficacy and duration parameters must be empirically established."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-03T20:33:48.737998",
+    "model_used": "gpt-5",
+    "pdf_filename": "2507.08517v1 (1).pdf",
+    "vector_store_id": "vs_68b90800d4d4819181b21f1605ba0c91",
+    "file_id": "file-7cMCGLLzvas117CJDjxjFM",
+    "content_length": null
+  }
+}

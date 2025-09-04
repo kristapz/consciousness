@@ -61,14 +61,104 @@
   },
   "1-s2.0-S1053811922001872-main.pdf": {
     "file_hash": "7161a307977b05a4b295b252868aa6c7",
-    "processed_at": "2025-09-03T16:11:05.303978",
-    "output_file": "1-s20-S1053811922001872-main.json",
-    "paper_title": "1-s2.0-S1053811922001872-main"
+    "processed_at": "2025-09-03T20:31:12.670763",
+    "output_file": "Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json",
+    "paper_title": "Beyond dimension reduction: Stable electric fields emerge from and allow representational drift"
   },
   "consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf": {
     "file_hash": "2ae9df7d189c4973af61991ec81ab8b7",
     "processed_at": "2025-09-03T16:01:54.679591",
     "output_file": "Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json",
     "paper_title": "Consciousness without a cerebral cortex: A challenge for neuroscience and medicine"
+  },
+  "2505.20364v1 (1) (1).pdf": {
+    "file_hash": "d6481c720b44b5e34a62731c55cf9e7c",
+    "processed_at": "2025-09-03T19:29:37.802224",
+    "output_file": "On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json",
+    "paper_title": "On the Potential of Microtubules for Scalable Quantum Computation"
+  },
+  "2503.16348v3.pdf": {
+    "file_hash": "e6303b69e50b81a6f0744e9a51925f5d",
+    "processed_at": "2025-09-03T19:31:56.551801",
+    "output_file": "Palatable_Conceptions_of_Disembodied_Being.json",
+    "paper_title": "Palatable Conceptions of Disembodied Being"
+  },
+  "fpsyg-04-00688 (1).pdf": {
+    "file_hash": "4afba70ad5a1b868e5e10e7512dbec0e",
+    "processed_at": "2025-09-03T19:34:17.626930",
+    "output_file": "Meditation_and_neurofeedback.json",
+    "paper_title": "Meditation and neurofeedback"
+  },
+  "2503.10965v2.pdf": {
+    "file_hash": "406792e3aa1748537cb39e343691d31d",
+    "processed_at": "2025-09-03T19:38:42.149052",
+    "output_file": "Auditing_Language_Models_for_Hidden_Objectives.json",
+    "paper_title": "Auditing Language Models for Hidden Objectives"
+  },
+  "2002.concepts.pdf": {
+    "file_hash": "965543f073ae4325147fb965f34ce6e4",
+    "processed_at": "2025-09-03T19:40:25.621416",
+    "output_file": "Concepts_of_Consciousness.json",
+    "paper_title": "Concepts of Consciousness"
+  },
+  "2507.08517v1 (1).pdf": {
+    "file_hash": "719c3b45c48601ff7565faa000ecdc1c",
+    "processed_at": "2025-09-03T20:33:48.748121",
+    "output_file": "A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json",
+    "paper_title": "A Roadmap for Using tFUS to Investigate the Neural Substrate of Conscious Perception"
+  },
+  "ENEURO.0291-24.2024.full.pdf": {
+    "file_hash": "7ad1d64b67b18bfb976000a2bf4f75ce",
+    "processed_at": "2025-09-03T19:42:36.621698",
+    "output_file": "ENEURO0291-242024full.json",
+    "paper_title": "ENEURO.0291-24.2024.full"
+  },
+  "FlemingMichel_Sensory Horizons_v3.pdf": {
+    "file_hash": "177fd7d2b88ad89f1a2d311c38540c9b",
+    "processed_at": "2025-09-03T19:43:01.442265",
+    "output_file": "FlemingMichel_Sensory_Horizons_v3.json",
+    "paper_title": "FlemingMichel_Sensory Horizons_v3"
+  },
+  "fnhum-08-00020 (3).pdf": {
+    "file_hash": "1a53efebea738d9fcadb843975f1e421",
+    "processed_at": "2025-09-03T19:45:32.969140",
+    "output_file": "The_entropic_brain_a_theory_of_conscious_states_informed_by_neuroimaging_research_with_psychedelic_d.json",
+    "paper_title": "The entropic brain: a theory of conscious states informed by neuroimaging research with psychedelic drugs"
+  },
+  "cahn2013.pdf": {
+    "file_hash": "11fa29b004013e039341da13d4e3db56",
+    "processed_at": "2025-09-03T19:45:56.772005",
+    "output_file": "cahn2013.json",
+    "paper_title": "cahn2013"
+  },
+  "entropy-25-00129-v2.pdf": {
+    "file_hash": "68d541d6b6ef0bd5b3fe956de75fb3e8",
+    "processed_at": "2025-09-03T19:48:26.784015",
+    "output_file": "Fusions_of_Consciousness.json",
+    "paper_title": "Fusions of Consciousness"
+  },
+  "fnhum-17-1233119.pdf": {
+    "file_hash": "b6d3c8dc6711bf291b998f2ae4b6aaa0",
+    "processed_at": "2025-09-03T20:26:11.678085",
+    "output_file": "Don\u2019t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json",
+    "paper_title": "Don\u2019t forget the boundary problem! How EM field topology can address the overlooked cousin to the binding problem for consciousness"
+  },
+  "3601.full.pdf": {
+    "file_hash": "322428d58fca655ca6d1d4cb045919fc",
+    "processed_at": "2025-09-03T20:26:37.738204",
+    "output_file": "3601full.json",
+    "paper_title": "3601.full"
+  },
+  "Convergent_Effects_of_Different_Anesthetics_2025.pdf": {
+    "file_hash": "a1e93bf379fca347e66642c4d6d02631",
+    "processed_at": "2025-09-03T20:27:01.229898",
+    "output_file": "Convergent_Effects_of_Different_Anesthetics_2025.json",
+    "paper_title": "Convergent_Effects_of_Different_Anesthetics_2025"
+  },
+  "reasoning_models_paper.pdf": {
+    "file_hash": "fcec73345a285508b86b6ee4e3556452",
+    "processed_at": "2025-09-03T20:29:08.967084",
+    "output_file": "Reasoning_Models_Don\u2019t_Always_Say_What_They_Think.json",
+    "paper_title": "Reasoning Models Don\u2019t Always Say What They Think"
   }
 }
