@@ -1,0 +1,123 @@
+{
+  "paper_metadata": {
+    "title": "Direct Fit to Nature: An Evolutionary Perspective on Biological and Artificial Neural Networks",
+    "authors": [
+      "Uri Hasson",
+      "Samuel A. Nastase",
+      "Ariel Goldstein"
+    ],
+    "year": 2020,
+    "doi_or_arxiv": "10.1016/j.neuron.2019.12.002",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "ai",
+      "species_or_model": "GPT-2 (transformer, 48 layers)",
+      "brief_mechanism": "Self-supervised transformer uses attention to integrate contextual information over sequences, enabling unified access to distributed content.",
+      "method": "model-internal",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 48,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Box 2. Face Recognition and Language Models: Two Examples of Direct Fit",
+          "section_type": "Results",
+          "page": 422,
+          "paragraph_index": null,
+          "quote": "Critically, both the encoder and decoder components are able to selectively attend to elements at nearby positions in the sequence, effectively incorporating contextual information.",
+          "interpretation": "Attention-based integration of context in GPT-2 provides a concrete AI marker for information integration (e.g., attention convergence, aggregator tokens), supporting the analogy to global-access style mechanisms in consciousness research ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Descriptive box-text; does not include direct measurements of attention dynamics or causal perturbations, and the attention described focuses on nearby positions rather than system-wide broadcast."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "GPT-2 (transformer, 48 layers)",
+      "brief_mechanism": "Implicit compositional structure (syntax) emerges from self-supervised training without explicit rule encoding.",
+      "method": "model-internal",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 48,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Box 2. Face Recognition and Language Models: Two Examples of Direct Fit",
+          "section_type": "Results",
+          "page": 422,
+          "paragraph_index": null,
+          "quote": "Surprisingly, despite the limitation of the training set and objective function, models of this kind (e.g., Devlin et al., 2018) may also implicitly learn some compositional properties of language, such as syntax, from the structure of the input.",
+          "interpretation": "This passage highlights emergent dynamics in AI—non-programmed, higher-order structure arising from optimization—which parallels emergent cognitive capacities and in-context learning phenomena relevant to consciousness science ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Statement is illustrative rather than a controlled quantitative demonstration; no causal tests or phase-transition analyses are reported."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "ANN (FaceNet example)",
+      "brief_mechanism": "High-dimensional distributed embeddings encode features across many units, enabling robust generalization within an interpolation zone.",
+      "method": "model-internal",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "High-Dimensional Encoding Space",
+          "section_type": "Results",
+          "page": 426,
+          "paragraph_index": null,
+          "quote": "In practice, this high-dimensional multivariate encoding space typically captures the structure of the world in distributed embeddings. Any feature of the world is represented across many computing elements and each computing element participates in encoding many features of the world.",
+          "interpretation": "This describes distributed, polysemantic embeddings and representational geometry—core AI markers for representational structure that map onto population codes and cell assemblies in neuroscience, relevant for theories of conscious representation ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 4",
+          "page": 426,
+          "caption_quote": "Figure 4. The Interpolation Zone Is Bound by the Training Set The density and diversity of training examples determine the interpolation zone and allow ANNs to approximate the regions of the face-space manifold to which they are exposed.",
+          "interpretation_short": "Shows how training diversity shapes the occupied embedding manifold, linking representational geometry to what the system can access and generalize—central for understanding representational structure in conscious and artificial systems ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Conceptual and schematic; lacks direct dimensionality metrics or interventions tying representational geometry to conscious access."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:55:57.053526",
+    "model_used": "gpt-5",
+    "pdf_filename": "2020-hasson.pdf",
+    "vector_store_id": "vs_68b9ee2099a081919a839ec0c63c12f1",
+    "file_id": "file-9etyZZXpSFTkz6PqndgGim",
+    "content_length": null
+  }
+}

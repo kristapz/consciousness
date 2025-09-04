@@ -1,0 +1,121 @@
+{
+  "paper_metadata": {
+    "title": "How do you feel? Interoception: the sense of the physiological condition of the body",
+    "authors": [
+      "A. D. Craig"
+    ],
+    "year": 2002,
+    "doi_or_arxiv": "10.1038/nrn894",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "human|macaque",
+      "brief_mechanism": "Lamina I spinothalamocortical inputs form a primary interoceptive representation in dorsal insula that is re-represented anteriorly.",
+      "method": "anatomical tracing + fMRI/PET",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "The functional anatomy of lamina I",
+          "section_type": "Results",
+          "page": 657,
+          "paragraph_index": null,
+          "quote": "The Aδ- and C-type primary afferent fibres that are relayed by lamina I relate homeostatic information — that is, much more than simply ‘pain and temperature’ sensations — from all tissues.",
+          "interpretation": "This establishes that lamina I conveys structured, modality-specific interoceptive content that supports a dedicated representational subspace in insular cortex, clarifying how bodily state is encoded in the brain for conscious access and comparison with representational organization in AI systems ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 3",
+          "page": 660,
+          "caption_quote": "In humans, this cortical image is re-represented in the anterior insula on the same side of the brain... These re-representations provide the foundation for a subjective evaluation of interoceptive state, which is forwarded to the orbitofrontal cortex, where hedonic valence is represented in mammals.",
+          "interpretation_short": "The diagram summarizes a hierarchical, topographic interoceptive pathway culminating in anterior insula re-representations, aligning with representational structure necessary for conscious evaluation of bodily state ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "This is a synthesis of prior anatomical and imaging studies rather than a single new dataset; precise neural codes and timing within insula are not resolved."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Anterior insula–ACC–orbitofrontal circuits link interoceptive feelings to motivation and hedonic valuation.",
+      "method": "fMRI/PET and lesion reports (reviewed)",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Conclusions and future directions",
+          "section_type": "Discussion",
+          "page": 663,
+          "paragraph_index": null,
+          "quote": "Finally, these findings signify the cortical representation of feelings from the body as the likely basis for human awareness of the physical self as a feeling entity. This association provides a fundamental framework for the involvement of these feelings with emotion, mood, motivation and consciousness.",
+          "interpretation": "By tying interoceptive maps to emotion and motivation, the paper sketches neural substrates for valence and welfare relevant to suffering and well-being, paralleling how value and aversion signals are instantiated in AI agents ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Claims integrate multiple imaging and clinical observations; causal specificity of each node (insula, ACC, OFC) for valence is inferred rather than isolated experimentally."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Re-representations of interoceptive state in anterior insula support a meta-representational model distinguishing self from non-self.",
+      "method": "theoretical integration of imaging, anatomical, and comparative data",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Conclusions and future directions",
+          "section_type": "Discussion",
+          "page": 664,
+          "paragraph_index": null,
+          "quote": "So, the representational image of the body’s state provides a neural basis for distinguishing self from non-self, and re-representations of this image enable the behavioural neural agent to project the effects of possible actions onto the state of the body, as well as the resultant changes in such feeling states due to interactions with other (external) agents.",
+          "interpretation": "This links interoceptive re-representations to a self-model with predictive and reportable qualities, suggesting a route from bodily signals to conscious self-related judgments that can inform AI designs with explicit confidence/report pathways ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual inference based on reviewed evidence; no direct behavioral report-manipulation experiment is presented to isolate the self-model mechanism."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:59:24.134825",
+    "model_used": "gpt-5",
+    "pdf_filename": "nrn894 (2).pdf",
+    "vector_store_id": "vs_68b9ef040664819197428354f01ab25d",
+    "file_id": "file-6mHdrNLMp6hYkufimUKY14",
+    "content_length": null
+  }
+}

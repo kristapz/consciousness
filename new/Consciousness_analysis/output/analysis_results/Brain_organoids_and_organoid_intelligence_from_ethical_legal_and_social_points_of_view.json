@@ -1,0 +1,116 @@
+{
+  "paper_metadata": {
+    "title": "Brain organoids and organoid intelligence from ethical, legal, and social points of view",
+    "authors": [
+      "Thomas Hartung",
+      "Itzy E. Morales Pantoja",
+      "Lena Smirnova"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.3389/frai.2023.1307613",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "organoid intelligence (review)",
+      "brief_mechanism": "Review links consciousness theories to system-wide integration (e.g., global workspace and integrated information).",
+      "method": "narrative review",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Defining consciousness",
+          "section_type": "Introduction",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "Most definitions require some form of sentience, phenomenal experiences, and integration of information. But theories diverge on the specific mechanisms, with proposals highlighting recurrent processing, global workspace integration, higher-order representations, or causal density like integrated information theory (Bayne et al., 2016; Tononi et al., 2016).",
+          "interpretation": "This anchors information integration as a core theoretical mechanism for consciousness, relevant to assessing integration phenomena in both brains and AI/organioid-based systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual synthesis; provides no new empirical measurements of integration or direct cross-species/model quantitative comparisons."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "other",
+      "species_or_model": "organoid intelligence (review)",
+      "brief_mechanism": "Ethical analysis highlights potential for negative valence (pain/suffering) as a threshold for special oversight.",
+      "method": "narrative review",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Ethical and legal issues",
+          "section_type": "Discussion",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "We need discussions how the possibility that organoids develop consciousness or feelings of pain and suffering could be  anticipated or precluded.",
+          "interpretation": "By explicitly calling out pain and suffering in organoids as policy-relevant, the article treats negative affect as a morally salient and monitorable property—directly aligning with the Valence & Welfare phenomenon for consciousness-relevant risk in bio/AI contexts ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Primarily normative and anticipatory; does not present empirical biomarkers of nociception, affect, or persistent negative states."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "other",
+      "species_or_model": "organoid intelligence (review)",
+      "brief_mechanism": "Argues that demonstrating and mapping causal mechanisms (not just correlations) is key to attributing intelligence to organoids and advancing AI.",
+      "method": "narrative review",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "What is intelligence?",
+          "section_type": "Introduction",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "AI side, causal inference capabilities are hallmarks of advanced machine learning systems that can reason about the world and make reliable predictions. Models based purely on pattern recognition have limitations in generalizability and interpretability. Integrating causal graphs and models allows AI systems to better capture the complex dynamics of real-world phenomena. Likewise, attributing intelligence to organoids requires moving beyond simple input–output mappings to analyze the underlying causal mechanisms.",
+          "interpretation": "This positions causal interventions and representational edits as central to establishing and testing control over computation in both AI and organoid systems, matching the Causal Control phenomenon’s emphasis on manipulations that change access or behavior ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual framing without concrete intervention protocols or quantitative metrics; no direct causal manipulation results are reported."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:46:48.167733",
+    "model_used": "gpt-5",
+    "pdf_filename": "frai-06-1307613.pdf",
+    "vector_store_id": "vs_68b9ec1eaa608191af17a0477a5be982",
+    "file_id": "file-Y82aLacfTrigT1CvfRShAu",
+    "content_length": null
+  }
+}

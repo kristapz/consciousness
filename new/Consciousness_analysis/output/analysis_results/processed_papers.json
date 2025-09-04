@@ -250,5 +250,29 @@
     "processed_at": "2025-09-04T12:37:23.498850",
     "output_file": "Testing_Components_of_the_Attention_Schema_Theory_in_Artificial_Neural_Networks.json",
     "paper_title": "Testing Components of the Attention Schema Theory in Artificial Neural Networks"
+  },
+  "frai-06-1307613.pdf": {
+    "file_hash": "162ef0476a6ed2355742f095b6444e27",
+    "processed_at": "2025-09-04T12:46:48.171296",
+    "output_file": "Brain_organoids_and_organoid_intelligence_from_ethical_legal_and_social_points_of_view.json",
+    "paper_title": "Brain organoids and organoid intelligence from ethical, legal, and social points of view"
+  },
+  "2020-hasson.pdf": {
+    "file_hash": "7bed0c3f8511c08b140aabac8852ea97",
+    "processed_at": "2025-09-04T12:55:57.056409",
+    "output_file": "Direct_Fit_to_Nature_An_Evolutionary_Perspective_on_Biological_and_Artificial_Neural_Networks.json",
+    "paper_title": "Direct Fit to Nature: An Evolutionary Perspective on Biological and Artificial Neural Networks"
+  },
+  "nrn894 (2).pdf": {
+    "file_hash": "c6e477b931ebd51518ed7765a6fbc350",
+    "processed_at": "2025-09-04T12:59:24.144775",
+    "output_file": "How_do_you_feel_Interoception_the_sense_of_the_physiological_condition_of_the_body.json",
+    "paper_title": "How do you feel? Interoception: the sense of the physiological condition of the body"
+  },
+  "1-s2.0-S1571064525000028-main.pdf": {
+    "file_hash": "48ca56a6c966bb5f04d61505ba5b8c87",
+    "processed_at": "2025-09-04T13:02:41.069961",
+    "output_file": "A_composite_and_multidimensional_heuristic_model_of_consciousness.json",
+    "paper_title": "A composite and multidimensional heuristic model of consciousness"
   }
 }

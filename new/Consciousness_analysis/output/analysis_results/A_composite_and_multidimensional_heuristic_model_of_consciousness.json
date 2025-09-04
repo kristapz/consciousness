@@ -1,0 +1,273 @@
+{
+  "paper_metadata": {
+    "title": "A composite and multidimensional heuristic model of consciousness",
+    "authors": [
+      "Michele Farisco",
+      "Kathinka Evers"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "10.1016/j.plrev.2025.01.002",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "other",
+      "species_or_model": "conceptual framework",
+      "brief_mechanism": "Paper formalizes content-related and functional dimensions (e.g., gating of conscious content and cognitive/behavioral control) as parts of a multidimensional profile of consciousness.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4. A composite and multidimensional heuristic model of consciousness",
+          "section_type": "Introduction",
+          "page": 184,
+          "paragraph_index": null,
+          "quote": "The first family includes, for instance, gating of conscious content (e.g., low-level features vs high-level features of an object). The second family includes, for instance, cognitive and behavioural control (i.e., the availability of conscious contents for control of thought and action).",
+          "interpretation": "By distinguishing content-related gating and functional control dimensions, the framework makes the structure of conscious representations explicit and testable across brain and AI systems, aligning with representational structure comparisons in consciousness research ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "4. A composite and multidimensional heuristic model of consciousness",
+          "section_type": "Introduction",
+          "page": 184,
+          "paragraph_index": null,
+          "quote": "In the light of the different meanings attributed to consciousness as introduced above, it is reasonable to infer that consciousness presents different constituents (i.e., states, forms, components, and dimensions), as reflected in the different senses of the term (Fig. 1).",
+          "interpretation": "This explicitly frames consciousness as composed of organized representational constituents, matching the notion that representational structure is multi-component and accessible for analysis in both biology and AI ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 2",
+          "page": 186,
+          "caption_quote": "Illustrative comparison of two hypothetical human and AI system’s consciousness profiles. The values assigned are speculative and for the only sake of illustration.",
+          "interpretation_short": "Shows a dimensional, profile-based representation of conscious capacities, operationalizing representational structure for comparing humans and AI systems ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Conceptual delineation; does not supply empirical decoding of representational geometries or direct neural/model latents corresponding to each dimension."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "ai",
+      "species_or_model": "neuro-inspired RL robot architecture",
+      "brief_mechanism": "A meta-controller arbitrates between model-based and model-free routes to minimize cost and select relevant information for goals.",
+      "method": "model-internal; architecture description",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5. Awareness as a case study for artificial consciousness research",
+          "section_type": "Introduction",
+          "page": 188,
+          "paragraph_index": null,
+          "quote": "A neuro-inspired reinforcement learning (RL) architecture for robot online learning and decision-making has recently been developed... The architecture combines model-based (MB) and model-free (MF) RL, and it also includes a meta-controller for arbitrating between them in order to maximize efficiency and to minimize computational costs.",
+          "interpretation": "The described arbitration mechanism implements selective routing/gating of information processing pathways, an AI marker for controlled access to relevant content in pursuit of goals ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "5. Awareness as a case study for artificial consciousness research",
+          "section_type": "Introduction",
+          "page": 188,
+          "paragraph_index": null,
+          "quote": "To be markers of awareness, these capacities for modelling and virtualization should be combined with the capacity to intentionally exploit them as part of a goal-directed behaviour.",
+          "interpretation": "Selecting and routing information for intended goals links gating to awareness, connecting selective routing in AI to cognitive access in biological systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Exemplifies one architecture; does not quantify routing dynamics (e.g., attention weights) or demonstrate generality across model classes."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "other",
+      "species_or_model": "conceptual framework",
+      "brief_mechanism": "Evaluative dimensions and values are emphasized as integral to awareness and as an open issue for artificial systems.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "6. Discussion",
+          "section_type": "Discussion",
+          "page": 189,
+          "paragraph_index": null,
+          "quote": "Finally, the issue of values emerges as very challenging. For biological organisms, awareness is intrinsically related to the capacity to evaluate the world, discriminating between what is good and what is bad [99–101], including a capacity for a form of subjective experience.",
+          "interpretation": "This highlights valence/evaluation as a core dimension tied to awareness and raises whether AI can instantiate evaluative processes relevant to welfare and potential suffering ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "4. A composite and multidimensional heuristic model of consciousness",
+          "section_type": "Introduction",
+          "page": 185,
+          "paragraph_index": null,
+          "quote": "- Evaluative-Richness: affectively-based positive or negative valence which grounds decision-making.",
+          "interpretation": "The framework explicitly includes evaluative richness as a dimension, connecting affective valence to decision-making and providing a handle for welfare-related assessment in AI and biology ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Discussion identifies open conceptual/ethical questions; no direct measurement of valence signals or welfare proxies in models or organisms is provided."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Dissociation between networks for self-related and external awareness is noted.",
+      "method": "neuroimaging (cited literature)",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "6. Discussion",
+          "section_type": "Discussion",
+          "page": 189,
+          "paragraph_index": null,
+          "quote": "Another aspect of awareness that has been revealed by clinical research is the dissociation between internal or self-awareness (i.e., relative to the self) and external or sensory awareness [93]. Significantly, different networks for each of them have been identified (midline fronto-parietal and lateral fronto-parietal networks, respectively) [94,95].",
+          "interpretation": "Separate self- and environment-related awareness networks support higher-order access/self-model distinctions relevant to reportability and metacognition in humans ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Cited evidence is summarized rather than newly reported; specific experimental parameters and report-readout links are not detailed here."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "conceptual framework",
+      "brief_mechanism": "Integration is identified as a core dimension, both at a time (unity) and across time (temporality).",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4. A composite and multidimensional heuristic model of consciousness",
+          "section_type": "Introduction",
+          "page": 185,
+          "paragraph_index": null,
+          "quote": "- Integration at a time (unity): conscious experience is (usually) highly unified; - Integration across time (temporality): conscious experience takes the form of a continuous stream;",
+          "interpretation": "The framework explicitly encodes integration as unity and temporality, aligning with information integration markers (e.g., binding/coherence) relevant to both brain dynamics and AI model-wide access ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual statement; does not specify empirical measures (e.g., coherence, PCI) within this paper."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "conceptual control architecture",
+      "brief_mechanism": "Consciousness in artificial systems is proposed as a feature of a control architecture integrating local/global processes with perception, motivation, emotion, cognition, and action.",
+      "method": "theoretical analysis; architecture proposal (cited)",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5. Awareness as a case study for artificial consciousness research",
+          "section_type": "Introduction",
+          "page": 188,
+          "paragraph_index": null,
+          "quote": "These requirements, combined with the multi-dimensional definition we pursued here imply that for consciousness to be realised in artificial systems, it must be considered as a feature of a control architecture. Such an architecture must link primary and higher-order forms of local and global consciousness and show their integration with systems of perception, motivation, emotion, cognition and action.",
+          "interpretation": "Positioning consciousness as a control-architecture property emphasizes causal control: interventions and linkage among subsystems modulate computation and behavior, a principle testable via manipulations in AI and brain systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual guidance; does not report ablation/perturbation evidence or causal interventions within a specific AI or neural system."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "general AI development (conceptual)",
+      "brief_mechanism": "Raises the hypothesis that consciousness could emerge organically during AI development.",
+      "method": "theoretical analysis",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "6. Discussion",
+          "section_type": "Discussion",
+          "page": 189,
+          "paragraph_index": null,
+          "quote": "Another challenging issue is the possibility that consciousness emerges in AI organically along its development.",
+          "interpretation": "This directly invokes emergent dynamics, suggesting higher-order properties could arise from AI interactions and learning processes, paralleling emergent cognitive strategies seen in complex models ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Speculative; no empirical demonstration of spontaneous emergence or conditions for phase transitions are provided."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T13:02:41.057155",
+    "model_used": "gpt-5",
+    "pdf_filename": "1-s2.0-S1571064525000028-main.pdf",
+    "vector_store_id": "vs_68b9ef9c4dc08191b54cc44921ac0267",
+    "file_id": "file-HANAJkJQ4EK6vXLuUugnNG",
+    "content_length": null
+  }
+}
