@@ -109,15 +109,15 @@
   },
   "ENEURO.0291-24.2024.full.pdf": {
     "file_hash": "7ad1d64b67b18bfb976000a2bf4f75ce",
-    "processed_at": "2025-09-03T19:42:36.621698",
-    "output_file": "ENEURO0291-242024full.json",
-    "paper_title": "ENEURO.0291-24.2024.full"
+    "processed_at": "2025-09-04T09:51:51.630577",
+    "output_file": ".json",
+    "paper_title": ""
   },
   "FlemingMichel_Sensory Horizons_v3.pdf": {
     "file_hash": "177fd7d2b88ad89f1a2d311c38540c9b",
-    "processed_at": "2025-09-03T19:43:01.442265",
-    "output_file": "FlemingMichel_Sensory_Horizons_v3.json",
-    "paper_title": "FlemingMichel_Sensory Horizons_v3"
+    "processed_at": "2025-09-04T09:42:57.395424",
+    "output_file": "Sensory_Horizons_and_the_Functions_of_Conscious_Vision.json",
+    "paper_title": "Sensory Horizons and the Functions of Conscious Vision"
   },
   "fnhum-08-00020 (3).pdf": {
     "file_hash": "1a53efebea738d9fcadb843975f1e421",
@@ -145,20 +145,44 @@
   },
   "3601.full.pdf": {
     "file_hash": "322428d58fca655ca6d1d4cb045919fc",
-    "processed_at": "2025-09-03T20:26:37.738204",
+    "processed_at": "2025-09-04T09:59:15.014387",
     "output_file": "3601full.json",
     "paper_title": "3601.full"
   },
   "Convergent_Effects_of_Different_Anesthetics_2025.pdf": {
     "file_hash": "a1e93bf379fca347e66642c4d6d02631",
-    "processed_at": "2025-09-03T20:27:01.229898",
-    "output_file": "Convergent_Effects_of_Different_Anesthetics_2025.json",
-    "paper_title": "Convergent_Effects_of_Different_Anesthetics_2025"
+    "processed_at": "2025-09-04T10:01:27.011288",
+    "output_file": "Convergent_effects_of_different_anesthetics_on_changes_in_phase_alignment_of_cortical_oscillations.json",
+    "paper_title": "Convergent effects of different anesthetics on changes in phase alignment of cortical oscillations"
   },
   "reasoning_models_paper.pdf": {
     "file_hash": "fcec73345a285508b86b6ee4e3556452",
     "processed_at": "2025-09-03T20:29:08.967084",
     "output_file": "Reasoning_Models_Don\u2019t_Always_Say_What_They_Think.json",
     "paper_title": "Reasoning Models Don\u2019t Always Say What They Think"
+  },
+  "2411.00986v1.pdf": {
+    "file_hash": "8c8406ccc941be2d56cbbb846a5a9725",
+    "processed_at": "2025-09-04T09:39:31.542764",
+    "output_file": "Taking_AI_Welfare_Seriously.json",
+    "paper_title": "Taking AI Welfare Seriously"
+  },
+  "s41467-024-49173-5 (1).pdf": {
+    "file_hash": "adf86b64f0c4929308f7150437acb360",
+    "processed_at": "2025-09-04T09:47:42.414060",
+    "output_file": "Shared_functional_specialization_in_transformer-based_language_models_and_the_human_brain.json",
+    "paper_title": "Shared functional specialization in transformer-based language models and the human brain"
+  },
+  "2025.findings-acl.55.pdf": {
+    "file_hash": "b0a8984c912df21319608280f8cefd07",
+    "processed_at": "2025-09-04T09:49:19.022838",
+    "output_file": "2025findings-acl55.json",
+    "paper_title": "2025.findings-acl.55"
+  },
+  "Principles-for-Conscious-AI.pdf": {
+    "file_hash": "b9f14d40cdfae09c3b95a93de0f63654",
+    "processed_at": "2025-09-04T10:05:42.887478",
+    "output_file": "Principles-for-Conscious-AI.json",
+    "paper_title": "Principles-for-Conscious-AI"
   }
 }

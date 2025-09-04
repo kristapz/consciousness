@@ -1,0 +1,148 @@
+{
+  "paper_metadata": {
+    "title": "Microtubule-Stabilizer Epothilone B Delays Anesthetic-Induced Unconsciousness in Rats",
+    "authors": [
+      "Khan S.",
+      "Huang Y.",
+      "B. S.",
+      "L. S.",
+      "L. J.",
+      "G. E.",
+      "M. J.",
+      "Z. M.",
+      "A. B.",
+      "Z. X.",
+      "Wiest M. C."
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "https://doi.org/10.1523/ENEURO.0291-24.2024",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "rat",
+      "brief_mechanism": "Stabilizing microtubules with epothilone B increased the latency to isoflurane-induced loss of righting response.",
+      "method": "behavior (loss-of-righting response), pharmacological manipulation (epothilone B), blinded within-subject design, estimation graphics/statistics",
+      "state": "anesthesia",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Results",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Average LORR latency increased after epoB injection... Figure 1 shows the average pre- and post-epoB LORR latencies (±SE) for each rat. Seven of the eight rats exhibited increased average LORR latencies in the epoB condition.",
+          "interpretation": "Blinded, within-subject pharmacological stabilization of microtubules (epoB) causally increased time-to-unconsciousness (LORR), directly supporting a manipulable substrate that modulates the anesthesia-induced state change relevant to consciousness science in the brain ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Results",
+          "section_type": "Results",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "This is not enough to plausibly account for the 69 s average LORR latency increase we observed in the post-epoB period as compared with the pre-epoB period.",
+          "interpretation": "Control analyses argue that tolerance cannot explain the observed 69 s increase, strengthening the causal link between MT stabilization and delayed loss of consciousness under isoflurane ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Introduction",
+          "section_type": "Introduction",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "In order to quantitatively assess the functional relevance of MTs as one of the anesthetic targets contributing to loss of consciousness, we administered the MT-stabilizing drug epothilone B (epoB) to a group of rats and compared their times to fall unconscious under isoflurane anesthesia before and after epoB treatment.",
+          "interpretation": "The study was explicitly designed to test whether manipulating microtubules changes access to the anesthetic-induced unconscious state, aligning with causal-intervention approaches in consciousness research ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 1",
+          "page": 4,
+          "caption_quote": "Figure 1. Average LORR latency for each rat in anesthesia sessions before and after epoB injection. Seven of eight rats show higher average LORR latency in the post-epoB injection condition.",
+          "interpretation_short": "Per-rat data show epoB-associated increases in LORR latency, visualizing the intervention’s causal impact on the anesthesia-induced transition ."
+        },
+        {
+          "figure_label": "Figure 2",
+          "page": 5,
+          "caption_quote": "Figure 2. Average LORR latency increased after epoB injection... The average LORR latency is 69 s higher in the post-epoB condition as compared with the pre-epoB average, and this difference is statistically significant...",
+          "interpretation_short": "Estimation plot quantifies a significant 69 s increase in time to LORR after MT stabilization, evidencing causal control over the unconsciousness boundary ."
+        }
+      ],
+      "table_refs": [
+        {
+          "table_label": "Table 1",
+          "page": 4,
+          "caption_quote": "Table 1. Numbers of anesthesia sessions in our main data set in the pre-epoB and post-epoB conditions"
+        },
+        {
+          "table_label": "Table 2",
+          "page": 5,
+          "caption_quote": "Table 2. Statistical table showing confidence intervals on the mean difference between conditions for each comparison (p value) reported in the text"
+        }
+      ],
+      "limitations": "Outcome is a behavioral proxy (LORR) rather than a direct neural readout; emergence latencies were too variable to interpret due to injection timing; tolerance/interval effects required modeling and auxiliary cohorts to rule out as confounds ."
+    },
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "rat",
+      "brief_mechanism": "Quantified onset timing of the anesthesia-induced transition to unconsciousness (LORR) and its modulation across sessions and conditions.",
+      "method": "behavioral state assay (LORR), longitudinal session-wise analysis, linear fits of latency time courses",
+      "state": "anesthesia",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Results",
+          "section_type": "Results",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "Based on linear fits (solid lines), LORR latencies decreased on average by 1.3 s/d for the pre-epoB experiments (A) and increased by 4.5 s/d for the post-epoB sessions (B), 0.97 s/d for the tolerance group (C), and 4.5 s/d for the tolerance group after a 41 d pause in anesthesia sessions (D).",
+          "interpretation": "Session-wise dynamics quantify how the timing of the conscious-to-unconscious transition shifts under different conditions, highlighting abrupt, controllable state boundary properties relevant to state transition analyses in consciousness research ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 3",
+          "page": 5,
+          "caption_quote": "Figure 3. LORR latency time courses, for pre-epoB sessions (A), post-epoB sessions (B) for the main experimental group... and for another group of four “tolerance” rats not exposed to epoB (C,D).",
+          "interpretation_short": "Time-course plots display how the onset of unconsciousness varies across regimes (pre/post-epoB and tolerance), consistent with modulated state transition dynamics under anesthesia ."
+        }
+      ],
+      "table_refs": [
+        {
+          "table_label": "Table 3",
+          "page": 6,
+          "caption_quote": "Table 3. Linear estimates of tolerance development due to repeated anesthesia sessions, in the main experimental group before and after epoB injection, and the tolerance group before and after a 41 d pause in anesthesia sessions"
+        }
+      ],
+      "limitations": "LORR marks a behavioral state switch without direct neural signatures (e.g., P3b/ignition, oscillatory markers), and timing is at seconds scale, limiting inferences about rapid neural state transitions."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T09:51:51.623399",
+    "model_used": "gpt-5",
+    "pdf_filename": "ENEURO.0291-24.2024.full.pdf",
+    "vector_store_id": "vs_68b9c30f30948191958c89ccf4c706aa",
+    "file_id": "file-V6Qnn96RC9zV2gsp1XgVtE",
+    "content_length": null
+  }
+}

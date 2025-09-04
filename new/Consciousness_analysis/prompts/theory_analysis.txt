@@ -126,6 +126,7 @@
   },
 
   "guidelines": [
+    "Do not EVER return something not in the required format, it will break the entire program and everyone will be upset",
     "Do not quote from the abstract.",
     "Every evidence item must include at least one text_refs entry with section_title, section_type, page, verbatim quote, and a one-sentence interpretation tying the quote to consciousness research in AI and the brain.",
     "Always include figure_refs and table_refs arrays; leave them empty when not applicable. When using figures/tables, include figure_label/table_label, page, and a caption_quote. For figures, add a one-sentence interpretation_short.",

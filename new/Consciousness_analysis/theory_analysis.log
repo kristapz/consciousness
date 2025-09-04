@@ -2128,3 +2128,1866 @@ openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reach
 2025-09-03 20:34:17,548 | INFO    | Paper fnhum-17-1342634 (3).pdf already processed as Editorial_Electromagnetic_field_theories_of_consciousness_opportunities_and_obstacles.json
 2025-09-03 20:34:17,548 | INFO    | Skipping fnhum-17-1342634 (3).pdf - already processed
 2025-09-03 20:34:17,549 | INFO    | Paper fnhum-17-1342634 (3).pdf already processed as Editorial_Electromagnetic_field_theories_of_consciousness_opportunities_and_obstacles.json
+2025-09-04 09:37:16,483 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 09:37:16,511 | INFO    | 
+============================================================
+2025-09-04 09:37:16,511 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 09:37:16,511 | INFO    | ============================================================
+2025-09-04 09:37:16,513 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:37:16,513 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 09:37:16,514 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:37:16,514 | INFO    | 
+============================================================
+2025-09-04 09:37:16,514 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 09:37:16,514 | INFO    | ============================================================
+2025-09-04 09:37:16,528 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:37:16,529 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 09:37:16,541 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:37:16,542 | INFO    | 
+============================================================
+2025-09-04 09:37:16,542 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 09:37:16,542 | INFO    | ============================================================
+2025-09-04 09:37:16,557 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:37:16,557 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 09:37:16,570 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:37:16,570 | INFO    | 
+============================================================
+2025-09-04 09:37:16,570 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 09:37:16,570 | INFO    | ============================================================
+2025-09-04 09:37:16,576 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:37:16,576 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 09:37:16,581 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:37:16,581 | INFO    | 
+============================================================
+2025-09-04 09:37:16,581 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 09:37:16,581 | INFO    | ============================================================
+2025-09-04 09:37:16,585 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:37:16,585 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 09:37:16,589 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:37:16,589 | INFO    | 
+============================================================
+2025-09-04 09:37:16,589 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 09:37:16,589 | INFO    | ============================================================
+2025-09-04 09:37:16,594 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:37:16,594 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 09:37:16,598 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:37:16,598 | INFO    | 
+============================================================
+2025-09-04 09:37:16,598 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 09:37:16,598 | INFO    | ============================================================
+2025-09-04 09:37:16,600 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:37:16,600 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 09:37:16,601 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:37:16,601 | INFO    | 
+============================================================
+2025-09-04 09:37:16,601 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 09:37:16,601 | INFO    | ============================================================
+2025-09-04 09:37:16,601 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:37:17,532 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:37:17,540 | INFO    | [VS] created | id=vs_68b9c03d4e2881919431892cc5a796db
+2025-09-04 09:37:17,540 | INFO    | [UPLOAD] 2411.00986v1.pdf | size=0.75 MB
+2025-09-04 09:37:20,300 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:37:20,304 | INFO    | [UPLOAD] 2411.00986v1.pdf | file_id=file-2fLHAzqMsmh7oEXkCnv5dv | 2.76s
+2025-09-04 09:37:21,290 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c03d4e2881919431892cc5a796db/files "HTTP/1.1 200 OK"
+2025-09-04 09:37:21,292 | INFO    | [VS-ADD] file_id=file-2fLHAzqMsmh7oEXkCnv5dv -> vs=vs_68b9c03d4e2881919431892cc5a796db | 0.99s
+2025-09-04 09:37:24,298 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:39:31,471 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:39:31,538 | INFO    | [ANALYZE] done | 127.24s
+2025-09-04 09:39:31,539 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Taking_AI_Welfare_Seriously.json
+2025-09-04 09:39:31,543 | INFO    | 
+============================================================
+2025-09-04 09:39:31,543 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 09:39:31,543 | INFO    | ============================================================
+2025-09-04 09:39:31,544 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:39:31,879 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:39:31,882 | INFO    | [VS] created | id=vs_68b9c0c3aeec81919f95f8484daee752
+2025-09-04 09:39:31,882 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 09:39:33,620 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:39:33,622 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-EEFnd8GP5gJf7CZ9n19VTu | 1.74s
+2025-09-04 09:39:34,234 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c0c3aeec81919f95f8484daee752/files "HTTP/1.1 200 OK"
+2025-09-04 09:39:34,237 | INFO    | [VS-ADD] file_id=file-EEFnd8GP5gJf7CZ9n19VTu -> vs=vs_68b9c0c3aeec81919f95f8484daee752 | 0.61s
+2025-09-04 09:39:37,242 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:39:38,535 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:39:38,537 | INFO    | Retrying request to /responses in 0.424040 seconds
+2025-09-04 09:39:40,071 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:39:40,072 | INFO    | Retrying request to /responses in 0.954365 seconds
+2025-09-04 09:39:41,504 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:39:41,507 | ERROR   | [ERROR] Principles-for-Conscious-AI.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:39:41,527 | INFO    | 
+============================================================
+2025-09-04 09:39:41,527 | INFO    | Starting analysis of: s41467-024-46438-x.pdf
+2025-09-04 09:39:41,527 | INFO    | ============================================================
+2025-09-04 09:39:41,554 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:39:41,554 | INFO    | Skipping s41467-024-46438-x.pdf - already processed
+2025-09-04 09:39:41,574 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:39:41,574 | INFO    | 
+============================================================
+2025-09-04 09:39:41,574 | INFO    | Starting analysis of: 3601.full.pdf
+2025-09-04 09:39:41,574 | INFO    | ============================================================
+2025-09-04 09:39:41,582 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:39:41,865 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:39:41,868 | INFO    | [VS] created | id=vs_68b9c0cdba3c8191a829fda6af7a0ed8
+2025-09-04 09:39:41,869 | INFO    | [UPLOAD] 3601.full.pdf | size=2.46 MB
+2025-09-04 09:39:46,317 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:39:46,320 | INFO    | [UPLOAD] 3601.full.pdf | file_id=file-Bsg6nSAaBR22N9kv6Rxiw4 | 4.45s
+2025-09-04 09:39:47,138 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c0cdba3c8191a829fda6af7a0ed8/files "HTTP/1.1 200 OK"
+2025-09-04 09:39:47,142 | INFO    | [VS-ADD] file_id=file-Bsg6nSAaBR22N9kv6Rxiw4 -> vs=vs_68b9c0cdba3c8191a829fda6af7a0ed8 | 0.82s
+2025-09-04 09:39:50,147 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:39:50,618 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:39:50,620 | INFO    | Retrying request to /responses in 0.440478 seconds
+2025-09-04 09:39:52,052 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:39:52,053 | INFO    | Retrying request to /responses in 0.788842 seconds
+2025-09-04 09:39:53,282 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:39:53,284 | ERROR   | [ERROR] 3601.full.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:39:53,302 | INFO    | 
+============================================================
+2025-09-04 09:39:53,302 | INFO    | Starting analysis of: bhad251 (1) (1).pdf
+2025-09-04 09:39:53,302 | INFO    | ============================================================
+2025-09-04 09:39:53,311 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:39:53,311 | INFO    | Skipping bhad251 (1) (1).pdf - already processed
+2025-09-04 09:39:53,318 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:39:53,318 | INFO    | 
+============================================================
+2025-09-04 09:39:53,318 | INFO    | Starting analysis of: Convergent_Effects_of_Different_Anesthetics_2025.pdf
+2025-09-04 09:39:53,318 | INFO    | ============================================================
+2025-09-04 09:39:53,329 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:39:53,638 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:39:53,641 | INFO    | [VS] created | id=vs_68b9c0d978588191adddb81b0d1fe2c0
+2025-09-04 09:39:53,642 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | size=2.71 MB
+2025-09-04 09:39:56,863 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:39:56,865 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | file_id=file-579mmWmouXjUc4L34ZRum4 | 3.22s
+2025-09-04 09:39:57,479 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c0d978588191adddb81b0d1fe2c0/files "HTTP/1.1 200 OK"
+2025-09-04 09:39:57,482 | INFO    | [VS-ADD] file_id=file-579mmWmouXjUc4L34ZRum4 -> vs=vs_68b9c0d978588191adddb81b0d1fe2c0 | 0.62s
+2025-09-04 09:40:00,484 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:40:01,164 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:01,165 | INFO    | Retrying request to /responses in 0.457277 seconds
+2025-09-04 09:40:02,291 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:02,293 | INFO    | Retrying request to /responses in 0.918854 seconds
+2025-09-04 09:40:04,339 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:04,341 | ERROR   | [ERROR] Convergent_Effects_of_Different_Anesthetics_2025.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:40:04,358 | INFO    | 
+============================================================
+2025-09-04 09:40:04,359 | INFO    | Starting analysis of: Clinical_Review_2024.pdf
+2025-09-04 09:40:04,359 | INFO    | ============================================================
+2025-09-04 09:40:04,387 | INFO    | Paper Clinical_Review_2024.pdf already processed as Transcranial_ultrasound_neuromodulation_and_fMRI_(systematic_review;_Brain_Stimulation_17_(2024)_734.json
+2025-09-04 09:40:04,387 | INFO    | Skipping Clinical_Review_2024.pdf - already processed
+2025-09-04 09:40:04,407 | INFO    | Paper Clinical_Review_2024.pdf already processed as Transcranial_ultrasound_neuromodulation_and_fMRI_(systematic_review;_Brain_Stimulation_17_(2024)_734.json
+2025-09-04 09:40:04,407 | INFO    | 
+============================================================
+2025-09-04 09:40:04,407 | INFO    | Starting analysis of: reasoning_models_paper.pdf
+2025-09-04 09:40:04,407 | INFO    | ============================================================
+2025-09-04 09:40:04,426 | INFO    | Paper reasoning_models_paper.pdf already processed as Reasoning_Models_Don’t_Always_Say_What_They_Think.json
+2025-09-04 09:40:04,426 | INFO    | Skipping reasoning_models_paper.pdf - already processed
+2025-09-04 09:40:04,441 | INFO    | Paper reasoning_models_paper.pdf already processed as Reasoning_Models_Don’t_Always_Say_What_They_Think.json
+2025-09-04 09:40:04,441 | INFO    | 
+============================================================
+2025-09-04 09:40:04,441 | INFO    | Starting analysis of: 2025.findings-acl.55.pdf
+2025-09-04 09:40:04,441 | INFO    | ============================================================
+2025-09-04 09:40:04,442 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:40:04,851 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:40:04,855 | INFO    | [VS] created | id=vs_68b9c0e49e808191bbcacea9eded087f
+2025-09-04 09:40:04,855 | INFO    | [UPLOAD] 2025.findings-acl.55.pdf | size=6.29 MB
+2025-09-04 09:40:08,948 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:08,951 | INFO    | [UPLOAD] 2025.findings-acl.55.pdf | file_id=file-8tVsEy2AmpbWM8TPvCJdJM | 4.10s
+2025-09-04 09:40:09,562 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c0e49e808191bbcacea9eded087f/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:09,565 | INFO    | [VS-ADD] file_id=file-8tVsEy2AmpbWM8TPvCJdJM -> vs=vs_68b9c0e49e808191bbcacea9eded087f | 0.61s
+2025-09-04 09:40:12,570 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:40:13,349 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:13,351 | INFO    | Retrying request to /responses in 0.376816 seconds
+2025-09-04 09:40:14,477 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:14,478 | INFO    | Retrying request to /responses in 0.941131 seconds
+2025-09-04 09:40:15,975 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:15,977 | ERROR   | [ERROR] 2025.findings-acl.55.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:40:15,978 | INFO    | 
+============================================================
+2025-09-04 09:40:15,979 | INFO    | Starting analysis of: 1-s2.0-S1053811922001872-main.pdf
+2025-09-04 09:40:15,979 | INFO    | ============================================================
+2025-09-04 09:40:15,999 | INFO    | Paper 1-s2.0-S1053811922001872-main.pdf already processed as Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json
+2025-09-04 09:40:15,999 | INFO    | Skipping 1-s2.0-S1053811922001872-main.pdf - already processed
+2025-09-04 09:40:16,013 | INFO    | Paper 1-s2.0-S1053811922001872-main.pdf already processed as Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json
+2025-09-04 09:40:16,013 | INFO    | 
+============================================================
+2025-09-04 09:40:16,013 | INFO    | Starting analysis of: 2507.08517v1 (1).pdf
+2025-09-04 09:40:16,014 | INFO    | ============================================================
+2025-09-04 09:40:16,018 | INFO    | Paper 2507.08517v1 (1).pdf already processed as A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json
+2025-09-04 09:40:16,018 | INFO    | Skipping 2507.08517v1 (1).pdf - already processed
+2025-09-04 09:40:16,021 | INFO    | Paper 2507.08517v1 (1).pdf already processed as A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json
+2025-09-04 09:40:16,021 | INFO    | 
+============================================================
+2025-09-04 09:40:16,021 | INFO    | Starting analysis of: consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf
+2025-09-04 09:40:16,021 | INFO    | ============================================================
+2025-09-04 09:40:16,026 | INFO    | Paper consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf already processed as Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json
+2025-09-04 09:40:16,026 | INFO    | Skipping consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf - already processed
+2025-09-04 09:40:16,030 | INFO    | Paper consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf already processed as Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json
+2025-09-04 09:40:16,030 | INFO    | 
+============================================================
+2025-09-04 09:40:16,030 | INFO    | Starting analysis of: ENEURO.0291-24.2024.full.pdf
+2025-09-04 09:40:16,030 | INFO    | ============================================================
+2025-09-04 09:40:16,033 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:40:16,423 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:40:16,426 | INFO    | [VS] created | id=vs_68b9c0f02e448191bce81c5ddcc5d5b4
+2025-09-04 09:40:16,426 | INFO    | [UPLOAD] ENEURO.0291-24.2024.full.pdf | size=0.79 MB
+2025-09-04 09:40:17,533 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:17,536 | INFO    | [UPLOAD] ENEURO.0291-24.2024.full.pdf | file_id=file-68hMuF4yEthVBLpgCp7T5M | 1.11s
+2025-09-04 09:40:18,264 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c0f02e448191bce81c5ddcc5d5b4/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:18,265 | INFO    | [VS-ADD] file_id=file-68hMuF4yEthVBLpgCp7T5M -> vs=vs_68b9c0f02e448191bce81c5ddcc5d5b4 | 0.73s
+2025-09-04 09:40:21,271 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:40:21,850 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:21,852 | INFO    | Retrying request to /responses in 0.488329 seconds
+2025-09-04 09:40:22,873 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:22,875 | INFO    | Retrying request to /responses in 0.940496 seconds
+2025-09-04 09:40:24,512 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:24,514 | ERROR   | [ERROR] ENEURO.0291-24.2024.full.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:40:24,521 | INFO    | 
+============================================================
+2025-09-04 09:40:24,522 | INFO    | Starting analysis of: nol-5-1-43.pdf
+2025-09-04 09:40:24,522 | INFO    | ============================================================
+2025-09-04 09:40:24,522 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:40:25,026 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:40:25,029 | INFO    | [VS] created | id=vs_68b9c0f8a950819183fe5abac3c52fe2
+2025-09-04 09:40:25,030 | INFO    | [UPLOAD] nol-5-1-43.pdf | size=0.96 MB
+2025-09-04 09:40:25,953 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:25,955 | INFO    | [UPLOAD] nol-5-1-43.pdf | file_id=file-E8L3w2eCHZ1nHeZUzR27PX | 0.93s
+2025-09-04 09:40:26,575 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c0f8a950819183fe5abac3c52fe2/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:26,578 | INFO    | [VS-ADD] file_id=file-E8L3w2eCHZ1nHeZUzR27PX -> vs=vs_68b9c0f8a950819183fe5abac3c52fe2 | 0.62s
+2025-09-04 09:40:29,584 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:40:30,870 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:30,872 | INFO    | Retrying request to /responses in 0.397144 seconds
+2025-09-04 09:40:31,884 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:31,886 | INFO    | Retrying request to /responses in 0.955807 seconds
+2025-09-04 09:40:33,523 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:33,525 | ERROR   | [ERROR] nol-5-1-43.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:40:33,526 | INFO    | 
+============================================================
+2025-09-04 09:40:33,526 | INFO    | Starting analysis of: 2505.20364v1 (1) (1).pdf
+2025-09-04 09:40:33,526 | INFO    | ============================================================
+2025-09-04 09:40:33,537 | INFO    | Paper 2505.20364v1 (1) (1).pdf already processed as On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json
+2025-09-04 09:40:33,537 | INFO    | Skipping 2505.20364v1 (1) (1).pdf - already processed
+2025-09-04 09:40:33,545 | INFO    | Paper 2505.20364v1 (1) (1).pdf already processed as On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json
+2025-09-04 09:40:33,545 | INFO    | 
+============================================================
+2025-09-04 09:40:33,545 | INFO    | Starting analysis of: schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf
+2025-09-04 09:40:33,545 | INFO    | ============================================================
+2025-09-04 09:40:33,545 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:40:33,934 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:40:33,937 | INFO    | [VS] created | id=vs_68b9c101af448191b2d178cf6c669f00
+2025-09-04 09:40:33,937 | INFO    | [UPLOAD] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf | size=1.28 MB
+2025-09-04 09:40:35,469 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:35,472 | INFO    | [UPLOAD] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf | file_id=file-QCVk8Ww4B2tXZusyF4jmxt | 1.53s
+2025-09-04 09:40:35,989 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c101af448191b2d178cf6c669f00/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:35,991 | INFO    | [VS-ADD] file_id=file-QCVk8Ww4B2tXZusyF4jmxt -> vs=vs_68b9c101af448191b2d178cf6c669f00 | 0.52s
+2025-09-04 09:40:38,996 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:40:39,565 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:39,567 | INFO    | Retrying request to /responses in 0.439282 seconds
+2025-09-04 09:40:40,711 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:40,712 | INFO    | Retrying request to /responses in 0.867955 seconds
+2025-09-04 09:40:42,133 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:40:42,136 | ERROR   | [ERROR] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 29528, Requested 3252. Please try again in 5.56s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:40:42,138 | INFO    | 
+============================================================
+2025-09-04 09:40:42,138 | INFO    | Starting analysis of: FlemingMichel_Sensory Horizons_v3.pdf
+2025-09-04 09:40:42,138 | INFO    | ============================================================
+2025-09-04 09:40:42,158 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:40:42,435 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:40:42,438 | INFO    | [VS] created | id=vs_68b9c10a4a7481918225fc3b86a881cc
+2025-09-04 09:40:42,438 | INFO    | [UPLOAD] FlemingMichel_Sensory Horizons_v3.pdf | size=2.93 MB
+2025-09-04 09:40:45,402 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:45,405 | INFO    | [UPLOAD] FlemingMichel_Sensory Horizons_v3.pdf | file_id=file-HU26MTz4TzQxxbhBkH5HZa | 2.97s
+2025-09-04 09:40:45,955 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c10a4a7481918225fc3b86a881cc/files "HTTP/1.1 200 OK"
+2025-09-04 09:40:45,957 | INFO    | [VS-ADD] file_id=file-HU26MTz4TzQxxbhBkH5HZa -> vs=vs_68b9c10a4a7481918225fc3b86a881cc | 0.55s
+2025-09-04 09:40:48,962 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:42:57,298 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:42:57,373 | INFO    | [ANALYZE] done | 128.41s
+2025-09-04 09:42:57,376 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Sensory_Horizons_and_the_Functions_of_Conscious_Vision.json
+2025-09-04 09:42:57,396 | INFO    | 
+============================================================
+2025-09-04 09:42:57,397 | INFO    | Starting analysis of: fnhum-08-00020 (3).pdf
+2025-09-04 09:42:57,397 | INFO    | ============================================================
+2025-09-04 09:42:57,412 | INFO    | Paper fnhum-08-00020 (3).pdf already processed as The_entropic_brain_a_theory_of_conscious_states_informed_by_neuroimaging_research_with_psychedelic_d.json
+2025-09-04 09:42:57,412 | INFO    | Skipping fnhum-08-00020 (3).pdf - already processed
+2025-09-04 09:42:57,424 | INFO    | Paper fnhum-08-00020 (3).pdf already processed as The_entropic_brain_a_theory_of_conscious_states_informed_by_neuroimaging_research_with_psychedelic_d.json
+2025-09-04 09:42:57,424 | INFO    | 
+============================================================
+2025-09-04 09:42:57,425 | INFO    | Starting analysis of: s41467-024-49173-5 (1).pdf
+2025-09-04 09:42:57,425 | INFO    | ============================================================
+2025-09-04 09:42:57,425 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:42:58,317 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:42:58,321 | INFO    | [VS] created | id=vs_68b9c1918f508191acc17d33677ab65b
+2025-09-04 09:42:58,322 | INFO    | [UPLOAD] s41467-024-49173-5 (1).pdf | size=5.43 MB
+2025-09-04 09:43:02,516 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:43:02,519 | INFO    | [UPLOAD] s41467-024-49173-5 (1).pdf | file_id=file-KbiAj94BjFw9hGik4p83UC | 4.20s
+2025-09-04 09:43:03,132 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c1918f508191acc17d33677ab65b/files "HTTP/1.1 200 OK"
+2025-09-04 09:43:03,135 | INFO    | [VS-ADD] file_id=file-KbiAj94BjFw9hGik4p83UC -> vs=vs_68b9c1918f508191acc17d33677ab65b | 0.62s
+2025-09-04 09:43:06,136 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:43:06,713 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:43:06,715 | INFO    | Retrying request to /responses in 0.405460 seconds
+2025-09-04 09:44:30,682 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 500 Internal Server Error"
+2025-09-04 09:44:30,694 | INFO    | Retrying request to /responses in 0.762643 seconds
+2025-09-04 09:47:42,376 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:47:42,382 | INFO    | [ANALYZE] done | 276.25s
+2025-09-04 09:47:42,385 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Shared_functional_specialization_in_transformer-based_language_models_and_the_human_brain.json
+2025-09-04 09:47:42,415 | INFO    | 
+============================================================
+2025-09-04 09:47:42,415 | INFO    | Starting analysis of: 2503.16348v3.pdf
+2025-09-04 09:47:42,415 | INFO    | ============================================================
+2025-09-04 09:47:42,417 | INFO    | Paper 2503.16348v3.pdf already processed as Palatable_Conceptions_of_Disembodied_Being.json
+2025-09-04 09:47:42,417 | INFO    | Skipping 2503.16348v3.pdf - already processed
+2025-09-04 09:47:42,419 | INFO    | Paper 2503.16348v3.pdf already processed as Palatable_Conceptions_of_Disembodied_Being.json
+2025-09-04 09:47:42,419 | INFO    | 
+============================================================
+2025-09-04 09:47:42,419 | INFO    | Starting analysis of: NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf
+2025-09-04 09:47:42,419 | INFO    | ============================================================
+2025-09-04 09:47:42,419 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:47:42,785 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:47:42,787 | INFO    | [VS] created | id=vs_68b9c2ae8e3481918921929069146a77
+2025-09-04 09:47:42,788 | INFO    | [UPLOAD] NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf | size=6.49 MB
+2025-09-04 09:47:46,676 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:47:46,679 | INFO    | [UPLOAD] NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf | file_id=file-XBoMeGjNWaugtXLs6MXXJe | 3.89s
+2025-09-04 09:47:47,290 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2ae8e3481918921929069146a77/files "HTTP/1.1 200 OK"
+2025-09-04 09:47:47,293 | INFO    | [VS-ADD] file_id=file-XBoMeGjNWaugtXLs6MXXJe -> vs=vs_68b9c2ae8e3481918921929069146a77 | 0.61s
+2025-09-04 09:47:50,295 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:47:51,079 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:47:51,081 | INFO    | Retrying request to /responses in 0.396074 seconds
+2025-09-04 09:47:52,043 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:47:52,045 | INFO    | Retrying request to /responses in 0.840847 seconds
+2025-09-04 09:47:53,435 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:47:53,437 | ERROR   | [ERROR] NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:47:53,439 | INFO    | 
+============================================================
+2025-09-04 09:47:53,440 | INFO    | Starting analysis of: s42003-022-03036-1.pdf
+2025-09-04 09:47:53,440 | INFO    | ============================================================
+2025-09-04 09:47:53,440 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:47:53,742 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:47:53,745 | INFO    | [VS] created | id=vs_68b9c2b9944c8191ac80481f952fedb0
+2025-09-04 09:47:53,745 | INFO    | [UPLOAD] s42003-022-03036-1.pdf | size=4.05 MB
+2025-09-04 09:47:56,664 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:47:56,667 | INFO    | [UPLOAD] s42003-022-03036-1.pdf | file_id=file-51pAstcffkRJSQS7UQa1qC | 2.92s
+2025-09-04 09:47:57,223 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2b9944c8191ac80481f952fedb0/files "HTTP/1.1 200 OK"
+2025-09-04 09:47:57,225 | INFO    | [VS-ADD] file_id=file-51pAstcffkRJSQS7UQa1qC -> vs=vs_68b9c2b9944c8191ac80481f952fedb0 | 0.56s
+2025-09-04 09:48:00,230 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:48:01,168 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:01,168 | INFO    | Retrying request to /responses in 0.428408 seconds
+2025-09-04 09:48:03,265 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:03,266 | INFO    | Retrying request to /responses in 0.822862 seconds
+2025-09-04 09:48:04,596 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:04,598 | ERROR   | [ERROR] s42003-022-03036-1.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:48:04,599 | INFO    | 
+============================================================
+2025-09-04 09:48:04,599 | INFO    | Starting analysis of: cahn2013.pdf
+2025-09-04 09:48:04,600 | INFO    | ============================================================
+2025-09-04 09:48:04,608 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:48:05,009 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:48:05,011 | INFO    | [VS] created | id=vs_68b9c2c4bed481919d9079205ba64e2e
+2025-09-04 09:48:05,011 | INFO    | [UPLOAD] cahn2013.pdf | size=0.97 MB
+2025-09-04 09:48:06,077 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:06,080 | INFO    | [UPLOAD] cahn2013.pdf | file_id=file-Et1x7G2HwYSR4N5oNuBq3g | 1.07s
+2025-09-04 09:48:06,649 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2c4bed481919d9079205ba64e2e/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:06,652 | INFO    | [VS-ADD] file_id=file-Et1x7G2HwYSR4N5oNuBq3g -> vs=vs_68b9c2c4bed481919d9079205ba64e2e | 0.57s
+2025-09-04 09:48:09,654 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:48:10,064 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:10,066 | INFO    | Retrying request to /responses in 0.440382 seconds
+2025-09-04 09:48:11,251 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:11,252 | INFO    | Retrying request to /responses in 0.860078 seconds
+2025-09-04 09:48:12,788 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:12,790 | ERROR   | [ERROR] cahn2013.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:48:12,797 | INFO    | 
+============================================================
+2025-09-04 09:48:12,797 | INFO    | Starting analysis of: fpsyg-04-00688 (1).pdf
+2025-09-04 09:48:12,797 | INFO    | ============================================================
+2025-09-04 09:48:12,801 | INFO    | Paper fpsyg-04-00688 (1).pdf already processed as Meditation_and_neurofeedback.json
+2025-09-04 09:48:12,801 | INFO    | Skipping fpsyg-04-00688 (1).pdf - already processed
+2025-09-04 09:48:12,803 | INFO    | Paper fpsyg-04-00688 (1).pdf already processed as Meditation_and_neurofeedback.json
+2025-09-04 09:48:12,803 | INFO    | 
+============================================================
+2025-09-04 09:48:12,803 | INFO    | Starting analysis of: entropy-25-00129-v2.pdf
+2025-09-04 09:48:12,803 | INFO    | ============================================================
+2025-09-04 09:48:12,824 | INFO    | Paper entropy-25-00129-v2.pdf already processed as Fusions_of_Consciousness.json
+2025-09-04 09:48:12,824 | INFO    | Skipping entropy-25-00129-v2.pdf - already processed
+2025-09-04 09:48:12,840 | INFO    | Paper entropy-25-00129-v2.pdf already processed as Fusions_of_Consciousness.json
+2025-09-04 09:48:12,840 | INFO    | 
+============================================================
+2025-09-04 09:48:12,840 | INFO    | Starting analysis of: Claude 4 System Card.pdf
+2025-09-04 09:48:12,840 | INFO    | ============================================================
+2025-09-04 09:48:12,856 | INFO    | Paper Claude 4 System Card.pdf already processed as Claude_4_System_Card.json
+2025-09-04 09:48:12,856 | INFO    | Skipping Claude 4 System Card.pdf - already processed
+2025-09-04 09:48:12,869 | INFO    | Paper Claude 4 System Card.pdf already processed as Claude_4_System_Card.json
+2025-09-04 09:48:12,869 | INFO    | 
+============================================================
+2025-09-04 09:48:12,869 | INFO    | Starting analysis of: 20250127_Key_Concepts_and_Current_Views_on_AI_Welfare.pdf
+2025-09-04 09:48:12,869 | INFO    | ============================================================
+2025-09-04 09:48:12,869 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:48:13,171 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:48:13,173 | INFO    | [VS] created | id=vs_68b9c2ccffa48191b309250d08f080a6
+2025-09-04 09:48:13,174 | INFO    | [UPLOAD] 20250127_Key_Concepts_and_Current_Views_on_AI_Welfare.pdf | size=0.24 MB
+2025-09-04 09:48:14,119 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:14,122 | INFO    | [UPLOAD] 20250127_Key_Concepts_and_Current_Views_on_AI_Welfare.pdf | file_id=file-UDQ9xYG95jrEBpkwWJKFBL | 0.95s
+2025-09-04 09:48:14,668 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2ccffa48191b309250d08f080a6/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:14,670 | INFO    | [VS-ADD] file_id=file-UDQ9xYG95jrEBpkwWJKFBL -> vs=vs_68b9c2ccffa48191b309250d08f080a6 | 0.55s
+2025-09-04 09:48:17,671 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:48:18,214 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:18,215 | INFO    | Retrying request to /responses in 0.411375 seconds
+2025-09-04 09:48:19,033 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:19,035 | INFO    | Retrying request to /responses in 0.905741 seconds
+2025-09-04 09:48:20,569 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:20,570 | ERROR   | [ERROR] 20250127_Key_Concepts_and_Current_Views_on_AI_Welfare.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:48:20,572 | INFO    | 
+============================================================
+2025-09-04 09:48:20,572 | INFO    | Starting analysis of: fnhum-17-1342634 (3).pdf
+2025-09-04 09:48:20,572 | INFO    | ============================================================
+2025-09-04 09:48:20,574 | INFO    | Paper fnhum-17-1342634 (3).pdf already processed as Editorial_Electromagnetic_field_theories_of_consciousness_opportunities_and_obstacles.json
+2025-09-04 09:48:20,574 | INFO    | Skipping fnhum-17-1342634 (3).pdf - already processed
+2025-09-04 09:48:20,575 | INFO    | Paper fnhum-17-1342634 (3).pdf already processed as Editorial_Electromagnetic_field_theories_of_consciousness_opportunities_and_obstacles.json
+2025-09-04 09:48:29,546 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 09:48:29,570 | INFO    | 
+============================================================
+2025-09-04 09:48:29,570 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 09:48:29,570 | INFO    | ============================================================
+2025-09-04 09:48:29,572 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:48:29,572 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 09:48:29,573 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:48:29,573 | INFO    | 
+============================================================
+2025-09-04 09:48:29,573 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 09:48:29,573 | INFO    | ============================================================
+2025-09-04 09:48:29,587 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:48:29,587 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 09:48:29,599 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:48:29,599 | INFO    | 
+============================================================
+2025-09-04 09:48:29,599 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 09:48:29,599 | INFO    | ============================================================
+2025-09-04 09:48:29,614 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:48:29,614 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 09:48:29,628 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:48:29,628 | INFO    | 
+============================================================
+2025-09-04 09:48:29,628 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 09:48:29,628 | INFO    | ============================================================
+2025-09-04 09:48:29,633 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:48:29,634 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 09:48:29,638 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:48:29,638 | INFO    | 
+============================================================
+2025-09-04 09:48:29,638 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 09:48:29,638 | INFO    | ============================================================
+2025-09-04 09:48:29,642 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:48:29,642 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 09:48:29,646 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:48:29,646 | INFO    | 
+============================================================
+2025-09-04 09:48:29,646 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 09:48:29,646 | INFO    | ============================================================
+2025-09-04 09:48:29,652 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:48:29,652 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 09:48:29,656 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:48:29,656 | INFO    | 
+============================================================
+2025-09-04 09:48:29,657 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 09:48:29,657 | INFO    | ============================================================
+2025-09-04 09:48:29,658 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:48:29,658 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 09:48:29,659 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:48:29,659 | INFO    | 
+============================================================
+2025-09-04 09:48:29,659 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 09:48:29,660 | INFO    | ============================================================
+2025-09-04 09:48:29,662 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 09:48:29,662 | INFO    | Skipping 2411.00986v1.pdf - already processed
+2025-09-04 09:48:29,663 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 09:48:29,664 | INFO    | 
+============================================================
+2025-09-04 09:48:29,664 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 09:48:29,664 | INFO    | ============================================================
+2025-09-04 09:48:29,664 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:48:30,199 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:48:30,206 | INFO    | [VS] created | id=vs_68b9c2de0ccc8191a411f02c4c0c6d12
+2025-09-04 09:48:30,206 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 09:48:30,953 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:30,957 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-TsEKLpVutRLiSGsuL5ayAi | 0.75s
+2025-09-04 09:48:31,630 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2de0ccc8191a411f02c4c0c6d12/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:31,639 | INFO    | [VS-ADD] file_id=file-TsEKLpVutRLiSGsuL5ayAi -> vs=vs_68b9c2de0ccc8191a411f02c4c0c6d12 | 0.68s
+2025-09-04 09:48:34,646 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:48:35,500 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:35,501 | INFO    | Retrying request to /responses in 0.392638 seconds
+2025-09-04 09:48:36,501 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:36,503 | INFO    | Retrying request to /responses in 0.832136 seconds
+2025-09-04 09:48:37,901 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:37,903 | ERROR   | [ERROR] Principles-for-Conscious-AI.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:48:37,924 | INFO    | 
+============================================================
+2025-09-04 09:48:37,924 | INFO    | Starting analysis of: s41467-024-46438-x.pdf
+2025-09-04 09:48:37,924 | INFO    | ============================================================
+2025-09-04 09:48:37,956 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:48:37,956 | INFO    | Skipping s41467-024-46438-x.pdf - already processed
+2025-09-04 09:48:37,977 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:48:37,977 | INFO    | 
+============================================================
+2025-09-04 09:48:37,977 | INFO    | Starting analysis of: 3601.full.pdf
+2025-09-04 09:48:37,977 | INFO    | ============================================================
+2025-09-04 09:48:37,987 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:48:38,286 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:48:38,288 | INFO    | [VS] created | id=vs_68b9c2e61d10819185689334742227ce
+2025-09-04 09:48:38,288 | INFO    | [UPLOAD] 3601.full.pdf | size=2.46 MB
+2025-09-04 09:48:40,332 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:40,333 | INFO    | [UPLOAD] 3601.full.pdf | file_id=file-LMf9M3JUtndqXuQmZwXiwB | 2.05s
+2025-09-04 09:48:40,947 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2e61d10819185689334742227ce/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:40,948 | INFO    | [VS-ADD] file_id=file-LMf9M3JUtndqXuQmZwXiwB -> vs=vs_68b9c2e61d10819185689334742227ce | 0.61s
+2025-09-04 09:48:43,950 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:48:44,429 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:44,430 | INFO    | Retrying request to /responses in 0.454221 seconds
+2025-09-04 09:48:45,452 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:45,453 | INFO    | Retrying request to /responses in 0.985800 seconds
+2025-09-04 09:48:47,092 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:47,094 | ERROR   | [ERROR] 3601.full.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:48:47,109 | INFO    | 
+============================================================
+2025-09-04 09:48:47,110 | INFO    | Starting analysis of: bhad251 (1) (1).pdf
+2025-09-04 09:48:47,110 | INFO    | ============================================================
+2025-09-04 09:48:47,121 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:48:47,121 | INFO    | Skipping bhad251 (1) (1).pdf - already processed
+2025-09-04 09:48:47,130 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:48:47,130 | INFO    | 
+============================================================
+2025-09-04 09:48:47,130 | INFO    | Starting analysis of: Convergent_Effects_of_Different_Anesthetics_2025.pdf
+2025-09-04 09:48:47,130 | INFO    | ============================================================
+2025-09-04 09:48:47,144 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:48:47,502 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:48:47,503 | INFO    | [VS] created | id=vs_68b9c2ef498c8191bba58b989211a7d2
+2025-09-04 09:48:47,504 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | size=2.71 MB
+2025-09-04 09:48:49,549 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:49,551 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | file_id=file-JQ9VwCrZeRRY9r2nmtN6ni | 2.05s
+2025-09-04 09:48:50,061 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2ef498c8191bba58b989211a7d2/files "HTTP/1.1 200 OK"
+2025-09-04 09:48:50,064 | INFO    | [VS-ADD] file_id=file-JQ9VwCrZeRRY9r2nmtN6ni -> vs=vs_68b9c2ef498c8191bba58b989211a7d2 | 0.51s
+2025-09-04 09:48:53,066 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:48:53,748 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:53,749 | INFO    | Retrying request to /responses in 0.448760 seconds
+2025-09-04 09:48:54,874 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:54,876 | INFO    | Retrying request to /responses in 0.958539 seconds
+2025-09-04 09:48:56,717 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:48:56,720 | ERROR   | [ERROR] Convergent_Effects_of_Different_Anesthetics_2025.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:48:56,737 | INFO    | 
+============================================================
+2025-09-04 09:48:56,738 | INFO    | Starting analysis of: Clinical_Review_2024.pdf
+2025-09-04 09:48:56,738 | INFO    | ============================================================
+2025-09-04 09:48:56,772 | INFO    | Paper Clinical_Review_2024.pdf already processed as Transcranial_ultrasound_neuromodulation_and_fMRI_(systematic_review;_Brain_Stimulation_17_(2024)_734.json
+2025-09-04 09:48:56,772 | INFO    | Skipping Clinical_Review_2024.pdf - already processed
+2025-09-04 09:48:56,793 | INFO    | Paper Clinical_Review_2024.pdf already processed as Transcranial_ultrasound_neuromodulation_and_fMRI_(systematic_review;_Brain_Stimulation_17_(2024)_734.json
+2025-09-04 09:48:56,793 | INFO    | 
+============================================================
+2025-09-04 09:48:56,793 | INFO    | Starting analysis of: reasoning_models_paper.pdf
+2025-09-04 09:48:56,793 | INFO    | ============================================================
+2025-09-04 09:48:56,813 | INFO    | Paper reasoning_models_paper.pdf already processed as Reasoning_Models_Don’t_Always_Say_What_They_Think.json
+2025-09-04 09:48:56,813 | INFO    | Skipping reasoning_models_paper.pdf - already processed
+2025-09-04 09:48:56,827 | INFO    | Paper reasoning_models_paper.pdf already processed as Reasoning_Models_Don’t_Always_Say_What_They_Think.json
+2025-09-04 09:48:56,827 | INFO    | 
+============================================================
+2025-09-04 09:48:56,827 | INFO    | Starting analysis of: 2025.findings-acl.55.pdf
+2025-09-04 09:48:56,827 | INFO    | ============================================================
+2025-09-04 09:48:56,827 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:48:57,127 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:48:57,129 | INFO    | [VS] created | id=vs_68b9c2f8f434819182efd9d61d7cd7f4
+2025-09-04 09:48:57,130 | INFO    | [UPLOAD] 2025.findings-acl.55.pdf | size=6.29 MB
+2025-09-04 09:49:04,703 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:49:04,705 | INFO    | [UPLOAD] 2025.findings-acl.55.pdf | file_id=file-VgNrmPYEGDhgzCUZMvnou1 | 7.58s
+2025-09-04 09:49:05,422 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c2f8f434819182efd9d61d7cd7f4/files "HTTP/1.1 200 OK"
+2025-09-04 09:49:05,425 | INFO    | [VS-ADD] file_id=file-VgNrmPYEGDhgzCUZMvnou1 -> vs=vs_68b9c2f8f434819182efd9d61d7cd7f4 | 0.72s
+2025-09-04 09:49:08,430 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:49:18,939 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:49:19,005 | INFO    | [ANALYZE] done | 10.57s
+2025-09-04 09:49:19,005 | ERROR   | Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-04 09:49:19,006 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/2025findings-acl55.json
+2025-09-04 09:49:19,023 | INFO    | 
+============================================================
+2025-09-04 09:49:19,023 | INFO    | Starting analysis of: 1-s2.0-S1053811922001872-main.pdf
+2025-09-04 09:49:19,023 | INFO    | ============================================================
+2025-09-04 09:49:19,032 | INFO    | Paper 1-s2.0-S1053811922001872-main.pdf already processed as Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json
+2025-09-04 09:49:19,032 | INFO    | Skipping 1-s2.0-S1053811922001872-main.pdf - already processed
+2025-09-04 09:49:19,038 | INFO    | Paper 1-s2.0-S1053811922001872-main.pdf already processed as Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json
+2025-09-04 09:49:19,038 | INFO    | 
+============================================================
+2025-09-04 09:49:19,038 | INFO    | Starting analysis of: 2507.08517v1 (1).pdf
+2025-09-04 09:49:19,038 | INFO    | ============================================================
+2025-09-04 09:49:19,041 | INFO    | Paper 2507.08517v1 (1).pdf already processed as A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json
+2025-09-04 09:49:19,041 | INFO    | Skipping 2507.08517v1 (1).pdf - already processed
+2025-09-04 09:49:19,043 | INFO    | Paper 2507.08517v1 (1).pdf already processed as A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json
+2025-09-04 09:49:19,043 | INFO    | 
+============================================================
+2025-09-04 09:49:19,043 | INFO    | Starting analysis of: consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf
+2025-09-04 09:49:19,043 | INFO    | ============================================================
+2025-09-04 09:49:19,046 | INFO    | Paper consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf already processed as Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json
+2025-09-04 09:49:19,046 | INFO    | Skipping consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf - already processed
+2025-09-04 09:49:19,048 | INFO    | Paper consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf already processed as Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json
+2025-09-04 09:49:19,048 | INFO    | 
+============================================================
+2025-09-04 09:49:19,048 | INFO    | Starting analysis of: ENEURO.0291-24.2024.full.pdf
+2025-09-04 09:49:19,049 | INFO    | ============================================================
+2025-09-04 09:49:19,051 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:49:19,555 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:49:19,557 | INFO    | [VS] created | id=vs_68b9c30f30948191958c89ccf4c706aa
+2025-09-04 09:49:19,558 | INFO    | [UPLOAD] ENEURO.0291-24.2024.full.pdf | size=0.79 MB
+2025-09-04 09:49:20,887 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:49:20,890 | INFO    | [UPLOAD] ENEURO.0291-24.2024.full.pdf | file_id=file-V6Qnn96RC9zV2gsp1XgVtE | 1.33s
+2025-09-04 09:49:21,499 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c30f30948191958c89ccf4c706aa/files "HTTP/1.1 200 OK"
+2025-09-04 09:49:21,502 | INFO    | [VS-ADD] file_id=file-V6Qnn96RC9zV2gsp1XgVtE -> vs=vs_68b9c30f30948191958c89ccf4c706aa | 0.61s
+2025-09-04 09:49:24,507 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:51:51,618 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:51:51,622 | INFO    | [ANALYZE] done | 147.12s
+2025-09-04 09:51:51,624 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/.json
+2025-09-04 09:51:51,631 | INFO    | 
+============================================================
+2025-09-04 09:51:51,631 | INFO    | Starting analysis of: nol-5-1-43.pdf
+2025-09-04 09:51:51,631 | INFO    | ============================================================
+2025-09-04 09:51:51,632 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:51:51,927 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:51:51,929 | INFO    | [VS] created | id=vs_68b9c3a7c5388191a2ec9e8763a76e52
+2025-09-04 09:51:51,930 | INFO    | [UPLOAD] nol-5-1-43.pdf | size=0.96 MB
+2025-09-04 09:51:55,816 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:51:55,818 | INFO    | [UPLOAD] nol-5-1-43.pdf | file_id=file-2Upjoavtm5RhPhWCNtW7iY | 3.89s
+2025-09-04 09:51:56,430 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c3a7c5388191a2ec9e8763a76e52/files "HTTP/1.1 200 OK"
+2025-09-04 09:51:56,432 | INFO    | [VS-ADD] file_id=file-2Upjoavtm5RhPhWCNtW7iY -> vs=vs_68b9c3a7c5388191a2ec9e8763a76e52 | 0.61s
+2025-09-04 09:51:59,438 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:52:00,935 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:00,937 | INFO    | Retrying request to /responses in 0.477151 seconds
+2025-09-04 09:52:02,062 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:02,064 | INFO    | Retrying request to /responses in 0.826190 seconds
+2025-09-04 09:52:03,700 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:03,702 | ERROR   | [ERROR] nol-5-1-43.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:52:03,704 | INFO    | 
+============================================================
+2025-09-04 09:52:03,705 | INFO    | Starting analysis of: 2505.20364v1 (1) (1).pdf
+2025-09-04 09:52:03,705 | INFO    | ============================================================
+2025-09-04 09:52:03,714 | INFO    | Paper 2505.20364v1 (1) (1).pdf already processed as On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json
+2025-09-04 09:52:03,715 | INFO    | Skipping 2505.20364v1 (1) (1).pdf - already processed
+2025-09-04 09:52:03,722 | INFO    | Paper 2505.20364v1 (1) (1).pdf already processed as On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json
+2025-09-04 09:52:03,723 | INFO    | 
+============================================================
+2025-09-04 09:52:03,723 | INFO    | Starting analysis of: schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf
+2025-09-04 09:52:03,723 | INFO    | ============================================================
+2025-09-04 09:52:03,723 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:52:04,009 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:52:04,013 | INFO    | [VS] created | id=vs_68b9c3b3db4081919d20747d9c441522
+2025-09-04 09:52:04,013 | INFO    | [UPLOAD] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf | size=1.28 MB
+2025-09-04 09:52:08,793 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:52:08,796 | INFO    | [UPLOAD] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf | file_id=file-UJuKANeJBqy9vPYmBLWLsn | 4.78s
+2025-09-04 09:52:09,537 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c3b3db4081919d20747d9c441522/files "HTTP/1.1 200 OK"
+2025-09-04 09:52:09,540 | INFO    | [VS-ADD] file_id=file-UJuKANeJBqy9vPYmBLWLsn -> vs=vs_68b9c3b3db4081919d20747d9c441522 | 0.74s
+2025-09-04 09:52:12,541 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:52:13,224 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:13,225 | INFO    | Retrying request to /responses in 0.394456 seconds
+2025-09-04 09:52:14,453 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:14,454 | INFO    | Retrying request to /responses in 0.961229 seconds
+2025-09-04 09:52:15,887 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:15,889 | ERROR   | [ERROR] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:52:15,890 | INFO    | 
+============================================================
+2025-09-04 09:52:15,890 | INFO    | Starting analysis of: FlemingMichel_Sensory Horizons_v3.pdf
+2025-09-04 09:52:15,891 | INFO    | ============================================================
+2025-09-04 09:52:15,910 | INFO    | Paper FlemingMichel_Sensory Horizons_v3.pdf already processed as Sensory_Horizons_and_the_Functions_of_Conscious_Vision.json
+2025-09-04 09:52:15,910 | INFO    | Skipping FlemingMichel_Sensory Horizons_v3.pdf - already processed
+2025-09-04 09:52:15,924 | INFO    | Paper FlemingMichel_Sensory Horizons_v3.pdf already processed as Sensory_Horizons_and_the_Functions_of_Conscious_Vision.json
+2025-09-04 09:52:15,924 | INFO    | 
+============================================================
+2025-09-04 09:52:15,924 | INFO    | Starting analysis of: fnhum-08-00020 (3).pdf
+2025-09-04 09:52:15,924 | INFO    | ============================================================
+2025-09-04 09:52:15,938 | INFO    | Paper fnhum-08-00020 (3).pdf already processed as The_entropic_brain_a_theory_of_conscious_states_informed_by_neuroimaging_research_with_psychedelic_d.json
+2025-09-04 09:52:15,938 | INFO    | Skipping fnhum-08-00020 (3).pdf - already processed
+2025-09-04 09:52:15,948 | INFO    | Paper fnhum-08-00020 (3).pdf already processed as The_entropic_brain_a_theory_of_conscious_states_informed_by_neuroimaging_research_with_psychedelic_d.json
+2025-09-04 09:52:15,949 | INFO    | 
+============================================================
+2025-09-04 09:52:15,949 | INFO    | Starting analysis of: s41467-024-49173-5 (1).pdf
+2025-09-04 09:52:15,949 | INFO    | ============================================================
+2025-09-04 09:52:15,965 | INFO    | Paper s41467-024-49173-5 (1).pdf already processed as Shared_functional_specialization_in_transformer-based_language_models_and_the_human_brain.json
+2025-09-04 09:52:15,965 | INFO    | Skipping s41467-024-49173-5 (1).pdf - already processed
+2025-09-04 09:52:15,979 | INFO    | Paper s41467-024-49173-5 (1).pdf already processed as Shared_functional_specialization_in_transformer-based_language_models_and_the_human_brain.json
+2025-09-04 09:52:15,979 | INFO    | 
+============================================================
+2025-09-04 09:52:15,979 | INFO    | Starting analysis of: 2503.16348v3.pdf
+2025-09-04 09:52:15,979 | INFO    | ============================================================
+2025-09-04 09:52:15,981 | INFO    | Paper 2503.16348v3.pdf already processed as Palatable_Conceptions_of_Disembodied_Being.json
+2025-09-04 09:52:15,981 | INFO    | Skipping 2503.16348v3.pdf - already processed
+2025-09-04 09:52:15,982 | INFO    | Paper 2503.16348v3.pdf already processed as Palatable_Conceptions_of_Disembodied_Being.json
+2025-09-04 09:52:15,982 | INFO    | 
+============================================================
+2025-09-04 09:52:15,982 | INFO    | Starting analysis of: NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf
+2025-09-04 09:52:15,982 | INFO    | ============================================================
+2025-09-04 09:52:15,982 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:52:17,944 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:52:17,946 | INFO    | [VS] created | id=vs_68b9c3c01cdc8191ad08391731cd144b
+2025-09-04 09:52:17,946 | INFO    | [UPLOAD] NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf | size=6.49 MB
+2025-09-04 09:52:38,005 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:52:38,009 | INFO    | [UPLOAD] NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf | file_id=file-23WELvUkADZVnSbMQ8isia | 20.06s
+2025-09-04 09:52:38,619 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c3c01cdc8191ad08391731cd144b/files "HTTP/1.1 200 OK"
+2025-09-04 09:52:38,622 | INFO    | [VS-ADD] file_id=file-23WELvUkADZVnSbMQ8isia -> vs=vs_68b9c3c01cdc8191ad08391731cd144b | 0.61s
+2025-09-04 09:52:41,628 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:52:43,841 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:43,845 | INFO    | Retrying request to /responses in 0.444648 seconds
+2025-09-04 09:52:44,864 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:44,866 | INFO    | Retrying request to /responses in 0.874471 seconds
+2025-09-04 09:52:46,915 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:52:46,917 | ERROR   | [ERROR] NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:52:46,920 | INFO    | 
+============================================================
+2025-09-04 09:52:46,920 | INFO    | Starting analysis of: s42003-022-03036-1.pdf
+2025-09-04 09:52:46,920 | INFO    | ============================================================
+2025-09-04 09:52:46,922 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:52:47,323 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:52:47,326 | INFO    | [VS] created | id=vs_68b9c3df10bc81918e53015d418978d0
+2025-09-04 09:52:47,326 | INFO    | [UPLOAD] s42003-022-03036-1.pdf | size=4.05 MB
+2025-09-04 09:53:00,636 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:53:00,639 | INFO    | [UPLOAD] s42003-022-03036-1.pdf | file_id=file-RXHd4NM6R7LE7PZEmRYSFz | 13.31s
+2025-09-04 09:53:01,339 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c3df10bc81918e53015d418978d0/files "HTTP/1.1 200 OK"
+2025-09-04 09:53:01,342 | INFO    | [VS-ADD] file_id=file-RXHd4NM6R7LE7PZEmRYSFz -> vs=vs_68b9c3df10bc81918e53015d418978d0 | 0.70s
+2025-09-04 09:53:04,347 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:54:51,670 | ERROR   | Interrupted by user (SIGINT). Exiting gracefully.
+2025-09-04 09:56:35,006 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 09:56:35,033 | INFO    | 
+============================================================
+2025-09-04 09:56:35,033 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 09:56:35,033 | INFO    | ============================================================
+2025-09-04 09:56:35,035 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:56:35,035 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 09:56:35,036 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:56:35,036 | INFO    | 
+============================================================
+2025-09-04 09:56:35,036 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 09:56:35,036 | INFO    | ============================================================
+2025-09-04 09:56:35,050 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:56:35,050 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 09:56:35,062 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:56:35,062 | INFO    | 
+============================================================
+2025-09-04 09:56:35,062 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 09:56:35,062 | INFO    | ============================================================
+2025-09-04 09:56:35,077 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:56:35,077 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 09:56:35,091 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:56:35,091 | INFO    | 
+============================================================
+2025-09-04 09:56:35,091 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 09:56:35,091 | INFO    | ============================================================
+2025-09-04 09:56:35,097 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:56:35,097 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 09:56:35,101 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:56:35,101 | INFO    | 
+============================================================
+2025-09-04 09:56:35,102 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 09:56:35,102 | INFO    | ============================================================
+2025-09-04 09:56:35,106 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:56:35,106 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 09:56:35,109 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:56:35,109 | INFO    | 
+============================================================
+2025-09-04 09:56:35,109 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 09:56:35,109 | INFO    | ============================================================
+2025-09-04 09:56:35,114 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:56:35,114 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 09:56:35,119 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:56:35,119 | INFO    | 
+============================================================
+2025-09-04 09:56:35,119 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 09:56:35,119 | INFO    | ============================================================
+2025-09-04 09:56:35,121 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:56:35,121 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 09:56:35,123 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:56:35,123 | INFO    | 
+============================================================
+2025-09-04 09:56:35,123 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 09:56:35,123 | INFO    | ============================================================
+2025-09-04 09:56:35,125 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 09:56:35,125 | INFO    | Skipping 2411.00986v1.pdf - already processed
+2025-09-04 09:56:35,127 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 09:56:35,127 | INFO    | 
+============================================================
+2025-09-04 09:56:35,127 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 09:56:35,127 | INFO    | ============================================================
+2025-09-04 09:56:35,128 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:56:35,765 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:56:35,772 | INFO    | [VS] created | id=vs_68b9c4c3925c8191a18998b2111b9599
+2025-09-04 09:56:35,773 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 09:56:37,912 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:56:37,918 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-CEfnSchdsg9GAbpRJ2wiDa | 2.15s
+2025-09-04 09:56:38,527 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c4c3925c8191a18998b2111b9599/files "HTTP/1.1 200 OK"
+2025-09-04 09:56:38,535 | INFO    | [VS-ADD] file_id=file-CEfnSchdsg9GAbpRJ2wiDa -> vs=vs_68b9c4c3925c8191a18998b2111b9599 | 0.62s
+2025-09-04 09:56:41,541 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:56:42,108 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:56:42,110 | INFO    | Retrying request to /responses in 0.449704 seconds
+2025-09-04 09:56:43,338 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:56:43,339 | INFO    | Retrying request to /responses in 0.974436 seconds
+2025-09-04 09:56:45,898 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:56:45,901 | ERROR   | [ERROR] Principles-for-Conscious-AI.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:56:45,918 | INFO    | 
+============================================================
+2025-09-04 09:56:45,918 | INFO    | Starting analysis of: s41467-024-46438-x.pdf
+2025-09-04 09:56:45,918 | INFO    | ============================================================
+2025-09-04 09:56:45,945 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:56:45,946 | INFO    | Skipping s41467-024-46438-x.pdf - already processed
+2025-09-04 09:56:45,965 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:56:45,965 | INFO    | 
+============================================================
+2025-09-04 09:56:45,965 | INFO    | Starting analysis of: 3601.full.pdf
+2025-09-04 09:56:45,965 | INFO    | ============================================================
+2025-09-04 09:56:45,973 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:56:46,409 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:56:46,411 | INFO    | [VS] created | id=vs_68b9c4ce1f608191b0793b91f4610bab
+2025-09-04 09:56:46,411 | INFO    | [UPLOAD] 3601.full.pdf | size=2.46 MB
+2025-09-04 09:56:49,381 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:56:49,384 | INFO    | [UPLOAD] 3601.full.pdf | file_id=file-StsM5NQMCdMKHhJy3QhRVj | 2.97s
+2025-09-04 09:56:50,199 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c4ce1f608191b0793b91f4610bab/files "HTTP/1.1 200 OK"
+2025-09-04 09:56:50,203 | INFO    | [VS-ADD] file_id=file-StsM5NQMCdMKHhJy3QhRVj -> vs=vs_68b9c4ce1f608191b0793b91f4610bab | 0.82s
+2025-09-04 09:56:53,207 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:56:53,677 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:56:53,679 | INFO    | Retrying request to /responses in 0.455320 seconds
+2025-09-04 09:56:58,083 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:56:58,085 | INFO    | Retrying request to /responses in 0.781167 seconds
+2025-09-04 09:56:59,509 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:56:59,511 | ERROR   | [ERROR] 3601.full.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 09:56:59,528 | INFO    | 
+============================================================
+2025-09-04 09:56:59,528 | INFO    | Starting analysis of: bhad251 (1) (1).pdf
+2025-09-04 09:56:59,528 | INFO    | ============================================================
+2025-09-04 09:56:59,537 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:56:59,537 | INFO    | Skipping bhad251 (1) (1).pdf - already processed
+2025-09-04 09:56:59,543 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:56:59,543 | INFO    | 
+============================================================
+2025-09-04 09:56:59,543 | INFO    | Starting analysis of: Convergent_Effects_of_Different_Anesthetics_2025.pdf
+2025-09-04 09:56:59,543 | INFO    | ============================================================
+2025-09-04 09:56:59,555 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:56:59,926 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:56:59,928 | INFO    | [VS] created | id=vs_68b9c4dbb4048191ab4626e84583778e
+2025-09-04 09:56:59,928 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | size=2.71 MB
+2025-09-04 09:57:03,306 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:57:03,309 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | file_id=file-DzBYaBv9ooV3Ngx18LVLyj | 3.38s
+2025-09-04 09:57:04,018 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c4dbb4048191ab4626e84583778e/files "HTTP/1.1 200 OK"
+2025-09-04 09:57:04,021 | INFO    | [VS-ADD] file_id=file-DzBYaBv9ooV3Ngx18LVLyj -> vs=vs_68b9c4dbb4048191ab4626e84583778e | 0.71s
+2025-09-04 09:57:07,027 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:57:07,810 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:57:07,811 | INFO    | Retrying request to /responses in 0.449801 seconds
+2025-09-04 09:57:10,268 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 09:57:10,268 | INFO    | Retrying request to /responses in 0.962283 seconds
+2025-09-04 09:57:10,303 | ERROR   | Interrupted by user (SIGINT). Exiting gracefully.
+2025-09-04 09:58:35,032 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 09:58:35,056 | INFO    | 
+============================================================
+2025-09-04 09:58:35,057 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 09:58:35,057 | INFO    | ============================================================
+2025-09-04 09:58:35,058 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:58:35,058 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 09:58:35,059 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 09:58:35,059 | INFO    | 
+============================================================
+2025-09-04 09:58:35,059 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 09:58:35,059 | INFO    | ============================================================
+2025-09-04 09:58:35,075 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:58:35,075 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 09:58:35,089 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 09:58:35,089 | INFO    | 
+============================================================
+2025-09-04 09:58:35,089 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 09:58:35,089 | INFO    | ============================================================
+2025-09-04 09:58:35,104 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:58:35,105 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 09:58:35,118 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 09:58:35,118 | INFO    | 
+============================================================
+2025-09-04 09:58:35,118 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 09:58:35,118 | INFO    | ============================================================
+2025-09-04 09:58:35,124 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:58:35,124 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 09:58:35,129 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 09:58:35,129 | INFO    | 
+============================================================
+2025-09-04 09:58:35,129 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 09:58:35,129 | INFO    | ============================================================
+2025-09-04 09:58:35,133 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:58:35,133 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 09:58:35,137 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 09:58:35,137 | INFO    | 
+============================================================
+2025-09-04 09:58:35,137 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 09:58:35,137 | INFO    | ============================================================
+2025-09-04 09:58:35,142 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:58:35,142 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 09:58:35,146 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 09:58:35,146 | INFO    | 
+============================================================
+2025-09-04 09:58:35,146 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 09:58:35,146 | INFO    | ============================================================
+2025-09-04 09:58:35,147 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:58:35,147 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 09:58:35,148 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 09:58:35,149 | INFO    | 
+============================================================
+2025-09-04 09:58:35,149 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 09:58:35,149 | INFO    | ============================================================
+2025-09-04 09:58:35,151 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 09:58:35,151 | INFO    | Skipping 2411.00986v1.pdf - already processed
+2025-09-04 09:58:35,152 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 09:58:35,152 | INFO    | 
+============================================================
+2025-09-04 09:58:35,153 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 09:58:35,153 | INFO    | ============================================================
+2025-09-04 09:58:35,153 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:58:35,768 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:58:35,775 | INFO    | [VS] created | id=vs_68b9c53b93388191beb9669f84664c51
+2025-09-04 09:58:35,775 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 09:58:37,104 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:58:37,111 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-5skYCPwp7S2J2bGkiSXvUY | 1.34s
+2025-09-04 09:58:38,333 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c53b93388191beb9669f84664c51/files "HTTP/1.1 200 OK"
+2025-09-04 09:58:38,344 | INFO    | [VS-ADD] file_id=file-5skYCPwp7S2J2bGkiSXvUY -> vs=vs_68b9c53b93388191beb9669f84664c51 | 1.23s
+2025-09-04 09:58:41,349 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:58:53,383 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:58:53,450 | INFO    | [ANALYZE] done | 12.10s
+2025-09-04 09:58:53,450 | ERROR   | Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-04 09:58:53,451 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Principles-for-Conscious-AI.json
+2025-09-04 09:58:53,453 | INFO    | 
+============================================================
+2025-09-04 09:58:53,453 | INFO    | Starting analysis of: s41467-024-46438-x.pdf
+2025-09-04 09:58:53,453 | INFO    | ============================================================
+2025-09-04 09:58:53,470 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:58:53,470 | INFO    | Skipping s41467-024-46438-x.pdf - already processed
+2025-09-04 09:58:53,484 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 09:58:53,484 | INFO    | 
+============================================================
+2025-09-04 09:58:53,484 | INFO    | Starting analysis of: 3601.full.pdf
+2025-09-04 09:58:53,484 | INFO    | ============================================================
+2025-09-04 09:58:53,491 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:58:53,999 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:58:54,002 | INFO    | [VS] created | id=vs_68b9c54dac1881918c08bf298dc726b0
+2025-09-04 09:58:54,003 | INFO    | [UPLOAD] 3601.full.pdf | size=2.46 MB
+2025-09-04 09:58:57,582 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:58:57,584 | INFO    | [UPLOAD] 3601.full.pdf | file_id=file-52Znz6JiJf7PvRhXEE3gpK | 3.58s
+2025-09-04 09:58:58,300 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c54dac1881918c08bf298dc726b0/files "HTTP/1.1 200 OK"
+2025-09-04 09:58:58,303 | INFO    | [VS-ADD] file_id=file-52Znz6JiJf7PvRhXEE3gpK -> vs=vs_68b9c54dac1881918c08bf298dc726b0 | 0.72s
+2025-09-04 09:59:01,306 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 09:59:14,992 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 09:59:14,997 | INFO    | [ANALYZE] done | 13.69s
+2025-09-04 09:59:14,997 | ERROR   | Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-04 09:59:14,998 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/3601full.json
+2025-09-04 09:59:15,015 | INFO    | 
+============================================================
+2025-09-04 09:59:15,015 | INFO    | Starting analysis of: bhad251 (1) (1).pdf
+2025-09-04 09:59:15,015 | INFO    | ============================================================
+2025-09-04 09:59:15,023 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:59:15,023 | INFO    | Skipping bhad251 (1) (1).pdf - already processed
+2025-09-04 09:59:15,030 | INFO    | Paper bhad251 (1) (1).pdf already processed as In_vivo_ephaptic_coupling_allows_memory_network_formation.json
+2025-09-04 09:59:15,030 | INFO    | 
+============================================================
+2025-09-04 09:59:15,030 | INFO    | Starting analysis of: Convergent_Effects_of_Different_Anesthetics_2025.pdf
+2025-09-04 09:59:15,030 | INFO    | ============================================================
+2025-09-04 09:59:15,041 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 09:59:16,220 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 09:59:16,223 | INFO    | [VS] created | id=vs_68b9c56337e08191b2ace7d051273136
+2025-09-04 09:59:16,224 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | size=2.71 MB
+2025-09-04 09:59:19,294 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 09:59:19,297 | INFO    | [UPLOAD] Convergent_Effects_of_Different_Anesthetics_2025.pdf | file_id=file-4kPn8QtpRH8qEQ8vJdQrvx | 3.07s
+2025-09-04 09:59:19,905 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c56337e08191b2ace7d051273136/files "HTTP/1.1 200 OK"
+2025-09-04 09:59:19,908 | INFO    | [VS-ADD] file_id=file-4kPn8QtpRH8qEQ8vJdQrvx -> vs=vs_68b9c56337e08191b2ace7d051273136 | 0.61s
+2025-09-04 09:59:22,909 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:01:26,987 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 10:01:26,992 | INFO    | [ANALYZE] done | 124.08s
+2025-09-04 10:01:26,994 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Convergent_effects_of_different_anesthetics_on_changes_in_phase_alignment_of_cortical_oscillations.json
+2025-09-04 10:01:27,012 | INFO    | 
+============================================================
+2025-09-04 10:01:27,012 | INFO    | Starting analysis of: Clinical_Review_2024.pdf
+2025-09-04 10:01:27,012 | INFO    | ============================================================
+2025-09-04 10:01:27,038 | INFO    | Paper Clinical_Review_2024.pdf already processed as Transcranial_ultrasound_neuromodulation_and_fMRI_(systematic_review;_Brain_Stimulation_17_(2024)_734.json
+2025-09-04 10:01:27,038 | INFO    | Skipping Clinical_Review_2024.pdf - already processed
+2025-09-04 10:01:27,057 | INFO    | Paper Clinical_Review_2024.pdf already processed as Transcranial_ultrasound_neuromodulation_and_fMRI_(systematic_review;_Brain_Stimulation_17_(2024)_734.json
+2025-09-04 10:01:27,057 | INFO    | 
+============================================================
+2025-09-04 10:01:27,057 | INFO    | Starting analysis of: reasoning_models_paper.pdf
+2025-09-04 10:01:27,057 | INFO    | ============================================================
+2025-09-04 10:01:27,075 | INFO    | Paper reasoning_models_paper.pdf already processed as Reasoning_Models_Don’t_Always_Say_What_They_Think.json
+2025-09-04 10:01:27,075 | INFO    | Skipping reasoning_models_paper.pdf - already processed
+2025-09-04 10:01:27,090 | INFO    | Paper reasoning_models_paper.pdf already processed as Reasoning_Models_Don’t_Always_Say_What_They_Think.json
+2025-09-04 10:01:27,090 | INFO    | 
+============================================================
+2025-09-04 10:01:27,090 | INFO    | Starting analysis of: 2025.findings-acl.55.pdf
+2025-09-04 10:01:27,090 | INFO    | ============================================================
+2025-09-04 10:01:27,105 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:01:27,497 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:01:27,500 | INFO    | [VS] created | id=vs_68b9c5e748c88191af065863fee41b7b
+2025-09-04 10:01:27,500 | INFO    | [UPLOAD] 2025.findings-acl.55.pdf | size=6.29 MB
+2025-09-04 10:01:32,821 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:01:32,823 | INFO    | [UPLOAD] 2025.findings-acl.55.pdf | file_id=file-C6dsRACeVGPcQSS3oobdUV | 5.32s
+2025-09-04 10:01:33,368 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c5e748c88191af065863fee41b7b/files "HTTP/1.1 200 OK"
+2025-09-04 10:01:33,370 | INFO    | [VS-ADD] file_id=file-C6dsRACeVGPcQSS3oobdUV -> vs=vs_68b9c5e748c88191af065863fee41b7b | 0.55s
+2025-09-04 10:01:36,376 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:01:37,532 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 10:01:37,533 | INFO    | Retrying request to /responses in 0.407003 seconds
+2025-09-04 10:01:38,362 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 10:01:38,363 | INFO    | Retrying request to /responses in 0.843880 seconds
+2025-09-04 10:01:39,886 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 10:01:39,890 | ERROR   | [ERROR] 2025.findings-acl.55.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 10:01:39,933 | INFO    | 
+============================================================
+2025-09-04 10:01:39,933 | INFO    | Starting analysis of: 1-s2.0-S1053811922001872-main.pdf
+2025-09-04 10:01:39,933 | INFO    | ============================================================
+2025-09-04 10:01:39,944 | INFO    | Paper 1-s2.0-S1053811922001872-main.pdf already processed as Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json
+2025-09-04 10:01:39,944 | INFO    | Skipping 1-s2.0-S1053811922001872-main.pdf - already processed
+2025-09-04 10:01:39,953 | INFO    | Paper 1-s2.0-S1053811922001872-main.pdf already processed as Beyond_dimension_reduction_Stable_electric_fields_emerge_from_and_allow_representational_drift.json
+2025-09-04 10:01:39,953 | INFO    | 
+============================================================
+2025-09-04 10:01:39,953 | INFO    | Starting analysis of: 2507.08517v1 (1).pdf
+2025-09-04 10:01:39,953 | INFO    | ============================================================
+2025-09-04 10:01:39,956 | INFO    | Paper 2507.08517v1 (1).pdf already processed as A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json
+2025-09-04 10:01:39,956 | INFO    | Skipping 2507.08517v1 (1).pdf - already processed
+2025-09-04 10:01:39,958 | INFO    | Paper 2507.08517v1 (1).pdf already processed as A_Roadmap_for_Using_tFUS_to_Investigate_the_Neural_Substrate_of_Conscious_Perception.json
+2025-09-04 10:01:39,958 | INFO    | 
+============================================================
+2025-09-04 10:01:39,958 | INFO    | Starting analysis of: consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf
+2025-09-04 10:01:39,958 | INFO    | ============================================================
+2025-09-04 10:01:39,961 | INFO    | Paper consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf already processed as Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json
+2025-09-04 10:01:39,962 | INFO    | Skipping consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf - already processed
+2025-09-04 10:01:39,964 | INFO    | Paper consciousness-without-a-cerebral-cortex-a-challenge-for-neuroscience-and-medicine.pdf already processed as Consciousness_without_a_cerebral_cortex_A_challenge_for_neuroscience_and_medicine.json
+2025-09-04 10:01:39,964 | INFO    | 
+============================================================
+2025-09-04 10:01:39,964 | INFO    | Starting analysis of: ENEURO.0291-24.2024.full.pdf
+2025-09-04 10:01:39,964 | INFO    | ============================================================
+2025-09-04 10:01:39,967 | INFO    | Paper ENEURO.0291-24.2024.full.pdf already processed as .json
+2025-09-04 10:01:39,967 | INFO    | Skipping ENEURO.0291-24.2024.full.pdf - already processed
+2025-09-04 10:01:39,969 | INFO    | Paper ENEURO.0291-24.2024.full.pdf already processed as .json
+2025-09-04 10:01:39,969 | INFO    | 
+============================================================
+2025-09-04 10:01:39,969 | INFO    | Starting analysis of: nol-5-1-43.pdf
+2025-09-04 10:01:39,969 | INFO    | ============================================================
+2025-09-04 10:01:39,969 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:01:40,232 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:01:40,235 | INFO    | [VS] created | id=vs_68b9c5f41fbc81919efc986558b7bbeb
+2025-09-04 10:01:40,235 | INFO    | [UPLOAD] nol-5-1-43.pdf | size=0.96 MB
+2025-09-04 10:01:42,754 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:01:42,757 | INFO    | [UPLOAD] nol-5-1-43.pdf | file_id=file-2zt4w7cLc3ffPv9npkkx5A | 2.52s
+2025-09-04 10:01:43,417 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c5f41fbc81919efc986558b7bbeb/files "HTTP/1.1 200 OK"
+2025-09-04 10:01:43,419 | INFO    | [VS-ADD] file_id=file-2zt4w7cLc3ffPv9npkkx5A -> vs=vs_68b9c5f41fbc81919efc986558b7bbeb | 0.66s
+2025-09-04 10:01:46,420 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:01:46,952 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 10:01:46,953 | INFO    | Retrying request to /responses in 0.378784 seconds
+2025-09-04 10:01:48,028 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 10:01:48,029 | INFO    | Retrying request to /responses in 0.971987 seconds
+2025-09-04 10:01:49,920 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 429 Too Many Requests"
+2025-09-04 10:01:49,923 | ERROR   | [ERROR] nol-5-1-43.pdf failed
+Traceback (most recent call last):
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 281, in analyze_paper_from_pdf
+    result = analyze_with_store(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 438, in result
+    return self.__get_result()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/_base.py", line 390, in __get_result
+    raise self._exception
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+  File "/Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/scripts/analyze_theories.py", line 224, in analyze_with_store
+    resp = client.responses.create(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/resources/responses/responses.py", line 814, in create
+    return self._post(
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/Users/kristapszilgalvis/PycharmProjects/hw3/.venv/lib/python3.9/site-packages/openai/_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-P53tWwrbEuQzbRviHHQEUD85 on tokens per min (TPM): Limit 30000, Used 30000, Requested 3252. Please try again in 6.504s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+2025-09-04 10:01:49,924 | INFO    | 
+============================================================
+2025-09-04 10:01:49,924 | INFO    | Starting analysis of: 2505.20364v1 (1) (1).pdf
+2025-09-04 10:01:49,924 | INFO    | ============================================================
+2025-09-04 10:01:49,935 | INFO    | Paper 2505.20364v1 (1) (1).pdf already processed as On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json
+2025-09-04 10:01:49,936 | INFO    | Skipping 2505.20364v1 (1) (1).pdf - already processed
+2025-09-04 10:01:49,944 | INFO    | Paper 2505.20364v1 (1) (1).pdf already processed as On_the_Potential_of_Microtubules_for_Scalable_Quantum_Computation.json
+2025-09-04 10:01:49,944 | INFO    | 
+============================================================
+2025-09-04 10:01:49,944 | INFO    | Starting analysis of: schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf
+2025-09-04 10:01:49,944 | INFO    | ============================================================
+2025-09-04 10:01:49,944 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:01:50,433 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:01:50,435 | INFO    | [VS] created | id=vs_68b9c5fe2eb48191a8aea00a710b4076
+2025-09-04 10:01:50,436 | INFO    | [UPLOAD] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf | size=1.28 MB
+2025-09-04 10:01:52,131 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:01:52,132 | INFO    | [UPLOAD] schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf | file_id=file-DLgwCxF5j1m8Brow9bwmgf | 1.70s
+2025-09-04 10:01:52,153 | ERROR   | Interrupted by user (SIGINT). Exiting gracefully.
+2025-09-04 10:03:44,413 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 10:03:44,438 | INFO    | 
+============================================================
+2025-09-04 10:03:44,438 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 10:03:44,438 | INFO    | ============================================================
+2025-09-04 10:03:44,440 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 10:03:44,440 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 10:03:44,441 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 10:03:44,441 | INFO    | 
+============================================================
+2025-09-04 10:03:44,441 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 10:03:44,441 | INFO    | ============================================================
+2025-09-04 10:03:44,455 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 10:03:44,455 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 10:03:44,467 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 10:03:44,467 | INFO    | 
+============================================================
+2025-09-04 10:03:44,467 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 10:03:44,467 | INFO    | ============================================================
+2025-09-04 10:03:44,482 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 10:03:44,483 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 10:03:44,496 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 10:03:44,496 | INFO    | 
+============================================================
+2025-09-04 10:03:44,496 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 10:03:44,496 | INFO    | ============================================================
+2025-09-04 10:03:44,502 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 10:03:44,502 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 10:03:44,507 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 10:03:44,507 | INFO    | 
+============================================================
+2025-09-04 10:03:44,507 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 10:03:44,507 | INFO    | ============================================================
+2025-09-04 10:03:44,511 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 10:03:44,511 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 10:03:44,514 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 10:03:44,514 | INFO    | 
+============================================================
+2025-09-04 10:03:44,514 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 10:03:44,514 | INFO    | ============================================================
+2025-09-04 10:03:44,519 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 10:03:44,519 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 10:03:44,523 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 10:03:44,523 | INFO    | 
+============================================================
+2025-09-04 10:03:44,523 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 10:03:44,523 | INFO    | ============================================================
+2025-09-04 10:03:44,524 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 10:03:44,524 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 10:03:44,525 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 10:03:44,525 | INFO    | 
+============================================================
+2025-09-04 10:03:44,525 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 10:03:44,525 | INFO    | ============================================================
+2025-09-04 10:03:44,528 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 10:03:44,528 | INFO    | Skipping 2411.00986v1.pdf - already processed
+2025-09-04 10:03:44,529 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 10:03:44,529 | INFO    | 
+============================================================
+2025-09-04 10:03:44,529 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 10:03:44,529 | INFO    | ============================================================
+2025-09-04 10:03:44,531 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:03:45,224 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:03:45,230 | INFO    | [VS] created | id=vs_68b9c670fdbc8191a6459384b81edd09
+2025-09-04 10:03:45,231 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 10:03:46,966 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:03:46,971 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-T2yG9FrGMRrCaXpt4ikHXn | 1.74s
+2025-09-04 10:03:47,582 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c670fdbc8191a6459384b81edd09/files "HTTP/1.1 200 OK"
+2025-09-04 10:03:47,591 | INFO    | [VS-ADD] file_id=file-T2yG9FrGMRrCaXpt4ikHXn -> vs=vs_68b9c670fdbc8191a6459384b81edd09 | 0.62s
+2025-09-04 10:03:50,597 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:04:18,098 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 10:04:18,163 | INFO    | [ANALYZE] done | 27.57s
+2025-09-04 10:04:18,163 | ERROR   | Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-04 10:04:18,163 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Principles-for-Conscious-AI.json
+2025-09-04 10:04:18,165 | INFO    | 
+============================================================
+2025-09-04 10:04:18,165 | INFO    | Starting analysis of: s41467-024-46438-x.pdf
+2025-09-04 10:04:18,165 | INFO    | ============================================================
+2025-09-04 10:04:18,182 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 10:04:18,182 | INFO    | Skipping s41467-024-46438-x.pdf - already processed
+2025-09-04 10:04:18,196 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 10:04:18,197 | INFO    | 
+============================================================
+2025-09-04 10:04:18,197 | INFO    | Starting analysis of: 3601.full.pdf
+2025-09-04 10:04:18,197 | INFO    | ============================================================
+2025-09-04 10:04:18,203 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:04:18,473 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:04:18,476 | INFO    | [VS] created | id=vs_68b9c6925dd08191a4e0c8d58d2d5c10
+2025-09-04 10:04:18,477 | INFO    | [UPLOAD] 3601.full.pdf | size=2.46 MB
+2025-09-04 10:04:22,497 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:04:22,500 | INFO    | [UPLOAD] 3601.full.pdf | file_id=file-JMLkHqZmeLTwiBQWEgeFqP | 4.02s
+2025-09-04 10:04:23,217 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c6925dd08191a4e0c8d58d2d5c10/files "HTTP/1.1 200 OK"
+2025-09-04 10:04:23,220 | INFO    | [VS-ADD] file_id=file-JMLkHqZmeLTwiBQWEgeFqP -> vs=vs_68b9c6925dd08191a4e0c8d58d2d5c10 | 0.72s
+2025-09-04 10:04:26,225 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:04:30,523 | ERROR   | Interrupted by user (SIGINT). Exiting gracefully.
+2025-09-04 10:05:14,740 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 10:05:14,765 | INFO    | 
+============================================================
+2025-09-04 10:05:14,765 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 10:05:14,765 | INFO    | ============================================================
+2025-09-04 10:05:14,767 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 10:05:14,767 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 10:05:14,768 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 10:05:14,768 | INFO    | 
+============================================================
+2025-09-04 10:05:14,768 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 10:05:14,768 | INFO    | ============================================================
+2025-09-04 10:05:14,785 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 10:05:14,785 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 10:05:14,809 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 10:05:14,809 | INFO    | 
+============================================================
+2025-09-04 10:05:14,810 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 10:05:14,810 | INFO    | ============================================================
+2025-09-04 10:05:14,825 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 10:05:14,825 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 10:05:14,839 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 10:05:14,839 | INFO    | 
+============================================================
+2025-09-04 10:05:14,839 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 10:05:14,839 | INFO    | ============================================================
+2025-09-04 10:05:14,845 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 10:05:14,845 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 10:05:14,850 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 10:05:14,850 | INFO    | 
+============================================================
+2025-09-04 10:05:14,850 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 10:05:14,850 | INFO    | ============================================================
+2025-09-04 10:05:14,854 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 10:05:14,854 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 10:05:14,858 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 10:05:14,858 | INFO    | 
+============================================================
+2025-09-04 10:05:14,858 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 10:05:14,858 | INFO    | ============================================================
+2025-09-04 10:05:14,863 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 10:05:14,863 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 10:05:14,867 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 10:05:14,867 | INFO    | 
+============================================================
+2025-09-04 10:05:14,867 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 10:05:14,867 | INFO    | ============================================================
+2025-09-04 10:05:14,869 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 10:05:14,869 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 10:05:14,870 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 10:05:14,870 | INFO    | 
+============================================================
+2025-09-04 10:05:14,870 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 10:05:14,870 | INFO    | ============================================================
+2025-09-04 10:05:14,872 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 10:05:14,872 | INFO    | Skipping 2411.00986v1.pdf - already processed
+2025-09-04 10:05:14,874 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 10:05:14,874 | INFO    | 
+============================================================
+2025-09-04 10:05:14,874 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 10:05:14,874 | INFO    | ============================================================
+2025-09-04 10:05:14,875 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:05:15,647 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:05:15,656 | INFO    | [VS] created | id=vs_68b9c6cb567c819185a2bbc310cdf381
+2025-09-04 10:05:15,656 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 10:05:19,843 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:05:19,848 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-4FwEgjQUPaccoP7KSG4GTV | 4.19s
+2025-09-04 10:05:20,510 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c6cb567c819185a2bbc310cdf381/files "HTTP/1.1 200 OK"
+2025-09-04 10:05:20,522 | INFO    | [VS-ADD] file_id=file-4FwEgjQUPaccoP7KSG4GTV -> vs=vs_68b9c6cb567c819185a2bbc310cdf381 | 0.67s
+2025-09-04 10:05:23,527 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:05:42,819 | INFO    | HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-09-04 10:05:42,885 | INFO    | [ANALYZE] done | 19.36s
+2025-09-04 10:05:42,885 | ERROR   | Failed to parse JSON response: Expecting value: line 1 column 1 (char 0)
+2025-09-04 10:05:42,886 | INFO    | Results saved to /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/output/analysis_results/Principles-for-Conscious-AI.json
+2025-09-04 10:05:42,888 | INFO    | 
+============================================================
+2025-09-04 10:05:42,888 | INFO    | Starting analysis of: s41467-024-46438-x.pdf
+2025-09-04 10:05:42,888 | INFO    | ============================================================
+2025-09-04 10:05:42,905 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 10:05:42,905 | INFO    | Skipping s41467-024-46438-x.pdf - already processed
+2025-09-04 10:05:42,919 | INFO    | Paper s41467-024-46438-x.pdf already processed as Complexes_of_tubulin_oligomers_and_tau_form_a_viscoelastic_intervening_network_cross-bridging_microt.json
+2025-09-04 10:05:42,919 | INFO    | 
+============================================================
+2025-09-04 10:05:42,919 | INFO    | Starting analysis of: 3601.full.pdf
+2025-09-04 10:05:42,919 | INFO    | ============================================================
+2025-09-04 10:05:42,925 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:05:43,194 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:05:43,196 | INFO    | [VS] created | id=vs_68b9c6e7198081918950d2096e788559
+2025-09-04 10:05:43,197 | INFO    | [UPLOAD] 3601.full.pdf | size=2.46 MB
+2025-09-04 10:05:46,635 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:05:46,639 | INFO    | [UPLOAD] 3601.full.pdf | file_id=file-GkWq7maBAz58HDgX5NYJCv | 3.44s
+2025-09-04 10:05:47,130 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c6e7198081918950d2096e788559/files "HTTP/1.1 200 OK"
+2025-09-04 10:05:47,132 | INFO    | [VS-ADD] file_id=file-GkWq7maBAz58HDgX5NYJCv -> vs=vs_68b9c6e7198081918950d2096e788559 | 0.49s
+2025-09-04 10:05:50,137 | INFO    | [ANALYZE] starting with file_search access
+2025-09-04 10:08:05,476 | ERROR   | Interrupted by user (SIGINT). Exiting gracefully.
+2025-09-04 10:09:56,952 | INFO    | Loaded .env from: /Users/kristapszilgalvis/Desktop/consciousness/new/Consciousness_analysis/config/.env
+2025-09-04 10:09:56,977 | INFO    | 
+============================================================
+2025-09-04 10:09:56,977 | INFO    | Starting analysis of: 1-s2.0-S0301008223000667-main.pdf
+2025-09-04 10:09:56,977 | INFO    | ============================================================
+2025-09-04 10:09:56,979 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 10:09:56,979 | INFO    | Skipping 1-s2.0-S0301008223000667-main.pdf - already processed
+2025-09-04 10:09:56,980 | INFO    | Paper 1-s2.0-S0301008223000667-main.pdf already processed as Cytoelectric_coupling_Electric_fields_sculpt_neural_activity_and_“tune”_the_brain’s_infrastructure.json
+2025-09-04 10:09:56,980 | INFO    | 
+============================================================
+2025-09-04 10:09:56,980 | INFO    | Starting analysis of: 2503.10965v2.pdf
+2025-09-04 10:09:56,980 | INFO    | ============================================================
+2025-09-04 10:09:56,994 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 10:09:56,994 | INFO    | Skipping 2503.10965v2.pdf - already processed
+2025-09-04 10:09:57,007 | INFO    | Paper 2503.10965v2.pdf already processed as Auditing_Language_Models_for_Hidden_Objectives.json
+2025-09-04 10:09:57,007 | INFO    | 
+============================================================
+2025-09-04 10:09:57,008 | INFO    | Starting analysis of: 2507.22229v1.pdf
+2025-09-04 10:09:57,008 | INFO    | ============================================================
+2025-09-04 10:09:57,023 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 10:09:57,023 | INFO    | Skipping 2507.22229v1.pdf - already processed
+2025-09-04 10:09:57,037 | INFO    | Paper 2507.22229v1.pdf already processed as TRIBE_TRImodal_Brain_Encoder_for_whole-brain_fMRI_response_prediction.json
+2025-09-04 10:09:57,037 | INFO    | 
+============================================================
+2025-09-04 10:09:57,037 | INFO    | Starting analysis of: 2002.concepts.pdf
+2025-09-04 10:09:57,038 | INFO    | ============================================================
+2025-09-04 10:09:57,043 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 10:09:57,044 | INFO    | Skipping 2002.concepts.pdf - already processed
+2025-09-04 10:09:57,049 | INFO    | Paper 2002.concepts.pdf already processed as Concepts_of_Consciousness.json
+2025-09-04 10:09:57,049 | INFO    | 
+============================================================
+2025-09-04 10:09:57,049 | INFO    | Starting analysis of: s41583-023-00778-7.pdf
+2025-09-04 10:09:57,049 | INFO    | ============================================================
+2025-09-04 10:09:57,053 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 10:09:57,053 | INFO    | Skipping s41583-023-00778-7.pdf - already processed
+2025-09-04 10:09:57,057 | INFO    | Paper s41583-023-00778-7.pdf already processed as Causation_in_neuroscience_keeping_mechanism_meaningful.json
+2025-09-04 10:09:57,057 | INFO    | 
+============================================================
+2025-09-04 10:09:57,057 | INFO    | Starting analysis of: conscious-artificial-intelligence-and-biological-naturalism (1).pdf
+2025-09-04 10:09:57,057 | INFO    | ============================================================
+2025-09-04 10:09:57,061 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 10:09:57,062 | INFO    | Skipping conscious-artificial-intelligence-and-biological-naturalism (1).pdf - already processed
+2025-09-04 10:09:57,066 | INFO    | Paper conscious-artificial-intelligence-and-biological-naturalism (1).pdf already processed as Conscious_artificial_intelligence_and_biological_naturalism.json
+2025-09-04 10:09:57,066 | INFO    | 
+============================================================
+2025-09-04 10:09:57,066 | INFO    | Starting analysis of: fnhum-17-1233119.pdf
+2025-09-04 10:09:57,066 | INFO    | ============================================================
+2025-09-04 10:09:57,067 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 10:09:57,068 | INFO    | Skipping fnhum-17-1233119.pdf - already processed
+2025-09-04 10:09:57,069 | INFO    | Paper fnhum-17-1233119.pdf already processed as Don’t_forget_the_boundary_problem!_How_EM_field_topology_can_address_the_overlooked_cousin_to_the_bi.json
+2025-09-04 10:09:57,069 | INFO    | 
+============================================================
+2025-09-04 10:09:57,069 | INFO    | Starting analysis of: 2411.00986v1.pdf
+2025-09-04 10:09:57,069 | INFO    | ============================================================
+2025-09-04 10:09:57,071 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 10:09:57,071 | INFO    | Skipping 2411.00986v1.pdf - already processed
+2025-09-04 10:09:57,073 | INFO    | Paper 2411.00986v1.pdf already processed as Taking_AI_Welfare_Seriously.json
+2025-09-04 10:09:57,073 | INFO    | 
+============================================================
+2025-09-04 10:09:57,073 | INFO    | Starting analysis of: Principles-for-Conscious-AI.pdf
+2025-09-04 10:09:57,073 | INFO    | ============================================================
+2025-09-04 10:09:57,073 | INFO    | Successfully read theory_analysis.txt
+2025-09-04 10:09:57,724 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores "HTTP/1.1 200 OK"
+2025-09-04 10:09:57,729 | INFO    | [VS] created | id=vs_68b9c7e597788191b6e1afebded15cdb
+2025-09-04 10:09:57,729 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | size=0.30 MB
+2025-09-04 10:09:58,984 | INFO    | HTTP Request: POST https://api.openai.com/v1/files "HTTP/1.1 200 OK"
+2025-09-04 10:09:58,987 | INFO    | [UPLOAD] Principles-for-Conscious-AI.pdf | file_id=file-7AcKquyabWfMR5sfp96REZ | 1.26s
+2025-09-04 10:09:59,802 | INFO    | HTTP Request: POST https://api.openai.com/v1/vector_stores/vs_68b9c7e597788191b6e1afebded15cdb/files "HTTP/1.1 200 OK"
+2025-09-04 10:09:59,809 | INFO    | [VS-ADD] file_id=file-7AcKquyabWfMR5sfp96REZ -> vs=vs_68b9c7e597788191b6e1afebded15cdb | 0.82s
+2025-09-04 10:10:02,815 | INFO    | [ANALYZE] starting with file_search access

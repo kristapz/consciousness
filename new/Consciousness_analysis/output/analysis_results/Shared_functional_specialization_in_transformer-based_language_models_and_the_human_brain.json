@@ -1,0 +1,194 @@
+{
+  "paper_metadata": {
+    "title": "Shared functional specialization in transformer-based language models and the human brain",
+    "authors": [
+      "Sreejan Kumar",
+      "Theodore R. Sumers",
+      "Samuel A. Nastase"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "10.1038/s41467-024-49173-5",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "ai",
+      "species_or_model": "BERT-base-uncased; GPT-2",
+      "brief_mechanism": "Self-attention computes weighted combinations of context tokens (transformations) that are fused into embeddings, integrating distributed information.",
+      "method": "model-internal (self-attention math); description; figure reference",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Transformer self-attention mechanism",
+          "section_type": "Methods",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "The ith token “attends” to tokens based on the inner product of its query vector Qi with the key vectors for all tokens, K. When the query vector matches a given key, the inner product will be large; the softmax ensures the resulting “attention weights” sum to one. These attention weights are then used to generate a weighted sum of the value vectors, V, which is the final output of the self-attention operation (Eq. 1). We refer to the attention head’s output as the “transformation” produced by that head. Each attention head produces a separate transformation for each input token.",
+          "interpretation": "This describes how attention heads integrate distributed token information into per-head 'transformations' that are later fused, providing a mechanistic basis for information integration in Transformer LMs that can be compared with brain-wide integration phenomena. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 1",
+          "page": 3,
+          "caption_quote": "Embeddings represent the contextualized semantic content of the text. Transformations are the output of the self-attention mechanism for each attention head (BERT-base and GPT-2 have 12 heads per layer, each producing a 64-dimensional vector). Transformations capture the contextual information incrementally added to the embedding in that layer.",
+          "interpretation_short": "Clarifies that head-specific transformations are the conduit for integrating contextual information into embeddings, aligning with the information-integration phenomenon. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Mechanistic description is within-model and does not by itself establish a direct causal mapping to neural integration processes."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "ai",
+      "species_or_model": "BERT-base-uncased",
+      "brief_mechanism": "Headwise functional specialization implies content-sensitive gating/routing via specific attention heads.",
+      "method": "model-internal; encoding/decoding analysis",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Interpreting transformations via headwise analysis",
+          "section_type": "Results",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "BERT’s training regime has been shown to yield an emergent headwise functional specialization for particular linguistic operations... We split the transformations at each layer into their functionally specialized components—the constituent transformations implemented by each attention head.",
+          "interpretation": "Functional specialization at the head level suggests selective routing of information through distinct gates (heads), a key aspect of control over information flow relevant to consciousness-related gating hypotheses. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Head specialization is inferred from correlations with linguistic features and brain mapping; direct interventions on routing (e.g., head ablation) are not reported here in the main text."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "BERT-base-uncased; GPT-2",
+      "brief_mechanism": "Embeddings and transformations occupy different feature spaces, show near-zero temporal correlation, distinct geometries, and different layerwise specificity.",
+      "method": "model-internal representational analyses; fMRI encoding comparisons",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 12,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Transformer-based features outperform other linguistic features",
+          "section_type": "Results",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "despite yielding similar encoding performance, the embeddings and transformations are fundamentally different; for example, the average TR-by-TR correlation between embeddings and transformations across both stimuli is effectively zero (−0.004 ± 0.009 SD), and the embeddings and transformations are not correlated across layers (Fig. S5). The embeddings and transformations also yield visibly different TR-by-TR representational geometries (Fig. S6), and the transformations have considerably higher temporal autocorrelation than the embeddings (Fig. S7).",
+          "interpretation": "The near-zero correlation and divergent geometries indicate distinct representational subspaces for embeddings vs. per-head transformations, mapping to how content is encoded and organized in modern LMs. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Layerwise performance of embeddings and transformations",
+          "section_type": "Results",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "We found that transformation-based predictions capture more unique variance at earlier layers than embedding-based predictions; embeddings, on the other hand, accumulate information over time and capture the most unique variance at later layers.",
+          "interpretation": "Layer-specific uniqueness vs. accumulation across layers reveals a structured progression in how different components contribute to representations, aligning with representational hierarchy analyses. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Findings are correlational with respect to brain data and depend on fMRI encoding quality and chosen feature extraction; not a direct mechanistic mapping."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Headwise 'look-back' distances align with cortical regions’ temporal receptive windows, indicating timescale coordination in language processing.",
+      "method": "fMRI encoding; PCA over headwise weights across parcels",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Interpreting transformations via headwise analysis",
+          "section_type": "Results",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "left-lateralized anterior temporal and anterior prefrontal cortices were associated with longer look-back attention distances (positive values along PC2; Fig. 4), suggesting that these regions may have longer temporal receptive windows and compute longer-range contextual dependencies, including event- or narrative-level relations.",
+          "interpretation": "The mapping between attention 'look-back' distance and cortical timescales provides evidence for temporal coordination mechanisms linking model dynamics to brain processing windows. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Timescale inferences are indirect (via headwise PCA and fMRI) and depend on model-derived metrics of look-back distance."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Per-head transformations explain substantial variance across the cortical language network during narrative comprehension.",
+      "method": "fMRI model-based encoding using Transformer features",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Transformer-based features outperform other linguistic features",
+          "section_type": "Results",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "Overall, these findings suggest that the transformations capture a considerable proportion of variance of neural activity across the cortical language network and motivate more detailed treatment of their functional properties.",
+          "interpretation": "That transformations (the model’s integration channel) predict widespread brain activity supports a link between model-based information integration and distributed cortical representations during comprehension. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Encoding models capture shared variance but do not establish causal integration mechanisms in cortex; fMRI’s temporal resolution limits inferences about fast binding."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T09:47:42.383250",
+    "model_used": "gpt-5",
+    "pdf_filename": "s41467-024-49173-5 (1).pdf",
+    "vector_store_id": "vs_68b9c1918f508191acc17d33677ab65b",
+    "file_id": "file-KbiAj94BjFw9hGik4p83UC",
+    "content_length": null
+  }
+}

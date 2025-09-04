@@ -1,0 +1,122 @@
+{
+  "paper_metadata": {
+    "title": "Convergent effects of different anesthetics on changes in phase alignment of cortical oscillations",
+    "authors": [
+      "Alexandra G. Bardon",
+      "Jesus J. Ballesteros",
+      "Scott L. Brincat",
+      "Jefferson E. Roy",
+      "Meredith K. Mahnke",
+      "Yumiko Ishizawa",
+      "Emery N. Brown",
+      "Earl K. Miller"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "10.1016/j.celrep.2025.115685",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Anesthetic ketamine and dexmedetomidine reorganize low-frequency phase relationships: decreased alignment within hemispheres and increased alignment across hemispheres.",
+      "method": "LFP; PLV/coherence and phase offset analyses",
+      "state": "anesthesia",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Anesthetics reduced alignment within hemispheres but increased it across hemispheres",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "They indicate decreased phase alignment between ventrolateral and dorsolateral arrays (L-Ven vs. L-Dor, R-Ven vs. R-Dor; Figure 1C, green). By contrast, there was increased phase alignment across hemispheres (L-Ven vs. R-Ven, L-Dor vs. R-Dor; Figure 1C, purple)... Anesthetic doses of both ketamine and dexmedetomidine caused a significant decrease in phase alignment within hemispheres... Across hemispheres, there was a significant increase in phase alignment...",
+          "interpretation": "Direct evidence that anesthesia reconfigures the timing relationships of slow oscillations—desynchronizing within-hemisphere and synchronizing across hemispheres—supports a key role for temporal coordination mechanisms in transitions of conscious state. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "PLV, coherence, phase offset",
+          "section_type": "Methods",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "PLV, coherence, and phase offset were calculated between pairs of channels on indicated arrays... To calculate the PLV, we took the absolute value of the average normalized cross spectrum. To calculate coherence, we divided the cross spectrum of two channels by the square root of the product of each channel’s auto spectrum. To calculate the phase offset, we took the angle of the cross spectrum.",
+          "interpretation": "The methodological details confirm that time-resolved phase coordination was quantified with standard PLV/coherence metrics appropriate for assessing oscillatory synchronization relevant to conscious processing. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 2",
+          "page": 4,
+          "caption_quote": "Figure 2. Phase locking weakened, and LFPs became less phase aligned with distance (A) PLV vs. distance within an array, before (gray) and during (blue) anesthetics, in the low-frequency range (1–4 Hz)...",
+          "interpretation_short": "Shows anesthesia-amplified distance-dependent desynchronization within arrays, linking spatial scale to the timing structure of oscillations implicated in conscious state changes. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Findings are correlative (effects observed during anesthesia without direct causal manipulation of timing generators); recordings limited to PFC and two anesthetics; generalization to other brain regions, species, or behavioral conditions remains to be established."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "macaque",
+      "brief_mechanism": "Anesthetic-induced phase realignment is argued to fragment intrahemispheric communication and enhance interhemispheric synchrony, with thalamocortical pathways hypothesized to mediate long-range information transfer that is disrupted during anesthesia.",
+      "method": "LFP; interpretive links to network-level information transfer",
+      "state": "anesthesia",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "Within a hemisphere, the ventrolateral and dorsolateral PFC became less phase aligned at low frequencies... These offsets may fragment within-hemisphere communication as periods of excitability become misaligned... In contrast to the fragmentation of activity within a hemisphere, homologous regions across hemispheres became more aligned.",
+          "interpretation": "Authors interpret the altered phase relationships as degrading local integrative communication while enhancing synchrony across hemispheres, mapping oscillatory coordination changes onto information-integration/segregation relevant to consciousness. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Discussion",
+          "section_type": "Discussion",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "Such synchrony could also be partially mediated by subcortical regions like the thalamus, a potential hub of interhemispheric communication... low-frequency oscillations and thalamocortical connections may be involved in information transfer between cortical regions, which may be disrupted during anesthesia, thus leading to unconsciousness.",
+          "interpretation": "Links the observed network-level phase patterns to thalamocortical routing of information, suggesting a mechanism by which integration is compromised during anesthesia-induced unconsciousness. "
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 3",
+          "page": 6,
+          "caption_quote": "Figure 3. Sub-anesthetic doses of ketamine and dexmedetomidine produce weaker effects (A) Change in PLV. (B) Histograms of phase offsets. (C) Change in phase alignment index...",
+          "interpretation_short": "Dose-dependent weakening of the phase changes supports a graded disruption of integrative dynamics, consistent with reduced alteration of information flow at sub-anesthetic levels. "
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Interpretation of thalamocortical involvement is inferential in this dataset; causal tests (e.g., simultaneous thalamic recordings/stimulation) are suggested but not performed here."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T10:01:26.993147",
+    "model_used": "gpt-5",
+    "pdf_filename": "Convergent_Effects_of_Different_Anesthetics_2025.pdf",
+    "vector_store_id": "vs_68b9c56337e08191b2ace7d051273136",
+    "file_id": "file-4kPn8QtpRH8qEQ8vJdQrvx",
+    "content_length": null
+  }
+}

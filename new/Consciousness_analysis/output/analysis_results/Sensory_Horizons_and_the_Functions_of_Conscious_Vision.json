@@ -1,0 +1,193 @@
+{
+  "paper_metadata": {
+    "title": "Sensory Horizons and the Functions of Conscious Vision",
+    "authors": [
+      "Stephen M. Fleming",
+      "Matthias Michel"
+    ],
+    "year": null,
+    "doi_or_arxiv": "",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Psychophysical postdiction shows a slow window of unconscious integration before conscious perception (~350–450 ms), implying temporally coordinated gating of access to awareness.",
+      "method": "behavioral psychophysics (reviewed)",
+      "state": "awake",
+      "time": {
+        "bio_ms": 450,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "What long-lasting postdiction shows",
+          "section_type": "Results",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "We have reviewed long-lasting postdiction effects in the 350-400ms range. These effects suggest that conscious perception does not generally occur before 350ms after stimulus onset. If conscious perception occurred before that, manipulating post-stimulus processing would be too late to change it. The fact that the fate of a percept can still be changed in that time frame indicates that it was not already conscious. This means that consciousness is slow. It is preceded by a window of unconscious sensory integration that can last up to 450ms in the most extreme cases (Herzog et al. 2020).",
+          "interpretation": "This passage argues that conscious perception is preceded by a temporally extended window of unconscious integration, supporting the view that temporal coordination mechanisms gate entry to awareness on ~350–450 ms scales (relevant to timing and segmentation in both brains and AI systems) ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Evidence is inferential from psychophysical effects rather than direct neural timing markers; precise neural mechanisms of the integration window are not identified."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "A higher-order 'perceptual reality monitoring' (PRM) mechanism tags reliable first-order percepts for model-based control, linking conscious access to metacognitive evaluation and report.",
+      "method": "theoretical framework drawing on behavioral and neuroimaging literature",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Reality monitoring",
+          "section_type": "Discussion",
+          "page": 25,
+          "paragraph_index": null,
+          "quote": "One solution to perceptual reality monitoring (PRM) is to develop a system of higher-order representations indicating which first-order representations are reliable reflections of the world as it is now ... Under the PRM theory of consciousness, conscious representations are the result of the process of selecting reliable perceptual signals for use in the rational (model-based) control of action.",
+          "interpretation": "By positing a higher-order tagging system that selects percepts for flexible control, this account links conscious access to metacognitive reportability—a key bridge between self-modeling in humans and introspection modules in AI ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 4",
+          "page": 29,
+          "caption_quote": "Figure 4. Reality monitoring and windows of integration. A) Higher-order states in generative models of perception can provide information about the reliability or precision of a world model ... B). The timescale of conscious perception allows a reliable world model to be built over a given time window of integration, and then be used for offline simulation and planning.",
+          "interpretation_short": "Depicts how a higher-order reliability signal can close the integration window to fix a conscious model for subsequent planning—tying metacognitive tagging to reportable conscious content and control ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Argumentative/theoretical; direct neural implementations of the proposed higher-order tagging are not specified and empirical tests are proposed but not yet completed."
+    },
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "rodent",
+      "brief_mechanism": "Neural activity alternates between present and hypothetical states, with replay cycles compressed to sub-200 ms at ~8 Hz, suggesting rapid switches between processing regimes.",
+      "method": "spikes/LFP (rodent hippocampus; literature reviewed)",
+      "state": "awake",
+      "time": {
+        "bio_ms": 125,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Computational perspectives on the timescale for consciousness and control",
+          "section_type": "Discussion",
+          "page": 22,
+          "paragraph_index": null,
+          "quote": "It is intriguing to speculate that the timescale of this alternation between perceptual and active inference is similar to that identified for the window of conscious perception, around 300-500ms. Recent discoveries in animals also indicate that the neural correlates of current versus hypothetical experience can alternate within a theta cycle (Kay et al., 2020).",
+          "interpretation": "Alternations between present-focused and hypothetical computation point to metastable switching—akin to state transitions in conscious access and potentially analogous to mode switches in AI models ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Computational perspectives on the timescale for consciousness and control",
+          "section_type": "Discussion",
+          "page": 19,
+          "paragraph_index": null,
+          "quote": "The entire replayed sequence is compressed into a time window of <200ms ... Kay et al. (2020) found neural activity in the rodent hippocampus encoding two possible future scenarios ... in constant alternation at 8 Hz: one scenario per 125ms cycle.",
+          "interpretation": "Sub-200 ms replay and 8 Hz alternation further support fast, discrete regime switching that could bracket or compete with conscious perceptual consolidation ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Evidence is indirect for consciousness per se (hippocampal replay during planning) and extrapolates from rodents to human conscious dynamics."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Despite long-lasting, parallel encodings in visual cortex, conscious experience appears serial and coherent, implying a selection mechanism that structures which representations reach experience.",
+      "method": "neuroimaging/decoding literature reviewed; theoretical synthesis",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Consciousness and reality monitoring",
+          "section_type": "Discussion",
+          "page": 33,
+          "paragraph_index": null,
+          "quote": "There is an apparent tension between long-lasting parallel encoding and the apparently serial nature of the contents of experience. A recent focus in neuroscience of identifying neural activity related to a state other than the agent’s current state is prima facie evidence that the brain contains a multitude of internal processes that do not correspond to our current experience.",
+          "interpretation": "This motivates a representational selection/structuring process for conscious contents—akin to selecting a low-dimensional, coherent subspace from richer latent activity, paralleling representational geometry concerns in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Relies on synthesis of prior decoding and replay findings; does not directly localize the selection mechanism or specify its neural code."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Causal disruption of a visual mask with TMS restores perception of a previously masked target, indicating controllable intervention points in the processing pipeline.",
+      "method": "TMS (causal perturbation), psychophysics",
+      "state": "awake",
+      "time": {
+        "bio_ms": 200,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Postdiction and the speed of consciousness",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Amassian et al. (1993) suppressed the perception of three letters by presenting a mask 100ms later. They then discovered that applying transcranial magnetic stimulation to the visual cortex 100ms after the mask suppressed the mask, and thus led to a recovery of the target letters. The target must have been processed unconsciously for 200ms, since a TMS pulse 200ms after its onset could still determine whether or not the target was perceived.",
+          "interpretation": "This causal intervention shows that specific perturbations can toggle visibility outcomes well after stimulus onset, highlighting manipulable control points for conscious access that inspire analogous ablation/patching probes in AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "The timing inference depends on assumptions about processing latencies of target and mask and generalizes from specific masking paradigms."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T09:42:57.374269",
+    "model_used": "gpt-5",
+    "pdf_filename": "FlemingMichel_Sensory Horizons_v3.pdf",
+    "vector_store_id": "vs_68b9c10a4a7481918225fc3b86a881cc",
+    "file_id": "file-HU26MTz4TzQxxbhBkH5HZa",
+    "content_length": null
+  }
+}
