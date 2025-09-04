@@ -1,0 +1,178 @@
+{
+  "paper_metadata": {
+    "title": "Key concepts and current views on AI welfare",
+    "authors": [
+      "Robert Long",
+      "Kyle Fish",
+      "Eleos AI Research"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "N/A",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "ai",
+      "species_or_model": "AI systems (general)",
+      "brief_mechanism": "Consistency and reliability of self-reports proposed as part of criteria for credible reportability.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "What kinds of future systems would update us?",
+          "section_type": "Results",
+          "page": 14,
+          "paragraph_index": null,
+          "quote": "Verbal reports of consciousness, sentience, and agency that are consistent with each other, and with the system’s capabilities and behaviors.\n\n○ At least as much as humans, the AI system’s self-reports about these issues are not inconsistent under circumstances that should not cause them to vary (like trivial changes in prompt).\n\n○ At least as much as humans, the AI system’s statements about its internal states match up with its capabilities and behaviors (see Perez & Long, 2023, section 10). If it says it has color vision, it can accurately discriminate between different colored things. If it says it feels pain, then it tends to avoid “noxious” stimuli via the equivalents of its “pain” sensors. If it has preferences, these preferences explain its behavior.",
+          "interpretation": "The paper proposes reliability and consistency criteria for AI self-reports as part of evaluating consciousness-related properties, aligning with the Self-Model & Reportability phenomenon by operationalizing report pathways and confidence. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "This is a conceptual proposal rather than an empirical validation; it notes risks of mimicry and prompt-sensitivity and does not specify standardized protocols for eliciting or verifying reports."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "ai",
+      "species_or_model": "AI systems (general)",
+      "brief_mechanism": "Differentiates reward-trained behavior from conscious valenced experience and outlines functional roles of valence.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Sentience evaluations",
+          "section_type": "Results",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "Sentience involves more than just being trained with positive and negative reward signals (Tomasik, 2014; Schubert, 2014). For one thing, sentience (in the sense discussed here) must somehow involve the conscious representation of positive or negative value. Simple entities that are not plausibly conscious, both artificial and biological, can learn from reward and take actions shaped by reward. Sentience also involves more than just having dispositions to approach or avoid certain things. Conscious valenced experiences might have more specific ways in which they shape behavior—for example, regulating what an entity attends to, or promoting particular kinds of learning (Schukraft, 2020).",
+          "interpretation": "By distinguishing reward learning from conscious representation of value and describing behavioral regulation roles of valence, the text targets the Valence & Welfare phenomenon relevant to assessing suffering capacity in AI. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "No operational test is provided; the discussion highlights conceptual gaps and the nascency of AI valence research."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "AI systems (general)",
+      "brief_mechanism": "Highlights the role of evaluative representations as a structural feature linking agency and sentience.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Relationship between evaluations for consciousness, sentience, and agency",
+          "section_type": "Results",
+          "page": 12,
+          "paragraph_index": null,
+          "quote": "Agency and sentience are especially closely related: both sentience and agency are about ways in which an entity represents certain things as valuable or disvaluable (“evaluative” representations). Given this close relationship between sentience and agency, research into the nature of evaluative representations in AI systems will be important, regardless of whether this work is classified as evaluating for agency or evaluating for sentience.",
+          "interpretation": "This explicitly foregrounds representational content—evaluative representations—as a structural target for analysis, matching the Representational Structure phenomenon and guiding interpretability goals. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Identifies a target (evaluative representations) but offers no concrete interpretability methods or measurement protocols."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theory (GWT and related frameworks)",
+      "brief_mechanism": "Frames global broadcasting/integration as a candidate computational signature derived from neuroscientific theories.",
+      "method": "theory review",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Overview of the indicator approach",
+          "section_type": "Introduction",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "For example, global workspace theory identifies consciousness with the global broadcast of information to several otherwise-independent modules in the brain, which allows integration between them.",
+          "interpretation": "By emphasizing global broadcast and integration as functional hallmarks, the text maps neuroscientific markers (global workspace-like activation) to candidate AI indicators for Information Integration. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual linkage only; no specific neural or model-internal measurements are provided to validate integration metrics in AI or brains."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "ai",
+      "species_or_model": "AI systems (general)",
+      "brief_mechanism": "Cautions that AI self-reports should be validated and triangulated with other evidence.",
+      "method": "conceptual analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Future research directions",
+          "section_type": "Discussion",
+          "page": 15,
+          "paragraph_index": null,
+          "quote": "So this approach must be handled with care: LLM outputs should be extensively checked for reliability and assessed alongside other sources of evidence (Perez & Long, 2023).",
+          "interpretation": "The document underscores that reportability must be supported by credibility checks and independent evidence, refining how Self-Model & Reportability should be operationalized in AI evaluations. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Provides high-level guidance without specifying concrete reliability metrics or standardized cross-check procedures."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:10:25.798508",
+    "model_used": "gpt-5",
+    "pdf_filename": "20250127_Key_Concepts_and_Current_Views_on_AI_Welfare.pdf",
+    "vector_store_id": "vs_68b9e387c0e48191ba0bd88b10d52520",
+    "file_id": "file-JamsS937o63MpWA1LPRZXG",
+    "content_length": null
+  }
+}

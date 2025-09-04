@@ -1,0 +1,222 @@
+{
+  "paper_metadata": {
+    "title": "In vitro neurons learn and exhibit sentience when embodied in a simulated game-world",
+    "authors": [
+      "Brett J. Kagan",
+      "Andy C. Kitchen",
+      "Nhi T. Tran",
+      "Forough Habibollahi",
+      "Moein Khajehnejad",
+      "Bradyn J. Parker",
+      "Anjali Bhat",
+      "Ben Rollo",
+      "Adeel Razi",
+      "Karl J. Friston"
+    ],
+    "year": 2022,
+    "doi_or_arxiv": "10.1016/j.neuron.2022.09.001",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "bio",
+      "species_or_model": "in vitro (human and mouse cortical neurons on HD-MEA)",
+      "brief_mechanism": "Closed-loop embodiment elicits rapid learning with increased functional plasticity and entropy shifts.",
+      "method": "MEA spikes (closed-loop stimulation/recording)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "RESULTS",
+          "section_type": "Results",
+          "page": 3962,
+          "paragraph_index": null,
+          "quote": "Figure 7I suggests that closed-loop training during Gameplay displays significantly increased plasticity compared with baseline plasticity measured at Rest before training, indicating that functional plasticity was upregulated during gameplay (Table S1).",
+          "interpretation": "Increased functional plasticity during real-time gameplay indicates emergent, system-level reconfiguration consistent with learning-driven dynamics relevant to consciousness-associated complexity in neural systems and potentially AI-inspired embodiments ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "RESULTS",
+          "section_type": "Results",
+          "page": 3962,
+          "paragraph_index": null,
+          "quote": "For the studies reported in Figure 5, the mean information entropy was found to be lower during Gameplay than during Rest, both before and after the unpredictable feedback stimulation (Figure 7J and Table S1).",
+          "interpretation": "Lower entropy during successful closed-loop interaction and increases after unpredictable feedback support emergent, context-sensitive dynamics—features often sought as neural signatures of conscious processing and adaptive control ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 7",
+          "page": 3962,
+          "caption_quote": "Following random stimulation feedback, there was a significant increase in the mean information entropy during Gameplay (t = 4.890, p = 2.024×10−6) ... Mean information entropy was lower at both pre- ... and post- ... feedback during Gameplay than at Rest.",
+          "interpretation_short": "Entropy modulation with gameplay and feedback evidences emergent dynamics as the culture adapts to predictive structure, a property relevant to theories linking complexity and consciousness ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "In vitro monolayers with coarse stimulation may not generalize to in vivo global dynamics; claims about ‘sentience’ are interpretive and lack direct report-based corroboration."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "in vitro (human and mouse cortical neurons on HD-MEA)",
+      "brief_mechanism": "Structured closed-loop feedback causally shapes learning; removing or altering feedback degrades performance.",
+      "method": "MEA spikes (closed-loop feedback manipulation)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "DISCUSSION",
+          "section_type": "Discussion",
+          "page": 3964,
+          "paragraph_index": null,
+          "quote": "We have emphasized the requirement for embodiment in neural systems for goal-directed learning to occur. This is seen in the relative performance over experiments, where denser information and more diverse feedback impacted performance. Likewise, when no feedback was provided yet information on ball position was available, cultures showed significantly poorer performance and no learning.",
+          "interpretation": "Feedback-contingent embodiment exerts causal control over neural computations and behavior, paralleling causal intervention studies that seek mechanistic links to conscious access and control in brains and AI systems ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 6",
+          "page": 3962,
+          "caption_quote": "The importance of feedback in learning",
+          "interpretation_short": "Performance differences across Stimulus, Silent, and No-feedback schedules demonstrate that feedback manipulation causally gates learning-related behavior ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Control conditions differ in stimulation statistics; causal attributions rely on behavioral surrogates rather than direct readouts of internal computational goals."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "in vitro (human and mouse cortical neurons on HD-MEA)",
+      "brief_mechanism": "Closed-loop system integrates readouts and writes inputs so neural actions condition subsequent sensory input in real time.",
+      "method": "MEA spikes (real-time read/write loop)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Building a modular, real-time platform to harness neuronal computation",
+          "section_type": "Results",
+          "page": 3956,
+          "paragraph_index": null,
+          "quote": "DishBrain (Figure S2) was designed to integrate these functions to “read” information from and “write” sensory data to a neural culture in a closed-loop system so neural “action” influences future incoming “sensory” stimulation in real time.",
+          "interpretation": "Real-time bidirectional coupling integrates distributed neural activity into a unified, behaviorally relevant loop—analogous to global access/integration motifs discussed in consciousness models and AI attention architectures ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Integration is demonstrated at the sensorimotor loop level rather than via identified large-scale binding or workspace-like signatures across distinct neural subsystems."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "bio",
+      "species_or_model": "in vitro (human and mouse cortical neurons on HD-MEA)",
+      "brief_mechanism": "Cultures adapt to avoid unpredictable stimulation delivered after ‘misses,’ consistent with minimizing aversive surprise.",
+      "method": "MEA spikes (closed-loop with predictable vs. unpredictable feedback)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "RESULTS",
+          "section_type": "Results",
+          "page": 3954,
+          "paragraph_index": null,
+          "quote": "We therefore hypothesize that when provided a structured external stimulation simulating the classic arcade game “Pong” within the DishBrain system, the BNN would modify internal activity to avoid adopting states linked to unpredictable external stimulation.",
+          "interpretation": "The design treats unpredictability as a negative outcome that the system learns to avoid, aligning with aversive-cost signals and ‘negative reward’ channels relevant to welfare-sensitive interpretations of adaptive behavior in embodied systems ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 7",
+          "page": 3962,
+          "caption_quote": "Mean information entropy was lower at both pre- ... and post- ... feedback during Gameplay than at Rest.",
+          "interpretation_short": "Entropy suppression during successful play and increases after unpredictable feedback are consistent with minimizing aversive surprise in a feedback-defined valence landscape ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "‘Valence’ is inferred from behavioral adaptation to feedback statistics without direct affective or nociceptive markers; in vitro systems lack many substrates typically associated with welfare."
+    },
+    {
+      "phenomenon_id": "state_transitions",
+      "system_type": "bio",
+      "species_or_model": "in vitro (human and mouse cortical neurons on HD-MEA)",
+      "brief_mechanism": "Correlations between motor regions change over early minutes of gameplay, then stabilize, suggesting a regime shift.",
+      "method": "MEA spikes (time-binned correlation analysis)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "RESULTS",
+          "section_type": "Results",
+          "page": 3962,
+          "paragraph_index": null,
+          "quote": "The correlation between the two motor regions was found to vary substantially over time (Figure 7G). A linear regression of the correlation in 100ms-time bins between motor regions was found to decrease with time significantly until approximately 5 min of gameplay ... After this point, little further change was observed ... suggesting a degree of homeostasis.",
+          "interpretation": "A shift from variable to stabilized correlation structure within minutes resembles a transition between processing regimes, consistent with state-switch phenomena discussed in consciousness dynamics and learning phase changes in AI ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 7",
+          "page": 3962,
+          "caption_quote": "The correlation between the two motor regions showed substantial changes over time (blue). Linear regression conducted on the first 5 min of Gameplay (orange) showed a significant negative relationship ... absent in the final 15 min (teal).",
+          "interpretation_short": "Early-time reconfiguration followed by stabilization indicates a transition to a new dynamical regime during learning ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Correlation-based metrics do not uniquely specify underlying causal mechanisms; stabilization could reflect fatigue or other non-specific processes without simultaneous mechanistic assays."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:29:03.052929",
+    "model_used": "gpt-5",
+    "pdf_filename": "1-s2.0-S0896627322008066-main.pdf",
+    "vector_store_id": "vs_68b9e7cf2ca081918e55816cafca3d15",
+    "file_id": "file-4XVRPrsMeohXRjpYixyauA",
+    "content_length": null
+  }
+}

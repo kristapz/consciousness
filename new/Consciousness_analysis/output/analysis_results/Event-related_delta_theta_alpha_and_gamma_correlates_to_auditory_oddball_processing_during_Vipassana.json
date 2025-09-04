@@ -1,0 +1,188 @@
+{
+  "paper_metadata": {
+    "title": "Event-related delta, theta, alpha and gamma correlates to auditory oddball processing during Vipassana meditation",
+    "authors": [
+      "B. Rael Cahn",
+      "Arnaud Delorme",
+      "John Polich"
+    ],
+    "year": 2013,
+    "doi_or_arxiv": "",
+    "domain": "neuroscience"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Meditation increased theta (4–8 Hz) phase-locking to standard stimuli (100–400 ms), approaching the level seen during active task engagement.",
+      "method": "EEG time-frequency (wavelet); inter-trial coherence",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Standard stimulus-related processing",
+          "section_type": "Results",
+          "page": 104,
+          "paragraph_index": null,
+          "quote": "Standard stimuli also evinced significantly greater theta inter-trial coherence during meditation compared with control state.",
+          "interpretation": "Enhanced theta phase-locking to repeated standards during meditation indicates stronger temporal coordination of sensory processing, a candidate mechanism for binding/segmentation in conscious access ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Meditation state and active task activity",
+          "section_type": "Results",
+          "page": 106,
+          "paragraph_index": null,
+          "quote": "For the theta phase synchrony (100–400 ms) measure to standards, a significant state effect was obtained... the passive control state was associated with significantly less theta synchrony to standards compared with active task activity (P < 0.005), but the passive meditation state was not significantly different from active task theta synchrony (P = 0.42).",
+          "interpretation": "Theta synchrony during meditation matched active-task levels, suggesting meditation recruits timing mechanisms that support conscious processing without overt task demands ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Methods",
+          "section_type": "Methods",
+          "page": 102,
+          "paragraph_index": null,
+          "quote": "Data reflecting event-related spectral perturbation and inter-trial coherence (phase locking) were derived from delta (2–4 Hz), theta (4–8 Hz), alpha-1 (8–10 Hz) and alpha-2 (10–12 Hz)... The inter-trial coherence and spectral power calculations were obtained using the complex Gaussian wavelet.",
+          "interpretation": "Inter-trial coherence provides a quantitative measure of temporal coordination (phase-locking) across trials, operationalizing oscillatory timing mechanisms relevant to conscious processing ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 106,
+          "caption_quote": "Theta inter-trial coherence (4–8 Hz, 100–400 ms post stimulus) scalp topography for each stimulus type (distracter, oddball and standard) and task (meditation, control and active) condition.",
+          "interpretation_short": "Shows enhanced theta phase-locking, including during meditation, linking oscillatory timing to altered processing states relevant for conscious access ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "EEG has limited spatial specificity; sample size is modest; effects are correlational (no causal manipulation); comparisons include both passive and active states which may introduce task/state confounds."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "During meditation, distracter-related early delta (2–4 Hz, ~100–500 ms) recruitment decreased while late alpha (8–10 Hz, 500–900 ms) desynchronization increased, indicating altered gating of distracter processing.",
+      "method": "EEG time-frequency (wavelet); spectral power and phase synchrony",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "DISCUSSION",
+          "section_type": "Discussion",
+          "page": 107,
+          "paragraph_index": null,
+          "quote": "The present findings describe further the neuroelectric brain state produced by this meditation practice... and the results imply that such practice involves enhancement in early stimulus-representation... Also found was decreased frontal responsivity to distracting stimuli accompanied by a dissociation between the normal positive relationship between early enhanced P3/evoked delta and later event-related desynchronization of alpha power.",
+          "interpretation": "Authors interpret decreased frontal/delta responses with increased later alpha ERD to distracters as altered top-down gating, consistent with selective routing mechanisms for attentional control in conscious processing ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Meditation state and active task activity",
+          "section_type": "Results",
+          "page": 107,
+          "paragraph_index": null,
+          "quote": "For the late 500–900 ms alpha-1 power from distracter processing, a state effect was obtained... active task late alpha-1 power decreases to distracter stimuli were significantly greater than the control state (P < 0.05) but indistinguishable from the meditation state (P = 0.97).",
+          "interpretation": "Late alpha ERD to distracters in meditation mirrors active-task engagement, indicating selective routing that maintains processing while reducing early frontal reactivity ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "CONCLUSIONS",
+          "section_type": "Discussion",
+          "page": 109,
+          "paragraph_index": null,
+          "quote": "The attention-related recruitment of 2–4 Hz power to distracters was decreased in meditation... This was complemented by the late event-related alpha desynchronization to the distracters that was actually increased in meditation.",
+          "interpretation": "Summary emphasizes reduced early delta with increased late alpha ERD for distracters during meditation, a pattern indicative of altered gating/selection in the processing pipeline ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 5",
+          "page": 107,
+          "caption_quote": "Late alpha-1 (8–10 Hz, 500–900 ms post stimulus) event-related spectral perturbation (dB) scalp topography for each stimulus type ...",
+          "interpretation_short": "Demonstrates larger late alpha desynchronization to distracters in meditation/active vs control, consistent with later-stage selective processing ."
+        },
+        {
+          "figure_label": "Fig. 2",
+          "page": 104,
+          "caption_quote": "Delta (2–4 Hz, 100–500 ms post-stimulus) event-related spectral perturbation power (dB) scalp topography for each stimulus type ...",
+          "interpretation_short": "Visualizes early delta dynamics to distracters across states, supporting claims about reduced early frontal delta recruitment during meditation ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "The delta effect to distracters shows only trend-level differences when including an active comparator; EEG inferences about 'frontal' engagement are indirect; no direct causal manipulation of attentional circuits."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Meditation modulated early gamma-band (35–45 Hz, 20–100 ms) phase synchrony and power to distracters, especially in long-term practitioners, consistent with binding/integration via synchrony.",
+      "method": "EEG time-frequency (wavelet); inter-trial coherence and spectral power in gamma band",
+      "state": "task_off",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Standard stimulus-related processing / Individual differences",
+          "section_type": "Results",
+          "page": 105,
+          "paragraph_index": null,
+          "quote": "The statistical analysis of the 35–45 Hz phase synchrony data across stimulus types yielded significant outcomes for both control [F(2,30)=24.0, P < 0.00001] and meditation [F(2,30)=25.5, P < 0.00001] states... The 35–45 Hz post-stimulus power across stimulus types was not significant for control... but it was significant for meditation state [F(2,30)=5.3, P < 0.01].",
+          "interpretation": "Significant gamma-band phase synchrony and state-dependent power modulation during meditation point to enhanced integration by synchrony mechanisms linked to conscious representation ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Individual differences",
+          "section_type": "Results",
+          "page": 105,
+          "paragraph_index": null,
+          "quote": "For the longer term practitioners, meditation state yielded higher gamma phase synchrony values during meditation at frontal (P < 0.05), but not central or parietal sites (P > 0.97, all comparisons).",
+          "interpretation": "Expertise-dependent increases in gamma synchrony during meditation suggest strengthened large-scale binding/integration, a proposed substrate for unified conscious contents ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 6",
+          "page": 107,
+          "caption_quote": "Gamma (35–45 Hz, 20–100 ms post-stimulus) event-related inter-trial coherence (0–1 phase synchrony value)... and event-related spectral perturbation power (dB)...",
+          "interpretation_short": "Displays gamma synchrony and power patterns across states and stimuli; meditation emphasizes stimulus-differential gamma, consistent with integrative binding by synchrony ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Gamma-band findings are correlational and may be influenced by expertise and state factors; EEG gamma can be susceptible to muscle artifacts despite ICA; no direct measure of long-range connectivity."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T11:56:33.249102",
+    "model_used": "gpt-5",
+    "pdf_filename": "cahn2013.pdf",
+    "vector_store_id": "vs_68b9e011ad7c8191bf6e45731408aeeb",
+    "file_id": "file-TA2C3VSJsvJtSJDMynAps6",
+    "content_length": null
+  }
+}

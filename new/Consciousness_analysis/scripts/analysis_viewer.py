@@ -1087,10 +1087,34 @@ HTML_TEMPLATE = '''
                                     <span class="paper-domain">{{ paper.paper_metadata.domain }}</span>
                                     {% endif %}
                                     {% if paper.paper_metadata.doi_or_arxiv %}
-                                    <a href="https://doi.org/{{ paper.paper_metadata.doi_or_arxiv }}" 
-                                       target="_blank" class="paper-doi">
-                                        DOI: {{ paper.paper_metadata.doi_or_arxiv }}
-                                    </a>
+                                        {% set identifier = paper.paper_metadata.doi_or_arxiv %}
+                                        {% if identifier.startswith('http://') or identifier.startswith('https://') %}
+                                            <a href="{{ identifier }}" target="_blank" class="paper-doi">
+                                                Link →
+                                            </a>
+                                        {% elif identifier.startswith('arxiv:') or identifier.startswith('arXiv:') %}
+                                            <a href="https://arxiv.org/abs/{{ identifier.replace('arxiv:', '').replace('arXiv:', '') }}" 
+                                               target="_blank" class="paper-doi">
+                                                arXiv: {{ identifier.replace('arxiv:', '').replace('arXiv:', '') }}
+                                            </a>
+                                        {% elif '/' in identifier and identifier.startswith('10.') %}
+                                            <a href="https://doi.org/{{ identifier }}" 
+                                               target="_blank" class="paper-doi">
+                                                DOI: {{ identifier }}
+                                            </a>
+                                        {% elif identifier|length == 19 and '-' in identifier %}
+                                            <!-- Likely an arXiv ID like 2401.12345 -->
+                                            <a href="https://arxiv.org/abs/{{ identifier }}" 
+                                               target="_blank" class="paper-doi">
+                                                arXiv: {{ identifier }}
+                                            </a>
+                                        {% else %}
+                                            <!-- Default to DOI if format unclear -->
+                                            <a href="https://doi.org/{{ identifier }}" 
+                                               target="_blank" class="paper-doi">
+                                                {{ identifier }}
+                                            </a>
+                                        {% endif %}
                                     {% endif %}
                                 </div>
                             {% endif %}

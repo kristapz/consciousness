@@ -1,0 +1,133 @@
+{
+  "paper_metadata": {
+    "title": "Recurrent neural networks with explicit representation of dynamic latent variables can mimic behavioral patterns in a physical inference task",
+    "authors": [
+      "Rishi Rajalingham",
+      "Mehrdad Jazayeri"
+    ],
+    "year": 2022,
+    "doi_or_arxiv": "10.1038/s41467-022-33581-6",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "RNNs (LSTM/GRU) trained on M-Pong with/without dynamic inference constraint",
+      "brief_mechanism": "Linearly decodable latent-state representations (ball position/velocity) emerge in hidden states and predict primate-like behavior.",
+      "method": "model-internal linear decoding; behavioral comparison",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Comparing primates and recurrent neural network models",
+          "section_type": "Results",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "In sum, RNNs that carried explicit (linearly decodable) information about the latent position of the ball behind the occluder (i.e., performed dynamic inference) were able to capture primate behavioral patterns more accurately than those that did not.",
+          "interpretation": "This shows that explicit latent-state codes in RNN hidden activity (a representational structure) align with primate behavior, linking AI embeddings/decoders to neural-style population codes relevant to conscious access and inference ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Dynamics underlying computations performed by RNNs",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "We observe the emergence of a representation of ball velocity during the visible segment… there was strong and persistent velocity coding at nearly all ball positions throughout the occluded segment… the velocity coding was not simply maintained, but increased during the occluded epoch, suggesting that the representation of ball velocity is more linearly decodable in the recurrent dynamics than in the input-driven dynamics.",
+          "interpretation": "Persistent, increasingly decodable velocity signals during occlusion indicate structured, accessible internal representations that support ongoing inference—a key bridge between AI embeddings and brain-like latent-state coding in conscious tracking tasks ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Findings are from trained RNNs on a specific occlusion-tracking task; representational readouts used linear decoders and were not directly validated against neural recordings."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "RNNs (LSTM/GRU) trained on M-Pong",
+      "brief_mechanism": "Networks that better match primate behavior exhibit slow, smooth, low-dimensional activity dynamics.",
+      "method": "model-internal geometry/trajectory analyses (PCA participation ratio, speed, curvature); behavioral comparison",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Dynamics underlying primate-like behavior",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Networks that exhibited “simple dynamics”—i.e., whose activity representations were lower dimensional, lower speed, and lower curvature – better predicted behavioral patterns of humans (Fig. 4B).",
+          "interpretation": "The emergence of simple, low-dimensional dynamics associated with primate-like behavior suggests an emergent dynamical regime that could correspond to brain-wide stable manifolds supporting conscious inference ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Metrics of ‘simple dynamics’ are correlational and derived from model activity; no direct measurement of biological criticality/complexity indices in this study."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "RNNs (LSTM/GRU) with different optimization objectives (no_sim, simple_dynamics, all_sim/all_sim2)",
+      "brief_mechanism": "Changing the training objective to include dynamic inference constraints causally changes internal dynamics and increases primate-consistency.",
+      "method": "objective edits during training; behavioral comparison",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Dynamics underlying primate-like behavior",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "RNNs optimized for simple dynamics better matched human behavior than RNNs optimized for task performance alone… However, they failed to capture primate behavior as well as models optimized for dynamic inference.",
+          "interpretation": "Altering the objective (adding dynamic-inference constraints) changes both internal computations and behavioral similarity to primates, demonstrating causal control over model computations relevant to consciousness-like inference capacities ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "RNN optimization",
+          "section_type": "Methods",
+          "page": 10,
+          "paragraph_index": null,
+          "quote": "To summarize, we constructed RNN models that varied… and were differently optimized (loss_weight_type: no_sim, vis_sim, all_sim, or all_sim2).",
+          "interpretation": "The controlled objective manipulations (no_sim vs. vis_sim vs. all_sim/all_sim2) enable causal testing of how training constraints shape internal mechanisms and behavior—a standard AI manipulation paralleling brain intervention logic ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Objective interventions are in silico; while strongly suggestive, they are not direct neural causal manipulations (e.g., optogenetics), and generalization beyond this task/domain is untested here."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:31:25.383113",
+    "model_used": "gpt-5",
+    "pdf_filename": "41467_2022_Article_33581.pdf",
+    "vector_store_id": "vs_68b9e87f4938819193241203e0ba2a0d",
+    "file_id": "file-GkiBAHKs1zKXCmLVncw2sb",
+    "content_length": null
+  }
+}

@@ -127,9 +127,9 @@
   },
   "cahn2013.pdf": {
     "file_hash": "11fa29b004013e039341da13d4e3db56",
-    "processed_at": "2025-09-03T19:45:56.772005",
-    "output_file": "cahn2013.json",
-    "paper_title": "cahn2013"
+    "processed_at": "2025-09-04T11:56:33.255933",
+    "output_file": "Event-related_delta_theta_alpha_and_gamma_correlates_to_auditory_oddball_processing_during_Vipassana.json",
+    "paper_title": "Event-related delta, theta, alpha and gamma correlates to auditory oddball processing during Vipassana meditation"
   },
   "entropy-25-00129-v2.pdf": {
     "file_hash": "68d541d6b6ef0bd5b3fe956de75fb3e8",
@@ -175,7 +175,7 @@
   },
   "2025.findings-acl.55.pdf": {
     "file_hash": "b0a8984c912df21319608280f8cefd07",
-    "processed_at": "2025-09-04T10:17:20.128523",
+    "processed_at": "2025-09-04T11:47:16.100244",
     "output_file": "Improve_Language_Model_and_Brain_Alignment_via_Associative_Memory.json",
     "paper_title": "Improve Language Model and Brain Alignment via Associative Memory"
   },
@@ -190,5 +190,65 @@
     "processed_at": "2025-09-04T10:20:43.163351",
     "output_file": "Artificial_neural_network_language_models_predict_human_brain_responses_to_language_even_after_a_dev.json",
     "paper_title": "Artificial neural network language models predict human brain responses to language even after a developmentally realistic amount of training"
+  },
+  "schrimpf-et-al-the-neural-architecture-of-language-integrative-modeling-converges-on-predictive-processing.pdf": {
+    "file_hash": "ae9a89ba3af5af4f5d63bc4a30b5e957",
+    "processed_at": "2025-09-04T11:49:57.609225",
+    "output_file": "The_neural_architecture_of_language_Integrative_modeling_converges_on_predictive_processing.json",
+    "paper_title": "The neural architecture of language: Integrative modeling converges on predictive processing"
+  },
+  "NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf": {
+    "file_hash": "4502d1f256ece1a828f670a68ba35527",
+    "processed_at": "2025-09-04T11:11:23.316682",
+    "output_file": "Interpreting_and_improving_natural_language_processing_in_machines_with_natural_language_processing_.json",
+    "paper_title": "Interpreting and improving natural language processing in machines with natural language processing in the brain"
+  },
+  "s42003-022-03036-1.pdf": {
+    "file_hash": "b72fa4f715541f2b8724788c61e480ce",
+    "processed_at": "2025-09-04T11:53:05.561411",
+    "output_file": "Brains_and_algorithms_partially_converge_in_natural_language_processing.json",
+    "paper_title": "Brains and algorithms partially converge in natural language processing"
+  },
+  "20250127_Key_Concepts_and_Current_Views_on_AI_Welfare.pdf": {
+    "file_hash": "4e50ab3b537b5b091f28a78adf1e7414",
+    "processed_at": "2025-09-04T12:10:25.800877",
+    "output_file": "Key_concepts_and_current_views_on_AI_welfare.json",
+    "paper_title": "Key concepts and current views on AI welfare"
+  },
+  "Saad-B-In-Search-of-a-Biological-Crux-for-AI-Consciousness.pdf": {
+    "file_hash": "6a57c0343917a3878013af2d65481ba0",
+    "processed_at": "2025-09-04T12:15:36.136075",
+    "output_file": "In_Search_of_a_Biological_Crux_for_AI_Consciousness.json",
+    "paper_title": "In Search of a Biological Crux for AI Consciousness"
+  },
+  "2406.01648v1.pdf": {
+    "file_hash": "9f81879391a53c2dbaed6951e4380570",
+    "processed_at": "2025-09-04T12:19:57.812995",
+    "output_file": "240601648v1.json",
+    "paper_title": "2406.01648v1"
+  },
+  "1-s2.0-S0896627322008066-main.pdf": {
+    "file_hash": "d7d5a5549b74a9962b1a5d5382c5d328",
+    "processed_at": "2025-09-04T12:29:03.077785",
+    "output_file": "In_vitro_neurons_learn_and_exhibit_sentience_when_embodied_in_a_simulated_game-world.json",
+    "paper_title": "In vitro neurons learn and exhibit sentience when embodied in a simulated game-world"
+  },
+  "41467_2022_Article_33581.pdf": {
+    "file_hash": "72a519d50568f25f0f5fb6258b0384f8",
+    "processed_at": "2025-09-04T12:31:25.397545",
+    "output_file": "Recurrent_neural_networks_with_explicit_representation_of_dynamic_latent_variables_can_mimic_behavio.json",
+    "paper_title": "Recurrent neural networks with explicit representation of dynamic latent variables can mimic behavioral patterns in a physical inference task"
+  },
+  "frobt-04-00060.pdf": {
+    "file_hash": "6c0a68ad32c6a87819e6baa77043471f",
+    "processed_at": "2025-09-04T12:33:48.245904",
+    "output_file": "The_Attention_Schema_Theory_A_Foundation_for_Engineering_Artificial_Consciousness.json",
+    "paper_title": "The Attention Schema Theory: A Foundation for Engineering Artificial Consciousness"
+  },
+  "2411.00983v3.pdf": {
+    "file_hash": "63a4b2dfb33b2003f8d96bab5a76cdf6",
+    "processed_at": "2025-09-04T12:37:23.498850",
+    "output_file": "Testing_Components_of_the_Attention_Schema_Theory_in_Artificial_Neural_Networks.json",
+    "paper_title": "Testing Components of the Attention Schema Theory in Artificial Neural Networks"
   }
 }

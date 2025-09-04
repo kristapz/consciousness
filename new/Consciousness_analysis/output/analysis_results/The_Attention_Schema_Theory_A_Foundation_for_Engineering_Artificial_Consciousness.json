@@ -1,0 +1,185 @@
+{
+  "paper_metadata": {
+    "title": "The Attention Schema Theory: A Foundation for Engineering Artificial Consciousness",
+    "authors": [
+      "Michael S. A. Graziano"
+    ],
+    "year": 2017,
+    "doi_or_arxiv": "10.3389/frobt.2017.00060",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Cognitive and linguistic systems access internal models, enabling explicit verbal reports about percepts and body state.",
+      "method": "theoretical synthesis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Grasping an Apple With the Hand",
+          "section_type": "Discussion",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "The cognitive machinery has partial access to the models constructed within its visual system. Its visual system has constructed a rich model of the apple, a set of information about size, color, shape, location, and other attributes, constantly updated as new signals are processed. Due to the presence of this information, and due to the cognitive and linguistic access to the information, the machine is able to respond.",
+          "interpretation": "This passage links reportability to higher-order access paths from internal models to language/cognition, a core ingredient for Self-Model & Reportability in both brains and AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual example rather than direct experimental demonstration; relies on analogy to human cognition without specifying neural implementation details."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "An internal attention model (attention schema) is proposed to improve the control of attention; when awareness fails, attention becomes unstable and less adaptive.",
+      "method": "review of behavioral evidence within a theoretical proposal",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "The Adaptive Value of an Attention Schema: Control of Attention",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "We hypothesized that the same advantages accrue from having an attention schema. The ability to focus processing resources strategically on one or another signal requires control. That control should benefit from an attention schema—a coherent set of information that represents basic stable properties of attention, reflects ongoing changes in the state of attention, makes predictions about where attention can be usefully directed, and anticipates consequences of attention.",
+          "interpretation": "Proposes a mechanism for selective routing/gating: an internal model that guides where and how attention is deployed, aligning with AI gating/attention-weight control ideas ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "The Adaptive Value of an Attention Schema: Control of Attention",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "When people are unaware of a visual stimulus, they can still sometimes focus processing resources on it... However, in that case, visual attention suffers deficits in control. It behaves less stably over time and shows evidence of being less able to error-correct and less able to adapt to perturbations.",
+          "interpretation": "Behavioral patterns when awareness is absent support the claim that selective routing is impaired without an attention schema, tying awareness to control of information flow ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Cited studies are summarized rather than newly reported; mechanistic neural substrates of the proposed schema are not directly tested here."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Enhanced processing is broadcast to other brain areas, influencing decision-making and memory.",
+      "method": "conceptual analysis grounded in neuroscience literature",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Grasping an Apple With the Mind",
+          "section_type": "Discussion",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "If the apple’s representation in the visual system gains in signal strength, winning the competition of the moment, that enhanced processing has a suite of consequences... The signal is, in effect, broadcasted to other brain areas. It is therefore more likely to affect behavioral decision-making... [and] memory, allowing it to be recalled later and affect future behavior.",
+          "interpretation": "Describes a global broadcasting dynamic consistent with information integration and workspace-like access, a key marker for unified representations across distributed systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Broadcasting is described conceptually; no direct measurements (e.g., frontoparietal coherence or global ignition) are provided in this article."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "The brain constructs an internal model (attention schema) of its own information-handling processes, shaping what can be accessed and reported.",
+      "method": "theoretical proposal",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Grasping an Apple With the Mind",
+          "section_type": "Discussion",
+          "page": 4,
+          "paragraph_index": null,
+          "quote": "The AST is, in a sense, a proposed extension of the body schema. The proposal is that the brain constructs not only a model of the physical body but also a model of its own internal, information-handling processes. It constructs an “attention schema.”",
+          "interpretation": "Specifies the representational structure: an explicit internal model of attention that organizes and constrains what can be accessed and reported, paralleling representational subspaces/latents in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Does not delineate precise neural codes or geometries for the proposed schema; evidence is inferential and based on analogy to body schema."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Lesions to right temporoparietal regions causally disrupt awareness despite preserved processing.",
+      "method": "lesion/clinical observation (reviewed evidence)",
+      "state": "awake",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "The Adaptive Value of an Attention Schema: Social Cognition",
+          "section_type": "Discussion",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "One of the most devastating impairments to awareness in the clinical literature is hemispatial neglect. Damage to one side of the brain, typically the right temporoparietal junction (TPJ), causes a loss of awareness of everything to the opposite side of space... Yet, information from the neglected side is still processed to some degree, and the visual system is still active to the highest levels of processing.",
+          "interpretation": "Lesion evidence implies a causal role for TPJ-centered networks in conscious access/control, dissociating awareness from mere processing—a leverage point for interventions in both brains and AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Lesion data are correlational at the network level and do not isolate specific computational components; spared processing complicates interpretation of mechanism."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:33:48.240829",
+    "model_used": "gpt-5",
+    "pdf_filename": "frobt-04-00060.pdf",
+    "vector_store_id": "vs_68b9e90d84d08191bc15289a9ab6c62e",
+    "file_id": "file-4q9FFNXMDRvnS5adajGoRM",
+    "content_length": null
+  }
+}

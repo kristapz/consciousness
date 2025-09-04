@@ -1,0 +1,173 @@
+{
+  "paper_metadata": {
+    "title": "Interpreting and improving natural language processing in machines with natural language processing in the brain",
+    "authors": [
+      "Mariya Toneva",
+      "Leila Wehbe"
+    ],
+    "year": 2019,
+    "doi_or_arxiv": "",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "ai",
+      "species_or_model": "ELMo | BERT (base) | Transformer-XL",
+      "brief_mechanism": "Model representations that pool over the last 10 words predict activity in both short- and long-context language regions, indicating integrated context representations.",
+      "method": "fMRI alignment + model-internal",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": 10,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4 Interpreting long-range contextual representations",
+          "section_type": "Results",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "We investigate whether the four NLP models we consider are able to create an integrated representation of a text sequence by comparing the performance of encoding models trained with two kinds of representations: a token-level word-embedding ... and a 10-word representation corresponding to the 10 most recent words. ... ELMo, BERT, and T-XL long context representations predict subsets of both group 1 regions and group 2 regions.",
+          "interpretation": "By showing that 10-word (long-context) representations map to both short- and long-context brain regions, the paper provides direct evidence of information integration across distributed inputs in modern NLP models, aligned to neural data ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 3",
+          "page": 5,
+          "caption_quote": "Amount of group 1b regions and group 2 regions predicted well by each network-derived representation: a 10-word representation ... (Red) and a word-embedding ... (Blue).",
+          "interpretation_short": "Quantifies that longer-context representations explain more voxels in regions selective for long-range context, consistent with integrated representations that support system-wide access ."
+        },
+        {
+          "figure_label": "Figure 4",
+          "page": 6,
+          "caption_quote": "Transformer-XL is the only model that continues to increase performance as the context length is increased. In all networks, the middle layers perform the best for contexts longer than 15 words.",
+          "interpretation_short": "Performance rises with more context, especially in mid-layers, indicating the integration of distributed inputs into unified representations as context grows ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Alignment is correlational and relies on a linear mapping; interpretations about integration assume that predictive alignment indicates shared representational content."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "ai",
+      "species_or_model": "BERT (base)",
+      "brief_mechanism": "Replacing learned attention with uniform attention at a single layer changes brain-prediction performance: shallow layers improve while deep layers degrade.",
+      "method": "model-internal manipulation",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": 25,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Effect of attention on layer representation",
+          "section_type": "Results",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "We further investigate the effect of attention across different layers by measuring the negative impact that removing its learned attention has on its brain prediction performance. Specifically we replaced the learned attention with uniform attention over the representations from the previous layer... The performance of deep layers, other than the output layer, is harmed by the change in attention. However, surprisingly... shallow layers benefit from the uniform attention for context lengths up to 25 words.",
+          "interpretation": "Attention acts as a routing mechanism: altering the gating (attention weights) causally changes what information is available for prediction, with layer-dependent effects consistent with selective routing dynamics in transformers ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 6",
+          "page": 7,
+          "caption_quote": "Change in encoding model performance of BERT layer l when the attention in layer l is made uniform. The performance of deep layers ... is harmed ... Shallow layers benefit ... up to 25 words.",
+          "interpretation_short": "Directly visualizes how altering attention (routing) modulates representational efficacy across layers, evidencing selective control of information flow ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Interventions are limited to uniform attention in BERT; results may not generalize to other routing manipulations or architectures without recurrence."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "ELMo | BERT (base) | Transformer-XL",
+      "brief_mechanism": "Layer-depth interacts with context length: middle layers best capture long-range context, while deepest layers favor short-range context.",
+      "method": "fMRI alignment + model-internal",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": 40,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Relationship between layer depth and context length",
+          "section_type": "Results",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "We observe that in all networks, the middle layers perform the best for contexts longer than 15 words. In addition, the deepest layers across all networks show a sharp increase in performance at short-range context (fewer than 10 words), followed by a decrease in performance.",
+          "interpretation": "These trends indicate a structured organization of representations across layers, with mid-layers encoding broader contextual features and deeper layers focusing on local detail—consistent with representational subspaces that vary with depth ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 5",
+          "page": 7,
+          "caption_quote": "Change in encoding model performance of BERT layers from the performance of the first layer. When we adjust for the performance of the first layer, the performance of the remaining layers resemble that of T-XL more closely, as shown in Figure 4.",
+          "interpretation_short": "Adjusting for layer-1 alters the depth-context profile, revealing how representational geometry shifts across layers and models ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Comparisons across architectures are interpretive and depend on alignment quality; representational attributions are based on predictive mapping rather than direct causal readouts."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "MEG latencies show early visual-letter processing (~100 ms) and later part-of-speech-related responses (~200 ms) during word reading.",
+      "method": "MEG",
+      "state": "task_on",
+      "time": {
+        "bio_ms": 100,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Evaluation of predictions; Proof of concept",
+          "section_type": "Results",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "the number of letters of a word and its ELMo embedding predict a shared portion of brain activity early on (starting 100ms after word onset) ... Further, a word’s part of speech and its ELMo embedding predict a shared portion of brain activity around 200ms after word onset in the left front of the MEG sensor.",
+          "interpretation": "These time-locked signatures support temporally coordinated processing stages (visual feature processing then linguistic categorization), anchoring timing mechanisms relevant to binding and segmentation in language comprehension ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "MEG results are a proof-of-concept focused on specific features (letters, part of speech) and reference supplementary analyses; generalization to richer semantics is not established here."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T11:11:23.284624",
+    "model_used": "gpt-5",
+    "pdf_filename": "NeurIPS-2019-interpreting-and-improving-natural-language-processing-in-machines-with-natural-language-processing-in-the-brain-Paper.pdf",
+    "vector_store_id": "vs_68b9d5a2a5e88191838a97c18d14c6b0",
+    "file_id": "file-Vp7BE2jMhm94Q85i93pyyg",
+    "content_length": null
+  }
+}

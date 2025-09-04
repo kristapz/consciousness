@@ -1,0 +1,155 @@
+{
+  "paper_metadata": {
+    "title": "Testing Components of the Attention Schema Theory in Artificial Neural Networks",
+    "authors": [
+      "Kathryn T. Farrell",
+      "Kirsten Ziman",
+      "Michael S. A. Graziano"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "arXiv:2411.00983v3",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "ai",
+      "species_or_model": "transformer agents (vision)",
+      "brief_mechanism": "Adding a learned attention schema (self-model) made agents better at judging others' attention and made their own attention states easier for others to categorize.",
+      "method": "model-internal + behavioral evaluation",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Discussion for Experiment 1",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Experiment 1 showed that the presence of an attention schema in a network (the trained ability to predict its own attention states) confers two specific advantages, at least in one kind of network with a specific implementation of attention and of an attention schema. The first advantage is that when a network with an attention schema is pretrained on a task, that network is then better able to learn to make judgements about the attention states of other networks. The second advantage is that when a network contains an attention schema, its attention states become easier for other networks to interpret and categorize.",
+          "interpretation": "This explicitly links a self-model to both improved reading of others and making one’s own states more reportable/interpretable, matching the 'Self-Model & Reportability' criterion in AI systems ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 2",
+          "page": 6,
+          "caption_quote": "Figure 2: Results for Experiment 1. Accuracy on the attention discrimination task as a function of whether the sending network had an attention schema or was a control network, and whether the receiving network had an attention schema or was a control network.",
+          "interpretation_short": "Higher discrimination accuracy when agents had an attention schema indicates improved mutual interpretability consistent with self-model and reportability in AI."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Findings are from artificial agents using transformer attention and a simplified task; human relevance is hypothesized but not directly tested."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "transformer agents (multi-agent reinforcement learning; joint coloring task)",
+      "brief_mechanism": "Agents with attention schemas exhibited improved joint reward and reduced overlap, indicating emergent coordination dynamics.",
+      "method": "multi-agent reinforcement learning behavioral metrics",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Results for Experiment 3",
+          "section_type": "Results",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "In line with our predictions, we found that schema-schema teams achieved the highest rewards on the cooperative coloring task (blue line in Figure 4A, averaged across epochs, mean=2.04). Mixed teams received the second highest rewards (green line in Figure 4A, averaged across epochs, mean=1.91). Control-control teams obtained the smallest rewards (orange line in Figure 4A, averaged across epochs, mean=1.76). We found that schema-schema teams and mixed teams exhibited better coordination, selecting fewer overlapping pixels on average (blue line for schema-schema teams, mean across epochs=54.51; green line for mixed teams, mean across epochs=54.89), relative to the control-control teams (orange line for control-control teams, mean across epochs=57.79).",
+          "interpretation": "Improved collective reward and decreased overlap emerge from interactions when agents include self-models, evidencing emergent coordination dynamics relevant to consciousness-like higher-order organization in information-processing systems ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Discussion for Experiment 3",
+          "section_type": "Discussion",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "The results of Experiment 3 show that having an attention schema confers a benefit on the joint coloring task... The data suggest that the stronger effect is that when a network has an attention schema, it becomes more predictable to its partner.",
+          "interpretation": "The discussion highlights an emergent group-level property—mutual predictability—arising from self-modeling, which is a hallmark of emergent dynamics in complex systems ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 4",
+          "page": 8,
+          "caption_quote": "Figure 4: Results for Experiment 3. Performance of network pairs on joint coloring task. A. Average reward accrued during the coloring of each image, as a function of training epoch. B. Average amount of overlapping pixels for each image, as a function of training epoch. C. Average number of pixels colored per image, for each network in the pair, as a function of training epoch.",
+          "interpretation_short": "Figure 4 visualizes the emergent improvement in cooperation and coordination for attention-schema agents across training."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "The emergent effects are demonstrated in a simplified, stylized social environment; generalization to richer multi-agent settings remains to be established."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "transformer agents (with vs without attention schema)",
+      "brief_mechanism": "Architectural intervention (presence/absence of an attention schema) systematically changed agents’ cooperative performance.",
+      "method": "architectural manipulation + reinforcement learning evaluation",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Methods for Experiment 3",
+          "section_type": "Methods",
+          "page": 7,
+          "paragraph_index": null,
+          "quote": "Each network in the interacting pair could have an attention schema or could lack one, resulting in three types of image-coloring teams: schema-schema teams, mixed teams (where one network had an attention schema and one did not), and control-control teams (where neither network had an attention schema). We predicted that schema-schema teams would show the best joint performance, achieving the highest rewards, and control-control teams would show the poorest performance, obtaining the lowest rewards. For each type of pairing, we trained the networks for 50 epochs, 6,000 game turns per epoch.",
+          "interpretation": "This specifies a targeted intervention on model architecture enabling causal tests of how a self-model affects computation and behavior in a controlled setting ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Results for Experiment 3",
+          "section_type": "Results",
+          "page": 8,
+          "paragraph_index": null,
+          "quote": "In line with our predictions, we found that schema-schema teams achieved the highest rewards on the cooperative coloring task (blue line in Figure 4A, averaged across epochs, mean=2.04). Mixed teams received the second highest rewards (green line in Figure 4A, averaged across epochs, mean=1.91). Control-control teams obtained the smallest rewards (orange line in Figure 4A, averaged across epochs, mean=1.76).",
+          "interpretation": "Observed performance shifts follow directly from the architectural manipulation, demonstrating causal control of behavior via the self-model intervention ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 4",
+          "page": 8,
+          "caption_quote": "Figure 4: Results for Experiment 3. Performance of network pairs on joint coloring task. A. Average reward accrued during the coloring of each image, as a function of training epoch. B. Average amount of overlapping pixels for each image, as a function of training epoch. C. Average number of pixels colored per image, for each network in the pair, as a function of training epoch.",
+          "interpretation_short": "The experimental manipulation (adding an attention schema) causally improves cooperative performance across epochs."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Causal claims are at the level of an architectural add-on; finer-grained causal mapping (e.g., component ablations, activation patching) was not performed."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:37:23.488640",
+    "model_used": "gpt-5",
+    "pdf_filename": "2411.00983v3.pdf",
+    "vector_store_id": "vs_68b9e99c556881918cf9a6ec267137ea",
+    "file_id": "file-3J2qZsKkn8uwKzMFDAQ3P6",
+    "content_length": null
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "paper_metadata": {
+    "title": "Improve Language Model and Brain Alignment via Associative Memory",
+    "authors": [
+      "Congchi Yin",
+      "Yongpeng Zhang",
+      "Xuyun Wen",
+      "Piji Li"
+    ],
+    "year": 2025,
+    "doi_or_arxiv": "",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Simulating associative memory in input text increased model-to-brain alignment across distributed cortical regions, especially ROIs implicated in associative memory.",
+      "method": "fMRI; model-to-brain linear mapping (ridge regression)",
+      "state": "task_on",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.2 Associative Memory Score",
+          "section_type": "Results",
+          "page": 991,
+          "paragraph_index": null,
+          "quote": "Generally speaking, large and continuous regions of the brain, including some areas of frontal gyrus, frontal sulcus and parietal lobule gain increase in brain score ranging from 0.0014 to 0.02. ... Moreover, we find random data augmentation leads to none and even negative growth of brain score, which supports the improvement of alignment is caused by introducing associative memory.",
+          "interpretation": "Introducing associative content into the stimulus boosted distributed cortical alignment with language-model activations, consistent with information integration linking context and associated knowledge in the brain. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "3.2 Brain Score Calculation",
+          "section_type": "Methods",
+          "page": 988,
+          "paragraph_index": null,
+          "quote": "After achieving temporal alignment between X(l) and Yi through f, we seek to find a linear model g ∈ R^d to map language model activations to brain activity. Ridge regression with ℓ2-regularization is learned to predict brain activity: ... Finally, ... brain score R(X(l)) is defined as correlation between predicted brain activity and original brain activity.",
+          "interpretation": "The alignment metric operationalizes integration as a shared representational structure between model and distributed human fMRI responses, enabling quantitative detection of integration gains. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "3.3 Data Augmentation with Simulated Associative Memory",
+          "section_type": "Methods",
+          "page": 989,
+          "paragraph_index": null,
+          "quote": "To investigate whether the alignment between language model and human brain can be improved by associative memory, we don’t directly simulate its process in the brain. Instead, we concretize the content of associative memory ... as natural language input to language models.",
+          "interpretation": "By concretizing associative memory content in language input, the study tests whether added associations enhance integrated processing measurable in brain-model correlations. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Associative memory was simulated as appended text rather than manipulated at the neural level; fMRI’s low temporal resolution and linear mapping may obscure mechanistic pathways of integration, and no causal brain interventions were performed."
+    },
+    {
+      "phenomenon_id": "causal_control",
+      "system_type": "ai",
+      "species_or_model": "LLaMA-2; GPT-2",
+      "brief_mechanism": "Supervised fine-tuning (LoRA or frozen-layer) with instructions encouraging associative memory causally increased brain alignment in ROIs (e.g., MTL).",
+      "method": "Supervised fine-tuning (LoRA, frozen layers) + model-to-brain mapping",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "5.3 Instruction Tuning Score",
+          "section_type": "Results",
+          "page": 993,
+          "paragraph_index": null,
+          "quote": "As shown in Figure 6, LLaMA-2 after supervised fine-tuning with both methods shows 2% to 7% gain in regions related to associative memory (i.e. medial temporal lobe (MTL)), which indicates the alignment between language model and brain is improved by associative memory instructed tuning.",
+          "interpretation": "Instruction-tuning the model to generate associative content functions as a targeted intervention that causally increases model–brain alignment in memory-related regions, evidencing causal control over representational access. "
+        },
+        {
+          "from_abstract": false,
+          "section_title": "3.4 Instruct LLM to Generate Associative Content",
+          "section_type": "Methods",
+          "page": 989,
+          "paragraph_index": null,
+          "quote": "Two supervised fine-tuning methods are tried: low-rank adaptation (LoRA) ... and frozen layers finetuning. ... We define instruction tuning score M as the growth percentage of supervised finetuned model compared to base model:",
+          "interpretation": "The explicit definition of an instruction-tuning score and the use of LoRA/frozen-layer methods formalize the intervention and its measured effect on brain alignment, aligning with causal-control criteria. "
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Causal claims are confined to model-side interventions and a specific naturalistic listening dataset; no ablations isolate which tuned components drive gains, and generalization beyond the tested corpus/ROIs remains to be shown."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T11:47:16.081968",
+    "model_used": "gpt-5",
+    "pdf_filename": "2025.findings-acl.55.pdf",
+    "vector_store_id": "vs_68b9de4f6664819185ee3b62f3d355ef",
+    "file_id": "file-HQ2ZM3PPX5yP55sdh1jTQ1",
+    "content_length": null
+  }
+}

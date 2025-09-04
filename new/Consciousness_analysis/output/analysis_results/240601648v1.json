@@ -1,0 +1,181 @@
+{
+  "paper_metadata": {
+    "title": "Consciousness defined: requirements for biological and artificial general intelligence",
+    "authors": ["Craig I. McKenzie, PhD"],
+    "year": null,
+    "doi_or_arxiv": "https://arxiv.org/abs/2406.01648",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "other",
+      "species_or_model": "conceptual/theoretical",
+      "brief_mechanism": "Proposes a structured sequence linking perception, memory, imagination, self, desire, and decision into a network that organizes content across past–present–future.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Defining consciousness",
+          "section_type": "Discussion",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "Consciousness requires 1) perceptive capabilities (such as the senses) to provide an approximation of the present reality in order to generate 2) memories of past experience, which in turn provides an understanding of 3a) how the reality of the present came to be and 3b) the imagination of possible futures. The capability to distinguish 4) self and non-self amongst these memories and imaginings provides a sense of self through time. In turn, this leads to a capability to 5) make decisions in the present based on 6) internal desires that provide comprehension of real or imaginary past and future realities (3a) and ensure imagined futures (3b) become reality through choice behaviour. These requirements and outputs of consciousness are connected in a network that is distinctly separable into the human experience of past, present and future (Figure 1).",
+          "interpretation": "This passage lays out an explicit representational architecture (perception→memory→imagination→self→desire→decision) that structures how content is encoded and accessed across time, aligning with representational structure as a core phenomenon for consciousness in brains and AI ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Figure 1",
+          "page": 11,
+          "caption_quote": "Figure 1. Model network of consciousness integrated into the experience of time. Perception generates memory of an approximately ‘real’ past and provides a reasonable framework for an imagination of potentially realisable futures. The combination of memory and imagination with a sense of self, creates the opportunity to generate decisions that satisfy desires. These decisions lead to choice behaviour. Bolded words are fundamental requirements for consciousness.",
+          "interpretation_short": "Figure 1 depicts the proposed representational network linking perception, memory, imagination, self, desires, and decisions across time—an explicit organizational scheme relevant to representational structure in both biological and AI systems ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Conceptual synthesis without direct empirical measurements; mapping to concrete neural or model-internal markers is proposed but not tested in this work."
+    },
+    {
+      "phenomenon_id": "self_model_report",
+      "system_type": "other",
+      "species_or_model": "conceptual/theoretical",
+      "brief_mechanism": "Argues that a sense of self is necessary to distinguish self from non-self and to enable decisions and choice behavior.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Requirements for consciousness",
+          "section_type": "Discussion",
+          "page": 9,
+          "paragraph_index": null,
+          "quote": "A sense of self is commonly considered a requirement of consciousness. [...] Decisions, and therefore actions and choice behaviour, cannot be made without a sense of self.",
+          "interpretation": "By tying decision-making and reportable choice behavior to the presence of a self-model, this supports self-model and reportability as a core component for conscious access in both biological and artificial agents ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Claims are argumentative and illustrative; no direct causal tests of self-representations (e.g., lesions or model ablations) are provided."
+    },
+    {
+      "phenomenon_id": "valence_welfare",
+      "system_type": "other",
+      "species_or_model": "conceptual/theoretical",
+      "brief_mechanism": "Distinguishes subconscious needs and emotions from conscious desires and decisions, positing desires as fundamental drivers of conscious choice.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "The problem with emotion",
+          "section_type": "Discussion",
+          "page": 5,
+          "paragraph_index": null,
+          "quote": "We can therefore posit that such feelings or emotions are not part of the apparatus that creates our consciousness. [...] Emotions are our perception of our internal landscape whereas our senses perceive the external one.",
+          "interpretation": "This analysis separates affective states from the core mechanism, while emphasizing desires as inputs to conscious decisions—informing how valence and welfare signals might influence but not constitute consciousness in brains or AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual arguments synthesize prior literature without new measurements; does not operationalize measurable valence signals or their persistence in either neural or AI systems."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "other",
+      "species_or_model": "conceptual/theoretical",
+      "brief_mechanism": "Notes millisecond-scale delays between sensory input, decision processes, and their conscious awareness.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Building blocks of consciousness",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "Perceptive information reaches our brain milliseconds before the conscious executive can experience them. [...] Conscious awareness of one’s own decisions is also delayed milliseconds after such decisions become inevitable.",
+          "interpretation": "These timing relationships highlight temporal coordination as a key property—suggesting that oscillatory or scheduling mechanisms mark when content becomes consciously accessible in biological systems and could analogously be implemented in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Draws on prior literature but does not provide new quantitative timing data here; specific oscillatory or computational mechanisms are not directly tested."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "conceptual/theoretical",
+      "brief_mechanism": "Summarizes Global Workspace Theory as arising from networks that work together or compete, emphasizing selection and access to relevant information.",
+      "method": "theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Theories of consciousness, their strengths and weaknesses",
+          "section_type": "Introduction",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Global workplace theory (GWT; or access theory) refers to how subjective experience, considered a core component of consciousness, arises from a myriad of neuronal networks that work together or compete to ultimately give rise to the active neurons responsible for such experience.",
+          "interpretation": "This overview connects consciousness to system-wide integration and access across distributed networks—mapping onto information integration markers relevant to both brain-wide broadcasting and integration mechanisms in AI ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Descriptive summary rather than empirical demonstration; does not specify direct neural signatures (e.g., frontoparietal ignition) or AI analogs (e.g., attention convergence) tested within this paper."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:19:57.810954",
+    "model_used": "gpt-5",
+    "pdf_filename": "2406.01648v1.pdf",
+    "vector_store_id": "vs_68b9e59e5a4c8191bed40450490eb194",
+    "file_id": "file-M6GtmabPi8ESwYL3KfrXnA",
+    "content_length": null
+  }
+}

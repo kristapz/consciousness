@@ -1,0 +1,195 @@
+{
+  "paper_metadata": {
+    "title": "Brains and algorithms partially converge in natural language processing",
+    "authors": [
+      "Charlotte Caucheteux",
+      "Alexandre Gramfort",
+      "Jean-Rémi King"
+    ],
+    "year": 2022,
+    "doi_or_arxiv": "https://doi.org/10.1038/s42003-022-03036-1",
+    "domain": "hybrid"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "ai",
+      "species_or_model": "Transformer language models (4–12 layers) mapped to human fMRI/MEG",
+      "brief_mechanism": "Middle layers of transformers best align (linearly) with brain responses, indicating structured, intermediate representations.",
+      "method": "model-internal + fMRI/MEG mapping (ℓ2 regression, cross-validated brain scores)",
+      "state": "inference",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": 9,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Compositional embeddings best predict brain responses",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Overall, we observe that the corresponding brain scores largely vary as a function of the relative depth of the embedding within the language transformer. Specifically, both MEG and fMRI scores follow an inverted U-shaped pattern across layers for all architectures (Fig. 4a, e): the middle layers systematically outperform the output (fMRI: ΔR= 0.011 ± 0.001, p < 10−18, MEG: ΔR= 0.003 ± 0.0005, p < 10−13) and the input layers (fMRI: ΔR=.031 ± .001, p < 10−18, MEG: ΔR=.009 ± .001, p < 10−17).",
+          "interpretation": "An inverted-U depth effect with middle layers most brain-like supports the presence of structured, intermediate representational subspaces in AI models that align with human cortical organization, informing cross-system analysis of representational structure in consciousness research ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 3,
+          "caption_quote": "Fig. 3 Brain-score comparison across embeddings. Lexical and compositional representations (see Supplementary Note 4 for the definition of compositionality) can be isolated from (i) the word embedding layer (green) and (ii) one middle layer (red) of a typical language transformer (here, the ninth layer of a 12-layer causal transformer), respectively.",
+          "interpretation_short": "The figure emphasizes that a middle transformer layer (e.g., 9/12) captures compositional representations that best map to brain data, highlighting structured intermediate codes relevant to representational organization across AI and brain ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Linear mapping may miss nonlinear correspondences; alignment is correlational and task/domain-specific (reading in Dutch)."
+    },
+    {
+      "phenomenon_id": "temporal_coordination",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "MEG/fMRI reveal temporally ordered cortical stages (V1 ~100 ms → posterior fusiform ~200 ms → temporal/frontal 150–500 ms).",
+      "method": "MEG (source-localized) and fMRI during reading",
+      "state": "task_on",
+      "time": {
+        "bio_ms": 100,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Shared brain responses to words and sentences across subjects",
+          "section_type": "Results",
+          "page": 2,
+          "paragraph_index": null,
+          "quote": "As expected38–41, the average fMRI and MEG responses to words reveals a hierarchy of neural responses originating in V1 around 100 ms and continuing within the left posterior fusiform gyrus around 200 ms, the superior and middle temporal gyri, as well as the pre-motor and infero-frontal cortices between 150 and 500 ms after word onset (Supplementary Movie 1 and Supplementary Note 1 and Fig. 2a).",
+          "interpretation": "This staged time course evidences temporal coordination mechanisms in human language processing, providing concrete millisecond-scale anchors for comparing timing implementations (e.g., positional dynamics, attention synchronization) in AI models ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 2",
+          "page": 3,
+          "caption_quote": "Fig. 2 Average and shared response modeling (or noise ceiling). a Grand average MEG source estimates to word onset (t= 0ms) for seven regions typically associated with reading ... Vertical bars indicate the peak time of each region.",
+          "interpretation_short": "Peak timing per region visualizes coordinated temporal dynamics across the reading network, aligning with the phenomenon of temporal coordination in cortical processing ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Temporal precision is limited by MEG source localization and single-sample SNR; results are specific to visually presented sentences."
+    },
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "bio",
+      "species_or_model": "human",
+      "brief_mechanism": "Compositional representations engage a large, bilateral fronto-temporo-parietal network, peaking ~1 s after word onset.",
+      "method": "fMRI + MEG mapping of AI embeddings to brain responses",
+      "state": "task_on",
+      "time": {
+        "bio_ms": 1000,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "Tracking the sequential generation of language representations over time and space",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Finally, the brain scores of the compositional embedding are significantly higher than those of lexical of embeddings in the superior temporal gyrus (ΔR= 0.012 ± 0.001, p < 10−16), the angular gyrus (ΔR= 0.010 ± 0.001, p < 10−16), the infero-frontal cortex (ΔR= 0.016 ± 0.001, p < 10−16) and the dorsolateral prefrontal cortex (ΔR= 0.012 ± 0.001, p < 10−13). While these effects are lateralized (left hemisphere versus right hemisphere: ΔR= 0.010 ± 0.001, p < 10−14), they are significant across a remarkably large number of bilateral areas (Fig. 3b).",
+          "interpretation": "Elevated compositional mapping across bilateral fronto-temporo-parietal hubs indicates distributed integration of linguistic information, consistent with system-wide access/integration phenomena relevant to consciousness theories of global broadcasting and binding ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Tracking the sequential generation of language representations over time and space",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "achieved by the compositional embedding is observed in a large number of bilateral brain regions, and peaks around 1 s after word onset (Fig. 3c, d).",
+          "interpretation": "The late (~1 s) bilateral peak suggests integration over extended time, aligning with notions of global, unified representations rather than strictly local, transient encoding ."
+        }
+      ],
+      "figure_refs": [
+        {
+          "figure_label": "Fig. 3",
+          "page": 3,
+          "caption_quote": "Fig. 3 Brain-score comparison across embeddings. Lexical and compositional representations ... can be isolated from (i) the word embedding layer (green) and (ii) one middle layer (red) of a typical language transformer ...",
+          "interpretation_short": "Comparing embeddings shows compositional signals best predict activity across a wide network, illustrating integrated content across regions ."
+        }
+      ],
+      "table_refs": [],
+      "limitations": "Mapping is linear and correlational; bilateral effects could partly reflect task structure or feedback and may not directly index conscious access."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "ai",
+      "species_or_model": "Transformer language models (32 architectures; 32,400 embeddings)",
+      "brief_mechanism": "Brain-likeness emerges with training: brain scores increase with language accuracy, though random networks already show nonzero mappings.",
+      "method": "model-internal metrics correlated with fMRI/MEG brain scores across training stages",
+      "state": "training",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": 100,
+          "updates": 5000000
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "The emergence of brain-like representations predominantly depends on the algorithm’s ability to predict missing words",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "Second, brain scores strongly correlate with language accuracy in both MEG (R= 0.77 Pearson’s correlation on average ± 0.01 across subjects) and fMRI (R= 0.57 ± 0.02, Fig. 4b, c).",
+          "interpretation": "Training-driven improvements in prediction foster brain-like representations, indicative of emergent dynamics where representational geometry reorganizes with learning ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "The emergence of brain-like representations predominantly depends on the algorithm’s ability to predict missing words",
+          "section_type": "Results",
+          "page": 3,
+          "paragraph_index": null,
+          "quote": "We observe three main findings. First, random embeddings systematically lead to significant brain scores across subjects and architectures. The mean fMRI score across voxels is R= 0.019 ± 0.001, p < 10−16. The mean MEG score across channels and time sample is R= 0.018 ± 0.0008, p < 10−16.",
+          "interpretation": "Even untrained networks partially align with brain signals, but stronger alignment emerges as models learn, suggesting graded emergence rather than a sharp threshold ."
+        },
+        {
+          "from_abstract": false,
+          "section_title": "Deep language transformers",
+          "section_type": "Methods",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "We froze the networks at ≈100 training stages (log distributed between 0 and 4, 5 M gradient updates, which corresponds to ≈35 passes over the full corpus), resulting in 3600 networks in total, and 32,400 word representations (one per layer).",
+          "interpretation": "Reporting ~100 stages and ~5M updates anchors the timescale of representational emergence across training for AI–brain comparisons ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Correlations may depend on task and dataset (Dutch Wikipedia); emergence is assessed via linear mapping and does not establish causal similarity of mechanisms."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T11:53:05.541473",
+    "model_used": "gpt-5",
+    "pdf_filename": "s42003-022-03036-1.pdf",
+    "vector_store_id": "vs_68b9df55d8288191b613dd3edf3dd20a",
+    "file_id": "file-C8MCdxLL8pQicbDQNK2ysF",
+    "content_length": null
+  }
+}

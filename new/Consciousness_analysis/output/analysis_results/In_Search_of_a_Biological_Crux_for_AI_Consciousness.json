@@ -1,0 +1,145 @@
+{
+  "paper_metadata": {
+    "title": "In Search of a Biological Crux for AI Consciousness",
+    "authors": [
+      "Bradford Saad"
+    ],
+    "year": 2024,
+    "doi_or_arxiv": "https://globalprioritiesinstitute.org/in-search-of-a-biological-crux-for-ai-consciousness-bradford-saad",
+    "domain": "theoretical"
+  },
+  "evidence": [
+    {
+      "phenomenon_id": "information_integration",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis (AI and biological theories of consciousness)",
+      "brief_mechanism": "Argues that a form of informational integration could covary with consciousness without requiring biology.",
+      "method": "conceptual/theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4. A Crucial Thesis: the Biological Requirement",
+          "section_type": "Discussion",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "Alternatively, suppose we discovered that consciousness covaries with a certain kind of informational integration that does not require biology and which is necessarily absent from AI systems.33 This is evidence against a close phenomenal-biological link that also dims the prospects for AI consciousness.",
+          "interpretation": "This passage frames informational integration as a potential non-biological condition for consciousness, directly connecting to integration-style markers used in neuroscience and AI evaluations of consciousness ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "The paper presents a conceptual scenario rather than empirical evidence; no specific integration metric or measurement protocol is provided, so mapping to neural or model-based integration indices remains indirect."
+    },
+    {
+      "phenomenon_id": "selective_routing",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis (global workspace/gNW as candidate mechanism)",
+      "brief_mechanism": "Highlights the global workspace theory’s broadcast to consumer systems and its neurobiological (gNW) variant.",
+      "method": "conceptual/theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3. Proposed Biological Views as Candidates for a Crucial Thesis",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "To illustrate, consider a leading scientific theory of consciousness: the global workspace theory holds that the basis of experience includes a representational state’s being in a global workspace and being broadcast to consumer systems.18 The global workspace theory comes in a hybrid version—what’s known as the global neuronal workspace theory—that goes beyond the global workspace theory by specifying the global workspace in neurobiological terms.19",
+          "interpretation": "Broadcast to consumer systems is a form of selective routing/gating of information access, paralleling proposed frontoparietal broadcast mechanisms in brains and attention routing in AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "This is a theoretical summary of GWT/gNW rather than new data; it does not specify empirical signatures (e.g., frontoparietal ignition timing) or AI-internal routing diagnostics."
+    },
+    {
+      "phenomenon_id": "emergent_dynamics",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis (constraints on dynamical requirements)",
+      "brief_mechanism": "Considers the possibility that specific recurrent processing dynamics are required for consciousness.",
+      "method": "conceptual/theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "4. A Crucial Thesis: the Biological Requirement",
+          "section_type": "Discussion",
+          "page": 11,
+          "paragraph_index": null,
+          "quote": "Suppose we discovered that recurrent processing of a certain sort is required for consciousness and that, among the many kinds of non-biological systems that are candidates for conscious subjects, only brains and AI systems that emulate brains engage in that sort of recurrent processing.32 This evidence could support a close link between consciousness and biology and brighten the prospects for AI consciousness.",
+          "interpretation": "By foregrounding recurrent processing as a necessary dynamical regime, this passage links consciousness to emergent, system-level dynamics that might be shared or emulated across biological and AI systems ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Poses a conditional claim without specifying which recurrent motifs or measures (e.g., timescales, stability, or phase transitions) would operationalize the requirement."
+    },
+    {
+      "phenomenon_id": "representational_structure",
+      "system_type": "other",
+      "species_or_model": "theoretical analysis (functional vs. biological bases of experience)",
+      "brief_mechanism": "Argues that theories like GWT can be cast in functionalist or hybrid neurobiological terms, implying different commitments about representational bases.",
+      "method": "conceptual/theoretical analysis",
+      "state": "other",
+      "time": {
+        "bio_ms": null,
+        "ai_units": {
+          "layers": null,
+          "tokens": null,
+          "steps": null,
+          "updates": null
+        }
+      },
+      "text_refs": [
+        {
+          "from_abstract": false,
+          "section_title": "3. Proposed Biological Views as Candidates for a Crucial Thesis",
+          "section_type": "Discussion",
+          "page": 6,
+          "paragraph_index": null,
+          "quote": "More generally, we may be able to extract purely functionalist versions of scientific theories by abstracting away from their neural commitments (through ‘Ramseyfication’)20 as well as hybrid versions by retaining their biological commitments or by leveraging their functional commitments into designators for neural states that play certain functional roles and which are (according to these versions) required for consciousness.",
+          "interpretation": "This underscores how representational structure can be instantiated in functional terms or tied to biological realizers, relevant for comparing embeddings/latents in AI with biological population codes for conscious contents ."
+        }
+      ],
+      "figure_refs": [],
+      "table_refs": [],
+      "limitations": "Conceptual framing only; does not identify specific representational geometries or decoding results in either brains or AI models."
+    }
+  ],
+  "_metadata": {
+    "analysis_timestamp": "2025-09-04T12:15:36.133823",
+    "model_used": "gpt-5",
+    "pdf_filename": "Saad-B-In-Search-of-a-Biological-Crux-for-AI-Consciousness.pdf",
+    "vector_store_id": "vs_68b9e4e82ad48191b314c77e78c98867",
+    "file_id": "file-DJTbsVH4cW83WgmjuW2kVm",
+    "content_length": null
+  }
+}
